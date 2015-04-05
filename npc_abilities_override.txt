@@ -7,11 +7,20 @@
   	"item_abyssal_blade"
   	{
       	"AbilityCooldown" "CD60"
+      	"AbilitySpecial"
+      	{
+          	"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_cooldown" "CD2"
+			}
+        }
     }
   
   	"item_ancient_janggo" // drums
   	{
     	"AbilityCooldown" "CD30"
+      	"ItemInitialCharges" "12"
     }
   
   	"item_arcane_boots"
@@ -121,11 +130,27 @@
   	"item_diffusal_blade"
 	{
 		"AbilityCooldown" "CD8"
+      	"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"initial_charges" "16"
+			}
+        }
 	}
 
 	"item_diffusal_blade_2"
 	{
 		"AbilityCooldown" "CD8"
+     	"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"initial_charges" "16"
+			}
+        }
 	}
 
   	"item_dust"
@@ -158,19 +183,14 @@
   
   	"item_heart"
 	{
+      	"AbilityCooldown" "CD6"
 		"AbilitySpecial"
 		{
-			"01"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_melee" "CD4"
-            }
-	
-			"02"
-			{
-				"var_type" "FIELD_FLOAT"
-				"cooldown_ranged" "CD6"
-            }
+				"cooldown_melee" "2"
+			}
 		}
 	}
 
@@ -204,18 +224,13 @@
               
 	"item_manta"
 	{
+      	"AbilityCooldown" "CD50"
 		"AbilitySpecial"
 		{
-			"01"
+			"16"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_melee" "CD35"
-			}
-
-			"02"
-			{
-				"var_type" "FIELD_FLOAT"
-				"cooldown_ranged" "CD50"
 			}
 		}
 	}
@@ -286,7 +301,7 @@
       	"AbilityManaCost" "MP100"
       	"AbilitySpecial"
 		{
-			"06"
+			"03"
 			{
 				"var_type" "FIELD_FLOAT"
 				"barrier_debuff_duration" "CD50"
@@ -363,7 +378,7 @@
 		"AbilityCooldown" "CD17"
 		"AbilitySpecial"
 		{
-			"01"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"block_cooldown" "CD17"
@@ -373,6 +388,7 @@
   
   	"item_tranquil_boots"
 	{
+      	"AbilityCooldown" "CD13"
 		"AbilitySpecial"
 		{
 			"07"
@@ -418,6 +434,14 @@
       	"AbilityCooldown" "CD30"
       	"AbilityManaCost" "MP75"
     }
+  
+  	// Heroes
+  
+  	// Attribute Bonus
+  	"attribute_bonus"
+  	{
+      "MaxLevel" "20"
+    }
 
 	// Strength (Radiant)
     
@@ -455,8 +479,8 @@
     
     "sven_gods_strength"
     {
-		"AbilityCooldown" "CD100 CD150 CD200"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CD80"
+		"AbilityManaCost" "MP100 MP150 MP200"
 	}
     
     // Tiny
@@ -627,13 +651,13 @@
           	"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"health_cost_percent" "HP0.4 HP0.35 HP0.30"
+				"health_cost_percent" "HP0.35"
 			}
           
           	"06"
 			{
 				"var_type" "FIELD_INTEGER"
-				"tooltip_health_cost_percent" "HP40 HP35 HP30"
+				"tooltip_health_cost_percent" "HP35"
 			}
           
         	"08"
@@ -681,6 +705,11 @@
     {
     	"AbilitySpecial"
 		{
+          	"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_multiplier" "CR200"
+			}
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
@@ -743,7 +772,7 @@
         "AbilityManaCost" "MP150 MP175 MP200"
     }
     
-    // Wisp
+    // Io
     "wisp_tether"
     {
     	"AbilityCooldown" "CD12"
@@ -869,6 +898,7 @@
     	"AbilityCooldown" "CD15"
         "AbilityManaCost" "MP100"
     }
+  
     "elder_titan_echo_stomp_spirit"
     {
     	"AbilityCooldown" "CD15"
@@ -1010,18 +1040,26 @@
 		"AbilityManaCost" "MP75"
     }
 
-	"axe_counter_helix
+	"axe_counter_helix"
 	{
 		"AbilityCooldown" "CD0.45 CD0.4 CD0.35 CD0.3"
+      	"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown" "CD0.45 CD0.4 CD0.35 CD0.3"
+			}
+        }
     }
 
-	"axe_culling_blade
+	"axe_culling_blade"
 	{
 		"AbilityCooldown" "CD75 CD65 CD55"
 		"AbilityManaCost" "MP60 MP120 MP180"
 		"AbilitySpecial"
 		{
-			"01"
+			"06"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD6"
@@ -1061,7 +1099,7 @@
 		"AbilityManaCost" "MP175 MP250 MP325"
 		"AbilitySpecial"
 		{
-			"01"
+			"08"
 			{
 				"var_type" "FIELD_FLOAT"
 				"epicenter_cooldown_scepter" "CD120 CD100 CD80"
@@ -1204,7 +1242,7 @@
 		"AbilityManaCost" "MP125 MP150 MP175"
 		"AbilitySpecial"
 		{
-			"01"
+			"06"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD20"
@@ -1229,9 +1267,28 @@
 	{
 		"AbilityCooldown" "CD120 CD90 CD60"
 		"AbilityManaCost" "MP100"
+      	"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_damage" "CR170"
+			}			
+		}
     }
 
 	"lycan_summon_wolves_invisibility"
+  	{
+      	"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_damage" "CR170"
+			}
+		}
+    }
+  
 	{
 		"AbilitySpecial"
 		{
@@ -1254,6 +1311,18 @@
 	{
 		"AbilityCooldown" "CD24 CD18 CD12 CD6"
 		"AbilityManaCost" "MP50"
+    }
+  
+  	"chaos_knight_critical_strike"
+  	{
+      	"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_damage" "CR150 CR200 CR250 CR300"
+			}
+		}
     }
 
 	"chaos_knight_phantasm"
@@ -1317,6 +1386,14 @@
 	{
 		"AbilityCooldown" "CD5"
 		"AbilityManaCost" "MP50 MP60 MP70 MP80"
+      	"AbilitySpecial"
+      	{
+          	"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"self_damage" "HP75 HP100 HP125 HP150"
+			}
+        }
     }
 	
 	"abaddon_aphotic_shield"
@@ -1385,6 +1462,18 @@
     	"AbilityCooldown" "CD60"
         "AbilityManaCost" "MP120 MP125 MP130 MP135"    
     }
+  
+  	"juggernaut_blade_dance"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"blade_dance_crit_mult" "CR200"
+			}
+		}
+	}
     
     "juggernaut_omni_slash"
     {
@@ -1447,7 +1536,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost" "MP30 MP30 MP30 MP30"
+				"mana_cost" "MP30"
 			}
 		}    
     }
@@ -1459,7 +1548,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost" "MP30 MP30 MP30 MP30"
+				"mana_cost" "MP30"
 			}
 		}    
     }
@@ -1542,8 +1631,20 @@
     	"AbilityCooldown" "CD20 CD15 CD10 CD5"
         "AbilityManaCost" "MP40"    
     }
+  
+  	"riki_permanent_invisibility"
+  	{
+      	"AbilitySpecial"
+      	{
+        	"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fade_delay" "CD3 CD2 CD1"
+			}
+        }
+    }
     
-    // HEE HEE HAA HAA SHRAPNEL
+    // Sniper
     
     "sniper_shrapnel"
     {
@@ -1635,7 +1736,7 @@
     	"AbilityCooldown" "CD25"    
     }
     
-    // Gynocopter
+    // Gyrocopter
     
     "gyrocopter_rocket_barrage"
     {
@@ -1657,7 +1758,7 @@
     
     "gyrocopter_call_down"
     {
-    	"AbilityCooldown" "CD55 CD50 C45"
+    	"AbilityCooldown" "CD55 CD50 CD45"
         "AbilityManaCost" "MP125"    
     }
     
@@ -1781,6 +1882,7 @@
     "bloodseeker_bloodrage"
     {
     	"AbilityCooldown" "CD12 CD10 CD8 CD6"
+      	"AbilityManaCost" "MP80"
     }
     
     "bloodseeker_blood_rite"
@@ -1800,19 +1902,19 @@
     "nevermore_shadowraze1"
     {
     	"AbilityCooldown" "CD10"
-        "AbilityManaCost" "MP 75"    
+        "AbilityManaCost" "MP75"    
     }    
   
     "nevermore_shadowraze2"
     {
     	"AbilityCooldown" "CD10"
-        "AbilityManaCost" "MP 75"    
+        "AbilityManaCost" "MP75"    
     }
   
     "nevermore_shadowraze3"
     {
     	"AbilityCooldown" "CD10"
-        "AbilityManaCost" "MP 75"    
+        "AbilityManaCost" "MP75"    
     }
     
     "nevermore_requiem"
@@ -1860,7 +1962,7 @@
         "AbilityManaCost" "MP200 MP300 MP400"
       "AbilitySpecial"
 		{
-			"01"
+			"05"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD60"
@@ -1868,7 +1970,7 @@
         }
     }
   
-  	// Faceless void
+  	// Faceless Void
   
     "faceless_void_time_walk"
     {
@@ -1882,7 +1984,7 @@
         "AbilityManaCost" "MP150 MP225 MP300"
       	"AbilitySpecial"
 		{
-			"01"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD60"
@@ -1904,6 +2006,18 @@
         "AbilityManaCost" "MP50"
     }
   
+  	"phantom_assassin_coup_de_grace"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_bonus" "CR230 CR340 CR450"
+			}
+		}
+	}
+  
   	// Viper
   
     "viper_poison_attack"
@@ -1917,12 +2031,12 @@
         "AbilityManaCost" "MP125 MP175 MP250"
       "AbilitySpecial"
 		{
-			"01"
+			"05"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "12"
 			}
-			"02"
+			"06"
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost_scepter" "MP125"
@@ -1965,6 +2079,7 @@
   
     "broodmother_spin_web"
     {
+      	"AbilityCooldown" "CD30"
         "AbilityManaCost" "MP50"
     }
   
@@ -1984,7 +2099,7 @@
   
     "weaver_shukuchi"
     {
-    	"AbilityCooldown" "CD12 CD10 C8 CD6"
+    	"AbilityCooldown" "CD12 CD10 CD8 CD6"
         "AbilityManaCost" "MP60"
     }
   
@@ -2013,7 +2128,7 @@
         "AbilityManaCost" "MP150"
     }
               
-    // Meepoof
+    // Meepo
   
     "meepo_earthbind"
     {
@@ -2167,7 +2282,7 @@
 	"storm_spirit_static_remnant"
     {
     	"AbilityCooldown" "CD3.5"
-        "AbilityManaCost" "MP7- MP80 MP90 MP100"
+        "AbilityManaCost" "MP70 MP80 MP90 MP100"
     }
 
     "storm_spirit_electric_vortex"
@@ -2184,29 +2299,29 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_initial_mana_percentage" "7"
+				"ball_lightning_initial_mana_percentage" "6"
 			}
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_initial_mana_base" "MP15"
+				"ball_lightning_initial_mana_base" "12"
 			}
 
-			"03"
+			"05"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_travel_cost_base" "12"
+				"ball_lightning_travel_cost_base" "10"
 			}
-			"04"
+			"06"
 			{
-				"var_type" "FIELD_INTEGER"
-				"ball_lightning_travel_cost_percent" "0.7"
+				"var_type" "FIELD_FLOAT"
+				"ball_lightning_travel_cost_percent" "0.6"
 			}
 
 		}
     }
               
-    // windRUNNER          
+    // Windranger          
 
     "windrunner_shackleshot"
     {
@@ -2230,9 +2345,9 @@
     {
     	"AbilityCooldown" "CD60"
         "AbilityManaCost" "MP75 MP100 MP125"
-            "AbilitySpecial"
+        "AbilitySpecial"
 		{
-			"01"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD15"
@@ -2240,7 +2355,7 @@
         }
     }
 
-	// Zuus
+	// Zeus
               
     "zuus_arc_lightning"
     {
@@ -2280,7 +2395,7 @@
         "AbilityManaCost" "MP280 MP420 MP680"
     }
 
-	// Rhasta           
+	// Shadow Shaman          
 
     "shadow_shaman_ether_shock"
     {
@@ -2329,9 +2444,18 @@
     "tinker_rearm"
     {
         "AbilityManaCost" "MP150 MP250 MP350"
+      	"AbilityChannelTime" "CD3 CD2 CD1"
+      	"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"channel_tooltip" "CD30 CD20 CD10"
+			}
+		}
     }
 
-	// Natures Prophet
+	// Nature's Prophet
 
     "furion_sprout"
     {
@@ -2357,7 +2481,7 @@
         "AbilityManaCost" "MP175 MP225 MP275"
     }
 
-	// Enchantress // lolololgreg likes dieing
+	// Enchantress
 
     "enchantress_enchant"
     {
@@ -2433,7 +2557,7 @@
         "AbilityManaCost" "MP200 MP300 MP400"
             "AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD30"
@@ -2494,12 +2618,36 @@
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"
-				"scepter_mana" "CD0.6"
+				"scepter_mana" "MP0.6"
+			}
+        }
+    }
+  
+  	"ogre_magi_multicast"
+  	{
+      	"AbilitySpecial"
+      	{
+          	"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"fireblast_mana_cost" "MP20 MP40 MP60"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fireblast_cooldown" "CD2 CD4 CD6"
+			}
+          
+          	"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bloodlust_cooldown" "CD5 CD10 CD15"
 			}
         }
     }
 
-	// Rubick Grand MagicMan
+	// Rubick
 
     "rubick_telekinesis"
     {
@@ -2553,7 +2701,7 @@
         "AbilityManaCost" "MP125 MP175 MP225"
     }
 
-	// KOTL GIF MANA PLS
+	// Keeper of the Light
 
     "keeper_of_the_light_illuminate"
     {
@@ -2591,7 +2739,7 @@
         "AbilityManaCost" "MP50"
     } 
 
-	// Skywrath
+	// Skywrath Mage
 
     "skywrath_mage_arcane_bolt"
     {
@@ -2617,10 +2765,10 @@
         "AbilityManaCost" "MP350 MP575 MP800"
       	"AbilitySpecial"
 		{
-			"01"
+			"05"
 			{
 				"var_type" "FIELD_INTEGER"
-				"cooldown_scepter" "CD20 CD10 CD0"
+				"scepter_cooldown" "CD20 CD10 CD0"
 			}
         }
     } 
@@ -2651,7 +2799,7 @@
         "AbilityManaCost" "MP200"
     } 
 
-	// AllahuAckbar
+	// Techies
 
     "techies_land_mines"
     {
@@ -2755,13 +2903,13 @@
 		"AbilityManaCost" "MP200 MP420 MP650"
 		"AbilitySpecial"
 		{
-			"01"
+			"03"
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost_scepter" "MP200 MP420 MP625"
 			}
 
-			"02"
+			"05"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD100 CD60 CD20"
@@ -2826,7 +2974,7 @@
 		"AbilityManaCost" "MP275 MP350 MP425"
     }
 
-	// Necrolyte
+	// Necrophos
 	"necrolyte_death_pulse"
 	{
 		"AbilityCooldown" "CD8 CD7 CD6 CD5"
@@ -2839,12 +2987,12 @@
 		"AbilityManaCost" "MP175 MP340 MP500"
 		"AbilitySpecial"
 		{
-			"01"
+			"03"
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost_scepter" "MP150 MP340 MP500"
 			}
-			"02"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD70"
@@ -2902,7 +3050,7 @@
 		"AbilityManaCost" "MP250 MP360 MP500"
 		"AbilitySpecial"
 		{
-			"01"
+			"06"
 			{
 				"var_type" "IFELD_FLOAT"
 				"cooldown_scepter" "CD40"
@@ -3121,7 +3269,7 @@
 		"AbilityManaCost" "MP20 MP40 MP60 MP80"
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD16 CD8 CD4 CD2"
@@ -3300,7 +3448,17 @@
 		"AbilityCooldown" "CD90 CD80 CD70"
 		"AbilityManaCost" "MP250"
 	}
-
+  
+ 	// Legend
+  
+  	// CD - cooldown
+  	// MP - mana cost
+  	// HP - health cost
+  	// CR - critical strike damage
+  	// CC - disable duration
+  	// AS - base attack time
+  	// MS - base movement speed
+  	// TR - turn rate
 
 	// Manual adjustments
     
@@ -3308,13 +3466,8 @@
     // agh's extra abilities: treant, timbersaw,     
     // ticks: morph, WD    
     // charges: riki, sniper,    
-    // omniknight permanent magic immunity on 3 heroes    
+    // omniknight permanent magic immunity on 3 heroes  
     // crimson guard debuff    
-    // LD bear entangle      
-    // Storm Spirit ult manacost
-      // windrunner ult, techies statis & suicide, sven storm hammer, sniper shrapnel cd, 
-      //skywrath ancient seal , silencer curse of silent, shaman hex&ult, shadowfeind raze & ult,
-      //rubick ult? , riki blink, PL dopplewalk, ogre unref fireblast, 
-      //prophet call, MIRANA, LD summon, lina LSA, DROW, 
-      // axe counterhelix, bh wind walk, clinkz wind walk, doom scorched earth, elder titan astral spirit, lone druid spirit bear, 
+    // LD bear entangle
+    // rubick ult?
 }

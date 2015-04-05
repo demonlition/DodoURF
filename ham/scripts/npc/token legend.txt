@@ -4,5 +4,6 @@ HP - health cost
 AS - base attack time
 MS - base move speed
 TR - turn rate
+CR - critical strike damage
 CC - disable debuff duration
 MR - mana regeneration

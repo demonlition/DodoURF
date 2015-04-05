@@ -1,28 +1,34 @@
 General
-	Hero, item, summon and neutral creep ability cooldowns decreased by 60%, mana costs by 80% and health costs by 60%
-	Hero, summon and neutral creep base movement speeds increased by 50, turn rates increased by 50% and base attack times decreased by 25%
-	Hero, item, summon and neutral creep critical strike damage increased by 25%
-	Hero level cap from 25 to 35 and attribute bonus level cap from 10 to 18
-	Hero base mana regeneration from 0.01/0.02 for Techies to 0.02/0.04 for Techies (increased by 100%)
-	Item mana regeneration increased by 100%
-	Passive gold gain from 1g/0.6s to 5g/0.6s (increased by 400%)
-	Movement speed cap from 522 to 650	
+	Cooldowns decreased by 80%
+	Mana costs decreased by 90%
+	Health costs by 60%
+	Base movement speeds increased by 50
+	Turn rates increased by 50%
+	Base attack times decreased by 25%
+	Critical strike damage increased by 25%
+	Hero level cap from 25 to 35
+	Attribute bonus skill levels from 10 to 18
+	Hero base mana regeneration increased by 100%
+	Item bonus mana regeneration increased by 100%
+	Passive gold gain increased by 400%
+	Movement speed cap from 522 to 650
+	Duration of all disable debuffs (stuns, silences, etc.) reduced by 25%
 
 Heroes
 	Bane
-	- Nightmare cooldown from 16/15/14/13 to 9.6/9/8.4/7.8 (decreased by 40%)
+	- Nightmare cooldown from 16/15/14/13 to 6.4/6/5.6/5.2 (decreased by 60%)
+	- Nightmare damage per second from 20 to 26.67/33.33/30/28
 
 	Chen
-	- Test of Faith (Teleport) teleport delay from 6/5/4/3 to 3/2.5/2/1.5 (decreased by 50%)
 	- Holy Persuasion max units from 1/2/3/4 to 2/3/4/5
 	- Holy Persuasion health bonus from 75/150/225/300 to 120/240/360/480 (increased by 60%)
 
 	Death Prophet
 	- Witchcraft mana reduction from 10/15/20/25 to 1/1.5/2/2.5 (decreased by 90%)
-	- Witchcraft cooldown reduction from 1/2/3/4 to 0.4/0.8/1.2/1.6 (decreased by 60%)
+	- Witchcraft cooldown reduction from 1/2/3/4 to 0.2/0.4/0.6/0.8 (decreased by 80%)
 
 	Doom
-	- Devour digestion debuff from HP/20 to HP/8 (decreased by 60%)
+	- Devour digestion debuff from HP/20 to HP/4 (decreased by 80%)
 
 	Enigma
 	- Demonic Conversion cooldown from 35 to 21 (decreased by 40%)
@@ -36,11 +42,11 @@ Heroes
 	- Sacrifice cooldown from 44/36/28/20 to 26.4/21.6/16.8/12 (decreased by 40%)
 
 	Lion
-	- Earth Spike cooldown from 12 to 7.2 (decreased by 40%)
-	- Hex cooldown from 30/24/18/12 to 18/14.4/10.8/7.2 (decreased by 40%)
+	- Earth Spike cooldown from 12 to 4.8 (decreased by 60%)
+	- Hex cooldown from 30/24/18/12 to 12/9.6/7.2/4.8 (decreased by 60%)
 
 	Lycan
-	- Lycan wolf invisibility fade delay from 1.7 to 0.68 (decreased by 60%)
+	- Lycan wolf invisibility fade delay from 1.7 to 0.34 (decreased by 80%)
 
 	Medusa
 	- Mana Shield damage absorbed per mana from 1.6/1.9/2.2/2.5 to 1.9/2.2/2.5/2.8
@@ -49,11 +55,11 @@ Heroes
 	- Morph shift rate from 1/0.5/0.33/0.2 to 0.6/0.3/0.198/0.12 (decreased by 40%)
 
 	Omniknight
-	- Repel cooldown from 14 to 8.4 (decreased by 40%)
+	- Repel cooldown from 14 to 5.6 (decreased by 60%)
 
 	Oracle
 	- Fortune's End channel time from 2.5 to 1.5 (decreased by 40%)
-	- False Promise cooldown from 20 to 12 (decreased by 40%)
+	- False Promise cooldown from 20 to 8 (decreased by 60%)
 
 	Phoenix
 	- Supernova hero attacks to destroy from 5/8/11 to 8/11/14
@@ -67,20 +73,16 @@ Heroes
 	Pugna
 	- Nether Ward damage per used mana from 1/1.25/1.5/1.75 to 2/2.5/3/3.5 (increased by 100%)
 
-	Quelling Blade
-	- Quell attack damage bonus (melee) from 32% to 40% (increased by 25%)
-	- Quell attack damage bonus (ranged) from 12% to 15% (increased by 25%)
-
 	Riki
-	- Smoke Screen cooldown from 11 to 6.6 (decreased by 40%)
-	- Permanent Invisibility fade delay from 3/2/1 to 1.2/0.8/0.4 (decreased by 60%)
+	- Smoke Screen cooldown from 11 to 4.4 (decreased by 60%)
+	- Permanent Invisibility fade delay from 3/2/1 to 0.6/0.4/0.2 (decreased by 80%)
 
 	Shadow Shaman
-	- Hex cooldown from 13 to 7.8 (decreased by 40%)
-	- Shackles cooldown from 16 to 9.6 (decreased by 40%)
+	- Hex cooldown from 13 to 5.2 (decreased by 60%)
+	- Shackles cooldown from 16 to 6.4 (decreased by 60%)
 
 	Silencer
-	- Last Word cooldown from 30/24/18/12 to 18/14.4/10.8/7.2 (decreased by 40%)
+	- Last Word cooldown from 30/24/18/12 to 12/9.6/7.2/4.8 (decreased by 40%)
 
 	Storm Spirit
 	- Ball Lightning activation cost from 15+7% to 12+6%
@@ -88,9 +90,10 @@ Heroes
 
 	Techies
 	- Land Mines max mines from 20 to 30 (increased by 50%)
+	- Minefield Sign cooldown from 120 to 1
 
 	Tinker
-	- Rearm channel time from 3/2/1 to 1.2/0.8/0.4  (decreased by 60%)
+	- Rearm channel time from 3/2/1 to 0.6/0.4/0.2  (decreased by 60%)
 	- Rearm cast time from 0.53 to 0
 	- Rearm mana cost from 150/250/350 to 30/50/70 (decreased by 80%)
 
@@ -98,9 +101,6 @@ Heroes
 	- Voodoo restoration heal interval from 0.33 to 0.132 (decreased by 60%)
 
 Items
-	Arcane Boots
-	- Replenish Mana mana restored from 135 to 216 (increased by 60%)
-
 	Black King Bar
 	- Model scale increase from 30% to 50%
 
@@ -111,14 +111,18 @@ Items
 	- Blink cooldown from 12 to 7.2  (decreased by 40%)
 
 	Bloodstone
-	- Charges lost on death from 1/3 to 1/4
+	- Bloodpact charges lost on death from 1/3 to 1/4
+	- Bloodpact mana regeneration per charge from 1 to 2
+
+	Boots of Travel
+	- Teleport cooldown from 50 to 30 (decreased by 40%)
 
 	Bottle
 	- Regenerate duration from 3 to 1
 
 	Clarity
 	- Total mana restored from 150 to 240 (increased by 60%)
-	- Duration from 40 to 16 (decreased by 60%)
+	- Duration from 40 to 8 (decreased by 80%)
 
 	Diffusal Blade
 	- Initial charges from 8 to 16 (increased by 100%)
@@ -144,16 +148,20 @@ Items
 	- Duration from 10 to 6 (decreased by 40%)
 
 	Helm of the Dominator
-	- Health Bonus from 500 to 800
+	- Health Bonus from 500 to 800 (increased by 60%)
 
 	Mekansm
-	- Restore armor buff duration from 25 to 10 (decreased by 60%)
+	- Restore armor buff duration from 25 to 5 (decreased by 80%)
 
 	Observer Wards
 	- Stock cooldown from 360 to 216 (decreased by 40%)
 
 	Pipe of Insight
-	- Barrier debuff duration from 50 to 20 (decreased by 60%)
+	- Barrier debuff duration from 50 to 10 (decreased by 80%)
+
+	Quelling Blade
+	- Quell attack damage bonus (melee) from 32% to 40% (increased by 25%)
+	- Quell attack damage bonus (ranged) from 12% to 15% (increased by 25%)
 
 	Radiance
 	- Burn Damage damage per second increased from 50 to 75 (increased by 50%)
@@ -168,7 +176,11 @@ Items
 	- Health restored from 115 to 161 (increased by 40%)
 	- Duration from 16 to 9.6 (decreased by 40%)
 
+	Town Portal Scroll
+	- Teleport cooldown from 65 to 39 (decreased by 40%)
+
 	Urn of Shadows
+	- Charge gains from 2/1 to 3/2
 	- Soul Release allied total heal from 400 to 560 (increased by 40%)
 	- Soul Release enemy total damage from 150 to 240 (increased by 60%)
 	- Soul Release heal/damage duration from 8 to 4 (decreased by 50%)

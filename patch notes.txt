@@ -1,5 +1,5 @@
 General
-	Cooldowns decreased by 80%
+	Cooldowns decreased by 80% (unless otherwise noted below)
 	Mana costs decreased by 90%
 	Health costs decreased by 60%
 	Base movement speeds increased by 50
@@ -18,7 +18,7 @@ General
 
 Heroes
 	Abaddon
-	- Borrowed Time cooldown from 60/50/40 to 24/20/16
+	- Borrowed Time cooldown from 60/50/40 to 24/20/16 (decreased by 60%)
 
 	Bane
 	- Nightmare cooldown from 16/15/14/13 to 6.4/6/5.6/5.2 (decreased by 60%)

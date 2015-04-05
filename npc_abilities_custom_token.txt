@@ -1,7 +1,5 @@
 "DOTAAbilities"
 {
-	// MAIN LIST
-  
   	// Items
   
   	"item_abyssal_blade"

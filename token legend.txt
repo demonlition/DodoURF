@@ -1,0 +1,8 @@
+CD - cooldown
+MP - mana cost
+HP - health cost
+AS - base attack time
+MS - base move speed
+TR - turn rate
+CC - disable debuff duration
+MR - mana regeneration

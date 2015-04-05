@@ -1,0 +1,122 @@
+"DOTAHeroes"
+{
+	// Strength (Radiant)
+
+	// Earthshaker
+	"npc_dota_hero_earthshaker_ham"
+	{
+		"override_hero" "npc_dota_hero_earthshaker"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.9"
+	}
+
+	// Sven
+	"npc_dota_hero_sven_ham"
+	{
+		"override_hero" "npc_dota_hero_sven"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+	
+	// Tiny
+	"npc_dota_hero_tiny_ham"
+	{
+		"override_hero" "npc_dota_hero_tiny"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.5"
+	}
+	
+	// Kunkka
+	"npc_dota_hero_kunkka_ham"
+	{
+		"override_hero" "npc_dota_hero_kunkka"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
+	}
+	
+	// Beastmaster
+	"npc_dota_hero_beastmaster_ham"
+	{
+		"override_hero" "npc_dota_hero_beastmaster"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.4"
+	}
+	
+	// Dragon Knight
+	"npc_dota_hero_dragon_knight_ham"
+	{
+		"override_hero" "npc_dota_hero_dragon_knight"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+	
+	// 
+	"npc_dota_hero__ham"
+	{
+		"override_hero" "npc_dota_hero_"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Strength (Dire)
+
+	// 
+	"npc_dota_hero__ham"
+	{
+		"override_hero" "npc_dota_hero_"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Agility (Radiant)
+
+	// 
+	"npc_dota_hero__ham"
+	{
+		"override_hero" "npc_dota_hero_"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Agility (Dire)
+
+	// 
+	"npc_dota_hero__ham"
+	{
+		"override_hero" "npc_dota_hero_"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Intelligence (Radiant)
+
+	// 
+	"npc_dota_hero__ham"
+	{
+		"override_hero" "npc_dota_hero_"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Intelligence (Dire)
+
+	// 
+	"npc_dota_hero__ham"
+	{
+		"override_hero" "npc_dota_hero_"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+}

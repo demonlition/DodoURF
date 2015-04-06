@@ -11,107 +11,107 @@
 	// Earthshaker
 	"earthshaker_fissure"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP125 MP140 MP155 MP170"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA125 MPA140 MPA155 MPA170"
 	}
 	
 	"earthshaker_enchant_totem"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP20 MP30 MP40 MP50"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA20 MPA30 MPA40 MPA50"
 	}
 	
 	"earthshaker_echo_slam"
 	{
-		"AbilityCooldown" "CD150 CD130 CD110"
-		"AbilityManaCost" "MP145 MP205 MP265"
+		"AbilityCooldown" "CDA150 CDA130 CDA110"
+		"AbilityManaCost" "MPA145 MPA205 MPA265"
 	}
 	
 	// Sven
 	"sven_storm_bolt"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP140"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA140"
 	}
 	
 	"sven_warcry"
 	{
-		"AbilityCooldown" "CD32 CD26 CD20 CD14"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDA32 CDA26 CDA20 CDA14"
+		"AbilityManaCost" "MPA25"
 	}
 	
 	"sven_gods_strength"
 	{
-		"AbilityCooldown" "CD80"
-		"AbilityManaCost" "MP100 MP150 MP200"
+		"AbilityCooldown" "CDA80"
+		"AbilityManaCost" "MPA100 MPA150 MPA200"
 	}
 	
 	// Tiny
 	"tiny_avalanche"
 	{
-		"AbilityCooldown" "CD17"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA17"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"tiny_toss"
 	{
-		"AbilityCooldown" "CD9"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA9"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	// Kunkka
 	"kunkka_torrent"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"kunkka_tidebringer"
 	{
-		"AbilityCooldown" "CD13 CD10 CD7 CD4"
+		"AbilityCooldown" "CDA13 CDA10 CDA7 CDA4"
 	}
 	
 	"kunkka_x_marks_the_spot"
 	{
-		"AbilityCooldown" "CD19 CD16 CD13 CD10"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA19 CDA16 CDA13 CDA10"
+		"AbilityManaCost" "MPA80"
 	}
 	
 	"kunkka_ghostship"
 	{
-		"AbilityCooldown" "CD60 CD50 CD40"
-		"AbilityManaCost" "MP150 MP200 MP250"
+		"AbilityCooldown" "CDA60 CDA50 CDA40"
+		"AbilityManaCost" "MPA150 MPA200 MPA250"
 	}
 	
 	// Beastmaster
 	"beastmaster_wild_axes"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"beastmaster_call_of_the_wild"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP15"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA15"
 	}
 	
 	"beastmaster_call_of_the_wild_boar"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP15"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA15"
 	}
 	
 	"beastmaster_primal_roar"
 	{
-		"AbilityCooldown" "CD80 CD75 CD70"
-		"AbilityManaCost" "MP150 MP175 MP200"
+		"AbilityCooldown" "CDA80 CDA75 CDA70"
+		"AbilityManaCost" "MPA150 MPA175 MPA200"
 		"AbilitySpecial"
 		{
 			"11"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD45"
+				"cooldown_scepter" "CDA45"
 			}			
 		}
 	}
@@ -119,51 +119,63 @@
 	// Dragon Knight
 	"dragon_knight_breathe_fire"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP100 MP110 MP120 MP130"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA100 MPA110 MPA120 MPA130"
 	}
 	
 	"dragon_knight_dragon_tail"
 	{
-		"AbilityCooldown" "CD12 CD11 CD10 CD9"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDB12 CDB11 CDB10 CDB9"
+		"AbilityManaCost" "MPB100"
+	}
+
+	"dragon_knight_dragon_blood"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_health_regen" "4 6 8 10"
+			}
+		}
 	}
 	
 	"dragon_knight_elder_dragon_form"
 	{
-		"AbilityCooldown" "CD115"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA115"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	// Clockwerk
 	"rattletrap_battery_assault"
 	{
-		"AbilityCooldown" "CD32 CD28 CD24 CD20"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA32 CDA28 CDA24 CDA20"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"rattletrap_power_cogs"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP50 MP60 MP70 MP80"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA50 MPA60 MPA70 MPA80"
 	}
 	
 	"rattletrap_rocket_flare"
 	{
-		"AbilityCooldown" "CD20 CD18 CD16 CD14"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA20 CDA18 CDA16 CDA14"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"rattletrap_hookshot"
 	{
-		"AbilityCooldown" "CD70 CD55 CD40"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA70 CDA55 CDA40"
+		"AbilityManaCost" "MPA150"
 		"AbilitySpecial"
 		{
 			"07"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD12"
+				"cooldown_scepter" "CDA12"
 			}			
 		}
 	}
@@ -171,27 +183,27 @@
 	// Omniknight
 	"omniknight_purification"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP100 MP120 MP140 MP160"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA100 MPA120 MPA140 MPA160"
 	}
 	
 	"omniknight_repel"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDB14"
+		"AbilityManaCost" "MPB50"
 	}
 	
 	"omniknight_guardian_angel"
 	{
-		"AbilityCooldown" "CD150"
-		"AbilityManaCost" "MP125 MP175 MP250"
+		"AbilityCooldown" "CDA150"
+		"AbilityManaCost" "MPA125 MPA175 MPA250"
 	}
 	
 	//Huskar
 	"huskar_inner_vitality"
 	{
-		"AbilityCooldown" "CD25 CD22 CD19 CD16"
-		"AbilityManaCost" "MP170"
+		"AbilityCooldown" "CDA25 CDA22 CDA19 CDA16"
+		"AbilityManaCost" "MPA170"
 	}
 	
 	"huskar_burning_spears"
@@ -201,32 +213,32 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"health_cost" "HP15"
+				"health_cost" "HPA15"
 			}			
 		}
 	}
 	
 	"huskar_life_break"
 	{
-		"AbilityCooldown" "CD12"
+		"AbilityCooldown" "CDA12"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"health_cost_percent" "HP0.35"
+				"health_cost_percent" "HPA0.35"
 			}
 			
 			"06"
 			{
 				"var_type" "FIELD_INTEGER"
-				"tooltip_health_cost_percent" "HP35"
+				"tooltip_health_cost_percent" "HPA35"
 			}
 			
 			"08"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD4"
+				"cooldown_scepter" "CDA4"
 			}			
 		}
 	}
@@ -234,33 +246,33 @@
 	// Alchemist
 	"alchemist_acid_spray"
 	{
-		"AbilityCooldown" "CD22"
-		"AbilityManaCost" "MP130 MP140 MP150 MP160"
+		"AbilityCooldown" "CDA22"
+		"AbilityManaCost" "MPA130 MPA140 MPA150 MPA160"
 	}
 	
 	"alchemist_unstable_concoction"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"alchemist_chemical_rage"
 	{
-		"AbilityCooldown" "CD45"
-		"AbilityManaCost" "MP50 MP100 MP150"
+		"AbilityCooldown" "CDA45"
+		"AbilityManaCost" "MPA50 MPA100 MPA150"
 	}
 	
 	// Brewmaster
 	"brewmaster_thunder_clap"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP90 MP105 MP130 MP150"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA90 MPA105 MPA130 MPA150"
 	}
 	
 	"brewmaster_drunken_haze"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"brewmaster_drunken_brawler"
@@ -276,144 +288,156 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"last_proc" "CD16 CD14 CD12 CD10"
+				"last_proc" "CDA16 CDA14 CDA12 CDA10"
 			}			
 		}
 	}
 	
 	"brewmaster_primal_split"
 	{
-		"AbilityCooldown" "CD140 CD120 CD100"
-		"AbilityManaCost" "MP125 MP150 MP175"
+		"AbilityCooldown" "CDA140 CDA120 CDA100"
+		"AbilityManaCost" "MPA125 MPA150 MPA175"
 	}
 	
 	"brewmaster_earth_hurl_boulder"
 	{
-		"AbilityCooldown" "CD7"
+		"AbilityCooldown" "CDA7"
 	}
 	
 	"brewmaster_storm_dispel_magic"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"brewmaster_storm_cyclone"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	"brewmaster_storm_wind_walk"
 	{
-		"AbilityCooldown" "CD7"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA7"
+		"AbilityManaCost" "MPA75"
+	}
+
+	"brewmaster_fire_permanent_immolation"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "30 60 90"
+			}
+		}
 	}
 	
 	// Treant Protector
 	"treant_natures_guise"
 	{
-		"AbilityCooldown" "CD10 CD8 CD6 CD4"
-		"AbilityManaCost" "MP60"
+		"AbilityCooldown" "CDA10 CDA8 CDA6 CDA4"
+		"AbilityManaCost" "MPA60"
 	}
 	
 	"treant_leech_seed"
 	{
-		"AbilityCooldown" "CD16 CD14 CD12 CD10"
-		"AbilityManaCost" "MP140"
+		"AbilityCooldown" "CDA16 CDA14 CDA12 CDA10"
+		"AbilityManaCost" "MPA140"
 	}
 	
 	"treant_living_armor"
 	{
-		"AbilityCooldown" "CD32 CD26 CD20 CD14"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA32 CDA26 CDA20 CDA14"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"treant_overgrowth"
 	{
-		"AbilityCooldown" "CD70"
-		"AbilityManaCost" "MP150 MP175 MP200"
+		"AbilityCooldown" "CDA70"
+		"AbilityManaCost" "MPA150 MPA175 MPA200"
 	}
 	
 	// Io
 	"wisp_tether"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP40"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA40"
 	}
 	
 	"wisp_spirits"
 	{
-		"AbilityCooldown" "CD20 CD18 CD16 CD14"
-		"AbilityManaCost" "MP120 MP130 MP140 MP150"
+		"AbilityCooldown" "CDA20 CDA18 CDA16 CDA14"
+		"AbilityManaCost" "MPA120 MPA130 MPA140 MPA150"
 	}
 	
 	"wisp_overcharge"
 	{
-		"AbilityCooldown" "CD2"
+		"AbilityCooldown" "CDA2"
 		"AbilitySpecial"
 		{
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"drain_pct" "HP0.045 HP0.045 HP0.045 HP0.045"
+				"drain_pct" "HPA0.045 HPA0.045 HPA0.045 HPA0.045"
 			}
 			
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"drain_pct_tooltip" "HP4.5 HP4.5 HP4.5 HP4.5"
+				"drain_pct_tooltip" "HPA4.5 HPA4.5 HPA4.5 HPA4.5"
 			}			
 		}
 	}
 	
 	"wisp_relocate"
 	{
-		"AbilityCooldown" "CD90 CD75 CD60"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA90 CDA75 CDA60"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Centaur Warrunner
 	"centaur_hoof_stomp"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP130"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA130"
 	}
 	
 	"centaur_double_edge"
 	{
-		"AbilityCooldown" "CD8"
+		"AbilityCooldown" "CDA8"
 	}
 	
 	"centaur_stampede"
 	{
-		"AbilityCooldown" "CD90 CD75 CD60"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA90 CDA75 CDA60"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Timbersaw
 	"shredder_whirling_death"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP70 MP80 MP90 MP100"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA70 MPA80 MPA90 MPA100"
 	}
 	
 	"shredder_timber_chain"
 	{
-		"AbilityCooldown" "CD4"
-		"AbilityManaCost" "MP60 MP70 MP80 MP90"
+		"AbilityCooldown" "CDA4"
+		"AbilityManaCost" "MPA60 MPA70 MPA80 MPA90"
 	}
 	
 	"shredder_chakram"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP100 MP150 MP200"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA100 MPA150 MPA200"
 		"AbilitySpecial"
 		{
 			"08"
 			{
 				"var_type" "FIELD_FLOAT"
-				"mana_per_second" "MP20 MP25 MP30"
+				"mana_per_second" "MPA20 MPA25 MPA30"
 			}			
 		}
 	}
@@ -421,106 +445,106 @@
 	// Bristleback
 	"bristleback_viscous_nasal_goo"
 	{
-		"AbilityCooldown" "CD1.5"
-		"AbilityManaCost" "MP30"
+		"AbilityCooldown" "CDA1.5"
+		"AbilityManaCost" "MPA30"
 	}
 	
 	"bristleback_quill_spray"
 	{
-		"AbilityCooldown" "CD3"
-		"AbilityManaCost" "MP35"
+		"AbilityCooldown" "CDA3"
+		"AbilityManaCost" "MPA35"
 	}
 	
 	// Tusk
 	"tusk_ice_shards"
 	{
-		"AbilityCooldown" "CD18 CD16 CD14 CD12"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA18 CDA16 CDA14 CDA12"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"tusk_snowball"
 	{
-		"AbilityCooldown" "CD21 CD20 CD19 CD18"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA21 CDA20 CDA19 CDA18"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"tusk_frozen_sigil"
 	{
-		"AbilityCooldown" "CD50"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA50"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"tusk_walrus_punch"
 	{
-		"AbilityCooldown" "CD20 CD16 CD12"
-		"AbilityManaCost" "MP50 MP75 MP100"
+		"AbilityCooldown" "CDA20 CDA16 CDA12"
+		"AbilityManaCost" "MPA50 MPA75 MPA100"
 	}
 	
 	// Elder Titan
 	"elder_titan_echo_stomp"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"elder_titan_echo_stomp_spirit"
 	{
-		"AbilityCooldown" "CD15"
+		"AbilityCooldown" "CDA15"
 	}
 	
 	"elder_titan_ancestral_spirit"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"elder_titan_earth_splitter"
 	{
-		"AbilityCooldown" "CD100"
-		"AbilityManaCost" "MP175"
+		"AbilityCooldown" "CDA100"
+		"AbilityManaCost" "MPA175"
 	}
 	
 	// Legion Commander
 	"legion_commander_overwhelming_odds"
 	{
-		"AbilityCooldown" "CD18"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA18"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"legion_commander_press_the_attack"
 	{
-		"AbilityCooldown" "CD16 CD15 CD14 CD13"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA16 CDA15 CDA14 CDA13"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"legion_commander_moment_of_courage"
 	{
-		"AbilityCooldown" "CD0.9"
+		"AbilityCooldown" "CDA0.9"
 	}
 	
 	"legion_commander_duel"
 	{
-		"AbilityCooldown" "CD50"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA50"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	// Earth Spirit
 	"earth_spirit_boulder_smash"
 	{
-		"AbilityCooldown" "CD22 CD18 CD14 CD10"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA22 CDA18 CDA14 CDA10"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"earth_spirit_rolling_boulder"
 	{
-		"AbilityCooldown" "CD16 CD12 CD8 CD4"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA16 CDA12 CDA8 CDA4"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"earth_spirit_geomagnetic_grip"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"earth_spirit_stone_caller"
@@ -530,102 +554,123 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"charge_restore_time" "CD30"
+				"charge_restore_time" "CDA30"
 			}			
 		}
 	}
 	
 	"earth_spirit_magnetize"
 	{
-		"AbilityCooldown" "CD80"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA80"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Phoenix
 	"phoenix_icarus_dive"
 	{
-		"AbilityCooldown" "CD36"
+		"AbilityCooldown" "CDA36"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"hp_cost_perc" "HP15"
+				"hp_cost_perc" "HPA15"
 			}			
 		}
 	}
 	
 	"phoenix_fire_spirits"
 	{
-		"AbilityCooldown" "CD45 CD40 CD35 CD30"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA45 CDA40 CDA35 CDA30"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"hp_cost_perc" "HP20"
+				"hp_cost_perc" "HPA20"
 			}			
 		}
 	}
 	
 	"phoenix_sun_ray"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"hp_cost_perc_per_second" "HP6"
+				"hp_cost_perc_per_second" "HPA6"
 			}			
 		}
 	}
 	
 	"phoenix_supernova"
 	{
-		"AbilityCooldown" "CD110"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA110"
+		"AbilityManaCost" "MPA200"
+		"AbilityDuration" "3"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_per_sec"	"120 160 200"
+			}
+			
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"stun_duration"		"CC1.5 CC2.0 CC2.5"
+			}
+
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"tooltip_duration"	"3"
+			}
+		}
 	}
 	
 	// Strength (Dire)
 	// Axe
 	"axe_berserkers_call"
 	{
-		"AbilityCooldown" "CD16 CD14 CD12 CD10"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDB16 CDB14 CDB12 CDB10"
+		"AbilityManaCost" "MPB80 MPB90 MPB100 MPB110"
 	}
 	
 	"axe_battle_hunger"
 	{
-		"AbilityCooldown" "CD20 CD15 CD10 CD5"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA20 CDA15 CDA10 CDA5"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"axe_counter_helix"
 	{
-		"AbilityCooldown" "CD0.45 CD0.4 CD0.35 CD0.3"
+		"AbilityCooldown" "CDA0.45 CDA0.4 CDA0.35 CDA0.3"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown" "CD0.45 CD0.4 CD0.35 CD0.3"
+				"cooldown" "CDA0.45 CDA0.4 CDA0.35 CDA0.3"
 			}			
 		}
 	}
 	
 	"axe_culling_blade"
 	{
-		"AbilityCooldown" "CD75 CD65 CD55"
-		"AbilityManaCost" "MP60 MP120 MP180"
+		"AbilityCooldown" "CDA75 CDA65 CDA55"
+		"AbilityManaCost" "MPA60 MPA120 MPA180"
 		"AbilitySpecial"
 		{
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD6"
+				"cooldown_scepter" "CDA6"
 			}			
 		}
 	}
@@ -633,39 +678,62 @@
 	// Pudge
 	"pudge_meat_hook"
 	{
-		"AbilityCooldown" "CD14 CD13 CD12 CD11"
-		"AbilityManaCost" "MP110 MP120 MP130 MP140"
+		"AbilityCooldown" "CDA14 CDA13 CDA12 CDA11"
+		"AbilityManaCost" "MPA110 MPA120 MPA130 MPA140"
+	}
+
+	"pudge_rot"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"rot_tick" "CDA0.2"
+			}
+		}
 	}
 	
 	"pudge_dismember"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP100 MP130 MP170"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA100 MPA130 MPA170"
 	}
 	
 	// Sand King
 	"sandking_burrowstrike"
 	{
-		"AbilityCooldown" "CD11"
-		"AbilityManaCost" "MP110 MP120 MP130 MP140"
+		"AbilityCooldown" "CDA11"
+		"AbilityManaCost" "MPA110 MPA120 MPA130 MPA140"
 	}
 	
 	"sandking_sand_storm"
 	{
-		"AbilityCooldown" "CD40 CD30 CD20 CD10"
-		"AbilityManaCost" "MP60 MP50 MP40 MP30"
+		"AbilityCooldown" "CDA40 CDA30 CDA20 CDA10"
+		"AbilityManaCost" "MPA60 MPA50 MPA40 MPA30"
+		"AbilityDuration" "8 16 24 32"
+		"AbilityChannelTime" "8 16 24 32"
+		"AbilityDamage" "40 80 120 160"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"AbilityDuration" "8 16 24 32"
+			}
+		}
 	}
 	
 	"sandking_epicenter"
 	{
-		"AbilityCooldown" "CD140 CD120 CD100"
-		"AbilityManaCost" "MP175 MP250 MP325"
+		"AbilityCooldown" "CDA140 CDA120 CDA100"
+		"AbilityManaCost" "MPA175 MPA250 MPA325"
 		"AbilitySpecial"
 		{
 			"08"
 			{
 				"var_type" "FIELD_FLOAT"
-				"epicenter_cooldown_scepter" "CD120 CD100 CD80"
+				"epicenter_cooldown_scepter" "CDA120 CDA100 CDA80"
 			}			
 		}
 	}
@@ -673,45 +741,45 @@
 	// Slardar
 	"slardar_sprint"
 	{
-		"AbilityCooldown" "CD23"
+		"AbilityCooldown" "CDA23"
 	}
 	
 	"slardar_slithereen_crush"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP80 MP95 MP105 MP115"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA80 MPA95 MPA105 MPA115"
 	}
 	
 	"slardar_amplify_damage"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA25"
 	}
 	
 	// Tidehunter
 	"tidehunter_gush"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"tidehunter_anchor_smash"
 	{
-		"AbilityCooldown" "CD7 CD6 CD5 CD4"
-		"AbilityManaCost" "MP30 MP40 MP50 MP60"
+		"AbilityCooldown" "CDA7 CDA6 CDA5 CDA4"
+		"AbilityManaCost" "MPA30 MPA40 MPA50 MPA60"
 	}
 	
 	"tidehunter_ravage"
 	{
-		"AbilityCooldown" "CD150"
-		"AbilityManaCost" "MP150 MP225 MP325"
+		"AbilityCooldown" "CDA150"
+		"AbilityManaCost" "MPA150 MPA225 MPA325"
 	}
 	
 	// Wraith King
 	"skeleton_king_hellfire_blast"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP140"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA140"
 	}
 	
 	"skeleton_king_mortal_strike"
@@ -728,99 +796,153 @@
 	
 	"skeleton_king_reincarnation"
 	{
-		"AbilityCooldown" "CD260 CD160 CD60"
-		"AbilityManaCost" "MP160"
+		"AbilityCooldown" "CDA260 CDA160 CDA60"
+		"AbilityManaCost" "MPA160"
 	}
 	
 	// Lifestealer
 	"life_stealer_rage"
 	{
-		"AbilityCooldown" "CD19"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA19"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"life_stealer_open_wounds"
 	{
-		"AbilityCooldown" "CD24 CD20 CD16 CD12"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA24 CDA20 CDA16 CDA12"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"life_stealer_infest"
 	{
-		"AbilityCooldown" "CD100"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA100"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	// Night Stalker
 	"night_stalker_void"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 	}
 	
 	"night_stalker_crippling_fear"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"night_stalker_darkness"
 	{
-		"AbilityCooldown" "CD160 CD120 CD80"
+		"AbilityCooldown" "CDA160 CDA120 CDA80"
 	}
 	
 	// Doom
 	"doom_bringer_devour"
 	{
-		"AbilityCooldown" "CD70 CD60 CD50 CD40"
-		"AbilityManaCost" "MP60"
+		"AbilityCooldown" "CDA70 CDA60 CDA50 CDA40"
+		"AbilityManaCost" "MPA60"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_per_second" "100"
+			}
+		}
 	}
 	
 	"doom_bringer_scorched_earth"
 	{
-		"AbilityCooldown" "CD60 CD55 CD50 CD45"
-		"AbilityManaCost" "MP60 MP65 MP70 MP75"
+		"AbilityCooldown" "CDA60 CDA55 CDA50 CDA45"
+		"AbilityManaCost" "MPA60 MPA65 MPA70 MPA75"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_per_second" "40 54 67 80"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_movement_speed_pct" "32"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3 4 5 6"
+			}
+		}
 	}
-	
+
 	"doom_bringer_lvl_death"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"doom_bringer_doom"
 	{
-		"AbilityCooldown" "CD100"
-		"AbilityManaCost" "MP150 MP200 MP250"
+		"AbilityCooldown" "CDA100"
+		"AbilityManaCost" "MPA150 MPA200 MPA250"27.27 47.73 68.18
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "CC15"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "27/48/68"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_scepter" "CC16"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_scepter" "53 80 107"
+			}
+		}
 	}
 	
 	// Spirit Breaker
 	"spirit_breaker_charge_of_darkness"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"spirit_breaker_empowering_haste"
 	{
-		"AbilityCooldown" "CD16"
+		"AbilityCooldown" "CDA16"
 	}
 	
 	"spirit_breaker_greater_bash"
 	{
-		"AbilityCooldown" "CD1.5"
+		"AbilityCooldown" "CDA1.5"
 	}
 	
 	"spirit_breaker_nether_strike"
 	{
-		"AbilityCooldown" "CD80 CD70 CD60"
-		"AbilityManaCost" "MP125 MP150 MP175"
+		"AbilityCooldown" "CDA80 CDA70 CDA60"
+		"AbilityManaCost" "MPA125 MPA150 MPA175"
 		"AbilitySpecial"
 		{
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD20"
+				"cooldown_scepter" "CDA20"
 			}			
 		}
 	}
@@ -828,22 +950,28 @@
 	// Lycan
 	"lycan_summon_wolves"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP145"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA145"
 	}
 	
 	"lycan_howl"
 	{
-		"AbilityCooldown" "CD50 CD45 CD40 CD35"
-		"AbilityManaCost" "MP15 MP20 MP25 MP30"
+		"AbilityCooldown" "CDA50 CDA45 CDA40 CDA35"
+		"AbilityManaCost" "MPA15 MPA20 MPA25 MPA30"
 	}
 	
 	"lycan_shapeshift"
 	{
-		"AbilityCooldown" "CD120 CD90 CD60"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA120 CDA90 CDA60"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"speed" "800"
+			}
+
 			"05"
 			{
 				"var_type" "FIELD_INTEGER"
@@ -851,8 +979,8 @@
 			}			
 		}
 	}
-	
-	"lycan_summon_wolves_invisibility"
+
+	"lycan_summon_wolves_critical_strike"
 	{
 		"AbilitySpecial"
 		{
@@ -864,13 +992,14 @@
 		}
 	}
 	
+	"lycan_summon_wolves_invisibility"
 	{
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"fade_DELAY" "CD1.7"
+				"fade_delay" "CDA1.7"
 			}			
 		}
 	}
@@ -878,14 +1007,14 @@
 	// Chaos Knight
 	"chaos_knight_chaos_bolt"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP140"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA140"
 	}
 	
 	"chaos_knight_reality_rift"
 	{
-		"AbilityCooldown" "CD24 CD18 CD12 CD6"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA24 CDA18 CDA12 CDA6"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"chaos_knight_critical_strike"
@@ -902,134 +1031,134 @@
 	
 	"chaos_knight_phantasm"
 	{
-		"AbilityCooldown" "CD140"
-		"AbilityManaCost" "MP125 MP200 MP275"
+		"AbilityCooldown" "CDA140"
+		"AbilityManaCost" "MPA125 MPA200 MPA275"
 	}
 	
 	// Undying
 	"undying_decay"
 	{
-		"AbilityCooldown" "CD10 CD8 CD6 CD4"
-		"AbilityManaCost" "MP70 MP90 MP110 MP130"
+		"AbilityCooldown" "CDA10 CDA8 CDA6 CDA4"
+		"AbilityManaCost" "MPA70 MPA90 MPA110 MPA130"
 	}
 	
 	"undying_soul_rip"
 	{
-		"AbilityCooldown" "CD24 CD18 CD12 CD6"
-		"AbilityManaCost" "MP50 MP75 MP100 MP125"
+		"AbilityCooldown" "CDA24 CDA18 CDA12 CDA6"
+		"AbilityManaCost" "MPA50 MPA75 MPA100 MPA125"
 	}
 	
 	"undying_tombstone"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP120 MP130 MP140 MP150"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA120 MPA130 MPA140 MPA150"
 	}
 	
 	"undying_flesh_golem"
 	{
-		"AbilityCooldown" "CD75"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA75"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Magnus
 	"magnataur_shockwave"
 	{
-		"AbilityCooldown" "CD10 CD9 CD8 CD7"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA10 CDA9 CDA8 CDA7"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"magnataur_empower"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP30 MP40 MP50 MP60"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA30 MPA40 MPA50 MPA60"
 	}
 	
 	"magnataur_skewer"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA80"
 	}
 	
 	"magnataur_reverse_polarity"
 	{
-		"AbilityCooldown" "CD120 CD110 CD100"
-		"AbilityManaCost" "MP200 MP250 MP300"
+		"AbilityCooldown" "CDA120 CDA110 CDA100"
+		"AbilityManaCost" "MPA200 MPA250 MPA300"
 	}
 	
 	// Abaddon
 	"abaddon_death_coil"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP50 MP60 MP70 MP80"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA50 MPA60 MPA70 MPA80"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"self_damage" "HP75 HP100 HP125 HP150"
+				"self_damage" "HPA75 HPA100 HPA125 HPA150"
 			}			
 		}
 	}
 	
 	"abaddon_aphotic_shield"
 	{
-		"AbilityCooldown" "CD12 CD10 CD8 CD6"
-		"AbilityManaCost" "MP100 MP105 MP110 MP115"
+		"AbilityCooldown" "CDA12 CDA10 CDA8 CDA6"
+		"AbilityManaCost" "MPA100 MPA105 MPA110 MPA115"
 	}
 	
 	"abaddon_borrowed_time"
 	{
-		"AbilityCooldown" "CD60 CD50 CD40"
+		"AbilityCooldown" "CDB60 CDB50 CDB40"
 	}
 	
 	// Agility (Radiant)
 	// Anti-Mage
 	"antimage_blink"
 	{
-		"AbilityCooldown" "CD12 CD9 CD7 CD5"
-		"AbilityManaCost" "MP60"
+		"AbilityCooldown" "CDA12 CDA9 CDA7 CDA5"
+		"AbilityManaCost" "MPA60"
 	}
 	
 	"antimage_mana_void"
 	{
-		"AbilityCooldown" "CD70"
-		"AbilityManaCost" "MP125 MP200 MP275"
+		"AbilityCooldown" "CDA70"
+		"AbilityManaCost" "MPA125 MPA200 MPA275"
 	}
 	
 	// Drow Ranger
 	"drow_ranger_frost_arrows"
 	{
-		"AbilityManaCost" "MP12"
+		"AbilityManaCost" "MPA12"
 	}
 	
 	"drow_ranger_silence"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"drow_ranger_wave_of_silence"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"drow_ranger_trueshot"
 	{
-		"AbilityCooldown" "CD120"
+		"AbilityCooldown" "CDA120"
 	}
 	
 	// Juggernaut
 	"juggernaut_blade_fury"
 	{
-		"AbilityCooldown" "CD30 CD26 CD22 CD18"
-		"AbilityManaCost" "MP120 MP110 MP100 MP90"
+		"AbilityCooldown" "CDA30 CDA26 CDA22 CDA18"
+		"AbilityManaCost" "MPA120 MPA110 MPA100 MPA90"
 	}
 	
 	"juggernaut_healing_ward"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP120 MP125 MP130 MP135"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA120 MPA125 MPA130 MPA135"
 	}
 	
 	"juggernaut_blade_dance"
@@ -1046,14 +1175,14 @@
 	
 	"juggernaut_omni_slash"
 	{
-		"AbilityCooldown" "CD130 CD120 CD110"
-		"AbilityManaCost" "MP200 MP275 MP350"
+		"AbilityCooldown" "CDA130 CDA120 CDA110"
+		"AbilityManaCost" "MPA200 MPA275 MPA350"
 		"AbilitySpecial"
 		{
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"omni_slash_cooldown_scepter" "CD70"
+				"omni_slash_cooldown_scepter" "CDA70"
 			}			
 		}
 	}
@@ -1061,39 +1190,39 @@
 	// Mirana
 	"mirina_starfall"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP100 MP120 MP140 MP160"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA100 MPA120 MPA140 MPA160"
 	}
 	
 	"mirana_arrow"
 	{
-		"AbilityCooldown" "CD17"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA17"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"mirana_leap"
 	{
-		"AbilityCooldown" "CD30 CD26 CD22 CD18"
-		"AbilityManaCost" "MP40 MP35 MP30 MP20"
+		"AbilityCooldown" "CDA30 CDA26 CDA22 CDA18"
+		"AbilityManaCost" "MPA40 MPA35 MPA30 MPA20"
 	}
 	
 	"mirana_invis"
 	{
-		"AbilityCooldown" "CD140 CD120 CD100"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA140 CDA120 CDA100"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	// Morphling
 	"morphling_waveform"
 	{
-		"AbilityCooldown" "CD11"
-		"AbilityManaCost" "MP140 MP155 MP160 MP165"
+		"AbilityCooldown" "CDA11"
+		"AbilityManaCost" "MPA140 MPA155 MPA160 MPA165"
 	}
 	
 	"morphling_adaptive_strike"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"morphling_morph_agi"
@@ -1103,8 +1232,20 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost" "MP30"
-			}			
+				"mana_cost" "MPA30"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"points_per_tick" "2 2 2 2"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"morph_cooldown" "CDA1 CDA0.5 CDA0.33 CDA0.2"
+			}
 		}
 	}
 	
@@ -1115,69 +1256,81 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost" "MP30"
-			}			
+				"mana_cost" "MPA30"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"points_per_tick" "2 2 2 2"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"morph_cooldown" "CDA1 CDA0.5 CDA0.33 CDA0.2"
+			}
 		}
 	}
 	
 	"morphling_replicate"
 	{
-		"AbilityCooldown" "CD80"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDA80"
+		"AbilityManaCost" "MPA25"
 	}
 	
 	"morphling_morph_replicate"
 	{
-		"AbilityManaCost" "MP150"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	// Phantom Lancer
 	"phantom_lancer_spirit_lance"
 	{
-		"AbilityCooldown" "CD7"
-		"AbilityManaCost" "MP125 MP130 MP135 MP140"
+		"AbilityCooldown" "CDA7"
+		"AbilityManaCost" "MPA125 MPA130 MPA135 MPA140"
 	}
 	
 	"phantom_lancer_doppelwalk"
 	{
-		"AbilityCooldown" "CD30 CD25 CD20 CD15"
-		"AbilityManaCost" "MP150 MP120 MP90 MP60"
+		"AbilityCooldown" "CDA30 CDA25 CDA20 CDA15"
+		"AbilityManaCost" "MPA150 MPA120 MPA90 MPA60"
 	}
 	
 	"phantom_lancer_doppelganger"
 	{
-		"AbilityCooldown" "CD25 CD20 CD15 CD10"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA25 CDA20 CDA15 CDA10"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"phantom_lancer_phantom_rush"
 	{
-		"AbilityCooldown" "CD16 CD12 CD8 CD4"
+		"AbilityCooldown" "CDA16 CDA12 CDA8 CDA4"
 	}
 	
 	// Vengeful Spirit
 	"vengefulspirit_magic_missile"
 	{
-		"AbilityCooldown" "CD13 CD12 CD11 CD10"
-		"AbilityManaCost" "MP110 MP120 MP130 MP140"
+		"AbilityCooldown" "CDA13 CDA12 CDA11 CDA10"
+		"AbilityManaCost" "MPA110 MPA120 MPA130 MPA140"
 	}
 	
 	"vengefulspirit_wave_of_terror"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP40"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA40"
 	}
 	
 	"vengefulspirit_nether_swap"
 	{
-		"AbilityCooldown" "CD45"
-		"AbilityManaCost" "MP100 MP150 MP200"
+		"AbilityCooldown" "CDA45"
+		"AbilityManaCost" "MPA100 MPA150 MPA200"
 		"AbilitySpecial"
 		{
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"nether_swap_cooldown_scepter" "CD10"
+				"nether_swap_cooldown_scepter" "CDA10"
 			}			
 		}
 	}
@@ -1185,14 +1338,14 @@
 	// Riki
 	"riki_smoke_screen"
 	{
-		"AbilityCooldown" "CD11"
-		"AbilityManaCost" "MP75 MP80 MP85 MP90"
+		"AbilityCooldown" "CDB11"
+		"AbilityManaCost" "MPB75 MPB80 MPB85 MPB90"
 	}
 	
 	"riki_blink_strike"
 	{
-		"AbilityCooldown" "CD20 CD15 CD10 CD5"
-		"AbilityManaCost" "MP40"
+		"AbilityCooldown" "CDA20 CDA15 CDA10 CDA5"
+		"AbilityManaCost" "MPA40"
 	}
 	
 	"riki_permanent_invisibility"
@@ -1202,7 +1355,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"fade_delay" "CD3 CD2 CD1"
+				"fade_delay" "CDA3 CDA2 CDA1"
 			}			
 		}
 	}
@@ -1210,205 +1363,205 @@
 	// Sniper
 	"sniper_shrapnel"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"sniper_assassinate"
 	{
-		"AbilityCooldown" "CD20 CD15 CD10"
-		"AbilityManaCost" "MP175 MP275 MP375"
+		"AbilityCooldown" "CDA20 CDA15 CDA10"
+		"AbilityManaCost" "MPA175 MPA275 MPA375"
 	}
 	
 	// Templar Assassin
 	"templar_assassin_refraction"
 	{
-		"AbilityCooldown" "CD17"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA17"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"templar_assassin_meld"
 	{
-		"AbilityCooldown" "CD7"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA7"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"templar_assassin_psionic_trap"
 	{
-		"AbilityCooldown" "CD11 CD8 CD5"
-		"AbilityManaCost" "MP15"
+		"AbilityCooldown" "CDA11 CDA8 CDA5"
+		"AbilityManaCost" "MPA15"
 	}
 	
 	// Luna
 	"luna_lucent_beam"
 	{
-		"AbilityCooldown" "CD6"
-		"AbilityManaCost" "CD90 CD100 CD110 CD120"
+		"AbilityCooldown" "CDA6"
+		"AbilityManaCost" "CDA90 CDA100 CDA110 CDA120"
 	}
 	
 	"luna_eclipse"
 	{
-		"AbilityCooldown" "CD160 CD150 CD140"
-		"AbilityManaCost" "CD150 CD200 CD250"
+		"AbilityCooldown" "CDA160 CDA150 CDA140"
+		"AbilityManaCost" "CDA150 CDA200 CDA250"
 	}
 	
 	// Bounty Hunter
 	"bounty_hunter_shuriken_toss"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP90 MP115 MP135 MP155"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA90 MPA115 MPA135 MPA155"
 	}
 	
 	"bounty_hunter_jinada"
 	{
-		"AbilityCooldown" "CD2 CD10 CD8 CD6"
+		"AbilityCooldown" "CDA2 CDA10 CDA8 CDA6"
 	}
 	
 	"bounty_hunter_wind_walk"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"bounty_hunter_track"
 	{
-		"AbilityCooldown" "CD4"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA4"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	// Ursa
 	"ursa_earthshock"
 	{
-		"AbilityCooldown" "CD6"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA6"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"ursa_overpower"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP45 MP55 MP65 MP75"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA45 MPA55 MPA65 MPA75"
 	}
 	
 	"ursa_enrage"
 	{
-		"AbilityCooldown" "CD25"
+		"AbilityCooldown" "CDA25"
 	}
 	
 	// Gyrocopter
 	"gyrocopter_rocket_barrage"
 	{
-		"AbilityCooldown" "CD7 CD6.5 CD6 CD5.5"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA7 CDA6.5 CDA6 CDA5.5"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"gyrocopter_homing_missile"
 	{
-		"AbilityCooldown" "CD20 CD17 CD14 CD11"
-		"AbilityManaCost" "MP120 MP130 MP140 MP150"
+		"AbilityCooldown" "CDA20 CDA17 CDA14 CDA11"
+		"AbilityManaCost" "MPA120 MPA130 MPA140 MPA150"
 	}
 	
 	"gyrocopter_flak_cannon"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"gyrocopter_call_down"
 	{
-		"AbilityCooldown" "CD55 CD50 CD45"
-		"AbilityManaCost" "MP125"
+		"AbilityCooldown" "CDA55 CDA50 CDA45"
+		"AbilityManaCost" "MPA125"
 	}
 	
 	// Lone Druid
 	"lone_druid_spirit_bear"
 	{
-		"AbilityCooldown" "CD180 CD160 CD140 CD120"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA180 CDA160 CDA140 CDA120"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"lone_druid_rabid"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"lone_druid_true_form_battle_cry"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"lone_druid_true_form"
 	{
-		"AbilityManaCost" "MP25"
+		"AbilityManaCost" "MPA25"
 	}
 	
 	"lone_druid_druid_form"
 	{
-		"AbilityManaCost" "MP25"
+		"AbilityManaCost" "MPA25"
 	}
 	
 	// Naga Siren
 	"naga_siren_mirror_image"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP70 MP80 MP90 MP100"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA70 MPA80 MPA90 MPA100"
 	}
 	
 	"naga_siren_ensnare"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP90 MP100 MP110 MP120"
+		"AbilityCooldown" "CDA14"
+		"AbilityManaCost" "MPA90 MPA100 MPA110 MPA120"
 	}
 	
 	"naga_siren_rip_tide"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 	}
 	
 	"naga_siren_song_of_the_siren"
 	{
-		"AbilityCooldown" "CD180 CD120 CD60"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA180 CDA120 CDA60"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Troll Warlord
 	"troll_warlord_whirling_axes_ranged"
 	{
-		"AbilityCooldown" "CD20 CD19 CD18 CD17"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA20 CDA19 CDA18 CDA17"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"troll_warlord_whirling_axes_melee"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"troll_warlord_battle_trance"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	// Ember Spirit
 	"ember_spirit_searing_chains"
 	{
-		"AbilityCooldown" "CD14 CD12 CD10 CD8"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA14 CDA12 CDA10 CDA8"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"ember_spirit_sleight_of_fist"
 	{
-		"AbilityCooldown" "CD30 CD22 CD14 CD6"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA30 CDA22 CDA14 CDA6"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"ember_spirit_flame_guard"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 	}
 	
 	"ember_spirit_fire_remnant"
@@ -1418,103 +1571,133 @@
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"
-				"charge_restore_time" "CD35"
+				"charge_restore_time" "CDA35"
 			}			
 		}
 	}
 	
 	"ember_spirit_activate_fire_remnant"
 	{
-		"AbilityManaCost" "MP150"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	// (DIRE)
 	// Bloodseeker
 	"bloodseeker_bloodrage"
 	{
-		"AbilityCooldown" "CD12 CD10 CD8 CD6"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA12 CDA10 CDA8 CDA6"
+		"AbilityManaCost" "MPA80"
 	}
 	
 	"bloodseeker_blood_rite"
 	{
-		"AbilityCooldown" "CD29 CD26 CD23 CD20"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA29 CDA26 CDA23 CDA20"
+		"AbilityManaCost" "MPA100"
+	}
+
+	"bloodseeker_thirst"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_movement_speed" "20 30 40 50"
+			}
+		}
 	}
 	
 	"bloodseeker_rupture"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP150 MP200 MP250"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA150 MPA200 MPA250"
 	}
 	
 	// Shadow Fiend
 	"nevermore_shadowraze1"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"nevermore_shadowraze2"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"nevermore_shadowraze3"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA75"
+	}
+
+	"nevermore_necromastery"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"necromastery_max_souls" "22 29 36 43"
+			}
+			
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"necromastery_soul_release" "0.33"
+			}
+		}
 	}
 	
 	"nevermore_requiem"
 	{
-		"AbilityCooldown" "CD120 CD110 CD100"
-		"AbilityManaCost" "MP150 MP175 MP200"
+		"AbilityCooldown" "CDA120 CDA110 CDA100"
+		"AbilityManaCost" "MPA150 MPA175 MPA200"
 	}
 	
 	// Razor
 	"razor_plasma_field"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP125"
+		"AbilityCooldown" "CDA14"
+		"AbilityManaCost" "MPA125"
 	}
 	
 	"razor_static_link"
 	{
-		"AbilityCooldown" "CD32 CD30 CD28 CD26"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA32 CDA30 CDA28 CDA26"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"razor_eye_of_the_storm"
 	{
-		"AbilityCooldown" "CD80 CD70 CD60"
-		"AbilityManaCost" "MP100 MP150 MP200"
+		"AbilityCooldown" "CDA80 CDA70 CDA60"
+		"AbilityManaCost" "MPA100 MPA150 MPA200"
 	}
 	
 	// Venomancer
 	"venomancer_venomous_gale"
 	{
-		"AbilityCooldown" "CD22"
-		"AbilityManaCost" "MP125"
+		"AbilityCooldown" "CDA22"
+		"AbilityManaCost" "MPA125"
 	}
 	
 	"venomancer_plague_ward"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP20"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA20"
 	}
 	
 	"venomancer_poison_nova"
 	{
-		"AbilityCooldown" "CD140 CD120 CD100"
-		"AbilityManaCost" "MP200 MP300 MP400"
+		"AbilityCooldown" "CDA140 CDA120 CDA100"
+		"AbilityManaCost" "MPA200 MPA300 MPA400"
 		"AbilitySpecial"
 		{
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD60"
+				"cooldown_scepter" "CDA60"
 			}			
 		}
 	}
@@ -1522,20 +1705,20 @@
 	// Faceless Void
 	"faceless_void_time_walk"
 	{
-		"AbilityCooldown" "CD19 CD17 CD15 CD13"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA19 CDA17 CDA15 CDA13"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"faceless_void_chronosphere"
 	{
-		"AbilityCooldown" "CD130 CD115 CD100"
-		"AbilityManaCost" "MP150 MP225 MP300"
+		"AbilityCooldown" "CDA130 CDA115 CDA100"
+		"AbilityManaCost" "MPA150 MPA225 MPA300"
 		"AbilitySpecial"
 		{
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD60"
+				"cooldown_scepter" "CDA60"
 			}			
 		}
 	}
@@ -1543,14 +1726,14 @@
 	// Phantom Assassin
 	"phantom_assassin_stifling_dagger"
 	{
-		"AbilityCooldown" "CD6"
-		"AbilityManaCost" "MP30 MP25 MP20 MP15"
+		"AbilityCooldown" "CDA6"
+		"AbilityManaCost" "MPA30 MPA25 MPA20 MPA15"
 	}
 	
 	"phantom_assassin_phantom_strike"
 	{
-		"AbilityCooldown" "CD14 CD11 CD8 CD5"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA14 CDA11 CDA8 CDA5"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"phantom_assassin_coup_de_grace"
@@ -1568,13 +1751,13 @@
 	// Viper
 	"viper_poison_attack"
 	{
-		"AbilityManaCost" "MP20"
+		"AbilityManaCost" "MPA20"
 	}
 	
 	"viper_viper_strike"
 	{
-		"AbilityCooldown" "CD80 CD50 CD30"
-		"AbilityManaCost" "MP125 MP175 MP250"
+		"AbilityCooldown" "CDA80 CDA50 CDA30"
+		"AbilityManaCost" "MPA125 MPA175 MPA250"
 		"AbilitySpecial"
 		{
 			"05"
@@ -1586,7 +1769,7 @@
 			"06"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost_scepter" "MP125"
+				"mana_cost_scepter" "MPA125"
 			}			
 		}
 	}
@@ -1594,176 +1777,212 @@
 	// Clinkz
 	"clinkz_strafe"
 	{
-		"AbilityCooldown" "CD45 CD40 CD35 CD30"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA45 CDA40 CDA35 CDA30"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"clinkz_searing_arrows"
 	{
-		"AbilityManaCost" "MP10"
+		"AbilityManaCost" "MPA10"
 	}
 	
 	"clinkz_wind_walk"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"clinkz_death_pact"
 	{
-		"AbilityCooldown" "CD45 CD40 CD35"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA45 CDA40 CDA35"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Broodmother
 	"broodmother_spawn_spiderlings"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"broodmother_spin_web"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"broodmother_insatiable_hunger"
 	{
-		"AbilityCooldown" "CD45"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA45"
+		"AbilityManaCost" "MPA100"
 	}
-	
+
+	"broodmother_poison_sting"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "CC6"
+			}
+
+			"02"
+			{		
+				"var_type" "FIELD_FLOAT"
+				"duration_hero" "CC2"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_per_second" "16"
+			}
+		}
+	}
+
 	// Weaver
 	"weaver_the_swarm"
 	{
-		"AbilityCooldown" "CD36 CD33 CD30 CD27"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA36 CDA33 CDA30 CDA27"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"weaver_shukuchi"
 	{
-		"AbilityCooldown" "CD12 CD10 CD8 CD6"
-		"AbilityManaCost" "MP60"
+		"AbilityCooldown" "CDA12 CDA10 CDA8 CDA6"
+		"AbilityManaCost" "MPA60"
 	}
 	
 	"weaver_geminate_attack"
 	{
-		"AbilityCooldown" "CD6 CD5 CD4 CD3"
+		"AbilityCooldown" "CDA6 CDA5 CDA4 CDA3"
 	}
 	
 	"weaver_time_lapse"
 	{
-		"AbilityCooldown" "CD60 CD50 CD40"
-		"AbilityManaCost" "MP150 MP75 MP0"
+		"AbilityCooldown" "CDA60 CDA50 CDA40"
+		"AbilityManaCost" "MPA150 MPA75 MPA0"
 	}
 	
 	// Spectre
 	"spectre_spectral_dagger"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP130 MP140 MP150 MP160"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA130 MPA140 MPA150 MPA160"
 	}
 	
 	"spectre_haunt"
 	{
-		"AbilityCooldown" "CD120"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA120"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	// Meepo
 	"meepo_earthbind"
 	{
-		"AbilityCooldown" "CD20 CD16 CD12 CD8"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA20 CDA16 CDA12 CDA8"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"meepo_poof"
 	{
-		"AbilityCooldown" "CD12 CD10 CD8 CD6"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA12 CDA10 CDA8 CDA6"
+		"AbilityManaCost" "MPA80"
 	}
 	
 	// Nyx Assassin
 	"nyx_assassin_impale"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP95 MP115 MP135 MP155"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA95 MPA115 MPA135 MPA155"
 	}
 	
 	"nyx_assassin_mana_burn"
 	{
-		"AbilityCooldown" "CD28 CD20 CD12 CD4"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA28 CDA20 CDA12 CDA4"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"nyx_assassin_spiked_carapace"
 	{
-		"AbilityCooldown" "CD23 CD20 CD17 CD14"
-		"AbilityManaCost" "MP40"
+		"AbilityCooldown" "CDA23 CDA20 CDA17 CDA14"
+		"AbilityManaCost" "MPA40"
 	}
 	
 	"nyx_assassin_vendetta"
 	{
-		"AbilityCooldown" "CD70 CD60 CD50"
-		"AbilityManaCost" "MP160 MP210 MP260"
+		"AbilityCooldown" "CDA70 CDA60 CDA50"
+		"AbilityManaCost" "MPA160 MPA210 MPA260"
 	}
 	
 	// Slark
 	"slark_dark_pact"
 	{
-		"AbilityCooldown" "CD9 CD8 CD7 CD6"
-		"AbilityManaCost" "MP55 MP50 MP45 MP40"
+		"AbilityCooldown" "CDA9 CDA8 CDA7 CDA6"
+		"AbilityManaCost" "MPA55 MPA50 MPA45 MPA40"
 	}
 	
 	"slark_pounce"
 	{
-		"AbilityCooldown" "CD20 CD16 CD12 CD8"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA20 CDA16 CDA12 CDA8"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"slark_shadow_dance"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	// Medusa
 	"medusa_mystic_snake"
 	{
-		"AbilityCooldown" "CD11"
-		"AbilityManaCost" "MP140 MP150 MP160 MP170"
+		"AbilityCooldown" "CDA11"
+		"AbilityManaCost" "MPA140 MPA150 MPA160 MPA170"
+	}
+
+	"medusa_mana_shield"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_per_mana" "1.9 2.2 2.5 2.8"
+			}
+		}
 	}
 	
 	"medusa_stone_gaze"
 	{
-		"AbilityCooldown" "CD90"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA90"
+		"AbilityManaCost" "MPA200"
 	}
 	
 	// Terrorblade
 	"terrorblade_reflection"
 	{
-		"AbilityCooldown" "CD22 CD18 CD14 CD10"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA22 CDA18 CDA14 CDA10"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"terrorblade_conjure_image"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA80"
 	}
 	
 	"terrorblade_metamorphosis"
 	{
-		"AbilityCooldown" "CD140"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA140"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"terrorblade_sunder"
 	{
-		"AbilityCooldown" "CD120 CD80 CD40"
-		"AbilityManaCost" "MP200 MP100 MP0"
+		"AbilityCooldown" "CDA120 CDA80 CDA40"
+		"AbilityManaCost" "MPA200 MPA100 MPA0"
 	}
 	
 	// INT
@@ -1771,62 +1990,62 @@
 	// Crystal Maiden
 	"crystal_maiden_crystal_nova"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP100 MP120 MP140 MP160"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA100 MPA120 MPA140 MPA160"
 	}
 	
 	"crystal_maiden_frostbite"
 	{
-		"AbilityCooldown" "CD10 CD9 CD8 CD7"
-		"AbilityManaCost" "MP115 MP125 MP140 MP150"
+		"AbilityCooldown" "CDA10 CDA9 CDA8 CDA7"
+		"AbilityManaCost" "MPA115 MPA125 MPA140 MPA150"
 	}
 	
 	"crystal_maiden_freezing_field"
 	{
-		"AbilityCooldown" "CD150 CD120 CD90"
-		"AbilityManaCost" "MP200 MP400 MP600"
+		"AbilityCooldown" "CDA150 CDA120 CDA90"
+		"AbilityManaCost" "MPA200 MPA400 MPA600"
 	}
 	
 	// Puck
 	"puck_illusory_orb"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	"puck_waning_rift"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP100 MP110 MP120 MP130"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA100 MPA110 MPA120 MPA130"
 	}
 	
 	"puck_phase_shift"
 	{
-		"AbilityCooldown" "CD6"
+		"AbilityCooldown" "CDC6"
 	}
 	
 	"puck_dream_coil"
 	{
-		"AbilityCooldown" "CD85"
-		"AbilityManaCost" "MP100 MP150 MP200"
+		"AbilityCooldown" "CDA85"
+		"AbilityManaCost" "MPA100 MPA150 MPA200"
 	}
 	
 	// Storm Spirit
 	"storm_spirit_static_remnant"
 	{
-		"AbilityCooldown" "CD3.5"
-		"AbilityManaCost" "MP70 MP80 MP90 MP100"
+		"AbilityCooldown" "CDA3.5"
+		"AbilityManaCost" "MPA70 MPA80 MPA90 MPA100"
 	}
 	
 	"storm_spirit_electric_vortex"
 	{
-		"AbilityCooldown" "CD21 CD20 CD19 CD18"
-		"AbilityManaCost" "MP100 MP110 MP120 MP130"
+		"AbilityCooldown" "CDA21 CDA20 CDA19 CDA18"
+		"AbilityManaCost" "MPA100 MPA110 MPA120 MPA130"
 	}
 	
 	"storm_spirit_ball_lightning"
 	{
-		"AbilityManaCost" "MP15"
+		"AbilityManaCost" "MPA15"
 		"AbilitySpecial"
 		{
 			"01"
@@ -1858,32 +2077,32 @@
 	// Windranger
 	"windrunner_shackleshot"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP90 MP100 MP110 MP120"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA90 MPA100 MPA110 MPA120"
 	}
 	
 	"windrunner_windrun"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"windrunner_powershot"
 	{
-		"AbilityCooldown" "CD9"
-		"AbilityManaCost" "MP90 MP100 MP110 MP120"
+		"AbilityCooldown" "CDA9"
+		"AbilityManaCost" "MPA90 MPA100 MPA110 MPA120"
 	}
 	
 	"windrunner_focusfire"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP75 MP100 MP125"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA75 MPA100 MPA125"
 		"AbilitySpecial"
 		{
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD15"
+				"cooldown_scepter" "CDA15"
 			}			
 		}
 	}
@@ -1891,95 +2110,95 @@
 	// Zeus
 	"zuus_arc_lightning"
 	{
-		"AbilityCooldown" "CD1.75"
-		"AbilityManaCost" "MP65 MP70 MP75 MP80"
+		"AbilityCooldown" "CDA1.75"
+		"AbilityManaCost" "MPA65 MPA70 MPA75 MPA80"
 	}
 	
 	"zuus_lightning_bolt"
 	{
-		"AbilityCooldown" "CD6"
-		"AbilityManaCost" "MP75 MP95 MP115 MP135"
+		"AbilityCooldown" "CDA6"
+		"AbilityManaCost" "MPA75 MPA95 MPA115 MPA135"
 	}
 	
 	"zuus_thundergods_wrath"
 	{
-		"AbilityCooldown" "CD90"
-		"AbilityManaCost" "MP225 MP325 MP450"
+		"AbilityCooldown" "CDA90"
+		"AbilityManaCost" "MPA225 MPA325 MPA450"
 	}
 	
 	// Lina
 	"lina_dragon_slave"
 	{
-		"AbilityCooldown" "CD8.5"
-		"AbilityManaCost" "MP100 MP115 MP130 MP145"
+		"AbilityCooldown" "CDA8.5"
+		"AbilityManaCost" "MPA100 MPA115 MPA130 MPA145"
 	}
 	
 	"lina_light_strike_array"
 	{
-		"AbilityCooldown" "CD7"
-		"AbilityManaCost" "MP100 MP110 MP120 MP130"
+		"AbilityCooldown" "CDA7"
+		"AbilityManaCost" "MPA100 MPA110 MPA120 MPA130"
 	}
 	
 	"lina_laguna_blade"
 	{
-		"AbilityCooldown" "CD70 CD60 CD50"
-		"AbilityManaCost" "MP280 MP420 MP680"
+		"AbilityCooldown" "CDA70 CDA60 CDA50"
+		"AbilityManaCost" "MPA280 MPA420 MPA680"
 	}
 	
 	// Shadow Shaman
 	"shadow_shaman_ether_shock"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP95 MP105 MP135 MP160"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA95 MPA105 MPA135 MPA160"
 	}
 	
 	"shadow_shaman_voodoo" //hex
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP110 MP140 MP170 MP200"
+		"AbilityCooldown" "CDB13"
+		"AbilityManaCost" "MPB110 MPB140 MPB170 MPB200"
 	}
 	
 	"shadow_shaman_shackles"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP140 MP150 MP160 MP170"
+		"AbilityCooldown" "CDB16"
+		"AbilityManaCost" "MPB140 MPB150 MPB160 MPB170"
 	}
 	
 	"shadow_shaman_mass_serpent_ward"
 	{
-		"AbilityCooldown" "CD120"
-		"AbilityManaCost" "MP200 MP350 MP600"
+		"AbilityCooldown" "CDA120"
+		"AbilityManaCost" "MPA200 MPA350 MPA600"
 	}
 	
 	// Tinker
 	"tinker_laser"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP95 MP120 MP145 MP170"
+		"AbilityCooldown" "CDA14"
+		"AbilityManaCost" "MPA95 MPA120 MPA145 MPA170"
 	}
 	
 	"tinker_heat_seeking_missile"
 	{
-		"AbilityCooldown" "CD25"
-		"AbilityManaCost" "MP120 MP140 MP160 MP180"
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "MPA120 MPA140 MPA160 MPA180"
 	}
 	
 	"tinker_march_of_the_machines"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP145 MP150 MP165 MP190"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA145 MPA150 MPA165 MPA190"
 	}
 	
 	"tinker_rearm"
 	{
-		"AbilityManaCost" "MP150 MP250 MP350"
-		"AbilityChannelTime" "CD3 CD2 CD1"
+		"AbilityManaCost" "MPB150 MPB250 MPB350"
+		"AbilityChannelTime" "CDA3 CDA2 CDA1"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"channel_tooltip" "CD30 CD20 CD10"
+				"channel_tooltip" "CDA30 CDA20 CDA10"
 			}			
 		}
 	}
@@ -1987,105 +2206,119 @@
 	// Nature's Prophet
 	"furion_sprout"
 	{
-		"AbilityCooldown" "CD11 CD10 CD9 CD8"
-		"AbilityManaCost" "MP100 MP120 MP140 MP160"
+		"AbilityCooldown" "CDA11 CDA10 CDA9 CDA8"
+		"AbilityManaCost" "MPA100 MPA120 MPA140 MPA160"
 	}
 	
 	"furion_teleportation"
 	{
-		"AbilityCooldown" "CD50 CD40 CD30 CD20"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA50 CDA40 CDA30 CDA20"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"furion_force_of_nature"
 	{
-		"AbilityCooldown" "CD37"
-		"AbilityManaCost" "MP160"
+		"AbilityCooldown" "CDA37"
+		"AbilityManaCost" "MPA160"
 	}
 	
 	"furion_wrath_of_nature"
 	{
-		"AbilityCooldown" "CD90 CD75 CD60"
-		"AbilityManaCost" "MP175 MP225 MP275"
+		"AbilityCooldown" "CDA90 CDA75 CDA60"
+		"AbilityManaCost" "MPA175 MPA225 MPA275"
 	}
 	
 	// Enchantress
 	"enchantress_enchant"
 	{
-		"AbilityCooldown" "CD30 CD25 CD20 CD15"
-		"AbilityManaCost" "MP65"
+		"AbilityCooldown" "CDA30 CDA25 CDA20 CDA15"
+		"AbilityManaCost" "MPA65"
 	}
 	
 	"enchantress_natures_attendants"
 	{
-		"AbilityCooldown" "CD45"
-		"AbilityManaCost" "MP125 MP140 MP155 MP170"
+		"AbilityCooldown" "CDA45"
+		"AbilityManaCost" "MPA125 MPA140 MPA155 MPA170"
 	}
 	
 	"enchantress_impetus"
 	{
-		"AbilityManaCost" "MP55 MP60 MP65"
+		"AbilityManaCost" "MPA55 MPA60 MPA65"
 	}
 	
 	// Jakiro
 	"jakiro_dual_breath"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP135 MP140 MP155 MP170"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA135 MPA140 MPA155 MPA170"
 	}
 	
 	"jakiro_ice_path"
 	{
-		"AbilityCooldown" "CD12 CD11 CD10 CD9"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA12 CDA11 CDA10 CDA9"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"jakiro_liquid_fire"
 	{
-		"AbilityCooldown" "CD20 CD15 CD10 CD4"
+		"AbilityCooldown" "CDA20 CDA15 CDA10 CDA4"
 	}
 	
 	"jakiro_macropyre"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP220 MP330 MP440"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA220 MPA330 MPA440"
 	}
 	
 	// Chen
 	"chen_penitence"
 	{
-		"AbilityCooldown" "CD14 CD13 CD12 CD11"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA14 CDA13 CDA12 CDA11"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"chen_test_of_faith"
 	{
-		"AbilityCooldown" "CD24"
-		"AbilityManaCost" "MP175"
+		"AbilityCooldown" "CDA24"
+		"AbilityManaCost" "MPA175"
 	}
 	
 	"chen_test_of_faith_teleport"
 	{
-		"AbilityCooldown" "CD24"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA24"
+		"AbilityManaCost" "MPA200"
 	}
 	
 	"chen_holy_persuasion"
 	{
-		"AbilityCooldown" "CD30 CD26 CD22 CD18"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA30 CDA26 CDA22 CDA18"
+		"AbilityManaCost" "MPA100"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"max_units" "2 3 4 5"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_bonus" "120 240 360 480"
+			}
+		}
 	}
 	
 	"chen_hand_of_god"
 	{
-		"AbilityCooldown" "CD160 CD140 CD120"
-		"AbilityManaCost" "MP200 MP300 MP400"
+		"AbilityCooldown" "CDA160 CDA140 CDA120"
+		"AbilityManaCost" "MPA200 MPA300 MPA400"
 		"AbilitySpecial"
 		{
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD30"
+				"cooldown_scepter" "CDA30"
 			}			
 		}
 	}
@@ -2093,55 +2326,55 @@
 	// Silencer
 	"silencer_curse_of_the_silent"
 	{
-		"AbilityCooldown" "CD20 CD16 CD12 CD8"
-		"AbilityManaCost" "MP75 MP95 MP115 MP135"
+		"AbilityCooldown" "CDA20 CDA16 CDA12 CDA8"
+		"AbilityManaCost" "MPA75 MPA95 MPA115 MPA135"
 	}
 	
 	"silencer_glaives_of_wisdom"
 	{
-		"AbilityManaCost" "MP15"
+		"AbilityManaCost" "MPA15"
 	}
 	
 	"silencer_last_word"
 	{
-		"AbilityCooldown" "CD30 CD24 CD18 CD12"
-		"AbilityManaCost" "MP115"
+		"AbilityCooldown" "CDB30 CDB24 CDB18 CDB12"
+		"AbilityManaCost" "MPB115"
 	}
 	
 	"silencer_global_silence"
 	{
-		"AbilityCooldown" "CD130"
-		"AbilityManaCost" "MP250 MP375 MP500"
+		"AbilityCooldown" "CDA130"
+		"AbilityManaCost" "MPA250 MPA375 MPA500"
 	}
 	
 	// Ogre Magi
 	"ogre_magi_fireblast"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP75 MP85 MP95 MP105"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA75 MPA85 MPA95 MPA105"
 	}
 	
 	"ogre_magi_ignite"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP95 MP105 MP115 MP125"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA95 MPA105 MPA115 MPA125"
 	}
 	
 	"ogre_magi_bloodlust"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"ogre_magi_unrefined_fireblast"
 	{
-		"AbilityCooldown" "CD6"
+		"AbilityCooldown" "CDA6"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"
-				"scepter_mana" "MP0.6"
+				"scepter_mana" "MPA0.6"
 			}			
 		}
 	}
@@ -2153,19 +2386,19 @@
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"fireblast_mana_cost" "MP20 MP40 MP60"
+				"fireblast_mana_cost" "MPA20 MPA40 MPA60"
 			}
 			
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"fireblast_cooldown" "CD2 CD4 CD6"
+				"fireblast_cooldown" "CDA2 CDA4 CDA6"
 			}
 			
 			"09"
 			{
 				"var_type" "FIELD_FLOAT"
-				"bloodlust_cooldown" "CD5 CD10 CD15"
+				"bloodlust_cooldown" "CDA5 CDA10 CDA15"
 			}			
 		}
 	}
@@ -2173,26 +2406,26 @@
 	// Rubick
 	"rubick_telekinesis"
 	{
-		"AbilityCooldown" "CD22"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA22"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"rubick_fade_bolt"
 	{
-		"AbilityCooldown" "CD16 CD14 CD12 CD10"
-		"AbilityManaCost" "MP120 MP130 MP140 MP150"
+		"AbilityCooldown" "CDA16 CDA14 CDA12 CDA10"
+		"AbilityManaCost" "MPA120 MPA130 MPA140 MPA150"
 	}
 	
 	"rubick_spell_steal"
 	{
-		"AbilityCooldown" "CD20 CD18 CD16"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDA20 CDA18 CDA16"
+		"AbilityManaCost" "MPA25"
 		"AbilitySpecial"
 		{
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"cooldown_scepter" "CD2"
+				"cooldown_scepter" "CDA2"
 			}			
 		}
 	}
@@ -2200,94 +2433,114 @@
 	// Disruptor
 	"disruptor_thunder_strike"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP130"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA130"
 	}
 	
 	"disruptor_glimpse"
 	{
-		"AbilityCooldown" "CD60 CD46 CD32 CD18"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA60 CDA46 CDA32 CDA18"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"disruptor_kinetic_field"
 	{
-		"AbilityCooldown" "CD13 CD12 CD11 CD10"
-		"AbilityManaCost" "MP70"
+		"AbilityCooldown" "CDA13 CDA12 CDA11 CDA10"
+		"AbilityManaCost" "MPA70"
 	}
 	
 	"disruptor_static_storm"
 	{
-		"AbilityCooldown" "CD90 CD80 CD70"
-		"AbilityManaCost" "MP125 MP175 MP225"
+		"AbilityCooldown" "CDA90 CDA80 CDA70"
+		"AbilityManaCost" "MPA125 MPA175 MPA225"
 	}
 	
 	// Keeper of the Light
 	"keeper_of_the_light_illuminate"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP150 MP160 MP170 MP180"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA150 MPA160 MPA170 MPA180"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_per_second" "200 150 133.33 125"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"max_channel_time" "1.0 2.0 3.0 4.0"
+			}
+			
+			"09"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"channel_vision_interval" "0.25 0.33 0.375 0.4"
+			}
+		}
 	}
 	
 	"keeper_of_the_light_mana_leak"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"keeper_of_the_light_chakra_magic"
 	{
-		"AbilityCooldown" "CD19 CD18 CD17 CD16"
-		"AbilityManaCost" "MP25 MP35 MP45 MP55"
+		"AbilityCooldown" "CDA19 CDA18 CDA17 CDA16"
+		"AbilityManaCost" "MPA25 MPA35 MPA45 MPA55"
 	}
 	
 	"keeper_of_the_light_spirit_form"
 	{
-		"AbilityCooldown" "CD80 CD70 CD60"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA80 CDA70 CDA60"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"keeper_of_the_light_recall"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"keeper_of_the_light_blinding_light"
 	{
-		"AbilityCooldown" "CD20 CD16 CD12"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA20 CDA16 CDA12"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	// Skywrath Mage
 	"skywrath_mage_arcane_bolt"
 	{
-		"AbilityCooldown" "CD5 CD4 CD3 CD2"
-		"AbilityManaCost" "MP70"
+		"AbilityCooldown" "CDA5 CDA4 CDA3 CDA2"
+		"AbilityManaCost" "MPA70"
 	}
 	
 	"skywrath_mage_concussive_shot"
 	{
-		"AbilityCooldown" "CD20 CD18 CD16 CD14"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA20 CDA18 CDA16 CDA14"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"skywrath_mage_ancient_seal"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA14"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 	}
 	
 	"skywrath_mage_mystic_flare"
 	{
-		"AbilityCooldown" "CD60 CD40 CD20"
-		"AbilityManaCost" "MP350 MP575 MP800"
+		"AbilityCooldown" "CDA60 CDA40 CDA20"
+		"AbilityManaCost" "MPA350 MPA575 MPA800"
 		"AbilitySpecial"
 		{
 			"05"
 			{
 				"var_type" "FIELD_INTEGER"
-				"scepter_cooldown" "CD20 CD10 CD0"
+				"scepter_cooldown" "CDA20 CDA10 CDA0"
 			}			
 		}
 	}
@@ -2295,139 +2548,181 @@
 	// Oracle
 	"oracle_fortunes_end"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP130"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA130"
+		"AbilityChannelTime" "1.5"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"minimum_purge_duration" "CC0.5"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maximum_purge_duration" "CC2.5"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"max_channel_time_tooltip" "1.5"
+			}
+		}
 	}
 	
 	"oracle_fates_edict"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"oracle_purifying_flames"
 	{
-		"AbilityCooldown" "CD3"
-		"AbilityManaCost" "MP55 MP70 MP85 MP100"
+		"AbilityCooldown" "CDA3"
+		"AbilityManaCost" "MPA55 MPA70 MPA85 MPA100"
 	}
 	
 	"oracle_false_promise"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDB20"
+		"AbilityManaCost" "MPB200"
 	}
 	
 	// Techies
 	"techies_land_mines"
 	{
-		"AbilityCooldown" "CD19 CD16 CD13 CD10"
-		"AbilityManaCost" "MP125 MP150 MP175 MP205"
+		"AbilityCooldown" "CDA19 CDA16 CDA13 CDA10"
+		"AbilityManaCost" "MPA125 MPA150 MPA175 MPA205"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"max_mines" "30"
+			}		
+		}
 	}
 	
 	"techies_stasis_trap"
 	{
-		"AbilityCooldown" "CD20 CD16 CD13 CD10"
-		"AbilityManaCost" "MP80 MP110 MP140 MP160"
+		"AbilityCooldown" "CDA20 CDA16 CDA13 CDA10"
+		"AbilityManaCost" "MPA80 MPA110 MPA140 MPA160"
 	}
 	
 	"techies_suicide"
 	{
-		"AbilityCooldown" "CD180 CD170 CD160 CD150"
-		"AbilityManaCost" "MP100 MP125 MP150 MP175"
+		"AbilityCooldown" "CDA180 CDA170 CDA160 CDA150"
+		"AbilityManaCost" "MPA100 MPA125 MPA150 MPA175"
+	}
+
+	"techies_minefield_sign"
+	{
+		"AbilityCooldown" "CDA120"
 	}
 	
 	"techies_remote_mines"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP200 MP240 MP300"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA200 MPA240 MPA300"
 	}
 	
 	// Intelligence (Dire)
 	// Bane
 	"bane_enfeeble"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP95 MP105 MP115 MP125"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA95 MPA105 MPA115 MPA125"
 	}
 	
 	"bane_brain_sap"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP125 MP150 MP175 MP200"
+		"AbilityCooldown" "CDA14"
+		"AbilityManaCost" "MPA125 MPA150 MPA175 MPA200"
 	}
 	
 	"bane_nightmare"
 	{
-		"AbilityCooldown" "CD16 CD15 CD14 CD13"
-		"AbilityManaCost" "MP165"
+		"AbilityCooldown" "CDB16 CDB15 CDB14 CDB13"
+		"AbilityManaCost" "MPB165"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"nightmare_dot_interval" "0.75"
+			}
+		}
 	}
 	
 	"bane_fiends_grip"
 	{
-		"AbilityCooldown" "CD100"
-		"AbilityManaCost" "MP200 MP300 MP400"
+		"AbilityCooldown" "CDA100"
+		"AbilityManaCost" "MPA200 MPA300 MPA400"
 	}
 	
 	// Lich
 	"lich_frost_nova"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP125 MP150 MP170 MP190"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA125 MPA150 MPA170 MPA190"
 	}
 	
 	"lich_frost_armor"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"lich_dark_ritual"
 	{
-		"AbilityCooldown" "CD44 CD36 CD28 CD20"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDC44 CDC36 CDC28 CDC20"
+		"AbilityManaCost" "MPC25"
 	}
 	
 	"lich_chain_frost"
 	{
-		"AbilityCooldown" "CD120 CD90 CD60"
-		"AbilityManaCost" "MP200 MP325 MP500"
+		"AbilityCooldown" "CDA120 CDA90 CDA60"
+		"AbilityManaCost" "MPA200 MPA325 MPA500"
 	}
 	
 	// Lion
 	"lion_impale"
 	{
-		"AbilityCooldown" "CD12"
-		"AbilityManaCost" "MP100 MP120 MP145 MP170"
+		"AbilityCooldown" "CDB12"
+		"AbilityManaCost" "MPB100 MPB120 MPB145 MPB170"
 	}
 	
 	"lion_voodoo"
 	{
-		"AbilityCooldown" "CD30 CD24 CD18 CD12"
-		"AbilityManaCost" "MP125 MP150 MP175 MP200"
+		"AbilityCooldown" "CDB30 CDB24 CDB18 CDB12"
+		"AbilityManaCost" "MPB125 MPB150 MPB175 MPB200"
 	}
 	
 	"lion_mana_drain"
 	{
-		"AbilityCooldown" "CD20 CD15 CD10 CD5"
-		"AbilityManaCost" "MP10"
+		"AbilityCooldown" "CDA20 CDA15 CDA10 CDA5"
+		"AbilityManaCost" "MPA10"
 	}
 	
 	"lion_finger_of_death"
 	{
-		"AbilityCooldown" "CD160 CD100 CD40"
-		"AbilityManaCost" "MP200 MP420 MP650"
+		"AbilityCooldown" "CDA160 CDA100 CDA40"
+		"AbilityManaCost" "MPA200 MPA420 MPA650"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost_scepter" "MP200 MP420 MP625"
+				"mana_cost_scepter" "MPA200 MPA420 MPA625"
 			}
 			
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD100 CD60 CD20"
+				"cooldown_scepter" "CDA100 CDA60 CDA20"
 			}			
 		}
 	}
@@ -2435,83 +2730,89 @@
 	// Witch Doctor
 	"witch_doctor_paralyzing_cask"
 	{
-		"AbilityCooldown" "CD20 CD18 CD16 CD14"
-		"AbilityManaCost" "MP110 MP120 MP130 MP140"
+		"AbilityCooldown" "CDA20 CDA18 CDA16 CDA14"
+		"AbilityManaCost" "MPA110 MPA120 MPA130 MPA140"
 	}
 	
 	"witch_doctor_voodoo_restoration"
 	{
-		"AbilityManaCost" "MP20 MP30 MP40 MP50"
+		"AbilityManaCost" "MPA20 MPA30 MPA40 MPA50"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_per_second" "MP8 MP12 MP16 MP20"
-			}			
+				"mana_per_second" "MPA8 MPA12 MPA16 MPA20"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"heal_interval" "CDA0.33"
+			}
 		}
 	}
 	
 	"witch_doctor_maledict"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"witch_doctor_death_ward"
 	{
-		"AbilityCooldown" "CD80"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA80"
+		"AbilityManaCost" "MPA200"
 	}
 	
 	// Enigma
 	"enigma_malefice"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP110 MP130 MP150 MP160"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA110 MPA130 MPA150 MPA160"
 	}
 	
 	"enigma_demonic_conversion"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP170"
+		"AbilityCooldown" "CDC35"
+		"AbilityManaCost" "MPC170"
 	}
 	
 	"enigma_midnight_pulse"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP95 MP110 MP125 MP140"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA95 MPA110 MPA125 MPA140"
 	}
 	
 	"enigma_black_hole"
 	{
-		"AbilityCooldown" "CD200 CD190 CD180"
-		"AbilityManaCost" "MP275 MP350 MP425"
+		"AbilityCooldown" "CDA200 CDA190 CDA180"
+		"AbilityManaCost" "MPA275 MPA350 MPA425"
 	}
 	
 	// Necrophos
 	"necrolyte_death_pulse"
 	{
-		"AbilityCooldown" "CD8 CD7 CD6 CD5"
-		"AbilityManaCost" "MP125 MP145 MP165 MP185"
+		"AbilityCooldown" "CDA8 CDA7 CDA6 CDA5"
+		"AbilityManaCost" "MPA125 MPA145 MPA165 MPA185"
 	}
 	
 	"necrolyte_reapers_scythe"
 	{
-		"AbilityCooldown" "CD100 CD85 CD70"
-		"AbilityManaCost" "MP175 MP340 MP500"
+		"AbilityCooldown" "CDA100 CDA85 CDA70"
+		"AbilityManaCost" "MPA175 MPA340 MPA500"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost_scepter" "MP150 MP340 MP500"
+				"mana_cost_scepter" "MPA150 MPA340 MPA500"
 			}
 			
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD70"
+				"cooldown_scepter" "CDA70"
 			}			
 		}
 	}
@@ -2519,57 +2820,57 @@
 	// Warlock
 	"warlock_fatal_bonds"
 	{
-		"AbilityCooldown" "CD25"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"warlock_shadow_word"
 	{
-		"AbilityCooldown" "CD16"
-		"AbilityManaCost" "MP90 MP110 MP130 MP150"
+		"AbilityCooldown" "CDA16"
+		"AbilityManaCost" "MPA90 MPA110 MPA130 MPA150"
 	}
 	
 	"warlock_upheaval"
 	{
-		"AbilityCooldown" "CD50 CD46 CD42 CD38"
-		"AbilityManaCost" "MP100 MP110 MP120 MP130"
+		"AbilityCooldown" "CDA50 CDA46 CDA42 CDA38"
+		"AbilityManaCost" "MPA100 MPA110 MPA120 MPA130"
 	}
 	
 	"warlock_rain_of_chaos"
 	{
-		"AbilityCooldown" "CD165"
-		"AbilityManaCost" "MP200 MP300 MP400"
+		"AbilityCooldown" "CDA165"
+		"AbilityManaCost" "MPA200 MPA300 MPA400"
 	}
 	
 	// Queen of Pain
 	"queenofpain_shadow_strike"
 	{
-		"AbilityCooldown" "CD16 CD12 CD8 CD4"
-		"AbilityManaCost" "MP110"
+		"AbilityCooldown" "CDA16 CDA12 CDA8 CDA4"
+		"AbilityManaCost" "MPA110"
 	}
 	
 	"queenofpain_blink"
 	{
-		"AbilityCooldown" "CD15 CD12 CD9 CD6"
-		"AbilityManaCost" "MP60"
+		"AbilityCooldown" "CDA15 CDA12 CDA9 CDA6"
+		"AbilityManaCost" "MPA60"
 	}
 	
 	"queenofpain_scream_of_pain"
 	{
-		"AbilityCooldown" "CD7"
-		"AbilityManaCost" "MP110 MP120 MP130 MP140"
+		"AbilityCooldown" "CDA7"
+		"AbilityManaCost" "MPA110 MPA120 MPA130 MPA140"
 	}
 	
 	"queenofpain_sonic_wave"
 	{
-		"AbilityCooldown" "CD135"
-		"AbilityManaCost" "MP250 MP360 MP500"
+		"AbilityCooldown" "CDA135"
+		"AbilityManaCost" "MPA250 MPA360 MPA500"
 		"AbilitySpecial"
 		{
 			"06"
 			{
 				"var_type" "IFELD_FLOAT"
-				"cooldown_scepter" "CD40"
+				"cooldown_scepter" "CDA40"
 			}			
 		}
 	}
@@ -2577,14 +2878,14 @@
 	// Death Prophet
 	"death_prophet_carrion_swarm"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP105 MP120 MP140 MP165"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA105 MPA120 MPA140 MPA165"
 	}
 	
 	"death_prophet_silence"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA80"
 	}
 	
 	"death_prophet_witchcraft"
@@ -2594,114 +2895,128 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"carrion_swarm_mana_cost_adjust" "-MP10 -MP15 -MP20 -MP25"
+				"carrion_swarm_mana_cost_adjust" "-MPA10 -MPA15 -MPA20 -MPA25"
 			}
 			
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"carrion_swarm_cooldown_adjust" "-CD1 -CD2 -CD3 -CD4"
+				"carrion_swarm_cooldown_adjust" "-CDA1 -CDA2 -CDA3 -CDA4"
 			}
 			
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"silence_mana_cost_adjust" "-MP10 -MP15 -MP20 -MP25"
+				"silence_mana_cost_adjust" "-MPA10 -MPA15 -MPA20 -MPA25"
 			}
 			
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"silence_cooldown_adjust" "-CD1 -CD2 -CD3 -CD4"
+				"silence_cooldown_adjust" "-CDA1 -CDA2 -CDA3 -CDA4"
 			}			
 		}
 	}
 	
 	"death_prophet_exorcism"
 	{
-		"AbilityCooldown" "CD145"
-		"AbilityManaCost" "MP200 MP300 MP400"
+		"AbilityCooldown" "CDA145"
+		"AbilityManaCost" "MPA200 MPA300 MPA400"
 	}
 	
 	// Pugna
 	"pugna_nether_blast"
 	{
-		"AbilityCooldown" "CD5.5"
-		"AbilityManaCost" "MP85 MP105 MP125 MP145"
+		"AbilityCooldown" "CDA5.5"
+		"AbilityManaCost" "MPA85 MPA105 MPA125 MPA145"
 	}
 	
 	"pugna_decrepify"
 	{
-		"AbilityCooldown" "CD12 CD10 CD8 CD6"
-		"AbilityManaCost" "MP60"
+		"AbilityCooldown" "CDA12 CDA10 CDA8 CDA6"
+		"AbilityManaCost" "MPA60"
 	}
 	
 	"pugna_nether_ward"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP80"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA80"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"mana_multiplier" "2 2.5 3 3.5"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"mana_regen" "-3 -6 -9 -12"
+			}
+		}
 	}
 	
 	"pugna_life_drain"
 	{
-		"AbilityCooldown" "CD22"
-		"AbilityManaCost" "MP125 MP175 MP225"
+		"AbilityCooldown" "CDA22"
+		"AbilityManaCost" "MPA125 MPA175 MPA225"
 	}
 	
 	// Dazzle
 	"dazzle_poison_touch"
 	{
-		"AbilityCooldown" "CD15 CD13 CD11 CD7"
-		"AbilityManaCost" "MP100 MP115 MP130 MP145"
+		"AbilityCooldown" "CDA15 CDA13 CDA11 CDA7"
+		"AbilityManaCost" "MPA100 MPA115 MPA130 MPA145"
 	}
 	
 	"dazzle_shallow_grave"
 	{
-		"AbilityCooldown" "CD60 CD45 CD30 CD15"
-		"AbilityManaCost" "MP140 MP130 MP120 MP110"
+		"AbilityCooldown" "CDA60 CDA45 CDA30 CDA15"
+		"AbilityManaCost" "MPA140 MPA130 MPA120 MPA110"
 	}
 	
 	"dazzle_shadow_wave"
 	{
-		"AbilityCooldown" "CD12 CD10 CD8 CD6"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA12 CDA10 CDA8 CDA6"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 	}
 	
 	"dazzle_weave"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	// Leshrac
 	"leshrac_split_earth"
 	{
-		"AbilityCooldown" "CD9"
-		"AbilityManaCost" "MP100 MP125 MP140 MP160"
+		"AbilityCooldown" "CDA9"
+		"AbilityManaCost" "MPA100 MPA125 MPA140 MPA160"
 	}
 	
 	"leshrac_diabolic_edict"
 	{
-		"AbilityCooldown" "CD22"
-		"AbilityManaCost" "MP95 MP120 MP135 MP155"
+		"AbilityCooldown" "CDA22"
+		"AbilityManaCost" "MPA95 MPA120 MPA135 MPA155"
 	}
 	
 	"leshrac_lightning_storm"
 	{
-		"AbilityCooldown" "CD4"
-		"AbilityManaCost" "MP90 MP100 MP110 MP120"
+		"AbilityCooldown" "CDA4"
+		"AbilityManaCost" "MPA90 MPA100 MPA110 MPA120"
 	}
 	
 	"leshrac_pulse_nova"
 	{
-		"AbilityCooldown" "CD1"
-		"AbilityManaCost" "MP70 MP90 MP110"
+		"AbilityCooldown" "CDA1"
+		"AbilityManaCost" "MPA70 MPA90 MPA110"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_cost_per_second" "MP20 MP40 MP60"
+				"mana_cost_per_second" "MPA20 MPA40 MPA60"
 			}			
 		}
 	}
@@ -2709,205 +3024,205 @@
 	// Dark Seer
 	"dark_seer_vacuum"
 	{
-		"AbilityCooldown" "CD28"
-		"AbilityManaCost" "MP100 MP130 MP160 MP190"
+		"AbilityCooldown" "CDA28"
+		"AbilityManaCost" "MPA100 MPA130 MPA160 MPA190"
 	}
 	
 	"dark_seer_ion_shell"
 	{
-		"AbilityCooldown" "CD9"
-		"AbilityManaCost" "MP70 MP90 MP110 MP130"
+		"AbilityCooldown" "CDA9"
+		"AbilityManaCost" "MPA70 MPA90 MPA110 MPA130"
 	}
 	
 	"dark_seer_surge"
 	{
-		"AbilityCooldown" "CD12 CD11 CD10 CD9"
-		"AbilityManaCost" "MP20 MP30 MP40 MP50"
+		"AbilityCooldown" "CDA12 CDA11 CDA10 CDA9"
+		"AbilityManaCost" "MPA20 MPA30 MPA40 MPA50"
 	}
 	
 	"dark_seer_wall_of_replica"
 	{
-		"AbilityCooldown" "CD100"
-		"AbilityManaCost" "MP200 MP300 MP400"
+		"AbilityCooldown" "CDA100"
+		"AbilityManaCost" "MPA200 MPA300 MPA400"
 	}
 	
 	// Batrider
 	"batrider_sticky_napalm"
 	{
-		"AbilityCooldown" "CD3"
-		"AbilityManaCost" "MP20"
+		"AbilityCooldown" "CDA3"
+		"AbilityManaCost" "MPA20"
 	}
 	
 	"batrider_flamebreak"
 	{
-		"AbilityCooldown" "CD14"
-		"AbilityManaCost" "MP140"
+		"AbilityCooldown" "CDA14"
+		"AbilityManaCost" "MPA140"
 	}
 	
 	"batrider_firefly"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"batrider_flaming_lasso"
 	{
-		"AbilityCooldown" "CD90 CD75 CD60"
-		"AbilityManaCost" "MP225"
+		"AbilityCooldown" "CDA90 CDA75 CDA60"
+		"AbilityManaCost" "MPA225"
 	}
 	
 	// Ancient Apparition
 	"ancient_apparition_cold_feet"
 	{
-		"AbilityCooldown" "CD15 CD13 CD11 CD9"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA15 CDA13 CDA11 CDA9"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	"ancient_apparition_ice_vortex"
 	{
-		"AbilityCooldown" "CD4"
-		"AbilityManaCost" "MP80 MP90 MP100 MP110"
+		"AbilityCooldown" "CDA4"
+		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
 	}
 	
 	"ancient_apparition_chilling_touch"
 	{
-		"AbilityCooldown" "CD50 CD42 CD34 CD26"
-		"AbilityManaCost" "MP110 MP120 MP130 MP140"
+		"AbilityCooldown" "CDA50 CDA42 CDA34 CDA26"
+		"AbilityManaCost" "MPA110 MPA120 MPA130 MPA140"
 	}
 	
 	"ancient_apparition_ice_blast"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP100 MP125 MP150"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA100 MPA125 MPA150"
 	}
 	
 	// Invoker
 	"invoker_invoke"
 	{
-		"AbilityCooldown" "CD22 CD17 CD12 CD5"
-		"AbilityManaCost" "MP20 MP40 MP60 MP80"
+		"AbilityCooldown" "CDA22 CDA17 CDA12 CDA5"
+		"AbilityManaCost" "MPA20 MPA40 MPA60 MPA80"
 		"AbilitySpecial"
 		{
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_scepter" "CD16 CD8 CD4 CD2"
+				"cooldown_scepter" "CDA16 CDA8 CDA4 CDA2"
 			}			
 		}
 	}
 	
 	"invoker_cold_snap"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"invoker_ghost_walk"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA200"
 	}
 	
 	"invoker_ice_wall"
 	{
-		"AbilityCooldown" "CD25"
-		"AbilityManaCost" "MP175"
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "MPA175"
 	}
 	
 	"invoker_emp"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP125"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA125"
 	}
 	
 	"invoker_tornado"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	"invoker_alacrity"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP45"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA45"
 	}
 	
 	"invoker_sun_strike"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP175"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA175"
 	}
 	
 	"invoker_forge_spirit"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"invoker_chaos_meteor"
 	{
-		"AbilityCooldown" "CD55"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA55"
+		"AbilityManaCost" "MPA200"
 	}
 	
 	"invoker_deafening_blast"
 	{
-		"AbilityCooldown" "CD40"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA40"
+		"AbilityManaCost" "MPA200"
 	}
 	
 	"forged_spirit_melting_strike"
 	{
-		"AbilityManaCost" "MP40"
+		"AbilityManaCost" "MPA40"
 	}
 	
 	// Outworld Devourer
 	"obsidian_destroyer_arcane_orb"
 	{
-		"AbilityManaCost" "MP100"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"obsidian_destroyer_astral_imprisonment"
 	{
-		"AbilityCooldown" "CD18 CD16 CD14 CD12"
-		"AbilityManaCost" "MP120 MP140 MP160 MP180"
+		"AbilityCooldown" "CDA18 CDA16 CDA14 CDA12"
+		"AbilityManaCost" "MPA120 MPA140 MPA160 MPA180"
 	}
 	
 	"obsidian_destroyer_sanity_eclipse"
 	{
-		"AbilityCooldown" "CD160"
-		"AbilityManaCost" "MP175 MP250 MP325"
+		"AbilityCooldown" "CDA160"
+		"AbilityManaCost" "MPA175 MPA250 MPA325"
 	}
 	
 	// Shadow Demon
 	"shadow_demon_disruption"
 	{
-		"AbilityCooldown" "CD25 CD22 CD19 CD16"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA25 CDA22 CDA19 CDA16"
+		"AbilityManaCost" "MPA120"
 	}
 	
 	"shadow_demon_soul_catcher"
 	{
-		"AbilityCooldown" "CD13"
-		"AbilityManaCost" "MP50 MP60 MP70 MP80"
+		"AbilityCooldown" "CDA13"
+		"AbilityManaCost" "MPA50 MPA60 MPA70 MPA80"
 	}
 	
 	"shadow_demon_shadow_poison"
 	{
-		"AbilityCooldown" "CD2.75"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA2.75"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"shadow_demon_demonic_purge"
 	{
-		"AbilityCooldown" "CD50"
-		"AbilityManaCost" "MP200"
+		"AbilityCooldown" "CDA50"
+		"AbilityManaCost" "MPA200"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"charge_restore_time" "CD40"
+				"charge_restore_time" "CDA40"
 			}			
 		}
 	}
@@ -2915,14 +3230,14 @@
 	// Visage
 	"visage_grave_chill"
 	{
-		"AbilityCooldown" "CD16 CD14 CD12 CD10"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA16 CDA14 CDA12 CDA10"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"visage_soul_assumption"
 	{
-		"AbilityCooldown" "CD4"
-		"AbilityManaCost" "MP170 MP160 MP150 MP140"
+		"AbilityCooldown" "CDA4"
+		"AbilityManaCost" "MPA170 MPA160 MPA150 MPA140"
 	}
 	
 	"visage_gravekeepers_cloak"
@@ -2932,66 +3247,66 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"recovery_time" "CD6"
+				"recovery_time" "CDA6"
 			}			
 		}
 	}
 	
 	"visage_summon_familiars"
 	{
-		"AbilityCooldown" "CD180 CD160 CD140"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA180 CDA160 CDA140"
+		"AbilityManaCost" "MPA150"
 	}
 	
 	// Winter Wyvern
 	"winter_wyvern_arctic_burn"
 	{
-		"AbilityCooldown" "CD50 CD40 CD30 CD20"
-		"AbilityManaCost" "MP120 MP110 MP100 MP90"
+		"AbilityCooldown" "CDA50 CDA40 CDA30 CDA20"
+		"AbilityManaCost" "MPA120 MPA110 MPA100 MPA90"
 	}
 	
 	"winter_wyvern_splinter_blast"
 	{
-		"AbilityCooldown" "CD7"
-		"AbilityManaCost" "MP120 MP130 MP140 MP150"
+		"AbilityCooldown" "CDA7"
+		"AbilityManaCost" "MPA120 MPA130 MPA140 MPA150"
 	}
 	
 	"winter_wyvern_cold_embrace"
 	{
-		"AbilityCooldown" "CD17 CD16 CD15 CD14"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA17 CDA16 CDA15 CDA14"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"winter_wyvern_winters_curse"
 	{
-		"AbilityCooldown" "CD90 CD80 CD70"
-		"AbilityManaCost" "MP250"
+		"AbilityCooldown" "CDA90 CDA80 CDA70"
+		"AbilityManaCost" "MPA250"
 	}
 	
 	// Items
 	"item_abyssal_blade"
 	{
-		"AbilityCooldown" "CD60"
+		"AbilityCooldown" "CDA60"
 		"AbilitySpecial"
 		{
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"bash_cooldown" "CD2"
+				"bash_cooldown" "CDA2"
 			}			
 		}
 	}
 	
 	"item_ancient_janggo" // drums
 	{
-		"AbilityCooldown" "CD30"
+		"AbilityCooldown" "CDA30"
 		"ItemInitialCharges" "12"
 	}
 	
 	"item_arcane_boots"
 	{
-		"AbilityCooldown" "CD55"
-		"AbilityManaCost" "MP35"
+		"AbilityCooldown" "CDA55"
+		"AbilityManaCost" "MPA35"
 	}
 	
 	"item_armlet"
@@ -3008,7 +3323,7 @@
 	
 	"item_basher"
 	{
-		"AbilityCooldown" "CD2"
+		"AbilityCooldown" "CDA2"
 	}
 
 	"item_bfury"
@@ -3025,23 +3340,31 @@
 
 	"item_black_king_bar"
 	{
-		"AbilityCooldown" "CD80 CD75 CD70 CD65 CD60 CD55"
+		"AbilityCooldown" "CDA80 CDA75 CDA70 CDA65 CDA60 CDA55"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"model_scale" "50"
+			}
+		}
 	}
 	
 	"item_blade_mail"
 	{
-		"AbilityCooldown" "CD17"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDB17"
+		"AbilityManaCost" "MPB25"
 	}
 	
 	"item_blink"
 	{
-		"AbilityCooldown" "CD12"
+		"AbilityCooldown" "CDB12"
 	}
 	
 	"item_bloodstone"
 	{
-		"AbilityCooldown" "CD300"
+		"AbilityCooldown" "CDA300"
 		"AbilitySpecial"
 		{
 			"04"
@@ -3053,20 +3376,50 @@
 			"12"
 			{
 				"var_type" "FIELD_FLOAT"
-				"on_death_removal" "0.33"
+				"on_death_removal" "0.2"
 			}			
+		}
+	}
+
+	"item_bottle"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"restore_time" "1"
+			}
 		}
 	}
 	
 	"item_buckler"
 	{
-		"AbilityCooldown" "CD25"
-		"AbilityManaCost" "MP10"
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "MPA10"
 	}
 	
 	"item_butterfly"
 	{
-		"AbilityCooldown" "CD35"
+		"AbilityCooldown" "CDA35"
+	}
+
+	"item_clarity"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"buff_duration" "8"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"total_mana" "240"
+			}
+		}
 	}
 	
 	"item_crimson_guard"
@@ -3076,8 +3429,8 @@
 	
 	"item_cyclone" // euls
 	{
-		"AbilityCooldown" "CD23"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA23"
+		"AbilityManaCost" "MPA75"
 		"AbilitySpecial"
 		{
 			"02"
@@ -3096,37 +3449,37 @@
 	
 	"item_dagon"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP180"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA180"
 	}
 	
 	"item_dagon_2"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP180"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA180"
 	}
 	
 	"item_dagon_3"
 	{
-		"AbilityCooldown" "CD25"
-		"AbilityManaCost" "MP180"
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "MPA180"
 	}
 	
 	"item_dagon_4"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP180"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA180"
 	}
 	
 	"item_dagon_5"
 	{
-		"AbilityCooldown" "CD15"
-		"AbilityManaCost" "MP180"
+		"AbilityCooldown" "CDA15"
+		"AbilityManaCost" "MPA180"
 	}
 	
 	"item_diffusal_blade"
 	{
-		"AbilityCooldown" "CD8"
+		"AbilityCooldown" "CDA8"
 		"AbilitySpecial"
 		{
 			"03"
@@ -3139,7 +3492,7 @@
 	
 	"item_diffusal_blade_2"
 	{
-		"AbilityCooldown" "CD8"
+		"AbilityCooldown" "CDA8"
 		"AbilitySpecial"
 		{
 			"03"
@@ -3152,35 +3505,63 @@
 	
 	"item_dust"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP5"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA5"
 	}
 	
 	"item_ethereal_blade"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP150"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA150"
+	}
+
+	"item_flask"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"buff_duration" "6"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"total_health" "560"
+			}
+		}
+	}
+
+	"item_flying_courier"
+	{
+		"ItemStockTime" "CDA270"
 	}
 	
 	"item_force_staff"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA25"
 	}
-	
+
+	"item_gem"
+	{
+		"ItemStockTime" "CDB600"
+	}
+
 	"item_ghost"
 	{
-		"AbilityCooldown" "CD30"
+		"AbilityCooldown" "CDA30"
 	}
 	
 	"item_hand_of_midas"
 	{
-		"AbilityCooldown" "CD100"
+		"AbilityCooldown" "CDB100"
 	}
 	
 	"item_heart"
 	{
-		"AbilityCooldown" "CD6"
+		"AbilityCooldown" "CDA6"
 		"AbilitySpecial"
 		{
 			"04"
@@ -3193,54 +3574,62 @@
 	
 	"item_heavens_halberd"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"item_helm_of_the_dominator"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA75"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_bonus" "800"
+			}
+		}
 	}
 	
 	"item_invis_sword"
 	{
-		"AbilityCooldown" "CD28"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA28"
+		"AbilityManaCost" "MPA75"
 	}
 	
 	"item_magic_stick"
 	{
-		"AbilityCooldown" "CD13"
+		"AbilityCooldown" "CDA13"
 	}
 	
 	"item_magic_wand"
 	{
-		"AbilityCooldown" "CD13"
+		"AbilityCooldown" "CDA13"
 	}
 	
 	"item_manta"
 	{
-		"AbilityCooldown" "CD50"
+		"AbilityCooldown" "CDA50"
 		"AbilitySpecial"
 		{
 			"16"
 			{
 				"var_type" "FIELD_FLOAT"
-				"cooldown_melee" "CD35"
+				"cooldown_melee" "CDA35"
 			}			
 		}
 	}
 	
 	"item_mask_of_madness"
 	{
-		"AbilityCooldown" "CD25"
-		"AbilityManaCost" "MP25"
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "MPA25"
 	}
 	
 	"item_medallion_of_courage"
 	{
-		"AbilityCooldown" "CD7"
+		"AbilityCooldown" "CDA7"
 		"AbilitySpecial"
 		{
 			"02"
@@ -3259,40 +3648,40 @@
 	
 	"item_mekansm"
 	{
-		"AbilityCooldown" "CD45"
-		"AbilityManaCost" "MP225"
+		"AbilityCooldown" "CDA45"
+		"AbilityManaCost" "MPA225"
 		"AbilitySpecial"
 		{
 			"08"
 			{
 				"var_type" "FIELD_FLOAT"
-				"heal_armor_duration" "CD25"
+				"heal_armor_duration" "CDA25"
 			}			
 		}
 	}
 	
 	"item_mjollnir"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"item_necronomicon"
 	{
-		"AbilityCooldown" "CD95"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA95"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"item_necronomicon_2"
 	{
-		"AbilityCooldown" "CD95"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA95"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"item_necronomicon_3"
 	{
-		"AbilityCooldown" "CD95"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA95"
+		"AbilityManaCost" "MPA50"
 	}
 
 	"item_oblivion_staff"
@@ -3309,8 +3698,8 @@
 	
 	"item_orchid"
 	{
-		"AbilityCooldown" "CD18"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA18"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
 			"04"
@@ -3341,26 +3730,66 @@
 	
 	"item_phase_boots"
 	{
-		"AbilityCooldown" "CD8"
+		"AbilityCooldown" "CDA8"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"phase_duration" "2"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"phase_movement_speed" "32"
+			}
+		}
 	}
 	
 	"item_pipe"
 	{
-		"AbilityCooldown" "CD60"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA60"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"
-				"barrier_debuff_duration" "CD50"
+				"barrier_debuff_duration" "CDA50"
 			}			
 		}
 	}
 	
 	"item_quelling_blade"
 	{
-		"AbilityCooldown" "CD5"
+		"AbilityCooldown" "CDA5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_bonus" "40"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_bonus_ranged" "15"
+			}
+		}
+	}
+
+	"item_radiance"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"aura_damage" "100"
+			}
+		}
 	}
 	
 	"item_rapier"
@@ -3370,15 +3799,15 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_damage" "400"
+				"bonus_damage" "450"
 			}			
 		}
 	}
 	
 	"item_refresher"
 	{
-		"AbilityCooldown" "CD195"
-		"AbilityManaCost" "MP375"
+		"AbilityCooldown" "CDA195"
+		"AbilityManaCost" "MPA375"
 		"AbilitySpecial"
 		{
 			"02"
@@ -3391,19 +3820,19 @@
 	
 	"item_rod_of_atos"
 	{
-		"AbilityCooldown" "CD10"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"item_satanic"
 	{
-		"AbilityCooldown" "CD35"
+		"AbilityCooldown" "CDA35"
 	}
 	
 	"item_sheepstick"
 	{
-		"AbilityCooldown" "CD35"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA35"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
 			"04"
@@ -3422,13 +3851,14 @@
 	
 	"item_shivas_guard"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA100"
 	}
 	
 	"item_smoke_of_deceit"
 	{
-		"AbilityCooldown" "CD90"
+		"AbilityCooldown" "CDA90"
+		"ItemStockTime" "CDA720"
 	}
 
 	"item_sobi_mask"
@@ -3457,7 +3887,7 @@
 	
 	"item_soul_ring"
 	{
-		"AbilityCooldown" "CD30"
+		"AbilityCooldown" "CDA30"
 		"AbilitySpecial"
 		{
 			"02"
@@ -3476,7 +3906,7 @@
 	
 	"item_sphere"
 	{
-		"AbilityCooldown" "CD17"
+		"AbilityCooldown" "CDA17"
 		"AbilitySpecial"
 		{
 			"03"
@@ -3488,39 +3918,57 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"block_cooldown" "CD17"
+				"block_cooldown" "CDA17"
 			}			
 		}
 	}
-	
+
+	"item_tango"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"buff_duration" "9.6"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"total_heal" "161"
+			}
+		}
+	}
+
+	"item_tpscroll"
+	{
+		"AbilityCooldown" "CDC65"
+		"AbilityManaCost" "MPC75"
+	}
+
 	"item_tranquil_boots"
 	{
-		"AbilityCooldown" "CD13"
+		"AbilityCooldown" "CDA13"
 		"AbilitySpecial"
 		{
 			"07"
 			{
 				"var_type" "FIELD_INTEGER"
-				"break_time" "CD13"
+				"break_time" "CDA13"
 			}			
 		}
 	}
 	
 	"item_travel_boots"
 	{
-		"AbilityCooldown" "CD50"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDC50"
+		"AbilityManaCost" "MPC75"
 	}
-	
-	"item_tpscroll"
-	{
-		"AbilityCooldown" "CD65"
-		"AbilityManaCost" "MP75"
-	}
-	
+
 	"item_urn_of_shadows"
 	{
-		"AbilityCooldown" "CD7"
+		"AbilityCooldown" "CDA7"
 		"AbilitySpecial"
 		{
 			"01"
@@ -3545,8 +3993,8 @@
 	
 	"item_veil_of_discord"
 	{
-		"AbilityCooldown" "CD30"
-		"AbilityManaCost" "MP75"
+		"AbilityCooldown" "CDA30"
+		"AbilityManaCost" "MPA75"
 	}
 
 	"item_void_stone"
@@ -3559,6 +4007,11 @@
 				"bonus_mana_regen" "MR100"
 			}
 		}
+	}
+
+	"item_ward_observer"
+	{
+		"ItemStockTime" "CDB360"
 	}
 	
 	// Neutrals
@@ -3578,21 +4031,21 @@
 	// Ancient Thunderhide
 	"big_thunder_lizard_slam"
 	{
-		"AbilityCooldown" "CD6"
-		"AbilityManaCost" "MP90"
+		"AbilityCooldown" "CDA6"
+		"AbilityManaCost" "MPA90"
 	}
 
 	"big_thunder_lizard_frenzy"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA50"
 	}
 
 	// Centaur Conqueror
 	"centaur_khan_war_stomp"
 	{
-		"AbilityCooldown" "CD20"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA20"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
 			"02"
@@ -3651,16 +4104,16 @@
 	// Harpy Stormcaster
 	"harpy_storm_chain_lightning"
 	{
-		"AbilityCooldown" "CD4"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA4"
+		"AbilityManaCost" "MPA50"
 	}
 
 	// Hill Troll Priest
 	"forest_troll_high_priest_heal"
 	{
-		"AbilityCastPoint" "CD0.5"
-		"AbilityCooldown" "CD0.5"
-		"AbilityManaCost" "MP5"
+		"AbilityCastPoint" "CDA0.5"
+		"AbilityCooldown" "CDA0.5"
+		"AbilityManaCost" "MPA5"
 	}
 
 	"forest_troll_high_priest_mana_aura"
@@ -3678,8 +4131,8 @@
 	// Ogre Frostmage
 	"ogre_magi_frost_armor"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP40"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA40"
 		"AbilitySpecial"
 		{
 			"05"
@@ -3693,19 +4146,19 @@
 	// Roshan
 	"roshan_spell_block"
 	{
-		"AbilityCooldown" "CD15"
+		"AbilityCooldown" "CDA15"
 	}
 
 	"roshan_slam"
 	{
-		"AbilityCooldown" "CD10"
+		"AbilityCooldown" "CDA10"
 	}
 
 	// Satyr Banisher
 	"satyr_trickster_purge"
 	{
-		"AbilityCooldown" "CD5"
-		"AbilityManaCost" "MP120"
+		"AbilityCooldown" "CDA5"
+		"AbilityManaCost" "MPA120"
 		"AbilitySpecial"
 		{
 			"02"
@@ -3719,15 +4172,15 @@
 	// Satyr Mindstealer
 	"satyr_soulstealer_mana_burn"
 	{
-		"AbilityCooldown" "CD18"
-		"AbilityManaCost" "MP50"
+		"AbilityCooldown" "CDA18"
+		"AbilityManaCost" "MPA50"
 	}
 
 	// Satyr Tormenter
 	"satyr_hellcaller_shockwave"
 	{
-		"AbilityCooldown" "CD8"
-		"AbilityManaCost" "MP100"
+		"AbilityCooldown" "CDA8"
+		"AbilityManaCost" "MPA100"
 	}
 
 	// Vhoul Assassin

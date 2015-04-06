@@ -1,55 +1,64 @@
 General
-	Cooldowns decreased by 80% (unless otherwise noted below)
-	Mana costs decreased by 90%
-	Health costs decreased by 60%
-	Base movement speeds increased by 50
-	Turn rates increased by 50%
-	Base attack times decreased by 25%
-	Critical strike damage increased by 25%
-	Hero base mana regeneration increased by 100%
-	Item bonus mana regeneration increased by 100%
-	Passive gold gain increased by 400%
-	Duration of all disable debuffs (stuns, silences, etc.) reduced by 25%
-	Buyback cooldown increased from 7 minutes to 10 minutes
-	Hero level cap from 25 to 33
-	Attribute bonus level cap from 10 to 18	
+
+	- Cooldowns decreased by 80% (A class), 60% (B class) and 40% (C class)
+	- Mana costs decreased by 90% (A class), 80% (B class) and 70% (C class)
+	- Health costs decreased by 80% (A class), 40% (B class) and 10% (C class)
+	- Base movement speeds increased by 50
+	- Turn rates increased by 50%
+	- Base attack times decreased by 25%
+	- Critical strike damage increased by 25%
+	- Hero base mana regeneration increased by 100%
+	- Item bonus mana regeneration increased by 100%
+	- Passive gold gain increased by 400%
+	- Duration of all disable debuffs (stuns, silences, etc.) reduced by 25%
+	- Buyback cooldown increased from 7 minutes to 10 minutes
+	- Hero level cap from 25 to 33
+	- Attribute bonus level cap from 10 to 18
+	- Movement speed cap removed
+
 
 Heroes
+
 	Abaddon
-	- Borrowed Time cooldown from 60/50/40 to 24/20/16 (decreased by 60%)
+	- Borrowed Time to B class cooldown
+
+	Axe
+	- Berserker's Call to B class cooldown and mana cost
 
 	Bane
-	- Nightmare cooldown from 16/15/14/13 to 6.4/6/5.6/5.2 (decreased by 60%)
-	- Nightmare damage per second from 20 to 26.67/33.33/30/28
+	- Nightmare to B class cooldown and mana cost
+	- Nightmare damage per second interval from 1.0 to 0.75
 
-	Bristleback
-	- Quill Spray damage cap from 400 to 500 (increased by 25%)
-	- Bristleback damage threshold from 250 to 200 (decreased by 20%)
-	- Warpath max stacks from 5/6/7 to 10/12/14 (increased by 100%)
-	- Warpath stack duration from 14 to 7 (decreased by 50%)
-	- Warpath attack damage per stack from 20/25/30 to 15/20/25
-	- Warpath move speed per stack from 3%/4%/5% to 2%/3%/4%
+	Bloodseeker
+	- Thirst max move speed bonus per hero from 10%/20%/30%/40% to 20%/30%/40%/50%
+
+	Brewmaster
+	- Permanent Immolation damage per second from 15/30/45 to 30/60/90
+
+	Broodmother
+	- Poison Sting damage per second from 8 to 16
 
 	Chen
 	- Holy Persuasion max units from 1/2/3/4 to 2/3/4/5
-	- Holy Persuasion health bonus from 75/150/225/300 to 120/240/360/480 (increased by 60%)
+	- Holy Persuasion health bonus from 75/150/225/300 to 120/240/360/480
 
 	Death Prophet
-	- Witchcraft mana reduction from 10/15/20/25 to 1/1.5/2/2.5 (decreased by 90%)
-	- Witchcraft cooldown reduction from 1/2/3/4 to 0.2/0.4/0.6/0.8 (decreased by 80%)
+	- Witchcraft mana reduction to A class mana cost 
+	- Witchcraft cooldown reduction to A class cooldown 
 
 	Doom
-	- Devour digestion debuff from HP/20 to HP/4 (decreased by 80%)
-	- Scorched Earth damage and heal per second from 12/18/24/30 to 19/29/38/48 (increased by 60%)
-	- Scorched Earth move speed bonus from 16% to 26% (increased by 60%)
-	- Scorched Earth duration from 10/12/14/16 to 4/4.8/5.6/6.4 (decreased by 60%)
+	- Devour creep HP per second from 20 to 100
+	- Scorched Earth damage and heal per second from 12/18/24/30 to 40/54/67/80
+	- Scorched Earth move speed bonus from 16% to 32%
+	- Scorched Earth duration from 10/12/14/16 to 3/4/5/6
 	- Doom damage per second from 20/35/50 (40/60/80) to 27.27/47.73/68.18 (53.33/80/106.67)
 
 	Dragon Knight
-	- Dragon Tail cooldown from 12/11/10/9 to 4.8/4.4/4/3.6 (decreased by 60%)
+	- Dragon Tail to B class cooldown and mana cost
+	- Dragon Blood health regen bonus from 2/3/4/5 to 4/6/8/10
 
 	Enigma
-	- Demonic Conversion cooldown from 35 to 21 (decreased by 40%)
+	- Demonic Conversion to C class cooldown and mana cost
 
 	Keeper of the Light
 	- Illuminate channel time from 2/3/4/5 to 1/2/3/4
@@ -57,168 +66,170 @@ Heroes
 	- Illuminate vision rate from 0.5 to 0.25/0.33/0.375/0.4
 
 	Lich
-	- Sacrifice cooldown from 44/36/28/20 to 26.4/21.6/16.8/12 (decreased by 40%)
+	- Sacrifice to C class cooldown and mana cost
 
 	Lion
-	- Earth Spike cooldown from 12 to 4.8 (decreased by 60%)
-	- Hex cooldown from 30/24/18/12 to 12/9.6/7.2/4.8 (decreased by 60%)
+	- Earth Spike to B class cooldown and mana cost
+	- Hex to B class cooldown and mana cost
 
 	Lycan
-	- Lycan wolf invisibility fade delay from 1.7 to 0.34 (decreased by 80%)
+	- Invisibility fade delay to A class cooldown 
 	- Shapeshift movement speed from 650 to 800
 
 	Medusa
 	- Mana Shield damage absorbed per mana from 1.6/1.9/2.2/2.5 to 1.9/2.2/2.5/2.8
 
 	Morphling
-	- Morph shift rate from 1/0.5/0.33/0.2 to 0.6/0.3/0.198/0.12 (decreased by 40%)
+	- Morph shift rate to A class cooldown 
 
 	Omniknight
-	- Repel cooldown from 14 to 5.6 (decreased by 60%)
+	- Repel to B class cooldown and mana cost
 
 	Oracle
-	- Fortune's End channel time from 2.5 to 1.5 (decreased by 40%)
-	- False Promise cooldown from 20 to 8 (decreased by 60%)
+	- Fortune's End channel time from 2.5 to 1.5
+	- False Promise to B class cooldown and mana cost
 
 	Phoenix
 	- Supernova nova duration from 6 to 3
 	- Supernova damage per second from 60/80/100 to 120/160/200
 
 	Puck
-	- Phase Shift cooldown from 6 to 3.6 (decreased by 40%)
+	- Phase Shift to C class cooldown and mana cost
 
 	Pudge
-	- Rot tick rate from 0.2 to 0.08 (decreased by 60%)
+	- Rot tick rate to A class cooldown 
 
 	Pugna
-	- Nether Ward damage per used mana from 1/1.25/1.5/1.75 to 2/2.5/3/3.5 (increased by 100%)
+	- Nether Ward damage per used mana from 1/1.25/1.5/1.75 to 2/2.5/3/3.5
+	- Nether Ward mana lost per second from 1.5/3/4.5/6 to 3/6/9/12
 
 	Riki
-	- Smoke Screen cooldown from 11 to 4.4 (decreased by 60%)
-	- Permanent Invisibility fade delay from 3/2/1 to 0.6/0.4/0.2 (decreased by 80%)
+	- Smoke Screen to B class cooldown and mana cost
+	- Permanent Invisibility fade delay to A class cooldown 
 
 	Sand King
-	- Sand Storm max channel time from 20/40/60/80 to 8/16/24/32 (decreased by 60%)
-	- Sand Storm damage per second from 25/50/75/100 to 40/80/120/160 (increased by 60%)
+	- Sand Storm max channel time from 20/40/60/80 to 8/16/24/32
+	- Sand Storm damage per second from 25/50/75/100 to 40/80/120/160
 
 	Shadow Fiend
 	- Necromastery max souls from 15/22/29/36 to 22/29/36/43
-	- Necromastery souls lost on death from 1/2 to 1/3
+	- Necromastery souls lost on death from 50% to 33.33%
 
 	Shadow Shaman
-	- Hex cooldown from 13 to 5.2 (decreased by 60%)
-	- Shackles cooldown from 16 to 6.4 (decreased by 60%)
+	- Hex to B class cooldown and mana cost
+	- Shackles to B class cooldown and mana cost
 
 	Silencer
-	- Last Word cooldown from 30/24/18/12 to 12/9.6/7.2/4.8 (decreased by 60%)
+	- Last Word to B class cooldown and mana cost
 
 	Storm Spirit
 	- Ball Lightning activation cost from 15+7% to 12+6%
 	- Ball Lightning travel cost from 12+0.7% to 10+0.6%
 
 	Techies
-	- Land Mines max mines from 20 to 30 (increased by 50%)
-	- Minefield Sign cooldown from 120 to 1
+	- Land Mines max mines from 20 to 30
 
 	Tinker
-	- Rearm channel time from 3/2/1 to 0.6/0.4/0.2 (decreased by 80%)
+	- Rearm to B class mana cost
+	- Rearm channel time to A class cooldown 
 	- Rearm cast time from 0.53 to 0
-	- Rearm mana cost from 150/250/350 to 30/50/70 (decreased by 80%)
 
 	Witch Doctor
-	- Voodoo restoration heal interval from 0.33 to 0.132 (decreased by 60%)
+	- Voodoo restoration heal interval from 0.33 to 0.066
 
 
 Items
+
 	Black King Bar
 	- Model scale increase from 30% to 50%
 
 	Blade Mail
-	- Damage Return cooldown from 17 to 6.8 (decreased by 60%)
+	- Damage Return to B class cooldown and mana cost
 
 	Blink Dagger
-	- Blink cooldown from 12 to 4.8  (decreased by 60%)
+	- Blink to B class cooldown and mana cost
 
 	Bloodstone
-	- Bloodpact charges lost on death from 1/3 to 1/4
-	- Bloodpact mana regeneration per charge from 1 to 2
+	- Bloodpact charges lost on death from 33.33% to 20%
 
 	Boots of Travel
-	- Teleport cooldown from 50 to 30 (decreased by 40%)
+	- Teleport to C class cooldown and mana cost
 
 	Bottle
 	- Regenerate duration from 3 to 1
 
 	Clarity
-	- Total mana restored from 150 to 240 (increased by 60%)
-	- Duration from 40 to 8 (decreased by 80%)
+	- Total mana restored from 150 to 240
+	- Duration from 40 to 8
 
 	Diffusal Blade
-	- Initial charges from 8 to 16 (increased by 100%)
+	- Initial charges from 8 to 16
 
 	Divine Rapier
-	- Damage from 300 to 450 (increased by 50%)
+	- Damage from 300 to 450
 
 	Drum of Endurance
-	- Initial charges from 6 to 12 (increased by 100%)
+	- Initial charges from 6 to 12
 
 	Flying Courier
-	- Stock cooldown from 270 to 54 (decreased by 80%)
+	- Restock time to A class cooldown
 
 	Gem of True Sight
-	- Stock cooldown from 600 to 360 (decreased by 40%)
+	- Restock time to B class cooldown
 
 	Hand of Midas
-	- Transmute cooldown from 100 to 40 (decreased by 60%)
+	- Transmute to B class cooldown and mana cost
 
 	Healing Salve
-	- Total health restored from 400 to 560 (increased by 40%)
-	- Duration from 10 to 6 (decreased by 40%)
+	- Total health restored from 400 to 560
+	- Duration from 10 to 6
 
 	Helm of the Dominator
-	- Health Bonus from 500 to 800 (increased by 60%)
+	- Health Bonus from 500 to 800
 
 	Mekansm
-	- Restore armor buff duration from 25 to 5 (decreased by 80%)
+	- Restore armor buff duration to A class cooldown
 
 	Observer Wards
-	- Stock cooldown from 360 to 144 (decreased by 60%)
+	- Restock time to B class cooldown
 
 	Phase Boots
-	- Phase cooldown from 8 to 3.2 (decreased by 60%)
-	- Phase duration from 4 to 2 (decreased by 50%)
-	- Phase move speed bonus from 16% to 32% (increased by 100%)
+	- Phase cooldown to B class scaling
+	- Phase duration from 4 to 2
+	- Phase move speed bonus from 16% to 32%
 
 	Pipe of Insight
-	- Barrier debuff duration from 50 to 10 (decreased by 80%)
+	- Barrier debuff duration to A class cooldown
 
 	Quelling Blade
-	- Quell attack damage bonus (melee) from 32% to 40% (increased by 25%)
-	- Quell attack damage bonus (ranged) from 12% to 15% (increased by 25%)
+	- Quell attack damage bonus (melee) from 32% to 40%
+	- Quell attack damage bonus (ranged) from 12% to 15%
 
 	Radiance
-	- Burn Damage damage per second increased from 50 to 100 (increased by 100%)
+	- Burn Damage damage per second increased from 50 to 100
 
 	Smoke of Deceit
-	- Stock cooldown from 720 to 144 (decreased by 80%)
+	- Restock time to A class cooldown
 
 	Tango
-	- Health restored from 115 to 161 (increased by 40%)
-	- Duration from 16 to 9.6 (decreased by 40%)
+	- Health restored from 115 to 161
+	- Duration from 16 to 9.6
 
 	Town Portal Scroll
-	- Teleport cooldown from 65 to 39 (decreased by 40%)
+	- Teleport to C class cooldown and mana cost
 
 	Urn of Shadows
 	- Charge gains from 2/1 to 3/2
-	- Soul Release heal/damage duration from 8 to 2 (decreased by 75%)
+	- Soul Release heal/damage duration from 8 to 2
+
 
 Neutrals
+
 	Kobold Foreman
-	- Speed Aura move speed bonus from 12% to 24% (increased by 100%)
+	- Speed Aura move speed bonus from 12% to 24%
 
 	Hill Troll Priest
-	- Heal cast point from 0.5 to 0.1 (decreased by 80%)
+	- Heal cast point from 0.5 to 0.1
 
 	Vhoul Assassin
-	- Envenomed Weapon damage per second from 2 to 4 (increased by 100%)
+	- Envenomed Weapon damage per second from 2 to 4

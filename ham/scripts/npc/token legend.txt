@@ -7,6 +7,7 @@ TR - turn rate
 CR - critical strike damage
 CC - disable debuff duration
 MR - mana regeneration
+__S - suffix for S class (unreduced)
 __A - suffix for A class (normal)
 __B - suffix for B class (moderate handicap)
 __C - suffix for C class (strong handicap)

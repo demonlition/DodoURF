@@ -6,63 +6,63 @@
 	"npc_dota_hero_earthshaker_ham"
 	{
 		"override_hero" "npc_dota_hero_earthshaker"
-		"AttackRate" "1.275"
-		"MovementSpeed" "341"
-		"MovementTurnRate" "1.35"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.9"
 	}
 
 	// Sven
 	"npc_dota_hero_sven_ham"
 	{
 		"override_hero" "npc_dota_hero_sven"
-		"AttackRate" "1.275"
-		"MovementSpeed" "324.5"
-		"MovementTurnRate" "0.9"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
 	}
 	
 	// Tiny
 	"npc_dota_hero_tiny_ham"
 	{
 		"override_hero" "npc_dota_hero_tiny"
-		"AttackRate" "1.275"
-		"MovementSpeed" "313.5"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.5"
 	}
 	
 	// Kunkka
 	"npc_dota_hero_kunkka_ham"
 	{
 		"override_hero" "npc_dota_hero_kunkka"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.9"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
 	}
 	
 	// Beastmaster
 	"npc_dota_hero_beastmaster_ham"
 	{
 		"override_hero" "npc_dota_hero_beastmaster"
-		"AttackRate" "1.275"
-		"MovementSpeed" "341"
-		"MovementTurnRate" "0.6"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.4"
 	}
 	
 	// Dragon Knight
 	"npc_dota_hero_dragon_knight_ham"
 	{
 		"override_hero" "npc_dota_hero_dragon_knight"
-		"AttackRate" "1.275"
-		"MovementSpeed" "319"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
 	}
 	
 	// 
 	"npc_dota_hero__ham"
 	{
 		"override_hero" "npc_dota_hero_"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
 	}
 
 	// Strength (Dire)
@@ -71,9 +71,9 @@
 	"npc_dota_hero__ham"
 	{
 		"override_hero" "npc_dota_hero_"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
 	}
 
 	// Agility (Radiant)
@@ -82,9 +82,9 @@
 	"npc_dota_hero__ham"
 	{
 		"override_hero" "npc_dota_hero_"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
 	}
 
 	// Agility (Dire)
@@ -93,9 +93,9 @@
 	"npc_dota_hero__ham"
 	{
 		"override_hero" "npc_dota_hero_"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
 	}
 
 	// Intelligence (Radiant)
@@ -104,9 +104,9 @@
 	"npc_dota_hero__ham"
 	{
 		"override_hero" "npc_dota_hero_"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
 	}
 
 	// Intelligence (Dire)
@@ -115,8 +115,8 @@
 	"npc_dota_hero__ham"
 	{
 		"override_hero" "npc_dota_hero_"
-		"AttackRate" "1.275"
-		"MovementSpeed" "330"
-		"MovementTurnRate" "0.75"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
 	}
 }

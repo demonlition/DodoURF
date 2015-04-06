@@ -13,13 +13,14 @@ HAM 0.2
 General
 
 	- Renamed to HAM (Hyper Aggressive Mode)
-	- Cooldowns decreased by 80% (A class), 60% (B class) and 40% (C class)
-	- Mana costs decreased by 90% (A class), 80% (B class) and 70% (C class)
-	- Health costs decreased by 80% (A class), 40% (B class) and 10% (C class)
+	- Cooldowns decreased by 80% (A class), 60% (B class) and 40% (C class)*
+	- Mana costs decreased by 90% (A class), 80% (B class) and 70% (C class)*
+	- Health costs decreased by 80% (A class), 40% (B class) and 10% (C class)*
 	- Hero level cap from 25 to 33
 	- Attribute bonus level cap from 10 to 18
 	- Critical strike damage increased by 25%
 	- Item bonus mana regeneration increased by 100%
+	* Unless otherwise noted below, all abilities are A class
 
 
 Heroes

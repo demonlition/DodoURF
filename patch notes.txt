@@ -220,3 +220,13 @@ Items
 	- Soul Release allied total heal from 400 to 560 (increased by 40%)
 	- Soul Release enemy total damage from 150 to 240 (increased by 60%)
 	- Soul Release heal/damage duration from 8 to 4 (decreased by 50%)
+
+Neutrals
+	Kobold Foreman
+	- Speed Aura move speed bonus from 12% to 24% (increased by 100%)
+
+	Hill Troll Priest
+	- Heal cast point from 0.5 to 0.1 (decreased by 80%)
+
+	Vhoul Assassin
+	- Envenomed Weapon damage per second from 2 to 4 (increased by 100%)

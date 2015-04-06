@@ -11,10 +11,8 @@ General
 	Passive gold gain increased by 400%
 	Duration of all disable debuffs (stuns, silences, etc.) reduced by 25%
 	Buyback cooldown increased from 7 minutes to 10 minutes
-	Movement speed cap from 522 to 650
 	Hero level cap from 25 to 33
 	Attribute bonus level cap from 10 to 18	
-
 
 Heroes
 	Abaddon
@@ -136,10 +134,10 @@ Items
 	- Model scale increase from 30% to 50%
 
 	Blade Mail
-	- Damage Return cooldown from 17 to 10.2 (decreased by 40%)
+	- Damage Return cooldown from 17 to 6.8 (decreased by 60%)
 
 	Blink Dagger
-	- Blink cooldown from 12 to 7.2  (decreased by 40%)
+	- Blink cooldown from 12 to 4.8  (decreased by 60%)
 
 	Bloodstone
 	- Bloodpact charges lost on death from 1/3 to 1/4
@@ -165,14 +163,13 @@ Items
 	- Initial charges from 6 to 12 (increased by 100%)
 
 	Flying Courier
-	- Stock cooldown from 270 to 108 (decreased by 60%)
-	- Speed Burst cooldown from 90 to 36 (decreased by 60%)
+	- Stock cooldown from 270 to 54 (decreased by 80%)
 
 	Gem of True Sight
 	- Stock cooldown from 600 to 360 (decreased by 40%)
 
 	Hand of Midas
-	- Transmute cooldown from 100 to 60 (decreased by 40%)
+	- Transmute cooldown from 100 to 40 (decreased by 60%)
 
 	Healing Salve
 	- Total health restored from 400 to 560 (increased by 40%)
@@ -185,7 +182,7 @@ Items
 	- Restore armor buff duration from 25 to 5 (decreased by 80%)
 
 	Observer Wards
-	- Stock cooldown from 360 to 216 (decreased by 40%)
+	- Stock cooldown from 360 to 144 (decreased by 60%)
 
 	Phase Boots
 	- Phase cooldown from 8 to 3.2 (decreased by 60%)
@@ -200,13 +197,10 @@ Items
 	- Quell attack damage bonus (ranged) from 12% to 15% (increased by 25%)
 
 	Radiance
-	- Burn Damage damage per second increased from 50 to 75 (increased by 50%)
+	- Burn Damage damage per second increased from 50 to 100 (increased by 100%)
 
 	Smoke of Deceit
-	- Stock cooldown from 720 to 288 (decreased by 60%)
-
-	Soul Ring
-	- Sacrifice mana restored from 150 to 240 (increased by 60%)
+	- Stock cooldown from 720 to 144 (decreased by 80%)
 
 	Tango
 	- Health restored from 115 to 161 (increased by 40%)
@@ -217,9 +211,7 @@ Items
 
 	Urn of Shadows
 	- Charge gains from 2/1 to 3/2
-	- Soul Release allied total heal from 400 to 560 (increased by 40%)
-	- Soul Release enemy total damage from 150 to 240 (increased by 60%)
-	- Soul Release heal/damage duration from 8 to 4 (decreased by 50%)
+	- Soul Release heal/damage duration from 8 to 2 (decreased by 75%)
 
 Neutrals
 	Kobold Foreman

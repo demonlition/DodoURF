@@ -112,10 +112,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD45"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Dragon Knight
@@ -166,10 +164,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD12"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Omniknight
@@ -206,10 +202,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"health_cost" "HP15"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"huskar_life_break"
@@ -233,10 +227,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD4"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Alchemist
@@ -285,10 +277,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"last_proc" "CD16 CD14 CD12 CD10"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"brewmaster_primal_split"
@@ -373,10 +363,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"drain_pct_tooltip" "HP4.5 HP4.5 HP4.5 HP4.5"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"wisp_relocate"
@@ -426,10 +414,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"mana_per_second" "MP20 MP25 MP30"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Bristleback
@@ -545,10 +531,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"charge_restore_time" "CD30"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"earth_spirit_magnetize"
@@ -567,10 +551,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"hp_cost_perc" "HP15"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"phoenix_fire_spirits"
@@ -583,10 +565,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"hp_cost_perc" "HP20"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"phoenix_sun_ray"
@@ -599,10 +579,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"hp_cost_perc_per_second" "HP6"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"phoenix_supernova"
@@ -634,10 +612,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown" "CD0.45 CD0.4 CD0.35 CD0.3"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"axe_culling_blade"
@@ -650,10 +626,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD6"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Pudge
@@ -692,10 +666,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"epicenter_cooldown_scepter" "CD120 CD100 CD80"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Slardar
@@ -750,10 +722,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_mult" "CR150 CR200 CR250 CR300"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"skeleton_king_reincarnation"
@@ -851,10 +821,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD20"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Lycan
@@ -880,10 +848,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_damage" "CR170"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"lycan_summon_wolves_invisibility"
@@ -894,10 +860,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_damage" "CR170"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	{
@@ -907,10 +871,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"fade_DELAY" "CD1.7"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Chaos Knight
@@ -934,10 +896,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_damage" "CR150 CR200 CR250 CR300"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"chaos_knight_phantasm"
@@ -1007,10 +967,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"self_damage" "HP75 HP100 HP125 HP150"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"abaddon_aphotic_shield"
@@ -1082,10 +1040,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"blade_dance_crit_mult" "CR200"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"juggernaut_omni_slash"
@@ -1098,10 +1054,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"omni_slash_cooldown_scepter" "CD70"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Mirana
@@ -1150,10 +1104,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost" "MP30"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"morphling_morph_str"
@@ -1164,10 +1116,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost" "MP30"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"morphling_replicate"
@@ -1228,10 +1178,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"nether_swap_cooldown_scepter" "CD10"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Riki
@@ -1255,10 +1203,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"fade_delay" "CD3 CD2 CD1"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Sniper
@@ -1473,10 +1419,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"charge_restore_time" "CD35"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"ember_spirit_activate_fire_remnant"
@@ -1571,10 +1515,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD60"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Faceless Void
@@ -1594,10 +1536,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD60"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Phantom Assassin
@@ -1621,10 +1561,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_bonus" "CR230 CR340 CR450"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Viper
@@ -1649,10 +1587,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost_scepter" "MP125"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Clinkz
@@ -1915,10 +1851,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"ball_lightning_travel_cost_percent" "0.6"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Windranger
@@ -1950,10 +1884,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD15"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Zeus
@@ -2048,10 +1980,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"channel_tooltip" "CD30 CD20 CD10"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Nature's Prophet
@@ -2156,10 +2086,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD30"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Silencer
@@ -2214,10 +2142,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"scepter_mana" "MP0.6"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"ogre_magi_multicast"
@@ -2240,10 +2166,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"bloodlust_cooldown" "CD5 CD10 CD15"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Rubick
@@ -2269,10 +2193,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"cooldown_scepter" "CD2"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Disruptor
@@ -2366,10 +2288,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"scepter_cooldown" "CD20 CD10 CD0"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Oracle
@@ -2508,10 +2428,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD100 CD60 CD20"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Witch Doctor
@@ -2530,10 +2448,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_per_second" "MP8 MP12 MP16 MP20"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"witch_doctor_maledict"
@@ -2596,10 +2512,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD70"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Warlock
@@ -2656,10 +2570,8 @@
 			{
 				"var_type" "IFELD_FLOAT"
 				"cooldown_scepter" "CD40"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Death Prophet
@@ -2701,10 +2613,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"silence_cooldown_adjust" "-CD1 -CD2 -CD3 -CD4"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"death_prophet_exorcism"
@@ -2792,10 +2702,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"mana_cost_per_second" "MP20 MP40 MP60"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Dark Seer
@@ -2884,10 +2792,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CD16 CD8 CD4 CD2"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"invoker_cold_snap"
@@ -3002,10 +2908,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"charge_restore_time" "CD40"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	// Visage
@@ -3029,10 +2933,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"recovery_time" "CD6"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"visage_summon_familiars"
@@ -3076,10 +2978,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"bash_cooldown" "CD2"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_ancient_janggo" // drums
@@ -3102,17 +3002,27 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"unholy_health_drain" "HP40"
-			}
-			
+			}	
 		}
-		
 	}
 	
 	"item_basher"
 	{
 		"AbilityCooldown" "CD2"
 	}
-	
+
+	"item_bfury"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR150"
+			}			
+		}
+	}
+
 	"item_black_king_bar"
 	{
 		"AbilityCooldown" "CD80 CD75 CD70 CD65 CD60 CD55"
@@ -3134,14 +3044,18 @@
 		"AbilityCooldown" "CD300"
 		"AbilitySpecial"
 		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR200"
+			}
+
 			"12"
 			{
 				"var_type" "FIELD_FLOAT"
 				"on_death_removal" "0.33"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_buckler"
@@ -3164,6 +3078,20 @@
 	{
 		"AbilityCooldown" "CD23"
 		"AbilityManaCost" "MP75"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR150"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cyclone_duration" "CC2.5"
+			}
+		}
 	}
 	
 	"item_dagon"
@@ -3205,10 +3133,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"initial_charges" "16"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_diffusal_blade_2"
@@ -3220,10 +3146,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"initial_charges" "16"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_dust"
@@ -3263,10 +3187,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_melee" "2"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_heavens_halberd"
@@ -3306,10 +3228,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"cooldown_melee" "CD35"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_mask_of_madness"
@@ -3321,6 +3241,20 @@
 	"item_medallion_of_courage"
 	{
 		"AbilityCooldown" "CD7"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen_pct" "MR50"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "CC7"
+			}
+		}
 	}
 	
 	"item_mekansm"
@@ -3333,10 +3267,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"heal_armor_duration" "CD25"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_mjollnir"
@@ -3362,11 +3294,49 @@
 		"AbilityCooldown" "CD95"
 		"AbilityManaCost" "MP50"
 	}
+
+	"item_oblivion_staff"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR75"
+			}
+		}
+	}
 	
 	"item_orchid"
 	{
 		"AbilityCooldown" "CD18"
 		"AbilityManaCost" "MP100"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR150"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "CC5"
+			}
+		}
+	}
+
+	"item_pers"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR125"
+			}
+		}
 	}
 	
 	"item_phase_boots"
@@ -3384,10 +3354,8 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"barrier_debuff_duration" "CD50"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_quelling_blade"
@@ -3403,16 +3371,22 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"bonus_damage" "400"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_refresher"
 	{
 		"AbilityCooldown" "CD195"
 		"AbilityManaCost" "MP375"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR200"
+			}
+		}
 	}
 	
 	"item_rod_of_atos"
@@ -3430,6 +3404,20 @@
 	{
 		"AbilityCooldown" "CD35"
 		"AbilityManaCost" "MP100"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"MR150"
+			}
+
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"sheep_duration"		"CC3.5"
+			}
+		}
 	}
 	
 	"item_shivas_guard"
@@ -3442,20 +3430,48 @@
 	{
 		"AbilityCooldown" "CD90"
 	}
+
+	"item_sobi_mask"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR50"
+			}
+		}
+	}
+
+	"item_soul_booster"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR100"
+			}
+		}
+	}
 	
 	"item_soul_ring"
 	{
 		"AbilityCooldown" "CD30"
 		"AbilitySpecial"
 		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_regen" "MR50"
+			}
+
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
 				"health_sacrifice" "HP150"
-			}
-			
+			}		
 		}
-		
 	}
 	
 	"item_sphere"
@@ -3463,14 +3479,18 @@
 		"AbilityCooldown" "CD17"
 		"AbilitySpecial"
 		{
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"150"
+			}
+
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"block_cooldown" "CD17"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_tranquil_boots"
@@ -3482,10 +3502,8 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"break_time" "CD13"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_travel_boots"
@@ -3505,6 +3523,12 @@
 		"AbilityCooldown" "CD7"
 		"AbilitySpecial"
 		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_regen" "MR50"
+			}
+
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
@@ -3515,16 +3539,26 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"soul_additional_charges" "2"
-			}
-			
+			}			
 		}
-		
 	}
 	
 	"item_veil_of_discord"
 	{
 		"AbilityCooldown" "CD30"
 		"AbilityManaCost" "MP75"
+	}
+
+	"item_void_stone"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR100"
+			}
+		}
 	}
 	
 	// Neutrals

@@ -1,20 +1,25 @@
+urf 0.1
+
 General
 
+	- Cooldowns decreased by 60%
+	- Mana costs decreased by 80%
+	- Health costs decreased by 50%
+
+
+
+HAM 0.2
+
+General
+
+	- Renamed to HAM (Hyper Aggressive Mode)
 	- Cooldowns decreased by 80% (A class), 60% (B class) and 40% (C class)
 	- Mana costs decreased by 90% (A class), 80% (B class) and 70% (C class)
 	- Health costs decreased by 80% (A class), 40% (B class) and 10% (C class)
-	- Base movement speeds increased by 50
-	- Turn rates increased by 50%
-	- Base attack times decreased by 25%
-	- Critical strike damage increased by 25%
-	- Hero base mana regeneration increased by 100%
-	- Item bonus mana regeneration increased by 100%
-	- Passive gold gain increased by 400%
-	- Duration of all disable debuffs (stuns, silences, etc.) reduced by 25%
-	- Buyback cooldown increased from 7 minutes to 10 minutes
 	- Hero level cap from 25 to 33
 	- Attribute bonus level cap from 10 to 18
-	- Movement speed cap removed
+	- Critical strike damage increased by 25%
+	- Item bonus mana regeneration increased by 100%
 
 
 Heroes

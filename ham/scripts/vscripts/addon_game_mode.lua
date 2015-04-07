@@ -70,6 +70,9 @@ function DotaPvP:InitGameMode()
 	GameMode:SetCustomXPRequiredToReachNextLevel(XP_PER_LEVEL_TABLE)
 	GameMode:SetCustomHeroMaxLevel(35)
 	GameMode:SetUseCustomHeroLevels(true)
+
+	-- Set custom gold income
+	GameRules:SetGoldTickTime(0.12)
 end
 
 --------------------------------------------------------------------------------

@@ -1,6 +1,5 @@
 tasks
 - add bloodseeker's thirst modifier with zeroed bonuses to all heroes to remove move speed cap (? npc_heroes_custom.txt ?)
-- increase passive gold gain from 0.6g/1s to 3g/1s (? addon_game_mode.lua ?)
 - increase buyback cooldown from 7 minutes to 10 minutes (? addon_game_mode.lua ?)
 
 problems

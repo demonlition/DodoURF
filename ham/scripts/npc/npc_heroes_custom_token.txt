@@ -1,7 +1,6 @@
 "DOTAHeroes"
 {
 	// Strength (Radiant)
-
 	// Earthshaker
 	"npc_dota_hero_earthshaker_ham"
 	{
@@ -56,67 +55,945 @@
 		"MovementTurnRate" "TR0.5"
 	}
 	
-	// 
-	"npc_dota_hero__ham"
+	// Clockwerk
+	"npc_dota_hero_rattletrap_ham"
 	{
-		"override_hero" "npc_dota_hero_"
+		"override_hero" "npc_dota_hero_rattletrap"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Omniknight
+	"npc_dota_hero_omniknight_ham"
+	{
+		"override_hero" "npc_dota_hero_omniknight"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Huskar
+	"npc_dota_hero_huskar_ham"
+	{
+		"override_hero" "npc_dota_hero_huskar"
+		"AttackRate" "AS1.6"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Alchemist
+	"npc_dota_hero_alchemist_ham"
+	{
+		"override_hero" "npc_dota_hero_alchemist"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Brewmaster
+	"npc_dota_hero_brewmaster_ham"
+	{
+		"override_hero" "npc_dota_hero_brewmaster"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Treant Protector
+	"npc_dota_hero_treant_protector_ham"
+	{
+		"override_hero" "npc_dota_hero_treant_protector"
+		"AttackRate" "AS1.9"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Io
+	"npc_dota_hero_wisp_ham"
+	{
+		"override_hero" "npc_dota_hero_wisp"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.7"
+	}
+
+	// Centaur Warrunner
+	"npc_dota_hero_centaur_ham"
+	{
+		"override_hero" "npc_dota_hero_centaur"
 		"AttackRate" "AS1.7"
 		"MovementSpeed" "MS300"
 		"MovementTurnRate" "TR0.5"
 	}
+
+	// Timbersaw
+	"npc_dota_hero_shredder_ham"
+	{
+		"override_hero" "npc_dota_hero_shredder"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Bristleback
+	"npc_dota_hero_bristleback_ham"
+	{
+		"override_hero" "npc_dota_hero_bristleback"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR1"
+	}
+
+	// Tusk
+	"npc_dota_hero_tusk_ham"
+	{
+		"override_hero" "npc_dota_hero_tusk"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Elder Titan
+	"npc_dota_hero_elder_titan_ham"
+	{
+		"override_hero" "npc_dota_hero_elder_titan"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Legion Commander
+	"npc_dota_hero_legion_commander_ham"
+	{
+		"override_hero" "npc_dota_hero_legion_commander"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS320"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Earth Spirit
+	"npc_dota_hero_earth_spirit_ham"
+	{
+		"override_hero" "npc_dota_hero_earth_spirit"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Phoenix
+	"npc_dota_hero_phoenix_ham"
+	{
+		"override_hero" "npc_dota_hero_phoenix"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR1"
+	}
+
 
 	// Strength (Dire)
-
-	// 
-	"npc_dota_hero__ham"
+	// Axe
+	"npc_dota_hero_axe_ham"
 	{
-		"override_hero" "npc_dota_hero_"
+		"override_hero" "npc_dota_hero_axe"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Pudge
+	"npc_dota_hero_pudge_ham"
+	{
+		"override_hero" "npc_dota_hero_pudge"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.7"
+	}
+
+	// Sand King
+	"npc_dota_hero_sandking_ham"
+	{
+		"override_hero" "npc_dota_hero_sandking"
 		"AttackRate" "AS1.7"
 		"MovementSpeed" "MS300"
 		"MovementTurnRate" "TR0.5"
 	}
+
+	// Slardar
+	"npc_dota_hero_slardar_ham"
+	{
+		"override_hero" "npc_dota_hero_slardar"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Tidehunter
+	"npc_dota_hero_tidehunter_ham"
+	{
+		"override_hero" "npc_dota_hero_tidehunter"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Wraith King
+	"npc_dota_hero_skeleton_king_ham"
+	{
+		"override_hero" "npc_dota_hero_skeleton_king"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Lifestealer
+	"npc_dota_hero_life_stealer_ham"
+	{
+		"override_hero" "npc_dota_hero_life_stealer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR1"
+	}
+
+	// Night Stalker
+	"npc_dota_hero_night_stalker_ham"
+	{
+		"override_hero" "npc_dota_hero_night_stalker"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Doom
+	"npc_dota_hero_doom_bringer_ham"
+	{
+		"override_hero" "npc_dota_hero_doom_bringer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Spirit Breaker
+	"npc_dota_hero_spirit_breaker_ham"
+	{
+		"override_hero" "npc_dota_hero_spirit_breaker"
+		"AttackRate" "AS1.9"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Lycan
+	"npc_dota_hero_lycan_ham"
+	{
+		"override_hero" "npc_dota_hero_lycan"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Chaos Knight
+	"npc_dota_hero_chaos_knight_ham"
+	{
+		"override_hero" "npc_dota_hero_chaos_knight"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS325"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Undying
+	"npc_dota_hero_undying_ham"
+	{
+		"override_hero" "npc_dota_hero_undying"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Magnus
+	"npc_dota_hero_magnataur_ham"
+	{
+		"override_hero" "npc_dota_hero_magnataur"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.8"
+	}
+
+	// Abaddon
+	"npc_dota_hero_abaddon_ham"
+	{
+		"override_hero" "npc_dota_hero_abaddon"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.6"
+	}
+
 
 	// Agility (Radiant)
-
-	// 
-	"npc_dota_hero__ham"
+	// Anti-mage
+	"npc_dota_hero_antimage_ham"
 	{
-		"override_hero" "npc_dota_hero_"
+		"override_hero" "npc_dota_hero_antimage"
+		"AttackRate" "AS1.45"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Drow Ranger
+	"npc_dota_hero_drow_ranger_ham"
+	{
+		"override_hero" "npc_dota_hero_drow_ranger"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Juggernaut
+	"npc_dota_hero_juggernaut_ham"
+	{
+		"override_hero" "npc_dota_hero_juggernaut"
+		"AttackRate" "AS1.4"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Mirana
+	"npc_dota_hero_mirana_ham"
+	{
+		"override_hero" "npc_dota_hero_mirana"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Morphling
+	"npc_dota_hero_morphling_ham"
+	{
+		"override_hero" "npc_dota_hero_morphling"
+		"AttackRate" "AS1.6"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Phantom Lancer
+	"npc_dota_hero_phantom_lancer_ham"
+	{
+		"override_hero" "npc_dota_hero_phantom_lancer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Vengeful Spirit
+	"npc_dota_hero_vengeful_spirit_ham"
+	{
+		"override_hero" "npc_dota_hero_vengeful_spirit"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Riki
+	"npc_dota_hero_riki_ham"
+	{
+		"override_hero" "npc_dota_hero_riki"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Sniper
+	"npc_dota_hero_sniper_ham"
+	{
+		"override_hero" "npc_dota_hero_sniper"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Templar Assassin
+	"npc_dota_hero_templar_assassin_ham"
+	{
+		"override_hero" "npc_dota_hero_templar_assassin"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.7"
+	}
+
+	// Luna
+	"npc_dota_hero_luna_ham"
+	{
+		"override_hero" "npc_dota_hero_luna"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS330"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Bounty Hunter
+	"npc_dota_hero_bounty_hunter_ham"
+	{
+		"override_hero" "npc_dota_hero_bounty_hunter"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Ursa
+	"npc_dota_hero_ursa_ham"
+	{
+		"override_hero" "npc_dota_hero_ursa"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.5"
+	}
+	// Gyrocopter
+	"npc_dota_hero_gyrocopter_ham"
+	{
+		"override_hero" "npc_dota_hero_gyrocopter"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Lone Druid
+	"npc_dota_hero_lone_druid_ham"
+	{
+		"override_hero" "npc_dota_hero_lone_druid"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS325"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Naga Siren
+	"npc_dota_hero_naga_siren_ham"
+	{
+		"override_hero" "npc_dota_hero_naga_siren"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS320"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Troll Warlord
+	"npc_dota_hero_troll_warlord_ham"
+	{
+		"override_hero" "npc_dota_hero_troll_warlord"
 		"AttackRate" "AS1.7"
 		"MovementSpeed" "MS300"
 		"MovementTurnRate" "TR0.5"
 	}
+
+	// Ember Spirit
+	"npc_dota_hero_ember_spirit_ham"
+	{
+		"override_hero" "npc_dota_hero_ember_spirit"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.6"
+	}
+
 
 	// Agility (Dire)
-
-	// 
-	"npc_dota_hero__ham"
+	// Bloodseeker
+	"npc_dota_hero_bloodseeker_ham"
 	{
-		"override_hero" "npc_dota_hero_"
+		"override_hero" "npc_dota_hero_bloodseeker"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Shadow Fiend
+	"npc_dota_hero_nevermore_ham"
+	{
+		"override_hero" "npc_dota_hero_nevermore"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR1"
+	}
+
+	// Razor
+	"npc_dota_hero_razor_ham"
+	{
+		"override_hero" "npc_dota_hero_razor"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.4"
+	}
+	// Venomancer
+	"npc_dota_hero_venomancer_ham"
+	{
+		"override_hero" "npc_dota_hero_venomancer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Faceless Void
+	"npc_dota_hero_faceless_void_ham"
+	{
+		"override_hero" "npc_dota_hero_faceless_void"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR1"
+	}
+
+	// Phantom Assassin
+	"npc_dota_hero_phantom_assassin_ham"
+	{
+		"override_hero" "npc_dota_hero_phantom_assassin"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS310"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Viper
+	"npc_dota_hero_viper_ham"
+	{
+		"override_hero" "npc_dota_hero_viper"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Clinkz
+	"npc_dota_hero_clinkz_ham"
+	{
+		"override_hero" "npc_dota_hero_clinkz"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Broodmother
+	"npc_dota_hero_broodmother_ham"
+	{
+		"override_hero" "npc_dota_hero_broodmother"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Weaver
+	"npc_dota_hero_weaver_ham"
+	{
+		"override_hero" "npc_dota_hero_weaver"
+		"AttackRate" "AS1.8"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Spectre
+	"npc_dota_hero_spectre_ham"
+	{
+		"override_hero" "npc_dota_hero_spectre"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Meepo
+	"npc_dota_hero_meepo_ham"
+	{
+		"override_hero" "npc_dota_hero_meepo"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.65"
+	}
+
+	// Nyx Assassin
+	"npc_dota_hero_nyx_assassin_ham"
+	{
+		"override_hero" "npc_dota_hero_nyx_assassin"
 		"AttackRate" "AS1.7"
 		"MovementSpeed" "MS300"
 		"MovementTurnRate" "TR0.5"
 	}
 
-	// Intelligence (Radiant)
-
-	// 
-	"npc_dota_hero__ham"
+	// Slark
+	"npc_dota_hero_slark_ham"
 	{
-		"override_hero" "npc_dota_hero_"
+		"override_hero" "npc_dota_hero_slark"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Medusa
+	"npc_dota_hero_medusa_ham"
+	{
+		"override_hero" "npc_dota_hero_medusa"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Terrorblade
+	"npc_dota_hero_terrorblade_ham"
+	{
+		"override_hero" "npc_dota_hero_terrorblade"
+		"AttackRate" "AS1.5"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.5"
+	}
+
+
+	// Intelligence (Radiant)
+	// Crystal Maiden
+	"npc_dota_hero_crystal_maiden_ham"
+	{
+		"override_hero" "npc_dota_hero_crystal_maiden"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS280"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Puck
+	"npc_dota_hero_puck_ham"
+	{
+		"override_hero" "npc_dota_hero_puck"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Storm Spirit
+	"npc_dota_hero_storm_spirit_ham"
+	{
+		"override_hero" "npc_dota_hero_storm_spirit"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.8"
+	}
+
+	// Windranger
+	"npc_dota_hero_windrunner_ham"
+	{
+		"override_hero" "npc_dota_hero_windrunner"
+		"AttackRate" "AS1.5"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Zeus
+	"npc_dota_hero_zuus_ham"
+	{
+		"override_hero" "npc_dota_hero_zuus"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Lina
+	"npc_dota_hero_lina_ham"
+	{
+		"override_hero" "npc_dota_hero_lina"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Shadow Shaman
+	"npc_dota_hero_shadow_shaman_ham"
+	{
+		"override_hero" "npc_dota_hero_shadow_shaman"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Tinker
+	"npc_dota_hero_tinker_ham"
+	{
+		"override_hero" "npc_dota_hero_tinker"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Nature's Prophet
+	"npc_dota_hero_natures_prophet_ham"
+	{
+		"override_hero" "npc_dota_hero_natures_prophet"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Enchantress
+	"npc_dota_hero_enchantress_ham"
+	{
+		"override_hero" "npc_dota_hero_enchantress"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS335"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Jakiro
+	"npc_dota_hero_jakiro_ham"
+	{
+		"override_hero" "npc_dota_hero_jakiro"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Chen
+	"npc_dota_hero_chen_ham"
+	{
+		"override_hero" "npc_dota_hero_chen"
 		"AttackRate" "AS1.7"
 		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
+	}
+	// Silencer
+	"npc_dota_hero_silencer_ham"
+	{
+		"override_hero" "npc_dota_hero_silencer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Ogre Magi
+	"npc_dota_hero_ogre_magi_ham"
+	{
+		"override_hero" "npc_dota_hero_ogre_magi"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Rubick
+	"npc_dota_hero_rubick_ham"
+	{
+		"override_hero" "npc_dota_hero_rubick"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Disruptor
+	"npc_dota_hero_disruptor_ham"
+	{
+		"override_hero" "npc_dota_hero_disruptor"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Keeper of the Light
+	"npc_dota_hero_keeper_of_the_light_ham"
+	{
+		"override_hero" "npc_dota_hero_keeper_of_the_light"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Skywrath Mage
+	"npc_dota_hero_skywrath_mage_ham"
+	{
+		"override_hero" "npc_dota_hero_skywrath_mage"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS325"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Oracle
+	"npc_dota_hero_oracle_ham"
+	{
+		"override_hero" "npc_dota_hero_oracle"
+		"AttackRate" "AS1.4"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Techies
+	"npc_dota_hero_techies_ham"
+	{
+		"override_hero" "npc_dota_hero_techies"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS270"
 		"MovementTurnRate" "TR0.5"
 	}
 
 	// Intelligence (Dire)
-
-	// 
-	"npc_dota_hero__ham"
+	// Bane
+	"npc_dota_hero_bane_ham"
 	{
-		"override_hero" "npc_dota_hero_"
+		"override_hero" "npc_dota_hero_bane"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Lich
+	"npc_dota_hero_lich_ham"
+	{
+		"override_hero" "npc_dota_hero_lich"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Lion
+	"npc_dota_hero_lion_ham"
+	{
+		"override_hero" "npc_dota_hero_lion"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Witch Doctor
+	"npc_dota_hero_witch_doctor_ham"
+	{
+		"override_hero" "npc_dota_hero_witch_doctor"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Enigma
+	"npc_dota_hero_enigma_ham"
+	{
+		"override_hero" "npc_dota_hero_enigma"
 		"AttackRate" "AS1.7"
 		"MovementSpeed" "MS300"
 		"MovementTurnRate" "TR0.5"
+	}
+
+	// Necrolyte
+	"npc_dota_hero_necrolyte_ham"
+	{
+		"override_hero" "npc_dota_hero_necrolyte"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Warlock
+	"npc_dota_hero_warlock_ham"
+	{
+		"override_hero" "npc_dota_hero_warlock"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.4"
+	}
+
+	// Queen of Pain
+	"npc_dota_hero_queenofpain_ham"
+	{
+		"override_hero" "npc_dota_hero_queenofpain"
+		"AttackRate" "AS1.6"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Death Prophet
+	"npc_dota_hero_death_prophet_ham"
+	{
+		"override_hero" "npc_dota_hero_death_prophet"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS280"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Pugna
+	"npc_dota_hero_pugna_ham"
+	{
+		"override_hero" "npc_dota_hero_pugna"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS320"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Dazzle
+	"npc_dota_hero_dazzle_ham"
+	{
+		"override_hero" "npc_dota_hero_dazzle"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS305"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Leshrac
+	"npc_dota_hero_leshrac_ham"
+	{
+		"override_hero" "npc_dota_hero_leshrac"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Dark Seer
+	"npc_dota_hero_dark_seer_ham"
+	{
+		"override_hero" "npc_dota_hero_dark_seer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS300"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Batrider
+	"npc_dota_hero_batrider_ham"
+	{
+		"override_hero" "npc_dota_hero_batrider"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS290"
+		"MovementTurnRate" "TR1"
+	}
+
+	// Ancient Apparition
+	"npc_dota_hero_ancient_apparition_ham"
+	{
+		"override_hero" "npc_dota_hero_ancient_apparition"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Invoker
+	"npc_dota_hero_invoker_ham"
+	{
+		"override_hero" "npc_dota_hero_invoker"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS280"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Outworld Devourer
+	"npc_dota_hero_obsidian_destroyer_ham"
+	{
+		"override_hero" "npc_dota_hero_obsidian_destroyer"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS315"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Shadow Demon
+	"npc_dota_hero_shadow_demon_ham"
+	{
+		"override_hero" "npc_dota_hero_shadow_demon"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS295"
+		"MovementTurnRate" "TR0.6"
+	}
+
+	// Visage
+	"npc_dota_hero_visage_ham"
+	{
+		"override_hero" "npc_dota_hero_visage"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.5"
+	}
+
+	// Winter Wyvern
+	"npc_dota_hero_winter_wyvern_ham"
+	{
+		"override_hero" "npc_dota_hero_winter_wyvern"
+		"AttackRate" "AS1.7"
+		"MovementSpeed" "MS285"
+		"MovementTurnRate" "TR0.4"
 	}
 }

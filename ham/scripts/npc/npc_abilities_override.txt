@@ -13,12 +13,33 @@
   {
     "AbilityCooldown" "3"
     "AbilityManaCost" "12.5 14 15.5 17"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.75 0.9375 1.125 1.3125"
+      }
+    }
   }
   
   "earthshaker_enchant_totem"
   {
     "AbilityCooldown" "1"
     "AbilityManaCost" "2 3 4 5"
+  }
+
+  "earthshaker_aftershock"
+  {
+    "AbilityDuration" "0.45 0.675 0.9 1.125"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tooltip_duration" "0.45 0.675 0.9 1.125"
+      }
+    }
   }
   
   "earthshaker_echo_slam"
@@ -32,6 +53,14 @@
   {
     "AbilityCooldown" "2.6"
     "AbilityManaCost" "14"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "bolt_stun_duration" "1.5"
+      }
+    }
   }
   
   "sven_warcry"
@@ -51,12 +80,47 @@
   {
     "AbilityCooldown" "3.4"
     "AbilityManaCost" "12"
+    "AbilityDuration" "1.5"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_interval" "0.1875 CCS0.25 CCS0.25 CCS0.25"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_INTEGER"
+        "num_ticks" "4 4 4 4"
+      }
+
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "CCA1.0"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "projectile_duration" "0.375"
+      }
+    }
   }
   
   "tiny_toss"
   {
     "AbilityCooldown" "1.8"
     "AbilityManaCost" "12"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "CCS1.3"
+      }
+    }
   }
   
   // Kunkka
@@ -64,6 +128,20 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "12"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "0.75 1.5 2.25 3"
+      }
+
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "CCS1.53"
+      }
+    }
   }
   
   "kunkka_tidebringer"
@@ -108,11 +186,35 @@
     "AbilityManaCost" "15 17.5 20"
     "AbilitySpecial"
     {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25 2.625 3"
+      }
+
+      "09"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "1.5 2.25 3"
+      }
+
       "11"
       {
         "var_type" "FIELD_FLOAT"
         "cooldown_scepter" "9"
       }     
+    }
+  }
+
+  "beastmaster_boar_poison"
+  {
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25"
+      }
     }
   }
   
@@ -127,6 +229,14 @@
   {
     "AbilityCooldown" "4.8 4.4 4 3.6"
     "AbilityManaCost" "20"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.875 2.0625 2.25 2.4375"
+      }
+    }
   }
 
   "dragon_knight_dragon_blood"
@@ -145,6 +255,14 @@
   {
     "AbilityCooldown" "23"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "11"
+      {
+        "var_type" "FIELD_FLOAT"
+        "frost_duration" "2.25"
+      }
+    }
   }
   
   // Clockwerk
@@ -172,6 +290,12 @@
     "AbilityManaCost" "15"
     "AbilitySpecial"
     {
+      "03"
+      { 
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.75 1.125 1.5"
+      }
+
       "07"
       {
         "var_type" "FIELD_FLOAT"
@@ -221,6 +345,7 @@
   "huskar_life_break"
   {
     "AbilityCooldown" "2.4"
+    "AbilityDuration" "3 3.75 4.5"
     "AbilitySpecial"
     {
       "01"
@@ -254,12 +379,70 @@
   {
     "AbilityCooldown" "3.2"
     "AbilityManaCost" "12"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "brew_time" "1"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "brew_explosion" "1.1"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "min_stun" "0.1875"
+      }
+
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "max_stun" "1.3125 1.875 2.4375 3"
+      }
+    }
   }
   
   "alchemist_chemical_rage"
   {
     "AbilityCooldown" "9"
-    "AbilityManaCost" "5 10 15"
+    "AbilityManaCost" "MPD50 MPD100 MPD150"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "10"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "base_attack_time" "AS1.2 AS1 AS0.8"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_INTEGER"
+        "bonus_health_regen" "75 100 125"
+      }
+
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "bonus_mana_regen" "15 24 33"
+      }
+
+      "07"
+      {
+        "var_type" "FIELD_INTEGER"
+        "bonus_movespeed" "30 40 80"
+      }
+    }
   }
   
   // Brewmaster
@@ -267,12 +450,40 @@
   {
     "AbilityCooldown" "2.6"
     "AbilityManaCost" "9 10.5 13 15"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_creeps" "6"
+      }     
+    }
   }
   
   "brewmaster_drunken_haze"
   {
     "AbilityCooldown" "1.6"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "6"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_creeps" "9"
+      }
+    }
   }
   
   "brewmaster_drunken_brawler"
@@ -289,7 +500,7 @@
       {
         "var_type" "FIELD_FLOAT"
         "last_proc" "3.2 2.8 2.4 2"
-      }     
+      }
     }
   }
   
@@ -302,6 +513,14 @@
   "brewmaster_earth_hurl_boulder"
   {
     "AbilityCooldown" "1.4"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.5"
+      }
+    }
   }
   
   "brewmaster_storm_dispel_magic"
@@ -314,6 +533,20 @@
   {
     "AbilityCooldown" "1.6"
     "AbilityManaCost" "15"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_hero" "4.5"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_unit" "15"
+      }
+    }
   }
   
   "brewmaster_storm_wind_walk"
@@ -345,6 +578,20 @@
   {
     "AbilityCooldown" "3.2 2.8 2.4 2"
     "AbilityManaCost" "14"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "damage_interval" "0.5625"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3.375"
+      }
+    }
   }
   
   "treant_living_armor"
@@ -357,6 +604,14 @@
   {
     "AbilityCooldown" "14"
     "AbilityManaCost" "15 17.5 20"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25 2.8125 3.375"
+      }       
+    }
   }
   
   // Io
@@ -364,6 +619,14 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "4"
+    "AbilitySpecial"
+    {
+      "09"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.5625 0.9375 1.3125 1.6875"
+      }
+    }
   }
   
   "wisp_spirits"
@@ -402,6 +665,14 @@
   {
     "AbilityCooldown" "2.6"
     "AbilityManaCost" "13"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.5 1.6875 1.875 2.0625"
+      }
+    }
   }
   
   "centaur_double_edge"
@@ -413,6 +684,14 @@
   {
     "AbilityCooldown" "18 15 12"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "1.125"
+      }
+    }
   }
   
   // Timbersaw
@@ -447,6 +726,20 @@
   {
     "AbilityCooldown" "0.3"
     "AbilityManaCost" "3"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "goo_duration" "3.75"
+      }
+
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "goo_duration_creep" "7.5"
+      }
+    }
   }
   
   "bristleback_quill_spray"
@@ -466,6 +759,14 @@
   {
     "AbilityCooldown" "4.2 4 3.8 3.6"
     "AbilityManaCost" "7.5"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.375 0.5625 0.75 0.9375"
+      }
+    }
   }
   
   "tusk_frozen_sigil"
@@ -478,6 +779,20 @@
   {
     "AbilityCooldown" "4 3.2 2.4"
     "AbilityManaCost" "5 7.5 10"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "crit_multiplier" "437.5"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "1.5 2.25 3"
+      }
+    }
   }
   
   // Elder Titan
@@ -485,11 +800,33 @@
   {
     "AbilityCooldown" "3"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "sleep_duration" "1.5 2.25 3 3.75"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "initial_stun_duration" "0.4875"
+      }
+    }
   }
   
   "elder_titan_echo_stomp_spirit"
   {
     "AbilityCooldown" "3"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "sleep_duration" "1.5 2.25 3 3.75"
+      }
+    }
   }
   
   "elder_titan_ancestral_spirit"
@@ -502,6 +839,14 @@
   {
     "AbilityCooldown" "20"
     "AbilityManaCost" "17.5"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "2.25 3 3.75"
+      }
+    }
   }
   
   // Legion Commander
@@ -526,6 +871,14 @@
   {
     "AbilityCooldown" "10"
     "AbilityManaCost" "7.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3 3.5625 4.125"
+      }
+    }
   }
   
   // Earth Spirit
@@ -533,18 +886,48 @@
   {
     "AbilityCooldown" "4.4 3.6 2.8 2"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.5625 0.9375 1.3125 1.6875"
+      }
+      
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "silence_duration" "2.625 3 3.375 3.75"
+      }     
+    }
   }
   
   "earth_spirit_rolling_boulder"
   {
     "AbilityCooldown" "3.2 2.4 1.6 0.8"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "1.5"
+      }
+    }
   }
   
   "earth_spirit_geomagnetic_grip"
   {
     "AbilityCooldown" "2.6"
     "AbilityManaCost" "7.5"
+    "AbilitySpecial"
+    {
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "silence_duration" "1.875 2.25 2.625 3"
+      }     
+    }
   }
   
   "earth_spirit_stone_caller"
@@ -589,7 +972,19 @@
       {
         "var_type" "FIELD_INTEGER"
         "hp_cost_perc" "4"
-      }     
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+
+      "09"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_interval" "0.75"
+      }
     }
   }
   
@@ -623,7 +1018,7 @@
       "03"
       {
         "var_type"      "FIELD_FLOAT"
-        "stun_duration"   "1.5 CC2.0 2.5"
+        "stun_duration"   "1.125 CCA2.0 1.875"
       }
 
       "05"
@@ -640,12 +1035,28 @@
   {
     "AbilityCooldown" "6.4 5.6 4.8 4"
     "AbilityManaCost" "16 18 20 22"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.5 1.8 2.1 2.4"
+      } 
+    }
   }
   
   "axe_battle_hunger"
   {
     "AbilityCooldown" "4 3 2 1"
     "AbilityManaCost" "7.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "7.5"
+      }
+    
   }
   
   "axe_counter_helix"
@@ -698,6 +1109,15 @@
   {
     "AbilityCooldown" "6"
     "AbilityManaCost" "10 13 17"
+    "AbilityChannelTime" "2.2125"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "dismember_damage" "113 188 263"
+      }
+    }
   }
   
   // Sand King
@@ -705,6 +1125,14 @@
   {
     "AbilityCooldown" "2.2"
     "AbilityManaCost" "11 12 13 14"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "burrow_duration" "1.6275"
+      }
+    }
   }
   
   "sandking_sand_storm"
@@ -728,8 +1156,15 @@
   {
     "AbilityCooldown" "28 24 20"
     "AbilityManaCost" "17.5 25 32.5"
+    "AbilityDuration" "2.25"
     "AbilitySpecial"
     {
+      "06"
+      {
+        "var_type" "FIELD_INTEGER"
+        "epicenter_slow_duration_tooltip" "2.25"
+      }
+
       "08"
       {
         "var_type" "FIELD_FLOAT"
@@ -748,6 +1183,39 @@
   {
     "AbilityCooldown" "1.6"
     "AbilityManaCost" "8 9.5 10.5 11.5"
+    "AbilityDuration" "1.2 1.425 1.65 1.875"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "crush_extra_slow_duration" "1.5"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.2 1.425 1.65 1.875"
+      }
+    }
+  }
+
+  "slardar_bash"
+  {
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.75"
+      }
+
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_creep" "1.5"
+      }
+    }
   }
   
   "slardar_amplify_damage"
@@ -761,18 +1229,35 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "12"
+    "AbilityDuration" "3"
   }
   
   "tidehunter_anchor_smash"
   {
     "AbilityCooldown" "1.4 1.2 1 0.8"
     "AbilityManaCost" "3 4 5 6"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "reduction_duration" "4.5"
+      }
+    }
   }
   
   "tidehunter_ravage"
   {
     "AbilityCooldown" "30"
     "AbilityManaCost" "15 22.5 32.5"
+    "AbilitySpecial"
+    {
+      "03"
+      { 
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.515 1.74 2.0775"
+      }
+    }
   }
   
   // Wraith King
@@ -780,6 +1265,20 @@
   {
     "AbilityCooldown" "1.6"
     "AbilityManaCost" "14"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type"        "FIELD_FLOAT"
+        "blast_stun_duration" "1.5"
+      }
+      
+      "03"
+      {
+        "var_type"        "FIELD_FLOAT"
+        "tooltip_slow_duration" "1.5"
+      }
+    }
   }
   
   "skeleton_king_mortal_strike"
@@ -798,6 +1297,14 @@
   {
     "AbilityCooldown" "52 32 12"
     "AbilityManaCost" "16"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "4.5"
+      }
+    }
   }
   
   // Lifestealer
@@ -811,6 +1318,21 @@
   {
     "AbilityCooldown" "4.8 4 3.2 2.4"
     "AbilityManaCost" "11"
+    "AbilityDuration" "6"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "slow_steps" "-70 -70 -60 -50 -30 -10"
+      }
+      
+      "04"
+      {
+        "var_type" "FIELD_INTEGER"
+        "duration" "4.5"
+      }
+    }
   }
   
   "life_stealer_infest"
@@ -824,12 +1346,40 @@
   {
     "AbilityCooldown" "1.6"
     "AbilityManaCost" "8 9 10 11"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_day" "1.5"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_night" "3"
+      }
+    }
   }
   
   "night_stalker_crippling_fear"
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_day" "2.25"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_night" "3.75 4.5 5.25 6"
+      }
+    }
   }
   
   "night_stalker_darkness"
@@ -893,7 +1443,7 @@
       "01"
       {
         "var_type" "FIELD_FLOAT"
-        "duration" "15"
+        "duration" "11.25"
       }
 
       "02"
@@ -905,7 +1455,7 @@
       "03"
       {
         "var_type" "FIELD_FLOAT"
-        "duration_scepter" "16"
+        "duration_scepter" "12"
       }
 
       "04"
@@ -921,6 +1471,20 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "movement_speed" "700 750 800 850"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.9 1.2 1.5 1.8"
+      }
+    }
   }
   
   "spirit_breaker_empowering_haste"
@@ -931,6 +1495,20 @@
   "spirit_breaker_greater_bash"
   {
     "AbilityCooldown" "0.3"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.75 0.9 1.05 1.2"
+      }
+      
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "knockback_duration" "CCS0.5"
+      }
+    }
   }
   
   "spirit_breaker_nether_strike"
@@ -1009,6 +1587,20 @@
   {
     "AbilityCooldown" "2"
     "AbilityManaCost" "14"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "stun_min" "0.75 0.75 0.75 1.5"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_INTEGER"
+        "stun_max" "1.5 2.25 3 3"
+      }
+    }
   }
   
   "chaos_knight_reality_rift"
@@ -1059,6 +1651,18 @@
     "AbilityCooldown" "15"
     "AbilityManaCost" "10"
   }
+
+  "undying_tombstone_zombie_deathstrike"
+  {
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.875"
+      }
+    }
+  }
   
   // Magnus
   "magnataur_shockwave"
@@ -1077,12 +1681,33 @@
   {
     "AbilityCooldown" "6"
     "AbilityManaCost" "8"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "1.875"
+      }
+    }
   }
   
   "magnataur_reverse_polarity"
   {
     "AbilityCooldown" "24 22 20"
     "AbilityManaCost" "20 25 30"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "hero_stun_duration" "1.6875 2.25 2.8125"
+      }
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "creep_stun_duration" "2.25 3 3.75"
+      }
+    }
   }
   
   // Abaddon
@@ -1105,6 +1730,18 @@
     "AbilityCooldown" "2.4 2 1.6 1.2"
     "AbilityManaCost" "10 10.5 11 11.5"
   }
+
+  "abaddon_frostmourne"
+  {
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "debuff_duration" "1.875"
+      }
+    }
+  }
   
   "abaddon_borrowed_time"
   {
@@ -1123,24 +1760,55 @@
   {
     "AbilityCooldown" "14"
     "AbilityManaCost" "12.5 20 27.5"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "mana_void_ministun" "0.075 0.15 0.225"
+      }
+    }
   }
   
   // Drow Ranger
   "drow_ranger_frost_arrows"
   {
     "AbilityManaCost" "1.2"
-  }
-  
-  "drow_ranger_silence"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "9"
+    "AbilityDuration" "1.125"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "frost_arrows_hero_duration_tooltip" "1.125"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "frost_arrows_creep_duration" "5.25"
+      }
+    }
   }
   
   "drow_ranger_wave_of_silence"
   {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "9"
+    "AbilityCooldown" "4.8"
+    "AbilityManaCost" "18"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "silence_duration" "2.25 3 3.75 4.5"
+      }
+
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "knockback_duration" "CCS0.6 CCS0.7 CCS0.8 CCS0.9"
+      }
+    }
   }
   
   "drow_ranger_trueshot"
@@ -1188,7 +1856,7 @@
   }
   
   // Mirana
-  "mirina_starfall"
+  "mirana_starfall"
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "10 12 14 16"
@@ -1198,6 +1866,20 @@
   {
     "AbilityCooldown" "3.4"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "arrow_min_stun" "CCS0.01"
+      }
+
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "arrow_max_stun" "CCA5.0"
+      }
+    }
   }
   
   "mirana_leap"
@@ -1223,6 +1905,20 @@
   {
     "AbilityCooldown" "2"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_min" "0.1875"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_max" "0.9375 1.6875 2.4375 3.1875"
+      }
+    }
   }
   
   "morphling_morph_agi"
@@ -1289,6 +1985,15 @@
   {
     "AbilityCooldown" "1.4"
     "AbilityManaCost" "12.5 13 13.5 14"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.4375"
+      }
+      
+    }
   }
   
   "phantom_lancer_doppelwalk"
@@ -1313,6 +2018,14 @@
   {
     "AbilityCooldown" "2.6 2.4 2.2 2"
     "AbilityManaCost" "11 12 13 14"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "magic_missile_stun" "1.0875 1.1625 1.2375 1.3125"
+      }
+    }
   }
   
   "vengefulspirit_wave_of_terror"
@@ -1390,6 +2103,32 @@
   {
     "AbilityCooldown" "2.2 1.6 1"
     "AbilityManaCost" "1.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "max_traps" "8 11 14"
+      }
+      
+      "05"
+      {
+        "var_type" "FIELD_INTEGER"
+        "trap_duration_tooltip" "3.75"
+      }
+    }
+  }
+
+  "templar_assassin_trap"
+  {
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "trap_duration" "3.75"
+      } 
+    }
   }
   
   // Luna
@@ -1397,6 +2136,14 @@
   {
     "AbilityCooldown" "1.2"
     "AbilityManaCost" "18 20 22 24"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.45"
+      }
+    }
   }
   
   "luna_eclipse"
@@ -1415,6 +2162,14 @@
   "bounty_hunter_jinada"
   {
     "AbilityCooldown" "0.4 2 1.6 1.2"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25"
+      }
+    }
   }
   
   "bounty_hunter_wind_walk"
@@ -1434,6 +2189,7 @@
   {
     "AbilityCooldown" "1.2"
     "AbilityManaCost" "7.5"
+    "AbilityDuration" "3"
   }
   
   "ursa_overpower"
@@ -1458,6 +2214,14 @@
   {
     "AbilityCooldown" "4 3.4 2.8 2.2"
     "AbilityManaCost" "12 13 14 15"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.65 1.8 1.95 2.1"
+      }   
+    }
   }
   
   "gyrocopter_flak_cannon"
@@ -1470,6 +2234,19 @@
   {
     "AbilityCooldown" "11 10 9"
     "AbilityManaCost" "12.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "slow_duration_first" "1.5"
+      }
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "slow_duration_second" "2.25"
+      }
+    }
   }
   
   // Lone Druid
@@ -1500,6 +2277,25 @@
   {
     "AbilityManaCost" "2.5"
   }
+
+  "lone_druid_spirit_bear_entangle"
+  {
+    "AbilityCooldown" "3.75"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "hero_duration" "2.25"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "creep_duration" "6.75"
+      }
+    }
+  }
   
   // Naga Siren
   "naga_siren_mirror_image"
@@ -1510,8 +2306,16 @@
   
   "naga_siren_ensnare"
   {
-    "AbilityCooldown" "2.8"
-    "AbilityManaCost" "9 10 11 12"
+    "AbilityCooldown" "5.6"
+    "AbilityManaCost" "18 20 22 24"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.5 2.25 3 3.75"
+      }
+    }
   }
   
   "naga_siren_rip_tide"
@@ -1524,6 +2328,14 @@
   {
     "AbilityCooldown" "36 24 12"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "5.25"
+      }
+    }
   }
   
   // Troll Warlord
@@ -1531,12 +2343,28 @@
   {
     "AbilityCooldown" "4 3.8 3.6 3.4"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "axe_slow_duration" "2.25 2.8125 3.375 3.9375"
+      }
+    }
   }
   
   "troll_warlord_whirling_axes_melee"
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "blind_duration" "3 3.75 4.5 5.25"
+      }
+    }
   }
   
   "troll_warlord_battle_trance"
@@ -1550,6 +2378,20 @@
   {
     "AbilityCooldown" "2.8 2.4 2 1.6"
     "AbilityManaCost" "11"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.75 1.5 1.5 2.25"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_interval" "0.75"
+      }
+    }
   }
   
   "ember_spirit_sleight_of_fist"
@@ -1581,18 +2423,40 @@
     "AbilityManaCost" "15"
   }
   
-  // (DIRE)
+  // Agility (Dire)
   // Bloodseeker
   "bloodseeker_bloodrage"
   {
     "AbilityCooldown" "2.4 2 1.6 1.2"
     "AbilityManaCost" "8"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "4.5 5.25 6 6.75"
+      }
+      
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_interval" "0.75"
+      }
+    }
   }
   
   "bloodseeker_blood_rite"
   {
     "AbilityCooldown" "5.8 5.2 4.6 4"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "silence_duration" "2.25 3 3.75 4.5"
+      }
+    }
   }
 
   "bloodseeker_thirst"
@@ -1654,6 +2518,14 @@
   {
     "AbilityCooldown" "24 22 20"
     "AbilityManaCost" "15 17.5 20"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_INTEGER"
+        "requiem_slow_duration" "3.75"
+      } 
+    }
   }
   
   // Razor
@@ -1680,6 +2552,38 @@
   {
     "AbilityCooldown" "4.4"
     "AbilityManaCost" "12.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "11.25"
+      }
+
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_interval" "2.25"
+      }
+    }
+  }
+
+  "venomancer_poison_sting"
+  {
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "CC6 CC9 CC12 CC15"
+      }
+      
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "damage" "9 17 22 20 29"
+      }     
+    }
   }
   
   "venomancer_plague_ward"
@@ -1707,6 +2611,14 @@
   {
     "AbilityCooldown" "3.8 3.4 3 2.6"
     "AbilityManaCost" "9"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25"
+      }
+    }
   }
   
   "faceless_void_chronosphere"
@@ -1715,6 +2627,18 @@
     "AbilityManaCost" "15 22.5 30"
     "AbilitySpecial"
     {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3 3.375 3.75"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_scepter" "3 3.75 4.5"
+      }
+
       "04"
       {
         "var_type" "FIELD_FLOAT"
@@ -1728,6 +2652,15 @@
   {
     "AbilityCooldown" "1.2"
     "AbilityManaCost" "3 2.5 2 1.5"
+    "AbilityDuration" "0.75 1.5 2.25 3"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_INTEGER"
+        "duration" "0.75 1.5 2.25 3"
+      }
+    }
   }
   
   "phantom_assassin_phantom_strike"
@@ -1752,6 +2685,32 @@
   "viper_poison_attack"
   {
     "AbilityManaCost" "2"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.5"
+      }
+    }
+  }
+
+  "viper_corrosive_skin"
+  {
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_INTEGER"
+        "damage" "13 20 27 33"
+      }
+    }
   }
   
   "viper_viper_strike"
@@ -1760,6 +2719,19 @@
     "AbilityManaCost" "12.5 17.5 25"
     "AbilitySpecial"
     {
+
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3.825"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "damage" "100 167 242"
+      }
+
       "05"
       {
         "var_type" "FIELD_FLOAT"
@@ -1810,6 +2782,18 @@
     "AbilityCooldown" "6"
     "AbilityManaCost" "5"
   }
+
+  "broodmother_incapacitating_bite"
+  {
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.5"
+      }
+    }
+  }
   
   "broodmother_insatiable_hunger"
   {
@@ -1824,13 +2808,13 @@
       "01"
       {
         "var_type" "FIELD_FLOAT"
-        "duration" "6"
+        "duration" "4.5"
       }
 
       "02"
       {   
         "var_type" "FIELD_FLOAT"
-        "duration_hero" "2"
+        "duration_hero" "1.5"
       }
 
       "03"
@@ -1883,6 +2867,14 @@
   {
     "AbilityCooldown" "4 3.2 2.4 1.6"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.5"
+      }
+    }
   }
   
   "meepo_poof"
@@ -1896,6 +2888,14 @@
   {
     "AbilityCooldown" "2.6"
     "AbilityManaCost" "9.5 11.5 13.5 15.5"
+    "AbilitySpecial"
+    {
+      "02"
+      { 
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.9525 1.3275 1.7025 2.0775"
+      }
+    }
   }
   
   "nyx_assassin_mana_burn"
@@ -1908,6 +2908,14 @@
   {
     "AbilityCooldown" "4.6 4 3.4 2.8"
     "AbilityManaCost" "4"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.45 0.9 1.35 1.8"
+      }
+    }
   }
   
   "nyx_assassin_vendetta"
@@ -1925,8 +2933,16 @@
   
   "slark_pounce"
   {
-    "AbilityCooldown" "4 3.2 2.4 1.6"
-    "AbilityManaCost" "7.5"
+    "AbilityCooldown" "8 6.4 4.8 3.2"
+    "AbilityManaCost" "15"
+    "AbilitySpecial"
+    {
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "leash_duration" "2.625"
+      }
+    }
   }
   
   "slark_shadow_dance"
@@ -1958,13 +2974,41 @@
   {
     "AbilityCooldown" "18"
     "AbilityManaCost" "20"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stone_duration" "2.25"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "face_duration" "1.5"
+      }
+    }
   }
   
   // Terrorblade
   "terrorblade_reflection"
   {
-    "AbilityCooldown" "4.4 3.6 2.8 2"
-    "AbilityManaCost" "5"
+    "AbilityCooldown" "8.8 7.2 5.6 4"
+    "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "illusion_duration" "1.875 2.625 3.375 4.125"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "illusion_outgoing_damage" "-46.67 -33.33 -20.0 -6.67"
+      }
+    }
   }
   
   "terrorblade_conjure_image"
@@ -1985,19 +3029,40 @@
     "AbilityManaCost" "20 10 0"
   }
   
-  // INT
-  // (Radiance)
+  // Intelligence (Dire)
   // Crystal Maiden
   "crystal_maiden_crystal_nova"
   {
     "AbilityCooldown" "3"
     "AbilityManaCost" "10 12 14 16"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.625 3 3.375 3.75"
+      }
+    }
   }
   
   "crystal_maiden_frostbite"
   {
-    "AbilityCooldown" "2 1.8 1.6 1.4"
-    "AbilityManaCost" "11.5 12.5 14 15"
+    "AbilityCooldown" "6 5.4 4.8 4.2"
+    "AbilityManaCost" "34.5 37.5 42 45"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "CCS1.5 CCS2 CCS2.5 CCS3"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "creep_duration" "CCS10"
+      }
+    }
   }
   
   "crystal_maiden_freezing_field"
@@ -2017,6 +3082,14 @@
   {
     "AbilityCooldown" "3.2"
     "AbilityManaCost" "10 11 12 13"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "silence_duration" "0.5625 1.125 1.6875 2.25"
+      }
+    }
   }
   
   "puck_phase_shift"
@@ -2028,6 +3101,20 @@
   {
     "AbilityCooldown" "17"
     "AbilityManaCost" "10 15 20"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.375"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "coil_stun_duration" "1.125 1.6875 2.25"
+      }
+    }
   }
   
   // Storm Spirit
@@ -2041,11 +3128,38 @@
   {
     "AbilityCooldown" "4.2 4 3.8 3.6"
     "AbilityManaCost" "10 11 12 13"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_INTEGER"
+        "electric_vortex_self_slow_duration" "2.25"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.75 1.125 1.5 1.875"
+      }
+    }
+  }
+
+  "storm_spirit_overload"
+  {
+    "AbilityDuration" "0.45"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tooltip_duration" "0.45"
+      }
+    }
   }
   
   "storm_spirit_ball_lightning"
   {
-    "AbilityManaCost" "1.5"
+    "AbilityManaCost" "12"
     "AbilitySpecial"
     {
       "01"
@@ -2079,6 +3193,20 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "9 10 11 12"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "fail_stun_duration" "0.5625"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.125 1.6875 2.25 2.8125"
+      }
+    }
   }
   
   "windrunner_windrun"
@@ -2137,6 +3265,14 @@
   {
     "AbilityCooldown" "1.4"
     "AbilityManaCost" "10 11 12 13"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "light_strike_array_stun_duration" "1.2 1.275 1.35 1.425"
+      }
+    }
   }
   
   "lina_laguna_blade"
@@ -2156,12 +3292,35 @@
   {
     "AbilityCooldown" "5.2"
     "AbilityManaCost" "22 28 34 40"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.9375 1.5 2.0625 2.625"
+      }
+    }
   }
   
   "shadow_shaman_shackles"
   {
     "AbilityCooldown" "6.4"
     "AbilityManaCost" "28 30 32 34"
+    "AbilityChannelTime" "2.0625 2.625 3.1875 3.75"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_interval" "0.075"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "channel_time" "2.0625 2.625 3.1875 3.75"
+      }
+    }
   }
   
   "shadow_shaman_mass_serpent_ward"
@@ -2175,6 +3334,20 @@
   {
     "AbilityCooldown" "2.8"
     "AbilityManaCost" "9.5 12 14.5 17"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_hero" "2.25"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_creep" "4.5"
+      }
+    }
   }
   
   "tinker_heat_seeking_missile"
@@ -2193,6 +3366,7 @@
   {
     "AbilityManaCost" "30 50 70"
     "AbilityChannelTime" "0.6 0.4 0.2"
+    "AbilityCastPoint" 
     "AbilitySpecial"
     {
       "01"
@@ -2229,10 +3403,32 @@
   }
   
   // Enchantress
+  "enchantress_untouchable"
+  {
+    "AbilityDuration" "3"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "slow_duration" "3"
+      }
+    }
+  }
+
   "enchantress_enchant"
   {
     "AbilityCooldown" "6 5 4 3"
     "AbilityManaCost" "6.5"
+    "AbilityDuration" "4.125"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tooltip_duration" "4.125"
+      }
+    }
   }
   
   "enchantress_natures_attendants"
@@ -2251,6 +3447,15 @@
   {
     "AbilityCooldown" "2"
     "AbilityManaCost" "13.5 14 15.5 17"
+    "AbilityDuration" "3.75"
+    "AbilitySpecial"
+    {
+      "09"
+      {
+        "var_type" "FIELD_INTEGER"
+        "tooltip_duration" "3.75"
+      }
+    }
   }
   
   "jakiro_ice_path"
@@ -2275,6 +3480,14 @@
   {
     "AbilityCooldown" "2.8 2.6 2.4 2.2"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3.75 4.5 5.25 6"
+      }
+    }
   }
   
   "chen_test_of_faith"
@@ -2328,6 +3541,27 @@
   {
     "AbilityCooldown" "4 3.2 2.4 1.6"
     "AbilityManaCost" "7.5 9.5 11.5 13.5"
+    "AbilityDuration" "4.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "mana_damage" "12 24 36 48"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "health_damage" "30 53 75 98"
+      }
+
+      "04"
+      {
+        "var_type" "FIELD_INTEGER"
+        "tooltip_duration" "4.5"
+      }
+    }
   }
   
   "silencer_glaives_of_wisdom"
@@ -2339,12 +3573,34 @@
   {
     "AbilityCooldown" "12 9.6 7.2 4.8"
     "AbilityManaCost" "23"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_INTEGER"
+        "duration" "2.25 3 3.75 4.5"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "debuff_duration" "3.75"
+      }
+    }
   }
   
   "silencer_global_silence"
   {
     "AbilityCooldown" "26"
     "AbilityManaCost" "25 37.5 50"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tooltip_duration" "3 3.75 4.5"
+      }     
+    }
   }
   
   // Ogre Magi
@@ -2352,18 +3608,42 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "7.5 8.5 9.5 10.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.125"
+      }
+    }
   }
   
   "ogre_magi_ignite"
   {
     "AbilityCooldown" "3"
     "AbilityManaCost" "9.5 10.5 11.5 12.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3.75 4.5 5.25 6"
+      }
+    }
   }
   
   "ogre_magi_bloodlust"
   {
     "AbilityCooldown" "4"
     "AbilityManaCost" "7.5"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "modelscale" "140"
+      }
+    }
   }
   
   "ogre_magi_unrefined_fireblast"
@@ -2371,6 +3651,12 @@
     "AbilityCooldown" "1.2"
     "AbilitySpecial"
     {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.125"
+      }
+
       "03"
       {
         "var_type" "FIELD_FLOAT"
@@ -2408,6 +3694,20 @@
   {
     "AbilityCooldown" "4.4"
     "AbilityManaCost" "12"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "lift_duration" "1.125 1.3125 1.5 1.6875"
+      }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.75 0.9375 1.125 1.3125"
+      }
+    }
   }
   
   "rubick_fade_bolt"
@@ -2523,12 +3823,27 @@
   {
     "AbilityCooldown" "4 3.6 3.2 2.8"
     "AbilityManaCost" "11"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "3"
+      }
+    }
   }
   
   "skywrath_mage_ancient_seal"
   {
     "AbilityCooldown" "2.8"
     "AbilityManaCost" "8 9 10 11"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "seal_duration" "2.25 3 3.75 4.5"
+      }
+    }
   }
   
   "skywrath_mage_mystic_flare"
@@ -2550,25 +3865,25 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "13"
-    "AbilityChannelTime" "1.5"
+    "AbilityChannelTime" "2.5"
     "AbilitySpecial"
     {
       "03"
       {
         "var_type" "FIELD_FLOAT"
-        "minimum_purge_duration" "0.5"
+        "minimum_purge_duration" "0.375"
       }
 
       "04"
       {
         "var_type" "FIELD_FLOAT"
-        "maximum_purge_duration" "2.5"
+        "maximum_purge_duration" "1.875"
       }
 
       "06"
       {
         "var_type" "FIELD_FLOAT"
-        "max_channel_time_tooltip" "1.5"
+        "max_channel_time_tooltip" "2.5"
       }
     }
   }
@@ -2577,6 +3892,14 @@
   {
     "AbilityCooldown" "2.4"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25 3 3.75 4.5"
+      }
+    }
   }
   
   "oracle_purifying_flames"
@@ -2610,6 +3933,14 @@
   {
     "AbilityCooldown" "4 3.2 2.6 2"
     "AbilityManaCost" "8 11 14 16"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "2.25 3 3.75 4.5"
+      }
+    }
   }
   
   "techies_suicide"
@@ -2654,6 +3985,18 @@
         "var_type" "FIELD_FLOAT"
         "nightmare_dot_interval" "0.75"
       }
+
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "nightmare_invuln_time" "0.75"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "5.25"
+      }
     }
   }
   
@@ -2661,6 +4004,27 @@
   {
     "AbilityCooldown" "20"
     "AbilityManaCost" "20 30 40"
+    "AbilityChannelTime" "3.75"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "fiend_grip_tick_interval" "0.75"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "fiend_grip_duration" "3.75"
+      }
+
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "fiend_grip_duration_scepter" "5.25"
+      }
+    }
   }
   
   // Lich
@@ -2668,12 +4032,21 @@
   {
     "AbilityCooldown" "1.6"
     "AbilityManaCost" "12.5 15 17 19"
+    "AbilityDuration" "3"
   }
   
   "lich_frost_armor"
   {
     "AbilityCooldown" "1"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "1.5"
+      }
+    }
   }
   
   "lich_dark_ritual"
@@ -2686,6 +4059,14 @@
   {
     "AbilityCooldown" "24 18 12"
     "AbilityManaCost" "20 32.5 50"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "3"
+      }
+    }
   }
   
   // Lion
@@ -2693,12 +4074,28 @@
   {
     "AbilityCooldown" "4.8"
     "AbilityManaCost" "20 24 29 34"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "0.765 1.14 1.515 1.89"
+      }
+    }
   }
   
   "lion_voodoo"
   {
     "AbilityCooldown" "12 9.6 7.2 4.8"
     "AbilityManaCost" "25 30 35 40"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.875 2.25 2.625 3"
+      }
+    }
   }
   
   "lion_mana_drain"
@@ -2732,6 +4129,19 @@
   {
     "AbilityCooldown" "4 3.6 3.2 2.8"
     "AbilityManaCost" "11 12 13 14"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "hero_duration" "0.75"
+      }
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "creep_duration" "3.75"
+      }
+    }
   }
   
   "witch_doctor_voodoo_restoration"
@@ -2770,6 +4180,14 @@
   {
     "AbilityCooldown" "3"
     "AbilityManaCost" "11 13 15 16"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.1875 0.375 0.5625 CCA1.0"
+      }
+    }
   }
   
   "enigma_demonic_conversion"
@@ -2788,6 +4206,27 @@
   {
     "AbilityCooldown" "40 38 36"
     "AbilityManaCost" "27.5 35 42.5"
+    "AbilityChannelTime" "3"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "pull_speed" "53"
+      }
+
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_rate" "0.075"
+      }
+
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+    }
   }
   
   // Necrophos
@@ -2803,6 +4242,12 @@
     "AbilityManaCost" "17.5 34 50"
     "AbilitySpecial"
     {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.125"
+      }
+
       "03"
       {
         "var_type" "FIELD_INTEGER"
@@ -2840,6 +4285,14 @@
   {
     "AbilityCooldown" "33"
     "AbilityManaCost" "20 30 40"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.75"
+      }
+    }
   }
   
   // Queen of Pain
@@ -2847,6 +4300,21 @@
   {
     "AbilityCooldown" "3.2 2.4 1.6 0.8"
     "AbilityManaCost" "11"
+    "AbilityDuration" "11.25"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_INTEGER"
+        "duration_damage" "41 55 68 82"
+      }
+
+      "06"
+      {
+        "var_type" "FIELD_INTEGER"
+        "duration_tooltip" "11.25"
+      }     
+    }
   }
   
   "queenofpain_blink"
@@ -2886,6 +4354,15 @@
   {
     "AbilityCooldown" "3"
     "AbilityManaCost" "8"
+    "AbilityDuration" "2.25 3 3.75 4.5"
+    "AbilitySpecial"
+    {
+      02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25 3 3.75 4.5"
+      }
+    }
   }
   
   "death_prophet_witchcraft"
@@ -2933,8 +4410,17 @@
   
   "pugna_decrepify"
   {
-    "AbilityCooldown" "2.4 2 1.6 1.2"
-    "AbilityManaCost" "6"
+    "AbilityCooldown" "4.8 4 3.2 2.4"
+    "AbilityManaCost" "12"
+    "AbilityDuration" "1.5 1.875 2.25 2.625"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tooltip_duration" "1.5 1.875 2.25 2.625"
+      }
+    }
   }
   
   "pugna_nether_ward"
@@ -2993,6 +4479,15 @@
   {
     "AbilityCooldown" "1.8"
     "AbilityManaCost" "10 12.5 14 16"
+    "AbilityDuration" "1.5"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_INTEGER"
+        "duration" "1.5"
+      }
+    }
   }
   
   "leshrac_diabolic_edict"
@@ -3005,6 +4500,14 @@
   {
     "AbilityCooldown" "0.8"
     "AbilityManaCost" "9 10 11 12"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "slow_duration" "CCA0.50"
+      }
+    }
   }
   
   "leshrac_pulse_nova"
@@ -3051,6 +4554,14 @@
   {
     "AbilityCooldown" "0.6"
     "AbilityManaCost" "2"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "6"
+      }
+    }
   }
   
   "batrider_flamebreak"
@@ -3069,6 +4580,14 @@
   {
     "AbilityCooldown" "18 15 12"
     "AbilityManaCost" "22.5"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25 2.625 3"
+      }
+    }
   }
   
   // Ancient Apparition
@@ -3076,6 +4595,14 @@
   {
     "AbilityCooldown" "3 2.6 2.2 1.8"
     "AbilityManaCost" "15"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.9375 1.5 2.0625 2.625"
+      }
+    }
   }
   
   "ancient_apparition_ice_vortex"
@@ -3115,6 +4642,14 @@
   {
     "AbilityCooldown" "4"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "freeze_duration" "0.3"
+      }
+    }
   }
   
   "invoker_ghost_walk"
@@ -3139,6 +4674,15 @@
   {
     "AbilityCooldown" "6"
     "AbilityManaCost" "15"
+    "AbilitySpecial"
+    {
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "lift_duration" "0.6 0.825 1.05 1.275 1.5 1.725 1.875"
+        "levelkey" "quaslevel"
+      }
+    }
   }
   
   "invoker_alacrity"
@@ -3169,6 +4713,22 @@
   {
     "AbilityCooldown" "8"
     "AbilityManaCost" "20"
+    "AbilitySpecial"
+    {
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "knockback_duration" "0.1875 0.375 0.5625 0.75 0.9375 1.125 1.3125"
+        "levelkey" "quaslevel"
+      }
+
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "disarm_duration" "0.75 1.125 1.5 1.875 2.25 2.625 3"
+        "levelkey" "wexlevel"
+      }
+    }
   }
   
   "forged_spirit_melting_strike"
@@ -3186,6 +4746,15 @@
   {
     "AbilityCooldown" "3.6 3.2 2.8 2.4"
     "AbilityManaCost" "12 14 16 18"
+    "AbilityDuration" "0.75 1.5 2.25 3"
+    "AbilitySpecial"
+    {
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "prison_duration" "0.75 1.5 2.25 3"
+      }
+    }
   }
   
   "obsidian_destroyer_sanity_eclipse"
@@ -3199,6 +4768,15 @@
   {
     "AbilityCooldown" "5 4.4 3.8 3.2"
     "AbilityManaCost" "12"
+    "AbilityDuration" "1.875"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "disruption_duration" "1.875"
+      }
+    }
   }
   
   "shadow_demon_soul_catcher"
@@ -3217,9 +4795,22 @@
   {
     "AbilityCooldown" "10"
     "AbilityManaCost" "20"
+    "AbilityDuration" "3.75"
     "AbilitySpecial"
     {
-      "01"
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tooltip_duration" "3.75"
+      }
+
+      "03"
+      {
+        "var_type" "FIELD_FLOAT"
+        "creep_root_duration" "2.25"
+      }
+
+      "05"
       {
         "var_type" "FIELD_INTEGER"
         "charge_restore_time" "8"
@@ -3232,6 +4823,14 @@
   {
     "AbilityCooldown" "3.2 2.8 2.4 2"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type" "FIELD_FLOAT"
+        "chill_duration" "2.25 3 3.75 4.5"
+      }
+    }
   }
   
   "visage_soul_assumption"
@@ -3244,7 +4843,7 @@
   {
     "AbilitySpecial"
     {
-      "01"
+      "04"
       {
         "var_type" "FIELD_FLOAT"
         "recovery_time" "1.2"
@@ -3257,30 +4856,87 @@
     "AbilityCooldown" "36 32 28"
     "AbilityManaCost" "15"
   }
+
+  "visage_summon_familiars_stone_form"
+  {
+    "AbilityCooldown" "6"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "0.75 0.9375 1.125"
+      }
+    }
+  }
   
   // Winter Wyvern
   "winter_wyvern_arctic_burn"
   {
     "AbilityCooldown" "10 8 6 4"
     "AbilityManaCost" "12 11 10 9"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "tick_rate" "0.75"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "damage_duration" "3.75"
+      }
+    }
   }
   
   "winter_wyvern_splinter_blast"
   {
     "AbilityCooldown" "1.4"
     "AbilityManaCost" "12 13 14 15"
+    "AbilitySpecial"
+    {
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+    }
   }
   
   "winter_wyvern_cold_embrace"
   {
     "AbilityCooldown" "3.4 3.2 3 2.8"
     "AbilityManaCost" "7.5"
+    "AbilitySpecial"
+    {
+      "01"
+      { 
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+      
+      "04"
+      { 
+        "var_type" "FIELD_FLOAT"
+        "tick_rate" "0.075"
+      }
+    }
   }
   
   "winter_wyvern_winters_curse"
   {
     "AbilityCooldown" "18 16 14"
     "AbilityManaCost" "25"
+    "AbilitySpecial"
+    {
+      "01"
+      { 
+        "var_type" "FIELD_FLOAT"
+        "duration" "1.875 2.0625 2.25"
+      }
+    }
   }
   
   // Items
@@ -3289,11 +4945,23 @@
     "AbilityCooldown" "12"
     "AbilitySpecial"
     {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "bash_duration" "1.05"
+      }
+
       "06"
       {
         "var_type" "FIELD_FLOAT"
         "bash_cooldown" "0.4"
-      }     
+      }
+
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "stun_duration" "1.5"
+      }
     }
   }
   
@@ -3324,6 +4992,19 @@
   "item_basher"
   {
     "AbilityCooldown" "0.4"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "bash_duration" "1.05"
+      }
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "bash_cooldown" "0.4"
+      }
+    }
   }
 
   "item_bfury"
@@ -3442,7 +5123,7 @@
       "04"
       {
         "var_type" "FIELD_FLOAT"
-        "cyclone_duration" "2.5"
+        "cyclone_duration" "1.875"
       }
     }
   }
@@ -3486,7 +5167,19 @@
       {
         "var_type" "FIELD_INTEGER"
         "initial_charges" "16"
-      }     
+      }
+
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "purge_root_duration" "2.25"
+      }
+
+      "09"
+      {
+        "var_type" "FIELD_INTEGER"
+        "purge_slow_duration" "3"
+      }
     }
   }
   
@@ -3499,7 +5192,19 @@
       {
         "var_type" "FIELD_INTEGER"
         "initial_charges" "16"
-      }     
+      }
+
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "purge_root_duration" "2.25"
+      }
+
+      "09"
+      {
+        "var_type" "FIELD_INTEGER"
+        "purge_slow_duration" "3"
+      }   
     }
   }
   
@@ -3513,6 +5218,20 @@
   {
     "AbilityCooldown" "6"
     "AbilityManaCost" "15"
+    "AbilitySpecial"
+    {
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "2.25"
+      }
+
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration_ally" "3"
+      }
+    }
   }
 
   "item_flask"
@@ -3552,6 +5271,14 @@
   "item_ghost"
   {
     "AbilityCooldown" "6"
+    "AbilitySpecial"
+    {
+      "02"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+    }
   }
   
   "item_hand_of_midas"
@@ -3576,6 +5303,26 @@
   {
     "AbilityCooldown" "6"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "maim_duration" "3"
+      }
+
+      "08"
+      {
+        "var_type" "FIELD_FLOAT"
+        "disarm_range" "3.375"
+      }
+
+      "09"
+      {
+        "var_type" "FIELD_FLOAT"
+        "disarm_melee" "2.25"
+      }
+    }
   }
   
   "item_helm_of_the_dominator"
@@ -3641,7 +5388,7 @@
       "04"
       {
         "var_type" "FIELD_FLOAT"
-        "duration" "7"
+        "duration" "5.25"
       }
     }
   }
@@ -3711,7 +5458,7 @@
       "05"
       {
         "var_type" "FIELD_FLOAT"
-        "silence_duration" "5"
+        "silence_duration" "3.75"
       }
     }
   }
@@ -3822,6 +5569,38 @@
   {
     "AbilityCooldown" "2"
     "AbilityManaCost" "5"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "duration" "3"
+      }
+    }
+  }
+
+  "item_sange"
+  {
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "maim_duration" "4.0"
+      }     
+    }
+  }
+
+  "item_sange_and_yasha"
+  {
+    "AbilitySpecial"
+    {
+      "09"
+      {
+        "var_type" "FIELD_FLOAT"
+        "maim_duration" "3.75"
+      }
+    }
   }
   
   "item_satanic"
@@ -3844,7 +5623,7 @@
       "05"
       {
         "var_type"        "FIELD_FLOAT"
-        "sheep_duration"    "3.5"
+        "sheep_duration"    "2.625"
       }
     }
   }
@@ -3853,7 +5632,32 @@
   {
     "AbilityCooldown" "6"
     "AbilityManaCost" "10"
+    "AbilitySpecial"
+    {
+      "09"
+      {
+        "var_type" "FIELD_FLOAT"
+        "blast_debuff_duration" "3"
+      }
+    }
   }
+
+  "item_skadi"
+  {
+    "AbilitySpecial"
+    {
+      "06"
+      {
+        "var_type" "FIELD_FLOAT"
+        "cold_duration_melee" "3.75"
+      }
+
+      "07"
+      {
+        "var_type" "FIELD_FLOAT"
+        "cold_duration_ranged" "2.25"
+      }
+    }
   
   "item_smoke_of_deceit"
   {
@@ -4033,6 +5837,20 @@
   {
     "AbilityCooldown" "1.2"
     "AbilityManaCost" "9"
+    "AbilitySpecial"
+    {
+      "04"
+      {
+        "var_type" "FIELD_FLOAT"
+        "non_hero_duration" "3"
+      }
+
+      "05"
+      {
+        "var_type" "FIELD_FLOAT"
+        "hero_duration" "1.5"
+      }
+    }
   }
 
   "big_thunder_lizard_frenzy"
@@ -4051,13 +5869,13 @@
       "02"
       {
         "var_type" "FIELD_FLOAT"
-        "non_hero_stun_duration" "3"
+        "non_hero_stun_duration" "2.25"
       }
 
       "03"
       {
         "var_type" "FIELD_FLOAT"
-        "hero_stun_duration" "2"
+        "hero_stun_duration" "1.5"
       }
     }
   }
@@ -4070,7 +5888,7 @@
       "03"
       {
         "var_type" "FIELD_FLOAT"
-        "duration" "1.5"
+        "duration" "1.125"
       }
     }
   }
@@ -4138,7 +5956,7 @@
       "05"
       {
         "var_type" "FIELD_FLOAT"
-        "slow_duration" "5"
+        "slow_duration" "3.75"
       }
     }
   }
@@ -4164,7 +5982,7 @@
       "02"
       {
         "var_type" "FIELD_FLOAT"
-        "duration" "5"
+        "duration" "3.75"
       }
     }
   }

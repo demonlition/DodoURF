@@ -240,6 +240,8 @@ Neutrals
 	Vhoul Assassin
 	- Envenomed Weapon damage per second from 2 to 4
 
+
+
 HAM 0.3
 
 General
@@ -249,6 +251,7 @@ General
 	* Unless otherwise noted below, all disables are A class
 
 Heroes
+
 	Alchemist
 	- Unstable Concoction brew time to A class cooldown
 	- Unstable Concoction explode time to A class cooldown
@@ -374,3 +377,15 @@ Heroes
 	- Reincarnation slow duration from 5 to 4.5
 
 	*will become A class in a future patch
+
+
+
+HAM 0.4
+
+General
+
+	- Passive gold income from 1g/0.6s to 5g/0.6s
+	- Hero base attack times decreased by 25%
+	- Hero turn rates increased by 50%
+	- Hero level cap from 33 to 35
+	- Attribute bonus level cap from 18 to 20

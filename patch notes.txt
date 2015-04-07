@@ -385,6 +385,7 @@ HAM 0.4
 General
 
 	- Passive gold income from 1g/0.6s to 5g/0.6s
+	- Hero base move speeds increased by 10%
 	- Hero base attack times decreased by 25%
 	- Hero turn rates increased by 50%
 	- Hero level cap from 33 to 35

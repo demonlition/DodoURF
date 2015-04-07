@@ -18,7 +18,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "CC1 CC1.25 CC1.5 CC1.75"
+				"stun_duration" "CCA1 CCA1.25 CCA1.5 CCA1.75"
 			}
 		}
 	}
@@ -31,13 +31,13 @@
 
 	"earthshaker_aftershock"
 	{
-		"AbilityDuration" "CC0.6 CC0.9 CC1.2 CC1.5"
+		"AbilityDuration" "CCA0.6 CCA0.9 CCA1.2 CCA1.5"
 		"AbilitySpecial"
 		{
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"tooltip_duration" "CC0.6 CC0.9 CC1.2 CC1.5"
+				"tooltip_duration" "CCA0.6 CCA0.9 CCA1.2 CCA1.5"
 			}
 		}
 	}
@@ -58,7 +58,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"bolt_stun_duration" "CC2"
+				"bolt_stun_duration" "CCA2"
 			}
 		}
 	}
@@ -1856,7 +1856,7 @@
 	}
 	
 	// Mirana
-	"mirina_starfall"
+	"mirana_starfall"
 	{
 		"AbilityCooldown" "CDA12"
 		"AbilityManaCost" "MPA100 MPA120 MPA140 MPA160"

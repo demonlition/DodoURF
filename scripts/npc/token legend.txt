@@ -1,13 +1,34 @@
-CD - cooldown
-MP - mana cost
-HP - health cost
-AS - base attack time
-MS - base move speed
-TR - turn rate
-CR - critical strike damage
-CC - disable debuff duration
-MR - mana regeneration
-__S - suffix for S class (unreduced)
-__A - suffix for A class (normal)
-__B - suffix for B class (moderate handicap)
-__C - suffix for C class (strong handicap)
+Cooldown
+	CDA - 0.2
+	CDB - 0.4
+	CDC - 0.6
+
+Mana Cost
+	MPA - 0.1
+	MPB - 0.2
+	MPC - 0.3
+	MPD - 1.0
+
+Health Cost
+	HPA - 0.2
+	HPB - 0.6
+	HPC - 0.9
+
+Base Attack Time
+	AS - 1.25
+
+Base Movement Speed
+	MS - 50
+
+Turn Rate
+	TR - 1.5
+
+Critical Strike Damage
+	CR - 1.25
+
+Disable Duration
+	CCS - 1
+	CCA - 0.75
+
+Mana Regeneration
+	MR - 2

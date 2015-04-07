@@ -1056,7 +1056,7 @@
         "var_type" "FIELD_FLOAT"
         "duration" "7.5"
       }
-    
+    }
   }
   
   "axe_counter_helix"
@@ -3366,7 +3366,7 @@
   {
     "AbilityManaCost" "30 50 70"
     "AbilityChannelTime" "0.6 0.4 0.2"
-    "AbilityCastPoint" 
+    "AbilityCastPoint" "0.106"
     "AbilitySpecial"
     {
       "01"
@@ -3837,6 +3837,7 @@
   {
     "AbilityCooldown" "2.8"
     "AbilityManaCost" "8 9 10 11"
+    "AbilitySpecial"
     {
       "02"
       {
@@ -4357,7 +4358,7 @@
     "AbilityDuration" "2.25 3 3.75 4.5"
     "AbilitySpecial"
     {
-      02"
+      "02"
       {
         "var_type" "FIELD_FLOAT"
         "duration" "2.25 3 3.75 4.5"
@@ -5658,6 +5659,7 @@
         "cold_duration_ranged" "2.25"
       }
     }
+  }
   
   "item_smoke_of_deceit"
   {

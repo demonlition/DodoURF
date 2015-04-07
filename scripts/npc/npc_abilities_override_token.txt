@@ -1547,7 +1547,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"speed" "800"
+				"speed" "750"
 			}
 
 			"05"
@@ -3172,6 +3172,12 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"ball_lightning_initial_mana_base" "12"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"ball_lightning_move_speed" "1350 1975 2600"		
 			}
 			
 			"05"

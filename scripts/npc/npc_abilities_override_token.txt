@@ -5,6 +5,7 @@
 	"attribute_bonus"
 	{
 		"MaxLevel" "20"
+		"LevelsBetweenUpgrades" "1"
 	}
 	
 	// Strength (Radiant)
@@ -409,7 +410,7 @@
 	
 	"alchemist_chemical_rage"
 	{
-		"AbilityCooldown" "CDA45"
+		"AbilityCooldown" "CDB45"
 		"AbilityManaCost" "MPD50 MPD100 MPD150"
 		"AbilitySpecial"
 		{
@@ -2271,9 +2272,17 @@
 	"lone_druid_true_form"
 	{
 		"AbilityManaCost" "MPA25"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "AS1.5"
+			}
+		}
 	}
 	
-	"lone_druid_druid_form"
+	"lone_druid_true_form_druid"
 	{
 		"AbilityManaCost" "MPA25"
 	}
@@ -2339,6 +2348,30 @@
 	}
 	
 	// Troll Warlord
+	"troll_warlord_berserkers_rage"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_move_speed" "20 30 40 50"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "AS1.55"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_duration" "CCA0.8 CCA1.2 CCA1.6 CCA2"
+			}
+		}
+	}
+
 	"troll_warlord_whirling_axes_ranged"
 	{
 		"AbilityCooldown" "CDA20 CDA19 CDA18 CDA17"
@@ -3021,6 +3054,14 @@
 	{
 		"AbilityCooldown" "CDA140"
 		"AbilityManaCost" "MPA50"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "AS1.6"
+			}
+		}
 	}
 	
 	"terrorblade_sunder"

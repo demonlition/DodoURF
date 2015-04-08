@@ -26,39 +26,32 @@ General
 Heroes
 
 	Abaddon
-		Borrowed Time 
-		- Cooldown reduction from 80% to 60%
+	- Borrowed Time cooldown to B class
 
 	Axe
-		Berserker's Call
-		- Cooldown reduction from 80% to 60%
-		- Mana cost reduction from 90% to 80%
+	- Berserker's Call cooldown to B class
+	- Berserker's Call mana cost to B class
 
 	Bane
-		Nightmare
-		- Cooldown reduction from 80% to 60%
-		- Mana cost reduction from 90% to 80%
+	- Nightmare cooldown to B class
+	- Nightmare mana cost to B class
 
 	Bloodseeker
-		Thirst
-		- Max move speed bonus per hero from 10%/20%/30%/40% to 20%/30%/40%/50%
+	- Thirst max move speed bonus per hero from 10%/20%/30%/40% to 20%/30%/40%/50%
 
 	Brewmaster
-		Permanent Immolation
-		- Damage per second from 15/30/45 to 30/60/90
+	- Permanent Immolation damage per second from 15/30/45 to 30/60/90
 
 	Broodmother
-		Poison Sting
-		- Damage per second from 8 to 16
+	- Poison Sting damage per second from 8 to 16
 
 	Chen
-		Holy Persuasion
-		- Max units from 1/2/3/4 to 2/3/4/5
-		- Health bonus from 75/150/225/300 to 120/240/360/480
+	- Holy Persuasion max units from 1/2/3/4 to 2/3/4/5
+	- Holy Persuasion health bonus from 75/150/225/300 to 120/240/360/480
 
 	Death Prophet
-	- Witchcraft mana reduction to A class mana cost 
-	- Witchcraft cooldown reduction to A class cooldown 
+	- Witchcraft mana cost reduction now scales as an A class mana cost
+	- Witchcraft cooldown reduction now scales as an A class cooldown
 
 	Doom
 	- Devour creep HP per second from 20 to 100
@@ -68,11 +61,13 @@ Heroes
 	- Doom damage per second from 20/35/50 (40/60/80) to 27.27/47.73/68.18 (53.33/80/106.67)
 
 	Dragon Knight
-	- Dragon Tail to B class cooldown and mana cost
+	- Dragon Tail cooldown to B class
+	- Dragon Tail mana cost to B class
 	- Dragon Blood health regen bonus from 2/3/4/5 to 4/6/8/10
 
 	Enigma
-	- Demonic Conversion to C class cooldown and mana cost
+	- Demonic Conversion cooldown to C class
+	- Demonic Conversion mana cost to C class
 
 	Keeper of the Light
 	- Illuminate channel time from 2/3/4/5 to 1/2/3/4
@@ -80,46 +75,52 @@ Heroes
 	- Illuminate vision rate from 0.5 to 0.25/0.33/0.375/0.4
 
 	Lich
-	- Sacrifice to C class cooldown and mana cost
+	- Sacrifice cooldown to C class
+	- Sacrifice mana cost to C class
 
 	Lion
-	- Earth Spike to B class cooldown and mana cost
-	- Hex to B class cooldown and mana cost
+	- Earth Spike cooldown to B class
+	- Earth Spike mana cost to B class
+	- Hex cooldown to B class
+	- Hex mana cost to B class
 
 	Lycan
 	- Invisibility fade delay to A class cooldown 
-	- Shapeshift movement speed from 650 to 800
+	- Shapeshift movement speed from 650 to 800#
 
 	Medusa
 	- Mana Shield damage absorbed per mana from 1.6/1.9/2.2/2.5 to 1.9/2.2/2.5/2.8
 
 	Morphling
-	- Morph shift rate to A class cooldown 
+	- Morph shift rate now scales as an A class cooldown
 
 	Omniknight
-	- Repel to B class cooldown and mana cost
+	- Repel cooldown to B class
+	- Repel mana cost to B class
 
 	Oracle
 	- Fortune's End channel time from 2.5 to 1.5
-	- False Promise to B class cooldown and mana cost
+	- False Promise cooldown to B class
+	- False Promise mana cost to B class
 
 	Phoenix
 	- Supernova nova duration from 6 to 3
 	- Supernova damage per second from 60/80/100 to 120/160/200
 
 	Puck
-	- Phase Shift to C class cooldown and mana cost
+	- Phase Shift cooldown to C class
 
 	Pudge
-	- Rot tick rate to A class cooldown 
+	- Rot tick rate now scales as an A class cooldown 
 
 	Pugna
 	- Nether Ward damage per used mana from 1/1.25/1.5/1.75 to 2/2.5/3/3.5
 	- Nether Ward mana lost per second from 1.5/3/4.5/6 to 3/6/9/12
 
 	Riki
-	- Smoke Screen to B class cooldown and mana cost
-	- Permanent Invisibility fade delay to A class cooldown 
+	- Smoke Screen cooldown to B class
+	- Smoke Screen mana cost to B class
+	- Permanent Invisibility fade delay now scales as an A class cooldown 
 
 	Sand King
 	- Sand Storm max channel time from 20/40/60/80 to 8/16/24/32
@@ -130,11 +131,14 @@ Heroes
 	- Necromastery souls lost on death from 50% to 33.33%
 
 	Shadow Shaman
-	- Hex to B class cooldown and mana cost
-	- Shackles to B class cooldown and mana cost
+	- Hex cooldown to B class
+	- Hex mana cost to B class
+	- Shackles cooldown to B class
+	- Shackles mana cost to B class
 
 	Silencer
-	- Last Word to B class cooldown and mana cost
+	- Last Word cooldown to B class
+	- Last Word mana cost to B class
 
 	Storm Spirit
 	- Ball Lightning activation cost from 15+7% to 12+6%
@@ -144,12 +148,14 @@ Heroes
 	- Land Mines max mines from 20 to 30
 
 	Tinker
-	- Rearm to B class mana cost
-	- Rearm channel time to A class cooldown 
+	- Rearm mana cost to B class
+	- Rearm channel time now scales as an A class cooldown
 	- Rearm cast point from 0.53 to 0
 
 	Witch Doctor
-	- Voodoo restoration heal interval from 0.33 to 0.066
+	- Voodoo Restoration heal interval now scales as an A class cooldown
+
+	#content does not exist in 6.81
 
 
 Items
@@ -158,23 +164,26 @@ Items
 	- Model scale increase from 30% to 50%
 
 	Blade Mail
-	- Damage Return to B class cooldown and mana cost
+	- Damage Return cooldown to B class
+	- Damage Return mana cost to B class
 
 	Blink Dagger
-	- Blink to B class cooldown and mana cost
+	- Blink cooldown to B class
+	- Blink mana cost to B class
 
 	Bloodstone
 	- Bloodpact charges lost on death from 33.33% to 20%
 
 	Boots of Travel
-	- Teleport to C class cooldown and mana cost
+	- Teleport cooldown to C class
+	- Teleport mana cost to C class
 
 	Bottle
 	- Regenerate duration from 3 to 1
 
 	Clarity
-	- Total mana restored from 150 to 240
-	- Duration from 40 to 8
+	- Regenerate Mana total mana restored from 150 to 240
+	- Regenerate Mana duration now scales as an A class cooldown
 
 	Diffusal Blade
 	- Initial charges from 8 to 16
@@ -186,34 +195,34 @@ Items
 	- Initial charges from 6 to 12
 
 	Flying Courier
-	- Restock time to A class cooldown
+	- Restock time now scales as an A class cooldown
 
 	Gem of True Sight
-	- Restock time to B class cooldown
+	- Restock time now scales as a B class cooldown
 
 	Hand of Midas
-	- Transmute to B class cooldown and mana cost
+	- Transmute cooldown to B class
 
 	Healing Salve
-	- Total health restored from 400 to 560
-	- Duration from 10 to 6
+	- Regenerate Health total health restored from 400 to 560
+	- Regenerate Health duration now scales as a C class cooldown
 
 	Helm of the Dominator
 	- Health Bonus from 500 to 800
 
 	Mekansm
-	- Restore armor buff duration to A class cooldown
+	- Restore armor buff duration now scales as an A class cooldown
 
 	Observer Wards
-	- Restock time to B class cooldown
+	- Restock time now scales as a B class cooldown
 
 	Phase Boots
-	- Phase cooldown to B class scaling
+	- Phase cooldown to B class
 	- Phase duration from 4 to 2
 	- Phase move speed bonus from 16% to 32%
 
 	Pipe of Insight
-	- Barrier debuff duration to A class cooldown
+	- Barrier debuff duration now scales as an A class cooldown
 
 	Quelling Blade
 	- Quell attack damage bonus (melee) from 32% to 40%
@@ -223,14 +232,15 @@ Items
 	- Burn Damage damage per second increased from 50 to 100
 
 	Smoke of Deceit
-	- Restock time to A class cooldown
+	- Restock time now scales as an A class cooldown
 
 	Tango
-	- Health restored from 115 to 161
-	- Duration from 16 to 9.6
+	- Eat Tree health restored from 115 to 161
+	- Eat Tree duration now scales as an A class cooldown
 
 	Town Portal Scroll
-	- Teleport to C class cooldown and mana cost
+	- Teleport cooldown to C class
+	- Teleport mana cost to C class
 
 	Urn of Shadows
 	- Charge gains from 2/1 to 3/2
@@ -243,7 +253,7 @@ Neutrals
 	- Speed Aura move speed bonus from 12% to 24%
 
 	Hill Troll Priest
-	- Heal cast point from 0.5 to 0.1
+	- Heal cast point now scales as an A class cooldown
 
 	Vhoul Assassin
 	- Envenomed Weapon damage per second from 2 to 4
@@ -255,68 +265,70 @@ HAM 0.3
 General
 
 	- Duration of all disables (stuns, silences, etc.) reduced by 0% (S class) and 25% (A class)*
-	- Mana cost now has D class (0% decrease)
+	- Mana costs now have a D class (0% decrease)
 	* Unless otherwise noted below, all disables are A class
 
 Heroes
 
 	Alchemist
-	- Unstable Concoction brew time to A class cooldown
-	- Unstable Concoction explode time to A class cooldown
-	- Chemical Rage to D class mana cost
-	- Chemical Rage duration to B class cooldown
+	- Unstable Concoction brew time now scales as an A class cooldown
+	- Unstable Concoction explode time now scales as an A class cooldown
+	- Chemical Rage mana cost to D class
+	- Chemical Rage duration now scales as a B class cooldown
 	- Chemical Rage base attack time from 1.4/1.2/1 to 1.2/1/0.8
 	- Chemical Rage health regen bonus from 50/75/100 to 75/100/125
 	- Chemical Rage mana regen bonus from 3/7.5/12 to 7.5/12/16.5
 	- Chemical Rage move speed bonus from 30/40/60 to 40/50/80
 
 	Bane
-	- Nightmare tick rate from 0.75 to 1
-	- Nightmare tick rate to A class (disable)
-	- Fiend's Grip tick rate to A class (disable)
+	- Nightmare tick rate now scales as an A class disable
+	- Fiend's Grip tick rate now scales as an A class disable
 
 	Batrider
 	- Flamebreak stun to S class
 
 	Bloodseeker
-	- Bloodrage tick rate to A class (disable)
+	- Bloodrage tick rate now scales as an A class disable
 
 	Clockwerk
 	- Battery Assault mini-stun to S class*
 
 	Crystal Maiden
-	- Frostbite cooldown and mana cost from A class to C class
+	- Frostbite cooldown from A class to C class
+	- Frostbite mana cost from A class to C class
 	- Frostbite root to S class
 
 	Dark Seer
 	- Vacuum pull to S class
 
 	Dazzle
-	- Poison Touch slow and stun to A class*
+	- Poison Touch slow and stun to S class*
 
 	Death Prophet
-	- Silence cooldown and mana cost from A class to B class
+	- Silence cooldown from A class to B class
+	- Silence mana cost from A class to B class
 
 	Drow Ranger
-	- Gust cooldown and mana cost from A class to B class
+	- Gust cooldown from A class to B class
+	- Gust mana cost from A class to B class
 	- Gust knockback to S class
 
 	Ember Spirit
-	- Searing Chains tick rate to A class (disable)
+	- Searing Chains tick rate now scales as an A class disable
 
 	Enigma
-	- Black Hole tick rate to A class (disable)
-	- Black Hole pull speed from 40 to 53
+	- Black Hole tick rate now scales as an A class disable
+	- Black Hole pull speed from 40 to 53 (inverse A class disable)
 
 	Kunkka
-	- Torrent stun to S class
+	- Torrent knock-up to S class
 
 	Medusa
-	- Stone Gaze time until stone to A class (disable)
+	- Stone Gaze time until stone now scales as an A class disable
 
 	Naga Siren
-	- Ensnare cooldown and mana cost from A class to B class
-	- Song of the Siren duration to A class (disable)
+	- Ensnare cooldown from A class to B class
+	- Ensnare mana cost from A class to B class
 
 	Ogre Magi
 	- Bloodlust model scale from 125% to 140%
@@ -331,60 +343,65 @@ Heroes
 	- Dismember damage from 75/125/175 to 113/188/263
 
 	Pugna
-	- Decrepify cooldown and mana cost from A class to B class
+	- Decrepify cooldown from A class to B class
+	- Decrepify mana cost from A class to B class
 
 	Queen of Pain
 	- Shadow Strike damage over time from 30/40/50/60 to 41/55/68/82
 
 	Shadow Shaman
-	- Shackles tick rate to A class (disable)
+	- Shackles tick rate now scales as an A class disable
 
 	Silencer
 	- Curse of the Silent damage per second from 20/35/50/65 to 30/53/75/98
-	- Curse of the Silent mana loss per second from 8/16/24/32 to 8/16/24/32
-	- Last Word initial debuff duration to A class (disable)
+	- Curse of the Silent mana loss per second from 8/16/24/32 to 12/24/36/48
+	- Last Word initial debuff duration now scales as an A class disable
 
 	Slark
-	- Pounce cooldown and mana cost from A class to B class
+	- Pounce cooldown from A class to B class
+	- Pounce mana cost from A class to B class
 
 	Spirit Breaker
 	- Charge of Darkness charge speed from 600/650/700/750 to 700/750/800/850
-	- Greater Bash knockback to S class disable
+	- Greater Bash knockback to S class
 
 	Templar Assassin
 	- Psionic Trap maximum traps from 5/8/11 to 8/11/14
 
 	Terrorblade
-	- Reflection cooldown and mana cost from A class to B class
-	- Reflection illusion damage dealt from 40%/50%/60%/70% to 53.33%/66.67%/80%/93.33%
+	- Reflection cooldown from A class to B class
+	- Reflection mana cost from A class to B class
+	- Reflection illusion damage dealt from 40%/50%/60%/70% to 53.33%/66.67%/80%/93.33% (inverse A class disable)
 
 	Tinker
-	- Rearm cast point from 0 to 0.106
+	- Rearm cast point from 0 to 0.53
+	- Rearm cast point now scales as an A class cooldown
 
 	Tiny
 	- Toss air time to S class
 
 	Treant Protector
-	- Leech Seed heal/damage interval to A class disable
+	- Leech Seed tick rate now scales as an A class disable
 
 	Tusk
 	- Walrus Punch knock-up to S class
 
 	Venomancer
-	- Venomous Gale tick interval to A class (disable)
+	- Venomous Gale tick rate now scales as an A class disable
 	- Poison Sting damage per second from 5/10/15/20 to 9/17/22/29
 
 	Viper
-	- Corrosive Skin damage per second from 10/15/20/25 to 13 20 27 33
+	- Corrosive Skin damage per second from 10/15/20/25 to 13/20/27/33
 
 	Winter Wyvern
-	- Arctic Burn tick rate to A class (disable)
-	- Cold Embrace tick rate to A class (disable)
+	- Arctic Burn tick rate now scales as an A class disable#
+	- Cold Embrace tick rate now scales as an A class disable#
 
 	Wraith King
 	- Reincarnation slow duration from 5 to 4.5
 
 	*will become A class in a future patch
+	#content does not exist in 6.81
 
 
 
@@ -397,24 +414,25 @@ General
 	- Hero base attack times decreased by 25%
 	- Hero turn rates increased by 50%
 	- Hero level cap from 33 to 35
-	- Attribute bonus level cap from 18 to 20
+	- Attribute Bonus level cap from 18 to 20
+	- Attribute Bonus levels between upgrades from 2 to 1
 
 Heroes
 
 	Shadow Shaman
-	- Mass Serpent Ward cooldown reduction from 80% to 60%
-	- Mass Serpent Ward mana cost reduction from 90% to 80%
+	- Mass Serpent Ward cooldown from A class to B class
+	- Mass Serpent Ward mana cost from A class to B class
 
 	Tinker
-	- Rearm mana cost reduction from 80% to 70%
-	- Rearm channel time reduction from 80% to 60%
-	- Rearm cast point reduction from 80% to 60%
+	- Rearm mana cost from B class to C class
+	- Rearm channel time from A class to B class
+	- Rearm cast point from A class to B class
 
 Items
 
 	Black King Bar
-	- Avatar cooldown reduction from 80% to 60%
+	- Avatar cooldown from A class to B class
 
 	Refresher Orb
-	- Refresh cooldown reduction from 80% to 60%
-	- Refresh mana cost from 80% to 60%
+	- Refresh cooldown from A class to B class
+	- Refresh mana cost from A class to B class

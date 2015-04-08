@@ -4,6 +4,9 @@ tasks
 - add buyback cooldown scaling (? addon_game_mode.lua ?)
 
 problems
-- figure out how to change clockwerk battery assault stun duration and phoenix icarus dive slow duration
-- work out dazzle poison touch slow/stun duration
-- fix pudge rot tick rate
+- clockwerk battery assault stun duration
+- phoenix icarus dive slow duration
+- dazzle poison touch slow/stun duration
+- pudge rot tick rate
+- riki permanent invisibility fade delay
+- techies land mines max mines

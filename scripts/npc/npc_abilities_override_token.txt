@@ -3372,8 +3372,8 @@
 	
 	"shadow_shaman_mass_serpent_ward"
 	{
-		"AbilityCooldown" "CDA120"
-		"AbilityManaCost" "MPA200 MPA350 MPA600"
+		"AbilityCooldown" "CDB120"
+		"AbilityManaCost" "MPB200 MPB350 MPB600"
 	}
 	
 	// Tinker
@@ -4394,8 +4394,8 @@
 	// Death Prophet
 	"death_prophet_carrion_swarm"
 	{
-		"AbilityCooldown" "CDA8"
-		"AbilityManaCost" "MPA105 MPA120 MPA140 MPA165"
+		"AbilityCooldown" "CDB8"
+		"AbilityManaCost" "MPB105 MPB120 MPB140 MPB165"
 	}
 	
 	"death_prophet_silence"

@@ -4,8 +4,9 @@ Dota PvP game mode
 
 print( "HAM game mode loaded." )
 
-if DotaPvP == nil then
-	DotaPvP = class({})
+if HAM == nil then
+	HAM = {}
+	HAM.__index = HAM
 end
 
 XP_PER_LEVEL_TABLE = {
@@ -46,25 +47,23 @@ XP_PER_LEVEL_TABLE = {
 62900 -- 35
 }
 
---------------------------------------------------------------------------------
--- ACTIVATE
---------------------------------------------------------------------------------
 function Activate()
-    GameRules.DotaPvP = DotaPvP()
-    GameRules.DotaPvP:InitGameMode()
+    GameRules.HAM = HAM()
+    GameRules.HAM:InitGameMode()
 end
 
---------------------------------------------------------------------------------
--- INIT
---------------------------------------------------------------------------------
-function DotaPvP:InitGameMode()
+function HAM:InitGameMode()
 	local GameMode = GameRules:GetGameModeEntity()
+
+	-- Enable custom buyback cooldown
+	GameMode:SetCustomBuybackCooldownEnabled(true)
+	ListenToGameEvent('player_connect_full', SetBuyback, self)
 
 	-- Enable the standard Dota PvP game rules
 	GameRules:GetGameModeEntity():SetTowerBackdoorProtectionEnabled( true )
 
 	-- Register Think
-	GameMode:SetContextThink( "DotaPvP:GameThink", function() return self:GameThink() end, 0.25 )
+	GameMode:SetContextThink( "HAM:GameThink", function() return self:GameThink() end, 0.25 )
 
 	-- Set custom levels/experience
 	GameMode:SetCustomXPRequiredToReachNextLevel(XP_PER_LEVEL_TABLE)
@@ -74,11 +73,23 @@ function DotaPvP:InitGameMode()
 	-- Set custom gold income
 	GameRules:SetGoldTickTime(0.12)
 
-	-- Set custom buyback cooldown
-	PlayerResource:SetCustomBuybackCooldown(252)
+	-- Enable same hero
+	GameRules:SetSameHeroSelectionEnabled(true)
 end
 
---------------------------------------------------------------------------------
-function DotaPvP:GameThink()
+function SetBuyback(keys)
+	local GameMode = GameRules:GetGameModeEntity()
+	local entIndex = keys.index+1
+	local player = EntIndexToHScript(entIndex)
+	PlayerResource:SetCustomBuybackCooldown(player, 252)
+end
+
+function HAM:GameThink()
 	return 0.25
 end
+
+-- bool HaveAllPlayersJoined()
+-- bool IsValidPlayerID(int playerID) 
+-- int GetPlayerOwnerID() 
+-- int GetPlayerID() 
+-- void SetHeroSelectionTime(float time)

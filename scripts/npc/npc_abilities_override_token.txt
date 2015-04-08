@@ -3411,15 +3411,15 @@
 	
 	"tinker_rearm"
 	{
-		"AbilityManaCost" "MPB150 MPB250 MPB350"
-		"AbilityChannelTime" "CDA3 CDA2 CDA1"
-		"AbilityCastPoint" "CDA0.53"
+		"AbilityManaCost" "MPC150 MPC250 MPC350"
+		"AbilityChannelTime" "CDB3 CDB2 CDB1"
+		"AbilityCastPoint" "CDB0.53"
 		"AbilitySpecial"
 		{
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"channel_tooltip" "CDA30 CDA20 CDA10"
+				"channel_tooltip" "CDB30 CDB20 CDB10"
 			}			
 		}
 	}
@@ -5069,7 +5069,7 @@
 
 	"item_black_king_bar"
 	{
-		"AbilityCooldown" "CDA80 CDA75 CDA70 CDA65 CDA60 CDA55"
+		"AbilityCooldown" "CDB80 CDB75 CDB70 CDB65 CDB60 CDB55"
 		"AbilitySpecial"
 		{
 			"05"
@@ -5601,8 +5601,8 @@
 	
 	"item_refresher"
 	{
-		"AbilityCooldown" "CDA195"
-		"AbilityManaCost" "MPA375"
+		"AbilityCooldown" "CDB195"
+		"AbilityManaCost" "MPB375"
 		"AbilitySpecial"
 		{
 			"02"

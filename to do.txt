@@ -1,11 +1,9 @@
 tasks
 - add HL token to all healing abilities (npc_abilities_override.txt)
 - add bloodseeker's thirst modifier with zeroed bonuses to all heroes to remove move speed cap (? npc_heroes_custom.txt ?)
-- increase buyback cooldown from 7 minutes to 10 minutes (? addon_game_mode.lua ?)
+- add buyback cooldown scaling (? addon_game_mode.lua ?)
 
 problems
 - figure out how to change clockwerk battery assault stun duration and phoenix icarus dive slow duration
 - work out dazzle poison touch slow/stun duration
-
-balancing
-- antimage blink too powerful?
+- fix pudge rot tick rate

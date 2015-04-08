@@ -20,33 +20,41 @@ General
 	- Attribute bonus level cap from 10 to 18
 	- Critical strike damage increased by 25%
 	- Item bonus mana regeneration increased by 100%
-	* Unless otherwise noted below, all abilities are A class
+	* Unless otherwise noted below, all abilities are A class (80% cooldown reduction, 90% mana cost reduction and 80% health cost reduction)
 
 
 Heroes
 
 	Abaddon
-	- Borrowed Time to B class cooldown
+		Borrowed Time 
+		- Cooldown reduction from 80% to 60%
 
 	Axe
-	- Berserker's Call to B class cooldown and mana cost
+		Berserker's Call
+		- Cooldown reduction from 80% to 60%
+		- Mana cost reduction from 90% to 80%
 
 	Bane
-	- Nightmare to B class cooldown and mana cost
-	- Nightmare damage per second interval from 1.0 to 0.75
+		Nightmare
+		- Cooldown reduction from 80% to 60%
+		- Mana cost reduction from 90% to 80%
 
 	Bloodseeker
-	- Thirst max move speed bonus per hero from 10%/20%/30%/40% to 20%/30%/40%/50%
+		Thirst
+		- Max move speed bonus per hero from 10%/20%/30%/40% to 20%/30%/40%/50%
 
 	Brewmaster
-	- Permanent Immolation damage per second from 15/30/45 to 30/60/90
+		Permanent Immolation
+		- Damage per second from 15/30/45 to 30/60/90
 
 	Broodmother
-	- Poison Sting damage per second from 8 to 16
+		Poison Sting
+		- Damage per second from 8 to 16
 
 	Chen
-	- Holy Persuasion max units from 1/2/3/4 to 2/3/4/5
-	- Holy Persuasion health bonus from 75/150/225/300 to 120/240/360/480
+		Holy Persuasion
+		- Max units from 1/2/3/4 to 2/3/4/5
+		- Health bonus from 75/150/225/300 to 120/240/360/480
 
 	Death Prophet
 	- Witchcraft mana reduction to A class mana cost 
@@ -385,8 +393,28 @@ HAM 0.4
 General
 
 	- Passive gold income from 1g/0.6s to 5g/0.6s
-	- Hero base move speeds increased by 10%
+	- Hero base move speeds increased by 50
 	- Hero base attack times decreased by 25%
 	- Hero turn rates increased by 50%
 	- Hero level cap from 33 to 35
 	- Attribute bonus level cap from 18 to 20
+
+Heroes
+
+	Shadow Shaman
+	- Mass Serpent Ward cooldown reduction from 80% to 60%
+	- Mass Serpent Ward mana cost reduction from 90% to 80%
+
+	Tinker
+	- Rearm mana cost reduction from 80% to 70%
+	- Rearm channel time reduction from 80% to 60%
+	- Rearm cast point reduction from 80% to 60%
+
+Items
+
+	Black King Bar
+	- Avatar cooldown reduction from 80% to 60%
+
+	Refresher Orb
+	- Refresh cooldown reduction from 80% to 60%
+	- Refresh mana cost from 80% to 60%

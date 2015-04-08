@@ -73,6 +73,9 @@ function DotaPvP:InitGameMode()
 
 	-- Set custom gold income
 	GameRules:SetGoldTickTime(0.12)
+
+	-- Set custom buyback cooldown
+	PlayerResource:SetCustomBuybackCooldown(252)
 end
 
 --------------------------------------------------------------------------------

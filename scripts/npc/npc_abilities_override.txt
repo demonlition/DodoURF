@@ -3962,7 +3962,7 @@
 		"AbilityManaCost" "12.5 15 17.5 20.5"
 		"AbilitySpecial"
 		{
-			"05"
+			"07"
 			{
 				"var_type" "FIELD_INTEGER"
 				"max_mines" "30"

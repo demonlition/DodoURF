@@ -3962,7 +3962,7 @@
 		"AbilityManaCost" "MPA125 MPA150 MPA175 MPA205"
 		"AbilitySpecial"
 		{
-			"05"
+			"07"
 			{
 				"var_type" "FIELD_INTEGER"
 				"max_mines" "30"

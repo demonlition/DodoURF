@@ -7,6 +7,3 @@ problems
 - clockwerk battery assault stun duration
 - phoenix icarus dive slow duration
 - dazzle poison touch slow/stun duration
-- pudge rot tick rate
-- riki permanent invisibility fade delay
-- techies land mines max mines

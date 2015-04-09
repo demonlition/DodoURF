@@ -15,7 +15,7 @@ Health Cost
 	HPC - 0.9
 
 Base Attack Time
-	AS - 1.25
+	AS - 0.75
 
 Base Movement Speed
 	MS - 50

@@ -1,5 +1,10 @@
 maps/dota_pvp.vpk
 materials/overviews/dota_pvp.vmat_c
 materials/overviews/dota_pvp_psd_d9613c4e.vtex_c
+<<<<<<< HEAD
 ham.sublime-project
 ham.sublime-workspace
+=======
+*.vmf
+maps/dota_pvp.vpk.txt
+>>>>>>> 2bf938811f1dba91a92d4656d3d92aa40d7739ba

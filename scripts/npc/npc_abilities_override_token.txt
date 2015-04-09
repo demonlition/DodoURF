@@ -5032,7 +5032,7 @@
 			"08"
 			{
 				"var_type" "FIELD_INTEGER"
-				"unholy_health_drain" "HP40"
+				"unholy_health_drain" "HPA40"
 			}	
 		}
 	}
@@ -5752,7 +5752,7 @@
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"health_sacrifice" "HP150"
+				"health_sacrifice" "HPA150"
 			}		
 		}
 	}

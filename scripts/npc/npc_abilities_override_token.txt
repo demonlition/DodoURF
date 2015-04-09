@@ -1096,14 +1096,7 @@
 
 	"pudge_rot"
 	{
-		"AbilitySpecial"
-		{
-			"02"
-			{
-				"var_type" "FIELD_FLOAT"
-				"rot_tick" "CDA0.2"
-			}
-		}
+		"AbilityDamage" "70 120 170 220"
 	}
 	
 	"pudge_dismember"

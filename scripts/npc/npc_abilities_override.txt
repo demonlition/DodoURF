@@ -2059,7 +2059,7 @@
 	{
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"fade_delay" "0.6 0.4 0.2"

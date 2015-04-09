@@ -418,6 +418,9 @@ General
 	- Attribute Bonus levels between upgrades from 2 to 1
 
 Heroes
+	Pudge
+	- Rot tick rate no longer scales as an A class cooldown
+	- Rot damage per second from 35/60/85/110 to 70/120/170/220
 
 	Shadow Shaman
 	- Mass Serpent Ward cooldown from A class to B class
@@ -434,5 +437,5 @@ Items
 	- Avatar cooldown from A class to B class
 
 	Refresher Orb
-	- Refresh cooldown from A class to B class
-	- Refresh mana cost from A class to B class
+	- Reset Cooldowns cooldown from A class to B class
+	- Reset Cooldowns mana cost from A class to B class

@@ -7,3 +7,4 @@ problems
 - clockwerk battery assault stun duration
 - phoenix icarus dive slow duration
 - dazzle poison touch slow/stun duration
+- health cost abilities

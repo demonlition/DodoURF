@@ -1711,7 +1711,7 @@
 		"AbilityManaCost" "MPA50 MPA60 MPA70 MPA80"
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"self_damage" "HPA75 HPA100 HPA125 HPA150"

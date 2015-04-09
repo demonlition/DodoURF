@@ -1,6065 +1,6065 @@
 "DOTAAbilities"
 {
-  // Heroes
-  // Attribute Bonus
-  "attribute_bonus"
-  {
-    "MaxLevel" "20"
-    "LevelsBetweenUpgrades" "1"
-  }
-  
-  // Strength (Radiant)
-  // Earthshaker
-  "earthshaker_fissure"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "12.5 14 15.5 17"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.75 0.9375 1.125 1.3125"
-      }
-    }
-  }
-  
-  "earthshaker_enchant_totem"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "2 3 4 5"
-  }
-
-  "earthshaker_aftershock"
-  {
-    "AbilityDuration" "0.45 0.675 0.9 1.125"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tooltip_duration" "0.45 0.675 0.9 1.125"
-      }
-    }
-  }
-  
-  "earthshaker_echo_slam"
-  {
-    "AbilityCooldown" "30 26 22"
-    "AbilityManaCost" "14.5 20.5 26.5"
-  }
-  
-  // Sven
-  "sven_storm_bolt"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "14"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bolt_stun_duration" "1.5"
-      }
-    }
-  }
-  
-  "sven_warcry"
-  {
-    "AbilityCooldown" "6.4 5.2 4 2.8"
-    "AbilityManaCost" "2.5"
-  }
-  
-  "sven_gods_strength"
-  {
-    "AbilityCooldown" "16"
-    "AbilityManaCost" "10 15 20"
-  }
-  
-  // Tiny
-  "tiny_avalanche"
-  {
-    "AbilityCooldown" "3.4"
-    "AbilityManaCost" "12"
-    "AbilityDuration" "1.5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_interval" "0.1875 0.25 0.25 0.25"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "num_ticks" "4 4 4 4"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "CCA1.0"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "projectile_duration" "0.375"
-      }
-    }
-  }
-  
-  "tiny_toss"
-  {
-    "AbilityCooldown" "1.8"
-    "AbilityManaCost" "12"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.3"
-      }
-    }
-  }
-  
-  // Kunkka
-  "kunkka_torrent"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "12"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "0.75 1.5 2.25 3"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.53"
-      }
-    }
-  }
-  
-  "kunkka_tidebringer"
-  {
-    "AbilityCooldown" "2.6 2 1.4 0.8"
-  }
-  
-  "kunkka_x_marks_the_spot"
-  {
-    "AbilityCooldown" "3.8 3.2 2.6 2"
-    "AbilityManaCost" "8"
-  }
-  
-  "kunkka_ghostship"
-  {
-    "AbilityCooldown" "12 10 8"
-    "AbilityManaCost" "15 20 25"
-  }
-  
-  // Beastmaster
-  "beastmaster_wild_axes"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "12"
-  }
-  
-  "beastmaster_call_of_the_wild"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "1.5"
-  }
-  
-  "beastmaster_call_of_the_wild_boar"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "1.5"
-  }
-  
-  "beastmaster_primal_roar"
-  {
-    "AbilityCooldown" "16 15 14"
-    "AbilityManaCost" "15 17.5 20"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25 2.625 3"
-      }
-
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "1.5 2.25 3"
-      }
-
-      "11"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "9"
-      }     
-    }
-  }
-
-  "beastmaster_boar_poison"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25"
-      }
-    }
-  }
-  
-  // Dragon Knight
-  "dragon_knight_breathe_fire"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "10 11 12 13"
-  }
-  
-  "dragon_knight_dragon_tail"
-  {
-    "AbilityCooldown" "4.8 4.4 4 3.6"
-    "AbilityManaCost" "20"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.875 2.0625 2.25 2.4375"
-      }
-    }
-  }
-
-  "dragon_knight_dragon_blood"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_health_regen" "4 6 8 10"
-      }
-    }
-  }
-  
-  "dragon_knight_elder_dragon_form"
-  {
-    "AbilityCooldown" "23"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "11"
-      {
-        "var_type" "FIELD_FLOAT"
-        "frost_duration" "2.25"
-      }
-    }
-  }
-  
-  // Clockwerk
-  "rattletrap_battery_assault"
-  {
-    "AbilityCooldown" "6.4 5.6 4.8 4"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "rattletrap_power_cogs"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "5 6 7 8"
-  }
-  
-  "rattletrap_rocket_flare"
-  {
-    "AbilityCooldown" "4 3.6 3.2 2.8"
-    "AbilityManaCost" "5"
-  }
-  
-  "rattletrap_hookshot"
-  {
-    "AbilityCooldown" "14 11 8"
-    "AbilityManaCost" "15"
-    "AbilitySpecial"
-    {
-      "03"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.75 1.125 1.5"
-      }
-
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "2.4"
-      }     
-    }
-  }
-  
-  // Omniknight
-  "omniknight_purification"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "10 12 14 16"
-  }
-  
-  "omniknight_repel"
-  {
-    "AbilityCooldown" "5.6"
-    "AbilityManaCost" "10"
-  }
-  
-  "omniknight_guardian_angel"
-  {
-    "AbilityCooldown" "30"
-    "AbilityManaCost" "12.5 17.5 25"
-  }
-  
-  //Huskar
-  "huskar_inner_vitality"
-  {
-    "AbilityCooldown" "5 4.4 3.8 3.2"
-    "AbilityManaCost" "17"
-  }
-  
-  "huskar_burning_spears"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "health_cost" "3"
-      }     
-    }
-  }
-  
-  "huskar_life_break"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityDuration" "3 3.75 4.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "health_cost_percent" "0.07"
-      }
-      
-      "06"
-      {
-        "var_type" "FIELD_INTEGER"
-        "tooltip_health_cost_percent" "7"
-      }
-      
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "0.8"
-      }     
-    }
-  }
-  
-  // Alchemist
-  "alchemist_acid_spray"
-  {
-    "AbilityCooldown" "4.4"
-    "AbilityManaCost" "13 14 15 16"
-  }
-  
-  "alchemist_unstable_concoction"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "12"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "brew_time" "1"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "brew_explosion" "1.1"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "min_stun" "0.1875"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "max_stun" "1.3125 1.875 2.4375 3"
-      }
-    }
-  }
-  
-  "alchemist_chemical_rage"
-  {
-    "AbilityCooldown" "18"
-    "AbilityManaCost" "50 100 150"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "10"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "base_attack_time" "0.9 0.75 0.6"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_health_regen" "75 100 125"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bonus_mana_regen" "15 24 33"
-      }
-
-      "07"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_movespeed" "30 40 80"
-      }
-    }
-  }
-  
-  // Brewmaster
-  "brewmaster_thunder_clap"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "9 10.5 13 15"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_creeps" "6"
-      }     
-    }
-  }
-  
-  "brewmaster_drunken_haze"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "6"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_creeps" "9"
-      }
-    }
-  }
-  
-  "brewmaster_drunken_brawler"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_multiplier" "250"
-      }
-      
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "last_proc" "3.2 2.8 2.4 2"
-      }
-    }
-  }
-  
-  "brewmaster_primal_split"
-  {
-    "AbilityCooldown" "28 24 20"
-    "AbilityManaCost" "12.5 15 17.5"
-  }
-  
-  "brewmaster_earth_hurl_boulder"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5"
-      }
-    }
-  }
-  
-  "brewmaster_storm_dispel_magic"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "brewmaster_storm_cyclone"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "15"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_hero" "4.5"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_unit" "15"
-      }
-    }
-  }
-  
-  "brewmaster_storm_wind_walk"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilityManaCost" "7.5"
-  }
-
-  "brewmaster_fire_permanent_immolation"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage" "30 60 90"
-      }
-    }
-  }
-  
-  // Treant Protector
-  "treant_natures_guise"
-  {
-    "AbilityCooldown" "2 1.6 1.2 0.8"
-    "AbilityManaCost" "6"
-  }
-  
-  "treant_leech_seed"
-  {
-    "AbilityCooldown" "3.2 2.8 2.4 2"
-    "AbilityManaCost" "14"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "damage_interval" "0.5625"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3.375"
-      }
-    }
-  }
-  
-  "treant_living_armor"
-  {
-    "AbilityCooldown" "6.4 5.2 4 2.8"
-    "AbilityManaCost" "5"
-  }
-  
-  "treant_overgrowth"
-  {
-    "AbilityCooldown" "14"
-    "AbilityManaCost" "15 17.5 20"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25 2.8125 3.375"
-      }       
-    }
-  }
-  
-  // Io
-  "wisp_tether"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "4"
-    "AbilitySpecial"
-    {
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.5625 0.9375 1.3125 1.6875"
-      }
-    }
-  }
-  
-  "wisp_spirits"
-  {
-    "AbilityCooldown" "4 3.6 3.2 2.8"
-    "AbilityManaCost" "12 13 14 15"
-  }
-  
-  "wisp_overcharge"
-  {
-    "AbilityCooldown" "0.4"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "drain_pct" "0.009 0.009 0.009 0.009"
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "drain_pct_tooltip" "0.9 0.9 0.9 0.9"
-      }     
-    }
-  }
-  
-  "wisp_relocate"
-  {
-    "AbilityCooldown" "18 15 12"
-    "AbilityManaCost" "10"
-  }
-  
-  // Centaur Warrunner
-  "centaur_hoof_stomp"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "13"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.5 1.6875 1.875 2.0625"
-      }
-    }
-  }
-  
-  "centaur_double_edge"
-  {
-    "AbilityCooldown" "1.6"
-  }
-  
-  "centaur_stampede"
-  {
-    "AbilityCooldown" "18 15 12"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "1.125"
-      }
-    }
-  }
-  
-  // Timbersaw
-  "shredder_whirling_death"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "7 8 9 10"
-  }
-  
-  "shredder_timber_chain"
-  {
-    "AbilityCooldown" "0.8"
-    "AbilityManaCost" "6 7 8 9"
-  }
-  
-  "shredder_chakram"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "10 15 20"
-    "AbilitySpecial"
-    {
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "mana_per_second" "2 2.5 3"
-      }     
-    }
-  }
-  
-  // Bristleback
-  "bristleback_viscous_nasal_goo"
-  {
-    "AbilityCooldown" "0.3"
-    "AbilityManaCost" "3"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "goo_duration" "3.75"
-      }
-
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "goo_duration_creep" "7.5"
-      }
-    }
-  }
-  
-  "bristleback_quill_spray"
-  {
-    "AbilityCooldown" "0.6"
-    "AbilityManaCost" "3.5"
-  }
-  
-  // Tusk
-  "tusk_ice_shards"
-  {
-    "AbilityCooldown" "3.6 3.2 2.8 2.4"
-    "AbilityManaCost" "12"
-  }
-  
-  "tusk_snowball"
-  {
-    "AbilityCooldown" "4.2 4 3.8 3.6"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.375 0.5625 0.75 0.9375"
-      }
-    }
-  }
-  
-  "tusk_frozen_sigil"
-  {
-    "AbilityCooldown" "10"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "tusk_walrus_punch"
-  {
-    "AbilityCooldown" "4 3.2 2.4"
-    "AbilityManaCost" "5 7.5 10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_multiplier" "437.5"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "1.5 2.25 3"
-      }
-    }
-  }
-  
-  // Elder Titan
-  "elder_titan_echo_stomp"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "sleep_duration" "1.5 2.25 3 3.75"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "initial_stun_duration" "0.4875"
-      }
-    }
-  }
-  
-  "elder_titan_echo_stomp_spirit"
-  {
-    "AbilityCooldown" "3"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "sleep_duration" "1.5 2.25 3 3.75"
-      }
-    }
-  }
-  
-  "elder_titan_ancestral_spirit"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "11"
-  }
-  
-  "elder_titan_earth_splitter"
-  {
-    "AbilityCooldown" "20"
-    "AbilityManaCost" "17.5"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "2.25 3 3.75"
-      }
-    }
-  }
-  
-  // Legion Commander
-  "legion_commander_overwhelming_odds"
-  {
-    "AbilityCooldown" "3.6"
-    "AbilityManaCost" "10"
-  }
-  
-  "legion_commander_press_the_attack"
-  {
-    "AbilityCooldown" "3.2 3 2.8 2.6"
-    "AbilityManaCost" "11"
-  }
-  
-  "legion_commander_moment_of_courage"
-  {
-    "AbilityCooldown" "0.18"
-  }
-  
-  "legion_commander_duel"
-  {
-    "AbilityCooldown" "10"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3 3.5625 4.125"
-      }
-    }
-  }
-  
-  // Earth Spirit
-  "earth_spirit_boulder_smash"
-  {
-    "AbilityCooldown" "4.4 3.6 2.8 2"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.5625 0.9375 1.3125 1.6875"
-      }
-      
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_duration" "2.625 3 3.375 3.75"
-      }     
-    }
-  }
-  
-  "earth_spirit_rolling_boulder"
-  {
-    "AbilityCooldown" "3.2 2.4 1.6 0.8"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "1.5"
-      }
-    }
-  }
-  
-  "earth_spirit_geomagnetic_grip"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_duration" "1.875 2.25 2.625 3"
-      }     
-    }
-  }
-  
-  "earth_spirit_stone_caller"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "charge_restore_time" "6"
-      }     
-    }
-  }
-  
-  "earth_spirit_magnetize"
-  {
-    "AbilityCooldown" "16"
-    "AbilityManaCost" "10"
-  }
-  
-  // Phoenix
-  "phoenix_icarus_dive"
-  {
-    "AbilityCooldown" "7.2"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "hp_cost_perc" "3"
-      }     
-    }
-  }
-  
-  "phoenix_fire_spirits"
-  {
-    "AbilityCooldown" "9 8 7 6"
-    "AbilityManaCost" "8 9 10 11"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "hp_cost_perc" "4"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_interval" "0.75"
-      }
-    }
-  }
-  
-  "phoenix_sun_ray"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "hp_cost_perc_per_second" "1.2"
-      }     
-    }
-  }
-  
-  "phoenix_supernova"
-  {
-    "AbilityCooldown" "22"
-    "AbilityManaCost" "20"
-    "AbilityDuration" "3"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type"      "FIELD_INTEGER"
-        "damage_per_sec"  "120 160 200"
-      }
-      
-      "03"
-      {
-        "var_type"      "FIELD_FLOAT"
-        "stun_duration"   "1.125 CCA2.0 1.875"
-      }
-
-      "05"
-      {
-        "var_type"      "FIELD_INTEGER"
-        "tooltip_duration"  "3"
-      }
-    }
-  }
-  
-  // Strength (Dire)
-  // Axe
-  "axe_berserkers_call"
-  {
-    "AbilityCooldown" "6.4 5.6 4.8 4"
-    "AbilityManaCost" "16 18 20 22"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5 1.8 2.1 2.4"
-      } 
-    }
-  }
-  
-  "axe_battle_hunger"
-  {
-    "AbilityCooldown" "4 3 2 1"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "7.5"
-      }
-    }
-  }
-  
-  "axe_counter_helix"
-  {
-    "AbilityCooldown" "0.09 0.08 0.07 0.06"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown" "0.09 0.08 0.07 0.06"
-      }     
-    }
-  }
-  
-  "axe_culling_blade"
-  {
-    "AbilityCooldown" "15 13 11"
-    "AbilityManaCost" "6 12 18"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "1.2"
-      }     
-    }
-  }
-  
-  // Pudge
-  "pudge_meat_hook"
-  {
-    "AbilityCooldown" "2.8 2.6 2.4 2.2"
-    "AbilityManaCost" "11 12 13 14"
-  }
-
-  "pudge_rot"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "rot_tick" "0.04"
-      }
-    }
-  }
-  
-  "pudge_dismember"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "10 13 17"
-    "AbilityChannelTime" "2.2125"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "dismember_damage" "113 188 263"
-      }
-    }
-  }
-  
-  // Sand King
-  "sandking_burrowstrike"
-  {
-    "AbilityCooldown" "2.2"
-    "AbilityManaCost" "11 12 13 14"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "burrow_duration" "1.6275"
-      }
-    }
-  }
-  
-  "sandking_sand_storm"
-  {
-    "AbilityCooldown" "8 6 4 2"
-    "AbilityManaCost" "6 5 4 3"
-    "AbilityDuration" "8 16 24 32"
-    "AbilityChannelTime" "8 16 24 32"
-    "AbilityDamage" "40 80 120 160"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "AbilityDuration" "8 16 24 32"
-      }
-    }
-  }
-  
-  "sandking_epicenter"
-  {
-    "AbilityCooldown" "28 24 20"
-    "AbilityManaCost" "17.5 25 32.5"
-    "AbilityDuration" "2.25"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_INTEGER"
-        "epicenter_slow_duration_tooltip" "2.25"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "epicenter_cooldown_scepter" "24 20 16"
-      }     
-    }
-  }
-  
-  // Slardar
-  "slardar_sprint"
-  {
-    "AbilityCooldown" "4.6"
-  }
-  
-  "slardar_slithereen_crush"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "8 9.5 10.5 11.5"
-    "AbilityDuration" "1.2 1.425 1.65 1.875"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "crush_extra_slow_duration" "1.5"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.2 1.425 1.65 1.875"
-      }
-    }
-  }
-
-  "slardar_bash"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.75"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_creep" "1.5"
-      }
-    }
-  }
-  
-  "slardar_amplify_damage"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "2.5"
-  }
-  
-  // Tidehunter
-  "tidehunter_gush"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "12"
-    "AbilityDuration" "3"
-  }
-  
-  "tidehunter_anchor_smash"
-  {
-    "AbilityCooldown" "1.4 1.2 1 0.8"
-    "AbilityManaCost" "3 4 5 6"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "reduction_duration" "4.5"
-      }
-    }
-  }
-  
-  "tidehunter_ravage"
-  {
-    "AbilityCooldown" "30"
-    "AbilityManaCost" "15 22.5 32.5"
-    "AbilitySpecial"
-    {
-      "03"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.515 1.74 2.0775"
-      }
-    }
-  }
-  
-  // Wraith King
-  "skeleton_king_hellfire_blast"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "14"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type"        "FIELD_FLOAT"
-        "blast_stun_duration" "1.5"
-      }
-      
-      "03"
-      {
-        "var_type"        "FIELD_FLOAT"
-        "tooltip_slow_duration" "1.5"
-      }
-    }
-  }
-  
-  "skeleton_king_mortal_strike"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_mult" "187.5 250 312.5 375"
-      }     
-    }
-  }
-  
-  "skeleton_king_reincarnation"
-  {
-    "AbilityCooldown" "52 32 12"
-    "AbilityManaCost" "16"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "4.5"
-      }
-    }
-  }
-  
-  // Lifestealer
-  "life_stealer_rage"
-  {
-    "AbilityCooldown" "3.8"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "life_stealer_open_wounds"
-  {
-    "AbilityCooldown" "4.8 4 3.2 2.4"
-    "AbilityManaCost" "11"
-    "AbilityDuration" "6"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "slow_steps" "-70 -70 -60 -50 -30 -10"
-      }
-      
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "duration" "4.5"
-      }
-    }
-  }
-  
-  "life_stealer_infest"
-  {
-    "AbilityCooldown" "20"
-    "AbilityManaCost" "5"
-  }
-  
-  // Night Stalker
-  "night_stalker_void"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "8 9 10 11"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_day" "1.5"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_night" "3"
-      }
-    }
-  }
-  
-  "night_stalker_crippling_fear"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_day" "2.25"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_night" "3.75 4.5 5.25 6"
-      }
-    }
-  }
-  
-  "night_stalker_darkness"
-  {
-    "AbilityCooldown" "32 24 16"
-  }
-  
-  // Doom
-  "doom_bringer_devour"
-  {
-    "AbilityCooldown" "14 12 10 8"
-    "AbilityManaCost" "6"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "health_per_second" "100"
-      }
-    }
-  }
-  
-  "doom_bringer_scorched_earth"
-  {
-    "AbilityCooldown" "12 11 10 9"
-    "AbilityManaCost" "6 6.5 7 7.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage_per_second" "40 54 67 80"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_movement_speed_pct" "32"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3 4 5 6"
-      }
-    }
-  }
-
-  "doom_bringer_lvl_death"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "11"
-  }
-  
-  "doom_bringer_doom"
-  {
-    "AbilityCooldown" "20"
-    "AbilityManaCost" "15 20 25"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "11.25"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage" "27 48 68"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_scepter" "12"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage_scepter" "53 80 107"
-      }
-    }
-  }
-  
-  // Spirit Breaker
-  "spirit_breaker_charge_of_darkness"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "movement_speed" "700 750 800 850"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.9 1.2 1.5 1.8"
-      }
-    }
-  }
-  
-  "spirit_breaker_empowering_haste"
-  {
-    "AbilityCooldown" "3.2"
-  }
-  
-  "spirit_breaker_greater_bash"
-  {
-    "AbilityCooldown" "0.3"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.75 0.9 1.05 1.2"
-      }
-      
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "knockback_duration" "0.5"
-      }
-    }
-  }
-  
-  "spirit_breaker_nether_strike"
-  {
-    "AbilityCooldown" "16 14 12"
-    "AbilityManaCost" "12.5 15 17.5"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "4"
-      }     
-    }
-  }
-  
-  // Lycan
-  "lycan_summon_wolves"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "14.5"
-  }
-  
-  "lycan_howl"
-  {
-    "AbilityCooldown" "10 9 8 7"
-    "AbilityManaCost" "1.5 2 2.5 3"
-  }
-  
-  "lycan_shapeshift"
-  {
-    "AbilityCooldown" "24 18 12"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "speed" "750"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_damage" "212.5"
-      }     
-    }
-  }
-
-  "lycan_summon_wolves_critical_strike"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_damage" "212.5"
-      }     
-    }
-  }
-  
-  "lycan_summon_wolves_invisibility"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fade_delay" "0.34"
-      }     
-    }
-  }
-  
-  // Chaos Knight
-  "chaos_knight_chaos_bolt"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "14"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "stun_min" "0.75 0.75 0.75 1.5"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "stun_max" "1.5 2.25 3 3"
-      }
-    }
-  }
-  
-  "chaos_knight_reality_rift"
-  {
-    "AbilityCooldown" "4.8 3.6 2.4 1.2"
-    "AbilityManaCost" "5"
-  }
-  
-  "chaos_knight_critical_strike"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_damage" "187.5 250 312.5 375"
-      }     
-    }
-  }
-  
-  "chaos_knight_phantasm"
-  {
-    "AbilityCooldown" "28"
-    "AbilityManaCost" "12.5 20 27.5"
-  }
-  
-  // Undying
-  "undying_decay"
-  {
-    "AbilityCooldown" "2 1.6 1.2 0.8"
-    "AbilityManaCost" "7 9 11 13"
-  }
-  
-  "undying_soul_rip"
-  {
-    "AbilityCooldown" "4.8 3.6 2.4 1.2"
-    "AbilityManaCost" "5 7.5 10 12.5"
-  }
-  
-  "undying_tombstone"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "12 13 14 15"
-  }
-  
-  "undying_flesh_golem"
-  {
-    "AbilityCooldown" "15"
-    "AbilityManaCost" "10"
-  }
-
-  "undying_tombstone_zombie_deathstrike"
-  {
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.875"
-      }
-    }
-  }
-  
-  // Magnus
-  "magnataur_shockwave"
-  {
-    "AbilityCooldown" "2 1.8 1.6 1.4"
-    "AbilityManaCost" "9"
-  }
-  
-  "magnataur_empower"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "3 4 5 6"
-  }
-  
-  "magnataur_skewer"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "8"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "1.875"
-      }
-    }
-  }
-  
-  "magnataur_reverse_polarity"
-  {
-    "AbilityCooldown" "24 22 20"
-    "AbilityManaCost" "20 25 30"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "hero_stun_duration" "1.6875 2.25 2.8125"
-      }
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "creep_stun_duration" "2.25 3 3.75"
-      }
-    }
-  }
-  
-  // Abaddon
-  "abaddon_death_coil"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "5 6 7 8"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "self_damage" "15 20 25 30"
-      }     
-    }
-  }
-  
-  "abaddon_aphotic_shield"
-  {
-    "AbilityCooldown" "2.4 2 1.6 1.2"
-    "AbilityManaCost" "10 10.5 11 11.5"
-  }
-
-  "abaddon_frostmourne"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "debuff_duration" "1.875"
-      }
-    }
-  }
-  
-  "abaddon_borrowed_time"
-  {
-    "AbilityCooldown" "24 20 16"
-  }
-  
-  // Agility (Radiant)
-  // Anti-Mage
-  "antimage_blink"
-  {
-    "AbilityCooldown" "2.4 1.8 1.4 1"
-    "AbilityManaCost" "6"
-  }
-  
-  "antimage_mana_void"
-  {
-    "AbilityCooldown" "14"
-    "AbilityManaCost" "12.5 20 27.5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "mana_void_ministun" "0.075 0.15 0.225"
-      }
-    }
-  }
-  
-  // Drow Ranger
-  "drow_ranger_frost_arrows"
-  {
-    "AbilityManaCost" "1.2"
-    "AbilityDuration" "1.125"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "frost_arrows_hero_duration_tooltip" "1.125"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "frost_arrows_creep_duration" "5.25"
-      }
-    }
-  }
-  
-  "drow_ranger_wave_of_silence"
-  {
-    "AbilityCooldown" "4.8"
-    "AbilityManaCost" "18"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_duration" "2.25 3 3.75 4.5"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "knockback_duration" "0.6 0.7 0.8 0.9"
-      }
-    }
-  }
-  
-  "drow_ranger_trueshot"
-  {
-    "AbilityCooldown" "24"
-  }
-  
-  // Juggernaut
-  "juggernaut_blade_fury"
-  {
-    "AbilityCooldown" "6 5.2 4.4 3.6"
-    "AbilityManaCost" "12 11 10 9"
-  }
-  
-  "juggernaut_healing_ward"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "12 12.5 13 13.5"
-  }
-  
-  "juggernaut_blade_dance"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "blade_dance_crit_mult" "250"
-      }     
-    }
-  }
-  
-  "juggernaut_omni_slash"
-  {
-    "AbilityCooldown" "26 24 22"
-    "AbilityManaCost" "20 27.5 35"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "omni_slash_cooldown_scepter" "14"
-      }     
-    }
-  }
-  
-  // Mirana
-  "mirana_starfall"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "10 12 14 16"
-  }
-  
-  "mirana_arrow"
-  {
-    "AbilityCooldown" "3.4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "arrow_min_stun" "0.01"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "arrow_max_stun" "CCA5.0"
-      }
-    }
-  }
-  
-  "mirana_leap"
-  {
-    "AbilityCooldown" "6 5.2 4.4 3.6"
-    "AbilityManaCost" "4 3.5 3 2"
-  }
-  
-  "mirana_invis"
-  {
-    "AbilityCooldown" "28 24 20"
-    "AbilityManaCost" "7.5"
-  }
-  
-  // Morphling
-  "morphling_waveform"
-  {
-    "AbilityCooldown" "2.2"
-    "AbilityManaCost" "14 15.5 16 16.5"
-  }
-  
-  "morphling_adaptive_strike"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_min" "0.1875"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_max" "0.9375 1.6875 2.4375 3.1875"
-      }
-    }
-  }
-  
-  "morphling_morph_agi"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_cost" "3"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "points_per_tick" "2 2 2 2"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "morph_cooldown" "0.2 0.1 0.066 0.04"
-      }
-    }
-  }
-  
-  "morphling_morph_str"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_cost" "3"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "points_per_tick" "2 2 2 2"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "morph_cooldown" "0.2 0.1 0.066 0.04"
-      }
-    }
-  }
-  
-  "morphling_replicate"
-  {
-    "AbilityCooldown" "16"
-    "AbilityManaCost" "2.5"
-  }
-  
-  "morphling_morph_replicate"
-  {
-    "AbilityManaCost" "15"
-  }
-  
-  // Phantom Lancer
-  "phantom_lancer_spirit_lance"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilityManaCost" "12.5 13 13.5 14"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.4375"
-      }
-      
-    }
-  }
-  
-  "phantom_lancer_doppelwalk"
-  {
-    "AbilityCooldown" "6 5 4 3"
-    "AbilityManaCost" "15 12 9 6"
-  }
-  
-  "phantom_lancer_doppelganger"
-  {
-    "AbilityCooldown" "5 4 3 2"
-    "AbilityManaCost" "5"
-  }
-  
-  "phantom_lancer_phantom_rush"
-  {
-    "AbilityCooldown" "3.2 2.4 1.6 0.8"
-  }
-  
-  // Vengeful Spirit
-  "vengefulspirit_magic_missile"
-  {
-    "AbilityCooldown" "2.6 2.4 2.2 2"
-    "AbilityManaCost" "11 12 13 14"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "magic_missile_stun" "1.0875 1.1625 1.2375 1.3125"
-      }
-    }
-  }
-  
-  "vengefulspirit_wave_of_terror"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "4"
-  }
-  
-  "vengefulspirit_nether_swap"
-  {
-    "AbilityCooldown" "9"
-    "AbilityManaCost" "10 15 20"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "nether_swap_cooldown_scepter" "2"
-      }     
-    }
-  }
-  
-  // Riki
-  "riki_smoke_screen"
-  {
-    "AbilityCooldown" "4.4"
-    "AbilityManaCost" "15 16 17 18"
-  }
-  
-  "riki_blink_strike"
-  {
-    "AbilityCooldown" "4 3 2 1"
-    "AbilityManaCost" "4"
-  }
-  
-  "riki_permanent_invisibility"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fade_delay" "0.6 0.4 0.2"
-      }     
-    }
-  }
-  
-  // Sniper
-  "sniper_shrapnel"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "5"
-  }
-  
-  "sniper_assassinate"
-  {
-    "AbilityCooldown" "4 3 2"
-    "AbilityManaCost" "17.5 27.5 37.5"
-  }
-  
-  // Templar Assassin
-  "templar_assassin_refraction"
-  {
-    "AbilityCooldown" "3.4"
-    "AbilityManaCost" "10"
-  }
-  
-  "templar_assassin_meld"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilityManaCost" "5"
-  }
-  
-  "templar_assassin_psionic_trap"
-  {
-    "AbilityCooldown" "2.2 1.6 1"
-    "AbilityManaCost" "1.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "max_traps" "8 11 14"
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "trap_duration_tooltip" "3.75"
-      }
-    }
-  }
-
-  "templar_assassin_trap"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "trap_duration" "3.75"
-      } 
-    }
-  }
-  
-  // Luna
-  "luna_lucent_beam"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilityManaCost" "18 20 22 24"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.45"
-      }
-    }
-  }
-  
-  "luna_eclipse"
-  {
-    "AbilityCooldown" "32 30 28"
-    "AbilityManaCost" "30 40 50"
-  }
-  
-  // Bounty Hunter
-  "bounty_hunter_shuriken_toss"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "9 11.5 13.5 15.5"
-  }
-  
-  "bounty_hunter_jinada"
-  {
-    "AbilityCooldown" "0.4 2 1.6 1.2"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25"
-      }
-    }
-  }
-  
-  "bounty_hunter_wind_walk"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "5"
-  }
-  
-  "bounty_hunter_track"
-  {
-    "AbilityCooldown" "0.8"
-    "AbilityManaCost" "5"
-  }
-  
-  // Ursa
-  "ursa_earthshock"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilityManaCost" "7.5"
-    "AbilityDuration" "3"
-  }
-  
-  "ursa_overpower"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "4.5 5.5 6.5 7.5"
-  }
-  
-  "ursa_enrage"
-  {
-    "AbilityCooldown" "5"
-  }
-  
-  // Gyrocopter
-  "gyrocopter_rocket_barrage"
-  {
-    "AbilityCooldown" "1.4 1.3 1.2 1.1"
-    "AbilityManaCost" "9"
-  }
-  
-  "gyrocopter_homing_missile"
-  {
-    "AbilityCooldown" "4 3.4 2.8 2.2"
-    "AbilityManaCost" "12 13 14 15"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.65 1.8 1.95 2.1"
-      }   
-    }
-  }
-  
-  "gyrocopter_flak_cannon"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "5"
-  }
-  
-  "gyrocopter_call_down"
-  {
-    "AbilityCooldown" "11 10 9"
-    "AbilityManaCost" "12.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "slow_duration_first" "1.5"
-      }
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "slow_duration_second" "2.25"
-      }
-    }
-  }
-  
-  // Lone Druid
-  "lone_druid_spirit_bear"
-  {
-    "AbilityCooldown" "36 32 28 24"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "lone_druid_rabid"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "5"
-  }
-  
-  "lone_druid_true_form_battle_cry"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "5"
-  }
-  
-  "lone_druid_true_form"
-  {
-    "AbilityManaCost" "2.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "base_attack_time" "1.125"
-      }
-    }
-  }
-  
-  "lone_druid_true_form_druid"
-  {
-    "AbilityManaCost" "2.5"
-  }
-
-  "lone_druid_spirit_bear_entangle"
-  {
-    "AbilityCooldown" "3.75"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "hero_duration" "2.25"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "creep_duration" "6.75"
-      }
-    }
-  }
-  
-  // Naga Siren
-  "naga_siren_mirror_image"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "7 8 9 10"
-  }
-  
-  "naga_siren_ensnare"
-  {
-    "AbilityCooldown" "5.6"
-    "AbilityManaCost" "18 20 22 24"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5 2.25 3 3.75"
-      }
-    }
-  }
-  
-  "naga_siren_rip_tide"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "8 9 10 11"
-  }
-  
-  "naga_siren_song_of_the_siren"
-  {
-    "AbilityCooldown" "36 24 12"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "5.25"
-      }
-    }
-  }
-  
-  // Troll Warlord
-  "troll_warlord_berserkers_rage"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_move_speed" "20 30 40 50"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "base_attack_time" "1.1625"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bash_duration" "0.6 0.9 1.2 1.5"
-      }
-    }
-  }
-
-  "troll_warlord_whirling_axes_ranged"
-  {
-    "AbilityCooldown" "4 3.8 3.6 3.4"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "axe_slow_duration" "2.25 2.8125 3.375 3.9375"
-      }
-    }
-  }
-  
-  "troll_warlord_whirling_axes_melee"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "blind_duration" "3 3.75 4.5 5.25"
-      }
-    }
-  }
-  
-  "troll_warlord_battle_trance"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "7.5"
-  }
-  
-  // Ember Spirit
-  "ember_spirit_searing_chains"
-  {
-    "AbilityCooldown" "2.8 2.4 2 1.6"
-    "AbilityManaCost" "11"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.75 1.5 1.5 2.25"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_interval" "0.75"
-      }
-    }
-  }
-  
-  "ember_spirit_sleight_of_fist"
-  {
-    "AbilityCooldown" "6 4.4 2.8 1.2"
-    "AbilityManaCost" "5"
-  }
-  
-  "ember_spirit_flame_guard"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "8 9 10 11"
-  }
-  
-  "ember_spirit_fire_remnant"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "charge_restore_time" "7"
-      }     
-    }
-  }
-  
-  "ember_spirit_activate_fire_remnant"
-  {
-    "AbilityManaCost" "15"
-  }
-  
-  // Agility (Dire)
-  // Bloodseeker
-  "bloodseeker_bloodrage"
-  {
-    "AbilityCooldown" "2.4 2 1.6 1.2"
-    "AbilityManaCost" "8"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "4.5 5.25 6 6.75"
-      }
-      
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_interval" "0.75"
-      }
-    }
-  }
-  
-  "bloodseeker_blood_rite"
-  {
-    "AbilityCooldown" "5.8 5.2 4.6 4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_duration" "2.25 3 3.75 4.5"
-      }
-    }
-  }
-
-  "bloodseeker_thirst"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_movement_speed" "20 30 40 50"
-      }
-    }
-  }
-  
-  "bloodseeker_rupture"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "15 20 25"
-  }
-  
-  // Shadow Fiend
-  "nevermore_shadowraze1"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "nevermore_shadowraze2"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "nevermore_shadowraze3"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "7.5"
-  }
-
-  "nevermore_necromastery"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "necromastery_max_souls" "22 29 36 43"
-      }
-      
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "necromastery_soul_release" "0.33"
-      }
-    }
-  }
-  
-  "nevermore_requiem"
-  {
-    "AbilityCooldown" "24 22 20"
-    "AbilityManaCost" "15 17.5 20"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "requiem_slow_duration" "3.75"
-      } 
-    }
-  }
-  
-  // Razor
-  "razor_plasma_field"
-  {
-    "AbilityCooldown" "2.8"
-    "AbilityManaCost" "12.5"
-  }
-  
-  "razor_static_link"
-  {
-    "AbilityCooldown" "6.4 6 5.6 5.2"
-    "AbilityManaCost" "5"
-  }
-  
-  "razor_eye_of_the_storm"
-  {
-    "AbilityCooldown" "16 14 12"
-    "AbilityManaCost" "10 15 20"
-  }
-  
-  // Venomancer
-  "venomancer_venomous_gale"
-  {
-    "AbilityCooldown" "4.4"
-    "AbilityManaCost" "12.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "11.25"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_interval" "2.25"
-      }
-    }
-  }
-
-  "venomancer_poison_sting"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "CC6 CC9 CC12 CC15"
-      }
-      
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage" "9 17 22 20 29"
-      }     
-    }
-  }
-  
-  "venomancer_plague_ward"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "2"
-  }
-  
-  "venomancer_poison_nova"
-  {
-    "AbilityCooldown" "28 24 20"
-    "AbilityManaCost" "20 30 40"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "12"
-      }     
-    }
-  }
-  
-  // Faceless Void
-  "faceless_void_time_walk"
-  {
-    "AbilityCooldown" "3.8 3.4 3 2.6"
-    "AbilityManaCost" "9"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25"
-      }
-    }
-  }
-  
-  "faceless_void_chronosphere"
-  {
-    "AbilityCooldown" "26 23 20"
-    "AbilityManaCost" "15 22.5 30"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3 3.375 3.75"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_scepter" "3 3.75 4.5"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "12"
-      }     
-    }
-  }
-  
-  // Phantom Assassin
-  "phantom_assassin_stifling_dagger"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilityManaCost" "3 2.5 2 1.5"
-    "AbilityDuration" "0.75 1.5 2.25 3"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "duration" "0.75 1.5 2.25 3"
-      }
-    }
-  }
-  
-  "phantom_assassin_phantom_strike"
-  {
-    "AbilityCooldown" "2.8 2.2 1.6 1"
-    "AbilityManaCost" "5"
-  }
-  
-  "phantom_assassin_coup_de_grace"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_bonus" "287.5 425 562.5"
-      }     
-    }
-  }
-  
-  // Viper
-  "viper_poison_attack"
-  {
-    "AbilityManaCost" "2"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5"
-      }
-    }
-  }
-
-  "viper_corrosive_skin"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage" "13 20 27 33"
-      }
-    }
-  }
-  
-  "viper_viper_strike"
-  {
-    "AbilityCooldown" "16 10 6"
-    "AbilityManaCost" "12.5 17.5 25"
-    "AbilitySpecial"
-    {
-
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3.825"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage" "100 167 242"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "12"
-      }
-      
-      "06"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_cost_scepter" "12.5"
-      }     
-    }
-  }
-  
-  // Clinkz
-  "clinkz_strafe"
-  {
-    "AbilityCooldown" "9 8 7 6"
-    "AbilityManaCost" "9"
-  }
-  
-  "clinkz_searing_arrows"
-  {
-    "AbilityManaCost" "1"
-  }
-  
-  "clinkz_wind_walk"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "clinkz_death_pact"
-  {
-    "AbilityCooldown" "9 8 7"
-    "AbilityManaCost" "10"
-  }
-  
-  // Broodmother
-  "broodmother_spawn_spiderlings"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "12"
-  }
-  
-  "broodmother_spin_web"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "5"
-  }
-
-  "broodmother_incapacitating_bite"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5"
-      }
-    }
-  }
-  
-  "broodmother_insatiable_hunger"
-  {
-    "AbilityCooldown" "9"
-    "AbilityManaCost" "10"
-  }
-
-  "broodmother_poison_sting"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "4.5"
-      }
-
-      "02"
-      {   
-        "var_type" "FIELD_FLOAT"
-        "duration_hero" "1.5"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage_per_second" "16"
-      }
-    }
-  }
-
-  // Weaver
-  "weaver_the_swarm"
-  {
-    "AbilityCooldown" "7.2 6.6 6 5.4"
-    "AbilityManaCost" "10"
-  }
-  
-  "weaver_shukuchi"
-  {
-    "AbilityCooldown" "2.4 2 1.6 1.2"
-    "AbilityManaCost" "6"
-  }
-  
-  "weaver_geminate_attack"
-  {
-    "AbilityCooldown" "1.2 1 0.8 0.6"
-  }
-  
-  "weaver_time_lapse"
-  {
-    "AbilityCooldown" "12 10 8"
-    "AbilityManaCost" "15 7.5 0"
-  }
-  
-  // Spectre
-  "spectre_spectral_dagger"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "13 14 15 16"
-  }
-  
-  "spectre_haunt"
-  {
-    "AbilityCooldown" "24"
-    "AbilityManaCost" "15"
-  }
-  
-  // Meepo
-  "meepo_earthbind"
-  {
-    "AbilityCooldown" "4 3.2 2.4 1.6"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5"
-      }
-    }
-  }
-  
-  "meepo_poof"
-  {
-    "AbilityCooldown" "2.4 2 1.6 1.2"
-    "AbilityManaCost" "8"
-  }
-  
-  // Nyx Assassin
-  "nyx_assassin_impale"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "9.5 11.5 13.5 15.5"
-    "AbilitySpecial"
-    {
-      "02"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.9525 1.3275 1.7025 2.0775"
-      }
-    }
-  }
-  
-  "nyx_assassin_mana_burn"
-  {
-    "AbilityCooldown" "5.6 4 2.4 0.8"
-    "AbilityManaCost" "10"
-  }
-  
-  "nyx_assassin_spiked_carapace"
-  {
-    "AbilityCooldown" "4.6 4 3.4 2.8"
-    "AbilityManaCost" "4"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.45 0.9 1.35 1.8"
-      }
-    }
-  }
-  
-  "nyx_assassin_vendetta"
-  {
-    "AbilityCooldown" "14 12 10"
-    "AbilityManaCost" "16 21 26"
-  }
-  
-  // Slark
-  "slark_dark_pact"
-  {
-    "AbilityCooldown" "1.8 1.6 1.4 1.2"
-    "AbilityManaCost" "5.5 5 4.5 4"
-  }
-  
-  "slark_pounce"
-  {
-    "AbilityCooldown" "8 6.4 4.8 3.2"
-    "AbilityManaCost" "15"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "leash_duration" "2.625"
-      }
-    }
-  }
-  
-  "slark_shadow_dance"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "12"
-  }
-  
-  // Medusa
-  "medusa_mystic_snake"
-  {
-    "AbilityCooldown" "2.2"
-    "AbilityManaCost" "14 15 16 17"
-  }
-
-  "medusa_mana_shield"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "damage_per_mana" "1.9 2.2 2.5 2.8"
-      }
-    }
-  }
-  
-  "medusa_stone_gaze"
-  {
-    "AbilityCooldown" "18"
-    "AbilityManaCost" "20"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stone_duration" "2.25"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "face_duration" "1.5"
-      }
-    }
-  }
-  
-  // Terrorblade
-  "terrorblade_reflection"
-  {
-    "AbilityCooldown" "8.8 7.2 5.6 4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "illusion_duration" "1.875 2.625 3.375 4.125"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "illusion_outgoing_damage" "-46.67 -33.33 -20.0 -6.67"
-      }
-    }
-  }
-  
-  "terrorblade_conjure_image"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "8"
-  }
-  
-  "terrorblade_metamorphosis"
-  {
-    "AbilityCooldown" "28"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "base_attack_time" "1.2"
-      }
-    }
-  }
-  
-  "terrorblade_sunder"
-  {
-    "AbilityCooldown" "24 16 8"
-    "AbilityManaCost" "20 10 0"
-  }
-  
-  // Intelligence (Dire)
-  // Crystal Maiden
-  "crystal_maiden_crystal_nova"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "10 12 14 16"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.625 3 3.375 3.75"
-      }
-    }
-  }
-  
-  "crystal_maiden_frostbite"
-  {
-    "AbilityCooldown" "6 5.4 4.8 4.2"
-    "AbilityManaCost" "34.5 37.5 42 45"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.5 2 2.5 3"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "creep_duration" "10"
-      }
-    }
-  }
-  
-  "crystal_maiden_freezing_field"
-  {
-    "AbilityCooldown" "30 24 18"
-    "AbilityManaCost" "20 40 60"
-  }
-  
-  // Puck
-  "puck_illusory_orb"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "15"
-  }
-  
-  "puck_waning_rift"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "10 11 12 13"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_duration" "0.5625 1.125 1.6875 2.25"
-      }
-    }
-  }
-  
-  "puck_phase_shift"
-  {
-    "AbilityCooldown" "3.6"
-  }
-  
-  "puck_dream_coil"
-  {
-    "AbilityCooldown" "17"
-    "AbilityManaCost" "10 15 20"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.375"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "coil_stun_duration" "1.125 1.6875 2.25"
-      }
-    }
-  }
-  
-  // Storm Spirit
-  "storm_spirit_static_remnant"
-  {
-    "AbilityCooldown" "0.7"
-    "AbilityManaCost" "7 8 9 10"
-  }
-  
-  "storm_spirit_electric_vortex"
-  {
-    "AbilityCooldown" "4.2 4 3.8 3.6"
-    "AbilityManaCost" "10 11 12 13"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "electric_vortex_self_slow_duration" "2.25"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.75 1.125 1.5 1.875"
-      }
-    }
-  }
-
-  "storm_spirit_overload"
-  {
-    "AbilityDuration" "0.45"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tooltip_duration" "0.45"
-      }
-    }
-  }
-  
-  "storm_spirit_ball_lightning"
-  {
-    "AbilityManaCost" "12"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "ball_lightning_initial_mana_percentage" "6"
-      }
-      
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "ball_lightning_initial_mana_base" "12"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "ball_lightning_move_speed" "1350 1975 2600"    
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "ball_lightning_travel_cost_base" "10"
-      }
-      
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "ball_lightning_travel_cost_percent" "0.6"
-      }     
-    }
-  }
-  
-  // Windranger
-  "windrunner_shackleshot"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "9 10 11 12"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fail_stun_duration" "0.5625"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.125 1.6875 2.25 2.8125"
-      }
-    }
-  }
-  
-  "windrunner_windrun"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "10"
-  }
-  
-  "windrunner_powershot"
-  {
-    "AbilityCooldown" "1.8"
-    "AbilityManaCost" "9 10 11 12"
-  }
-  
-  "windrunner_focusfire"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "7.5 10 12.5"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "3"
-      }     
-    }
-  }
-  
-  // Zeus
-  "zuus_arc_lightning"
-  {
-    "AbilityCooldown" "0.35"
-    "AbilityManaCost" "6.5 7 7.5 8"
-  }
-  
-  "zuus_lightning_bolt"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilityManaCost" "7.5 9.5 11.5 13.5"
-  }
-  
-  "zuus_thundergods_wrath"
-  {
-    "AbilityCooldown" "18"
-    "AbilityManaCost" "22.5 32.5 45"
-  }
-  
-  // Lina
-  "lina_dragon_slave"
-  {
-    "AbilityCooldown" "1.7"
-    "AbilityManaCost" "10 11.5 13 14.5"
-  }
-  
-  "lina_light_strike_array"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilityManaCost" "10 11 12 13"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "light_strike_array_stun_duration" "1.2 1.275 1.35 1.425"
-      }
-    }
-  }
-  
-  "lina_laguna_blade"
-  {
-    "AbilityCooldown" "14 12 10"
-    "AbilityManaCost" "28 42 68"
-  }
-  
-  // Shadow Shaman
-  "shadow_shaman_ether_shock"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "9.5 10.5 13.5 16"
-  }
-  
-  "shadow_shaman_voodoo" //hex
-  {
-    "AbilityCooldown" "5.2"
-    "AbilityManaCost" "22 28 34 40"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.9375 1.5 2.0625 2.625"
-      }
-    }
-  }
-  
-  "shadow_shaman_shackles"
-  {
-    "AbilityCooldown" "6.4"
-    "AbilityManaCost" "28 30 32 34"
-    "AbilityChannelTime" "2.0625 2.625 3.1875 3.75"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_interval" "0.075"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "channel_time" "2.0625 2.625 3.1875 3.75"
-      }
-    }
-  }
-  
-  "shadow_shaman_mass_serpent_ward"
-  {
-    "AbilityCooldown" "24"
-    "AbilityManaCost" "20 35 60"
-  }
-  
-  // Tinker
-  "tinker_laser"
-  {
-    "AbilityCooldown" "2.8"
-    "AbilityManaCost" "9.5 12 14.5 17"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_hero" "2.25"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_creep" "4.5"
-      }
-    }
-  }
-  
-  "tinker_heat_seeking_missile"
-  {
-    "AbilityCooldown" "5"
-    "AbilityManaCost" "12 14 16 18"
-  }
-  
-  "tinker_march_of_the_machines"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "14.5 15 16.5 19"
-  }
-  
-  "tinker_rearm"
-  {
-    "AbilityManaCost" "30 50 70"
-    "AbilityChannelTime" "0.6 0.4 0.2"
-    "AbilityCastPoint" "0.106"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "channel_tooltip" "6 4 2"
-      }     
-    }
-  }
-  
-  // Nature's Prophet
-  "furion_sprout"
-  {
-    "AbilityCooldown" "2.2 2 1.8 1.6"
-    "AbilityManaCost" "10 12 14 16"
-  }
-  
-  "furion_teleportation"
-  {
-    "AbilityCooldown" "10 8 6 4"
-    "AbilityManaCost" "5"
-  }
-  
-  "furion_force_of_nature"
-  {
-    "AbilityCooldown" "7.4"
-    "AbilityManaCost" "16"
-  }
-  
-  "furion_wrath_of_nature"
-  {
-    "AbilityCooldown" "18 15 12"
-    "AbilityManaCost" "17.5 22.5 27.5"
-  }
-  
-  // Enchantress
-  "enchantress_untouchable"
-  {
-    "AbilityDuration" "3"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "slow_duration" "3"
-      }
-    }
-  }
-
-  "enchantress_enchant"
-  {
-    "AbilityCooldown" "6 5 4 3"
-    "AbilityManaCost" "6.5"
-    "AbilityDuration" "4.125"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tooltip_duration" "4.125"
-      }
-    }
-  }
-  
-  "enchantress_natures_attendants"
-  {
-    "AbilityCooldown" "9"
-    "AbilityManaCost" "12.5 14 15.5 17"
-  }
-  
-  "enchantress_impetus"
-  {
-    "AbilityManaCost" "5.5 6 6.5"
-  }
-  
-  // Jakiro
-  "jakiro_dual_breath"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "13.5 14 15.5 17"
-    "AbilityDuration" "3.75"
-    "AbilitySpecial"
-    {
-      "09"
-      {
-        "var_type" "FIELD_INTEGER"
-        "tooltip_duration" "3.75"
-      }
-    }
-  }
-  
-  "jakiro_ice_path"
-  {
-    "AbilityCooldown" "2.4 2.2 2 1.8"
-    "AbilityManaCost" "9"
-  }
-  
-  "jakiro_liquid_fire"
-  {
-    "AbilityCooldown" "4 3 2 0.8"
-  }
-  
-  "jakiro_macropyre"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "22 33 44"
-  }
-  
-  // Chen
-  "chen_penitence"
-  {
-    "AbilityCooldown" "2.8 2.6 2.4 2.2"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3.75 4.5 5.25 6"
-      }
-    }
-  }
-  
-  "chen_test_of_faith"
-  {
-    "AbilityCooldown" "4.8"
-    "AbilityManaCost" "17.5"
-  }
-  
-  "chen_test_of_faith_teleport"
-  {
-    "AbilityCooldown" "4.8"
-    "AbilityManaCost" "20"
-  }
-  
-  "chen_holy_persuasion"
-  {
-    "AbilityCooldown" "6 5.2 4.4 3.6"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "max_units" "2 3 4 5"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "health_bonus" "120 240 360 480"
-      }
-    }
-  }
-  
-  "chen_hand_of_god"
-  {
-    "AbilityCooldown" "32 28 24"
-    "AbilityManaCost" "20 30 40"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "6"
-      }     
-    }
-  }
-  
-  // Silencer
-  "silencer_curse_of_the_silent"
-  {
-    "AbilityCooldown" "4 3.2 2.4 1.6"
-    "AbilityManaCost" "7.5 9.5 11.5 13.5"
-    "AbilityDuration" "4.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_damage" "12 24 36 48"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "health_damage" "30 53 75 98"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "tooltip_duration" "4.5"
-      }
-    }
-  }
-  
-  "silencer_glaives_of_wisdom"
-  {
-    "AbilityManaCost" "1.5"
-  }
-  
-  "silencer_last_word"
-  {
-    "AbilityCooldown" "12 9.6 7.2 4.8"
-    "AbilityManaCost" "23"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "duration" "2.25 3 3.75 4.5"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "debuff_duration" "3.75"
-      }
-    }
-  }
-  
-  "silencer_global_silence"
-  {
-    "AbilityCooldown" "26"
-    "AbilityManaCost" "25 37.5 50"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tooltip_duration" "3 3.75 4.5"
-      }     
-    }
-  }
-  
-  // Ogre Magi
-  "ogre_magi_fireblast"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "7.5 8.5 9.5 10.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.125"
-      }
-    }
-  }
-  
-  "ogre_magi_ignite"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "9.5 10.5 11.5 12.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3.75 4.5 5.25 6"
-      }
-    }
-  }
-  
-  "ogre_magi_bloodlust"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "modelscale" "140"
-      }
-    }
-  }
-  
-  "ogre_magi_unrefined_fireblast"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.125"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "scepter_mana" "0.06"
-      }     
-    }
-  }
-  
-  "ogre_magi_multicast"
-  {
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "fireblast_mana_cost" "2 4 6"
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fireblast_cooldown" "0.4 0.8 1.2"
-      }
-      
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bloodlust_cooldown" "1 2 3"
-      }     
-    }
-  }
-  
-  // Rubick
-  "rubick_telekinesis"
-  {
-    "AbilityCooldown" "4.4"
-    "AbilityManaCost" "12"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "lift_duration" "1.125 1.3125 1.5 1.6875"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.75 0.9375 1.125 1.3125"
-      }
-    }
-  }
-  
-  "rubick_fade_bolt"
-  {
-    "AbilityCooldown" "3.2 2.8 2.4 2"
-    "AbilityManaCost" "12 13 14 15"
-  }
-  
-  "rubick_spell_steal"
-  {
-    "AbilityCooldown" "4 3.6 3.2"
-    "AbilityManaCost" "2.5"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "cooldown_scepter" "0.4"
-      }     
-    }
-  }
-  
-  // Disruptor
-  "disruptor_thunder_strike"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "13"
-  }
-  
-  "disruptor_glimpse"
-  {
-    "AbilityCooldown" "12 9.2 6.4 3.6"
-    "AbilityManaCost" "10"
-  }
-  
-  "disruptor_kinetic_field"
-  {
-    "AbilityCooldown" "2.6 2.4 2.2 2"
-    "AbilityManaCost" "7"
-  }
-  
-  "disruptor_static_storm"
-  {
-    "AbilityCooldown" "18 16 14"
-    "AbilityManaCost" "12.5 17.5 22.5"
-  }
-  
-  // Keeper of the Light
-  "keeper_of_the_light_illuminate"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "15 16 17 18"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "damage_per_second" "200 150 133.33 125"
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "max_channel_time" "1.0 2.0 3.0 4.0"
-      }
-      
-      "09"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "channel_vision_interval" "0.25 0.33 0.375 0.4"
-      }
-    }
-  }
-  
-  "keeper_of_the_light_mana_leak"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "keeper_of_the_light_chakra_magic"
-  {
-    "AbilityCooldown" "3.8 3.6 3.4 3.2"
-    "AbilityManaCost" "2.5 3.5 4.5 5.5"
-  }
-  
-  "keeper_of_the_light_spirit_form"
-  {
-    "AbilityCooldown" "16 14 12"
-    "AbilityManaCost" "10"
-  }
-  
-  "keeper_of_the_light_recall"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "10"
-  }
-  
-  "keeper_of_the_light_blinding_light"
-  {
-    "AbilityCooldown" "4 3.2 2.4"
-    "AbilityManaCost" "5"
-  }
-  
-  // Skywrath Mage
-  "skywrath_mage_arcane_bolt"
-  {
-    "AbilityCooldown" "1 0.8 0.6 0.4"
-    "AbilityManaCost" "7"
-  }
-  
-  "skywrath_mage_concussive_shot"
-  {
-    "AbilityCooldown" "4 3.6 3.2 2.8"
-    "AbilityManaCost" "11"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "3"
-      }
-    }
-  }
-  
-  "skywrath_mage_ancient_seal"
-  {
-    "AbilityCooldown" "2.8"
-    "AbilityManaCost" "8 9 10 11"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "seal_duration" "2.25 3 3.75 4.5"
-      }
-    }
-  }
-  
-  "skywrath_mage_mystic_flare"
-  {
-    "AbilityCooldown" "12 8 4"
-    "AbilityManaCost" "35 57.5 80"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "scepter_cooldown" "4 2 0"
-      }     
-    }
-  }
-  
-  // Oracle
-  "oracle_fortunes_end"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "13"
-    "AbilityChannelTime" "2.5"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "minimum_purge_duration" "0.375"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "maximum_purge_duration" "1.875"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "max_channel_time_tooltip" "2.5"
-      }
-    }
-  }
-  
-  "oracle_fates_edict"
-  {
-    "AbilityCooldown" "2.4"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25 3 3.75 4.5"
-      }
-    }
-  }
-  
-  "oracle_purifying_flames"
-  {
-    "AbilityCooldown" "0.6"
-    "AbilityManaCost" "5.5 7 8.5 10"
-  }
-  
-  "oracle_false_promise"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "40"
-  }
-  
-  // Techies
-  "techies_land_mines"
-  {
-    "AbilityCooldown" "3.8 3.2 2.6 2"
-    "AbilityManaCost" "12.5 15 17.5 20.5"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "max_mines" "30"
-      }   
-    }
-  }
-  
-  "techies_stasis_trap"
-  {
-    "AbilityCooldown" "4 3.2 2.6 2"
-    "AbilityManaCost" "8 11 14 16"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "2.25 3 3.75 4.5"
-      }
-    }
-  }
-  
-  "techies_suicide"
-  {
-    "AbilityCooldown" "36 34 32 30"
-    "AbilityManaCost" "10 12.5 15 17.5"
-  }
-
-  "techies_minefield_sign"
-  {
-    "AbilityCooldown" "24"
-  }
-  
-  "techies_remote_mines"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "20 24 30"
-  }
-  
-  // Intelligence (Dire)
-  // Bane
-  "bane_enfeeble"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "9.5 10.5 11.5 12.5"
-  }
-  
-  "bane_brain_sap"
-  {
-    "AbilityCooldown" "2.8"
-    "AbilityManaCost" "12.5 15 17.5 20"
-  }
-  
-  "bane_nightmare"
-  {
-    "AbilityCooldown" "6.4 6 5.6 5.2"
-    "AbilityManaCost" "33"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "nightmare_dot_interval" "0.75"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "nightmare_invuln_time" "0.75"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "5.25"
-      }
-    }
-  }
-  
-  "bane_fiends_grip"
-  {
-    "AbilityCooldown" "20"
-    "AbilityManaCost" "20 30 40"
-    "AbilityChannelTime" "3.75"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fiend_grip_tick_interval" "0.75"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fiend_grip_duration" "3.75"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "fiend_grip_duration_scepter" "5.25"
-      }
-    }
-  }
-  
-  // Lich
-  "lich_frost_nova"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "12.5 15 17 19"
-    "AbilityDuration" "3"
-  }
-  
-  "lich_frost_armor"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "1.5"
-      }
-    }
-  }
-  
-  "lich_dark_ritual"
-  {
-    "AbilityCooldown" "26.4 21.6 16.8 12"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "lich_chain_frost"
-  {
-    "AbilityCooldown" "24 18 12"
-    "AbilityManaCost" "20 32.5 50"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "3"
-      }
-    }
-  }
-  
-  // Lion
-  "lion_impale"
-  {
-    "AbilityCooldown" "4.8"
-    "AbilityManaCost" "20 24 29 34"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "0.765 1.14 1.515 1.89"
-      }
-    }
-  }
-  
-  "lion_voodoo"
-  {
-    "AbilityCooldown" "12 9.6 7.2 4.8"
-    "AbilityManaCost" "25 30 35 40"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.875 2.25 2.625 3"
-      }
-    }
-  }
-  
-  "lion_mana_drain"
-  {
-    "AbilityCooldown" "4 3 2 1"
-    "AbilityManaCost" "1"
-  }
-  
-  "lion_finger_of_death"
-  {
-    "AbilityCooldown" "32 20 8"
-    "AbilityManaCost" "20 42 65"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_cost_scepter" "20 42 62.5"
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "20 12 4"
-      }     
-    }
-  }
-  
-  // Witch Doctor
-  "witch_doctor_paralyzing_cask"
-  {
-    "AbilityCooldown" "4 3.6 3.2 2.8"
-    "AbilityManaCost" "11 12 13 14"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "hero_duration" "0.75"
-      }
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "creep_duration" "3.75"
-      }
-    }
-  }
-  
-  "witch_doctor_voodoo_restoration"
-  {
-    "AbilityManaCost" "2 3 4 5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_per_second" "0.8 1.2 1.6 2"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "heal_interval" "0.066"
-      }
-    }
-  }
-  
-  "witch_doctor_maledict"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "12"
-  }
-  
-  "witch_doctor_death_ward"
-  {
-    "AbilityCooldown" "16"
-    "AbilityManaCost" "20"
-  }
-  
-  // Enigma
-  "enigma_malefice"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "11 13 15 16"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.1875 0.375 0.5625 CCA1.0"
-      }
-    }
-  }
-  
-  "enigma_demonic_conversion"
-  {
-    "AbilityCooldown" "21"
-    "AbilityManaCost" "51"
-  }
-  
-  "enigma_midnight_pulse"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "9.5 11 12.5 14"
-  }
-  
-  "enigma_black_hole"
-  {
-    "AbilityCooldown" "40 38 36"
-    "AbilityManaCost" "27.5 35 42.5"
-    "AbilityChannelTime" "3"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "pull_speed" "53"
-      }
-
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_rate" "0.075"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-    }
-  }
-  
-  // Necrophos
-  "necrolyte_death_pulse"
-  {
-    "AbilityCooldown" "1.6 1.4 1.2 1"
-    "AbilityManaCost" "12.5 14.5 16.5 18.5"
-  }
-  
-  "necrolyte_reapers_scythe"
-  {
-    "AbilityCooldown" "20 17 14"
-    "AbilityManaCost" "17.5 34 50"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.125"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_cost_scepter" "15 34 50"
-      }
-      
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "14"
-      }     
-    }
-  }
-  
-  // Warlock
-  "warlock_fatal_bonds"
-  {
-    "AbilityCooldown" "5"
-    "AbilityManaCost" "12"
-  }
-  
-  "warlock_shadow_word"
-  {
-    "AbilityCooldown" "3.2"
-    "AbilityManaCost" "9 11 13 15"
-  }
-  
-  "warlock_upheaval"
-  {
-    "AbilityCooldown" "10 9.2 8.4 7.6"
-    "AbilityManaCost" "10 11 12 13"
-  }
-  
-  "warlock_rain_of_chaos"
-  {
-    "AbilityCooldown" "33"
-    "AbilityManaCost" "20 30 40"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.75"
-      }
-    }
-  }
-  
-  // Queen of Pain
-  "queenofpain_shadow_strike"
-  {
-    "AbilityCooldown" "3.2 2.4 1.6 0.8"
-    "AbilityManaCost" "11"
-    "AbilityDuration" "11.25"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "duration_damage" "41 55 68 82"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_INTEGER"
-        "duration_tooltip" "11.25"
-      }     
-    }
-  }
-  
-  "queenofpain_blink"
-  {
-    "AbilityCooldown" "3 2.4 1.8 1.2"
-    "AbilityManaCost" "6"
-  }
-  
-  "queenofpain_scream_of_pain"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilityManaCost" "11 12 13 14"
-  }
-  
-  "queenofpain_sonic_wave"
-  {
-    "AbilityCooldown" "27"
-    "AbilityManaCost" "25 36 50"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "IFELD_FLOAT"
-        "cooldown_scepter" "8"
-      }     
-    }
-  }
-  
-  // Death Prophet
-  "death_prophet_carrion_swarm"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "10.5 12 14 16.5"
-  }
-  
-  "death_prophet_silence"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "8"
-    "AbilityDuration" "2.25 3 3.75 4.5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25 3 3.75 4.5"
-      }
-    }
-  }
-  
-  "death_prophet_witchcraft"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "carrion_swarm_mana_cost_adjust" "-1 -1.5 -2 -2.5"
-      }
-      
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "carrion_swarm_cooldown_adjust" "-0.2 -0.4 -0.6 -0.8"
-      }
-      
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "silence_mana_cost_adjust" "-1 -1.5 -2 -2.5"
-      }
-      
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_cooldown_adjust" "-0.2 -0.4 -0.6 -0.8"
-      }     
-    }
-  }
-  
-  "death_prophet_exorcism"
-  {
-    "AbilityCooldown" "29"
-    "AbilityManaCost" "20 30 40"
-  }
-  
-  // Pugna
-  "pugna_nether_blast"
-  {
-    "AbilityCooldown" "1.1"
-    "AbilityManaCost" "8.5 10.5 12.5 14.5"
-  }
-  
-  "pugna_decrepify"
-  {
-    "AbilityCooldown" "4.8 4 3.2 2.4"
-    "AbilityManaCost" "12"
-    "AbilityDuration" "1.5 1.875 2.25 2.625"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tooltip_duration" "1.5 1.875 2.25 2.625"
-      }
-    }
-  }
-  
-  "pugna_nether_ward"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "8"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "mana_multiplier" "2 2.5 3 3.5"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "mana_regen" "-3 -6 -9 -12"
-      }
-    }
-  }
-  
-  "pugna_life_drain"
-  {
-    "AbilityCooldown" "4.4"
-    "AbilityManaCost" "12.5 17.5 22.5"
-  }
-  
-  // Dazzle
-  "dazzle_poison_touch"
-  {
-    "AbilityCooldown" "3 2.6 2.2 1.4"
-    "AbilityManaCost" "10 11.5 13 14.5"
-  }
-  
-  "dazzle_shallow_grave"
-  {
-    "AbilityCooldown" "12 9 6 3"
-    "AbilityManaCost" "14 13 12 11"
-  }
-  
-  "dazzle_shadow_wave"
-  {
-    "AbilityCooldown" "2.4 2 1.6 1.2"
-    "AbilityManaCost" "8 9 10 11"
-  }
-  
-  "dazzle_weave"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "10"
-  }
-  
-  // Leshrac
-  "leshrac_split_earth"
-  {
-    "AbilityCooldown" "1.8"
-    "AbilityManaCost" "10 12.5 14 16"
-    "AbilityDuration" "1.5"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "duration" "1.5"
-      }
-    }
-  }
-  
-  "leshrac_diabolic_edict"
-  {
-    "AbilityCooldown" "4.4"
-    "AbilityManaCost" "9.5 12 13.5 15.5"
-  }
-  
-  "leshrac_lightning_storm"
-  {
-    "AbilityCooldown" "0.8"
-    "AbilityManaCost" "9 10 11 12"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "CCA0.50"
-      }
-    }
-  }
-  
-  "leshrac_pulse_nova"
-  {
-    "AbilityCooldown" "0.2"
-    "AbilityManaCost" "7 9 11"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_cost_per_second" "2 4 6"
-      }     
-    }
-  }
-  
-  // Dark Seer
-  "dark_seer_vacuum"
-  {
-    "AbilityCooldown" "5.6"
-    "AbilityManaCost" "10 13 16 19"
-  }
-  
-  "dark_seer_ion_shell"
-  {
-    "AbilityCooldown" "1.8"
-    "AbilityManaCost" "7 9 11 13"
-  }
-  
-  "dark_seer_surge"
-  {
-    "AbilityCooldown" "2.4 2.2 2 1.8"
-    "AbilityManaCost" "2 3 4 5"
-  }
-  
-  "dark_seer_wall_of_replica"
-  {
-    "AbilityCooldown" "20"
-    "AbilityManaCost" "20 30 40"
-  }
-  
-  // Batrider
-  "batrider_sticky_napalm"
-  {
-    "AbilityCooldown" "0.6"
-    "AbilityManaCost" "2"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "6"
-      }
-    }
-  }
-  
-  "batrider_flamebreak"
-  {
-    "AbilityCooldown" "2.8"
-    "AbilityManaCost" "14"
-  }
-  
-  "batrider_firefly"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "10"
-  }
-  
-  "batrider_flaming_lasso"
-  {
-    "AbilityCooldown" "18 15 12"
-    "AbilityManaCost" "22.5"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25 2.625 3"
-      }
-    }
-  }
-  
-  // Ancient Apparition
-  "ancient_apparition_cold_feet"
-  {
-    "AbilityCooldown" "3 2.6 2.2 1.8"
-    "AbilityManaCost" "15"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.9375 1.5 2.0625 2.625"
-      }
-    }
-  }
-  
-  "ancient_apparition_ice_vortex"
-  {
-    "AbilityCooldown" "0.8"
-    "AbilityManaCost" "8 9 10 11"
-  }
-  
-  "ancient_apparition_chilling_touch"
-  {
-    "AbilityCooldown" "10 8.4 6.8 5.2"
-    "AbilityManaCost" "11 12 13 14"
-  }
-  
-  "ancient_apparition_ice_blast"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "10 12.5 15"
-  }
-  
-  // Invoker
-  "invoker_invoke"
-  {
-    "AbilityCooldown" "4.4 3.4 2.4 1"
-    "AbilityManaCost" "2 4 6 8"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_scepter" "3.2 1.6 0.8 0.4"
-      }     
-    }
-  }
-  
-  "invoker_cold_snap"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "freeze_duration" "0.3"
-      }
-    }
-  }
-  
-  "invoker_ghost_walk"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "20"
-  }
-  
-  "invoker_ice_wall"
-  {
-    "AbilityCooldown" "5"
-    "AbilityManaCost" "17.5"
-  }
-  
-  "invoker_emp"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "12.5"
-  }
-  
-  "invoker_tornado"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "15"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "lift_duration" "0.6 0.825 1.05 1.275 1.5 1.725 1.875"
-        "levelkey" "quaslevel"
-      }
-    }
-  }
-  
-  "invoker_alacrity"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "4.5"
-  }
-  
-  "invoker_sun_strike"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "17.5"
-  }
-  
-  "invoker_forge_spirit"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "invoker_chaos_meteor"
-  {
-    "AbilityCooldown" "11"
-    "AbilityManaCost" "20"
-  }
-  
-  "invoker_deafening_blast"
-  {
-    "AbilityCooldown" "8"
-    "AbilityManaCost" "20"
-    "AbilitySpecial"
-    {
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "knockback_duration" "0.1875 0.375 0.5625 0.75 0.9375 1.125 1.3125"
-        "levelkey" "quaslevel"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "disarm_duration" "0.75 1.125 1.5 1.875 2.25 2.625 3"
-        "levelkey" "wexlevel"
-      }
-    }
-  }
-  
-  "forged_spirit_melting_strike"
-  {
-    "AbilityManaCost" "4"
-  }
-  
-  // Outworld Devourer
-  "obsidian_destroyer_arcane_orb"
-  {
-    "AbilityManaCost" "10"
-  }
-  
-  "obsidian_destroyer_astral_imprisonment"
-  {
-    "AbilityCooldown" "3.6 3.2 2.8 2.4"
-    "AbilityManaCost" "12 14 16 18"
-    "AbilityDuration" "0.75 1.5 2.25 3"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "prison_duration" "0.75 1.5 2.25 3"
-      }
-    }
-  }
-  
-  "obsidian_destroyer_sanity_eclipse"
-  {
-    "AbilityCooldown" "32"
-    "AbilityManaCost" "17.5 25 32.5"
-  }
-  
-  // Shadow Demon
-  "shadow_demon_disruption"
-  {
-    "AbilityCooldown" "5 4.4 3.8 3.2"
-    "AbilityManaCost" "12"
-    "AbilityDuration" "1.875"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "disruption_duration" "1.875"
-      }
-    }
-  }
-  
-  "shadow_demon_soul_catcher"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilityManaCost" "5 6 7 8"
-  }
-  
-  "shadow_demon_shadow_poison"
-  {
-    "AbilityCooldown" "0.55"
-    "AbilityManaCost" "5"
-  }
-  
-  "shadow_demon_demonic_purge"
-  {
-    "AbilityCooldown" "10"
-    "AbilityManaCost" "20"
-    "AbilityDuration" "3.75"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tooltip_duration" "3.75"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "creep_root_duration" "2.25"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "charge_restore_time" "8"
-      }     
-    }
-  }
-  
-  // Visage
-  "visage_grave_chill"
-  {
-    "AbilityCooldown" "3.2 2.8 2.4 2"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "chill_duration" "2.25 3 3.75 4.5"
-      }
-    }
-  }
-  
-  "visage_soul_assumption"
-  {
-    "AbilityCooldown" "0.8"
-    "AbilityManaCost" "17 16 15 14"
-  }
-  
-  "visage_gravekeepers_cloak"
-  {
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "recovery_time" "1.2"
-      }     
-    }
-  }
-  
-  "visage_summon_familiars"
-  {
-    "AbilityCooldown" "36 32 28"
-    "AbilityManaCost" "15"
-  }
-
-  "visage_summon_familiars_stone_form"
-  {
-    "AbilityCooldown" "6"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "0.75 0.9375 1.125"
-      }
-    }
-  }
-  
-  // Winter Wyvern
-  "winter_wyvern_arctic_burn"
-  {
-    "AbilityCooldown" "10 8 6 4"
-    "AbilityManaCost" "12 11 10 9"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "tick_rate" "0.75"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "damage_duration" "3.75"
-      }
-    }
-  }
-  
-  "winter_wyvern_splinter_blast"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilityManaCost" "12 13 14 15"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-    }
-  }
-  
-  "winter_wyvern_cold_embrace"
-  {
-    "AbilityCooldown" "3.4 3.2 3 2.8"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "01"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-      
-      "04"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "tick_rate" "0.075"
-      }
-    }
-  }
-  
-  "winter_wyvern_winters_curse"
-  {
-    "AbilityCooldown" "18 16 14"
-    "AbilityManaCost" "25"
-    "AbilitySpecial"
-    {
-      "01"
-      { 
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.875 2.0625 2.25"
-      }
-    }
-  }
-  
-  // Items
-  "item_abyssal_blade"
-  {
-    "AbilityCooldown" "12"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bash_duration" "1.05"
-      }
-
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bash_cooldown" "0.4"
-      }
-
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "stun_duration" "1.5"
-      }
-    }
-  }
-  
-  "item_ancient_janggo" // drums
-  {
-    "AbilityCooldown" "6"
-    "ItemInitialCharges" "12"
-  }
-  
-  "item_arcane_boots"
-  {
-    "AbilityCooldown" "11"
-    "AbilityManaCost" "3.5"
-  }
-  
-  "item_armlet"
-  {
-    "AbilitySpecial"
-    {
-      "08"
-      {
-        "var_type" "FIELD_INTEGER"
-        "unholy_health_drain" "HP40"
-      } 
-    }
-  }
-  
-  "item_basher"
-  {
-    "AbilityCooldown" "0.4"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bash_duration" "1.05"
-      }
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "bash_cooldown" "0.4"
-      }
-    }
-  }
-
-  "item_bfury"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "300"
-      }     
-    }
-  }
-
-  "item_black_king_bar"
-  {
-    "AbilityCooldown" "16 15 14 13 12 11"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "model_scale" "50"
-      }
-    }
-  }
-  
-  "item_blade_mail"
-  {
-    "AbilityCooldown" "6.8"
-    "AbilityManaCost" "5"
-  }
-  
-  "item_blink"
-  {
-    "AbilityCooldown" "4.8"
-  }
-  
-  "item_bloodstone"
-  {
-    "AbilityCooldown" "60"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "400"
-      }
-
-      "12"
-      {
-        "var_type" "FIELD_FLOAT"
-        "on_death_removal" "0.2"
-      }     
-    }
-  }
-
-  "item_bottle"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "restore_time" "1"
-      }
-    }
-  }
-  
-  "item_buckler"
-  {
-    "AbilityCooldown" "5"
-    "AbilityManaCost" "1"
-  }
-  
-  "item_butterfly"
-  {
-    "AbilityCooldown" "7"
-  }
-
-  "item_clarity"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "buff_duration" "8"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "total_mana" "240"
-      }
-    }
-  }
-  
-  "item_crimson_guard"
-  {
-    "AbilityCooldown" "70"
-  }
-  
-  "item_cyclone" // euls
-  {
-    "AbilityCooldown" "4.6"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "300"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cyclone_duration" "1.875"
-      }
-    }
-  }
-  
-  "item_dagon"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "18"
-  }
-  
-  "item_dagon_2"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "18"
-  }
-  
-  "item_dagon_3"
-  {
-    "AbilityCooldown" "5"
-    "AbilityManaCost" "18"
-  }
-  
-  "item_dagon_4"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "18"
-  }
-  
-  "item_dagon_5"
-  {
-    "AbilityCooldown" "3"
-    "AbilityManaCost" "18"
-  }
-  
-  "item_diffusal_blade"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "initial_charges" "16"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "purge_root_duration" "2.25"
-      }
-
-      "09"
-      {
-        "var_type" "FIELD_INTEGER"
-        "purge_slow_duration" "3"
-      }
-    }
-  }
-  
-  "item_diffusal_blade_2"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "initial_charges" "16"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "purge_root_duration" "2.25"
-      }
-
-      "09"
-      {
-        "var_type" "FIELD_INTEGER"
-        "purge_slow_duration" "3"
-      }   
-    }
-  }
-  
-  "item_dust"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "0.5"
-  }
-  
-  "item_ethereal_blade"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "15"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "2.25"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration_ally" "3"
-      }
-    }
-  }
-
-  "item_flask"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "buff_duration" "6"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "total_health" "560"
-      }
-    }
-  }
-
-  "item_flying_courier"
-  {
-    "ItemStockTime" "54"
-  }
-  
-  "item_force_staff"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "2.5"
-  }
-
-  "item_gem"
-  {
-    "ItemStockTime" "240"
-  }
-
-  "item_ghost"
-  {
-    "AbilityCooldown" "6"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-    }
-  }
-  
-  "item_hand_of_midas"
-  {
-    "AbilityCooldown" "40"
-  }
-  
-  "item_heart"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_melee" "2"
-      }     
-    }
-  }
-  
-  "item_heavens_halberd"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "maim_duration" "3"
-      }
-
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "disarm_range" "3.375"
-      }
-
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "disarm_melee" "2.25"
-      }
-    }
-  }
-  
-  "item_helm_of_the_dominator"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "7.5"
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_INTEGER"
-        "health_bonus" "800"
-      }
-    }
-  }
-  
-  "item_invis_sword"
-  {
-    "AbilityCooldown" "5.6"
-    "AbilityManaCost" "7.5"
-  }
-  
-  "item_magic_stick"
-  {
-    "AbilityCooldown" "2.6"
-  }
-  
-  "item_magic_wand"
-  {
-    "AbilityCooldown" "2.6"
-  }
-  
-  "item_manta"
-  {
-    "AbilityCooldown" "10"
-    "AbilitySpecial"
-    {
-      "16"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cooldown_melee" "7"
-      }     
-    }
-  }
-  
-  "item_mask_of_madness"
-  {
-    "AbilityCooldown" "5"
-    "AbilityManaCost" "2.5"
-  }
-  
-  "item_medallion_of_courage"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen_pct" "100"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "5.25"
-      }
-    }
-  }
-  
-  "item_mekansm"
-  {
-    "AbilityCooldown" "9"
-    "AbilityManaCost" "22.5"
-    "AbilitySpecial"
-    {
-      "08"
-      {
-        "var_type" "FIELD_FLOAT"
-        "heal_armor_duration" "5"
-      }     
-    }
-  }
-  
-  "item_mjollnir"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "5"
-  }
-  
-  "item_necronomicon"
-  {
-    "AbilityCooldown" "19"
-    "AbilityManaCost" "5"
-  }
-  
-  "item_necronomicon_2"
-  {
-    "AbilityCooldown" "19"
-    "AbilityManaCost" "5"
-  }
-  
-  "item_necronomicon_3"
-  {
-    "AbilityCooldown" "19"
-    "AbilityManaCost" "5"
-  }
-
-  "item_oblivion_staff"
-  {
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "150"
-      }
-    }
-  }
-  
-  "item_orchid"
-  {
-    "AbilityCooldown" "3.6"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "300"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "silence_duration" "3.75"
-      }
-    }
-  }
-
-  "item_pers"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "250"
-      }
-    }
-  }
-  
-  "item_phase_boots"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "phase_duration" "2"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "phase_movement_speed" "32"
-      }
-    }
-  }
-  
-  "item_pipe"
-  {
-    "AbilityCooldown" "12"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "barrier_debuff_duration" "10"
-      }     
-    }
-  }
-  
-  "item_quelling_blade"
-  {
-    "AbilityCooldown" "1"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage_bonus" "40"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage_bonus_ranged" "15"
-      }
-    }
-  }
-
-  "item_radiance"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "aura_damage" "100"
-      }
-    }
-  }
-  
-  "item_rapier"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_damage" "450"
-      }     
-    }
-  }
-  
-  "item_refresher"
-  {
-    "AbilityCooldown" "39"
-    "AbilityManaCost" "37.5"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "400"
-      }
-    }
-  }
-  
-  "item_rod_of_atos"
-  {
-    "AbilityCooldown" "2"
-    "AbilityManaCost" "5"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3"
-      }
-    }
-  }
-
-  "item_sange"
-  {
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "maim_duration" "4.0"
-      }     
-    }
-  }
-
-  "item_sange_and_yasha"
-  {
-    "AbilitySpecial"
-    {
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "maim_duration" "3.75"
-      }
-    }
-  }
-  
-  "item_satanic"
-  {
-    "AbilityCooldown" "7"
-  }
-  
-  "item_sheepstick"
-  {
-    "AbilityCooldown" "7"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type"        "FIELD_INTEGER"
-        "bonus_mana_regen"    "300"
-      }
-
-      "05"
-      {
-        "var_type"        "FIELD_FLOAT"
-        "sheep_duration"    "2.625"
-      }
-    }
-  }
-  
-  "item_shivas_guard"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "09"
-      {
-        "var_type" "FIELD_FLOAT"
-        "blast_debuff_duration" "3"
-      }
-    }
-  }
-
-  "item_skadi"
-  {
-    "AbilitySpecial"
-    {
-      "06"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cold_duration_melee" "3.75"
-      }
-
-      "07"
-      {
-        "var_type" "FIELD_FLOAT"
-        "cold_duration_ranged" "2.25"
-      }
-    }
-  }
-  
-  "item_smoke_of_deceit"
-  {
-    "AbilityCooldown" "18"
-    "ItemStockTime" "144"
-  }
-
-  "item_sobi_mask"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "100"
-      }
-    }
-  }
-
-  "item_soul_booster"
-  {
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "200"
-      }
-    }
-  }
-  
-  "item_soul_ring"
-  {
-    "AbilityCooldown" "6"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_regen" "100"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_INTEGER"
-        "health_sacrifice" "HP150"
-      }   
-    }
-  }
-  
-  "item_sphere"
-  {
-    "AbilityCooldown" "3.4"
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type"        "FIELD_INTEGER"
-        "bonus_mana_regen"    "150"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "block_cooldown" "3.4"
-      }     
-    }
-  }
-
-  "item_tango"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_FLOAT"
-        "buff_duration" "9.6"
-      }
-
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "total_heal" "161"
-      }
-    }
-  }
-
-  "item_tpscroll"
-  {
-    "AbilityCooldown" "39"
-    "AbilityManaCost" "22.5"
-  }
-
-  "item_tranquil_boots"
-  {
-    "AbilityCooldown" "2.6"
-    "AbilitySpecial"
-    {
-      "07"
-      {
-        "var_type" "FIELD_INTEGER"
-        "break_time" "2.6"
-      }     
-    }
-  }
-  
-  "item_travel_boots"
-  {
-    "AbilityCooldown" "30"
-    "AbilityManaCost" "22.5"
-  }
-
-  "item_urn_of_shadows"
-  {
-    "AbilityCooldown" "1.4"
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_regen" "100"
-      }
-
-      "04"
-      {
-        "var_type" "FIELD_INTEGER"
-        "soul_initial_charge" "3"
-      }
-      
-      "05"
-      {
-        "var_type" "FIELD_INTEGER"
-        "soul_additional_charges" "2"
-      }     
-    }
-  }
-  
-  "item_veil_of_discord"
-  {
-    "AbilityCooldown" "6"
-    "AbilityManaCost" "7.5"
-  }
-
-  "item_void_stone"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_mana_regen" "200"
-      }
-    }
-  }
-
-  "item_ward_observer"
-  {
-    "ItemStockTime" "144"
-  }
-  
-  // Neutrals
-  // Alpha Wolf
-  "alpha_wolf_critical_strike"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_mult" "250"
-      }
-    }
-  }
-
-  // Ancient Thunderhide
-  "big_thunder_lizard_slam"
-  {
-    "AbilityCooldown" "1.2"
-    "AbilityManaCost" "9"
-    "AbilitySpecial"
-    {
-      "04"
-      {
-        "var_type" "FIELD_FLOAT"
-        "non_hero_duration" "3"
-      }
-
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "hero_duration" "1.5"
-      }
-    }
-  }
-
-  "big_thunder_lizard_frenzy"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "5"
-  }
-
-  // Centaur Conqueror
-  "centaur_khan_war_stomp"
-  {
-    "AbilityCooldown" "4"
-    "AbilityManaCost" "10"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "non_hero_stun_duration" "2.25"
-      }
-
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "hero_stun_duration" "1.5"
-      }
-    }
-  }
-
-  // Ghost
-  "ghost_frost_attack"
-  {
-    "AbilitySpecial"
-    {
-      "03"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "1.125"
-      }
-    }
-  }
-
-  // Giant Wolf
-  "giant_wolf_critical_strike"
-  {
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_INTEGER"
-        "crit_mult" "250"
-      }
-    }
-  }
-
-  // Kobold Foreman
-  "kobold_taskmaster_speed_aura"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "bonus_movement_speed" "24"
-      }
-    }
-  }
-
-  // Harpy Stormcaster
-  "harpy_storm_chain_lightning"
-  {
-    "AbilityCooldown" "0.8"
-    "AbilityManaCost" "5"
-  }
-
-  // Hill Troll Priest
-  "forest_troll_high_priest_heal"
-  {
-    "AbilityCastPoint" "0.1"
-    "AbilityCooldown" "0.1"
-    "AbilityManaCost" "0.5"
-  }
-
-  "forest_troll_high_priest_mana_aura"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "mana_regen" "4"
-      }
-    }
-  }
-
-  // Ogre Frostmage
-  "ogre_magi_frost_armor"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "4"
-    "AbilitySpecial"
-    {
-      "05"
-      {
-        "var_type" "FIELD_FLOAT"
-        "slow_duration" "3.75"
-      }
-    }
-  }
-
-  // Roshan
-  "roshan_spell_block"
-  {
-    "AbilityCooldown" "3"
-  }
-
-  "roshan_slam"
-  {
-    "AbilityCooldown" "2"
-  }
-
-  // Satyr Banisher
-  "satyr_trickster_purge"
-  {
-    "AbilityCooldown" "1"
-    "AbilityManaCost" "12"
-    "AbilitySpecial"
-    {
-      "02"
-      {
-        "var_type" "FIELD_FLOAT"
-        "duration" "3.75"
-      }
-    }
-  }
-
-  // Satyr Mindstealer
-  "satyr_soulstealer_mana_burn"
-  {
-    "AbilityCooldown" "3.6"
-    "AbilityManaCost" "5"
-  }
-
-  // Satyr Tormenter
-  "satyr_hellcaller_shockwave"
-  {
-    "AbilityCooldown" "1.6"
-    "AbilityManaCost" "10"
-  }
-
-  // Vhoul Assassin
-  "gnoll_assassin_envenomed_weapon"
-  {
-    "AbilitySpecial"
-    {
-      "01"
-      {
-        "var_type" "FIELD_INTEGER"
-        "damage_per_second" "4"
-      }
-    }
-  }
+	// Heroes
+	// Attribute Bonus
+	"attribute_bonus"
+	{
+		"MaxLevel" "20"
+		"LevelsBetweenUpgrades" "1"
+	}
+	
+	// Strength (Radiant)
+	// Earthshaker
+	"earthshaker_fissure"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "12.5 14 15.5 17"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.75 0.9375 1.125 1.3125"
+			}
+		}
+	}
+	
+	"earthshaker_enchant_totem"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "2 3 4 5"
+	}
+
+	"earthshaker_aftershock"
+	{
+		"AbilityDuration" "0.45 0.675 0.9 1.125"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tooltip_duration" "0.45 0.675 0.9 1.125"
+			}
+		}
+	}
+	
+	"earthshaker_echo_slam"
+	{
+		"AbilityCooldown" "30 26 22"
+		"AbilityManaCost" "14.5 20.5 26.5"
+	}
+	
+	// Sven
+	"sven_storm_bolt"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "14"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bolt_stun_duration" "1.5"
+			}
+		}
+	}
+	
+	"sven_warcry"
+	{
+		"AbilityCooldown" "6.4 5.2 4 2.8"
+		"AbilityManaCost" "2.5"
+	}
+	
+	"sven_gods_strength"
+	{
+		"AbilityCooldown" "16"
+		"AbilityManaCost" "10 15 20"
+	}
+	
+	// Tiny
+	"tiny_avalanche"
+	{
+		"AbilityCooldown" "3.4"
+		"AbilityManaCost" "12"
+		"AbilityDuration" "1.5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_interval" "0.1875 0.25 0.25 0.25"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"num_ticks" "4 4 4 4"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "CCA1.0"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"projectile_duration" "0.375"
+			}
+		}
+	}
+	
+	"tiny_toss"
+	{
+		"AbilityCooldown" "1.8"
+		"AbilityManaCost" "12"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.3"
+			}
+		}
+	}
+	
+	// Kunkka
+	"kunkka_torrent"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "12"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "0.75 1.5 2.25 3"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "CCS1.53"
+			}
+		}
+	}
+	
+	"kunkka_tidebringer"
+	{
+		"AbilityCooldown" "2.6 2 1.4 0.8"
+	}
+	
+	"kunkka_x_marks_the_spot"
+	{
+		"AbilityCooldown" "3.8 3.2 2.6 2"
+		"AbilityManaCost" "8"
+	}
+	
+	"kunkka_ghostship"
+	{
+		"AbilityCooldown" "12 10 8"
+		"AbilityManaCost" "15 20 25"
+	}
+	
+	// Beastmaster
+	"beastmaster_wild_axes"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "12"
+	}
+	
+	"beastmaster_call_of_the_wild"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "1.5"
+	}
+	
+	"beastmaster_call_of_the_wild_boar"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "1.5"
+	}
+	
+	"beastmaster_primal_roar"
+	{
+		"AbilityCooldown" "16 15 14"
+		"AbilityManaCost" "15 17.5 20"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25 2.625 3"
+			}
+
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "1.5 2.25 3"
+			}
+
+			"11"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "9"
+			}			
+		}
+	}
+
+	"beastmaster_boar_poison"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25"
+			}
+		}
+	}
+	
+	// Dragon Knight
+	"dragon_knight_breathe_fire"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "10 11 12 13"
+	}
+	
+	"dragon_knight_dragon_tail"
+	{
+		"AbilityCooldown" "4.8 4.4 4 3.6"
+		"AbilityManaCost" "20"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.875 2.0625 2.25 2.4375"
+			}
+		}
+	}
+
+	"dragon_knight_dragon_blood"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_health_regen" "4 6 8 10"
+			}
+		}
+	}
+	
+	"dragon_knight_elder_dragon_form"
+	{
+		"AbilityCooldown" "23"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"11"
+			{
+				"var_type" "FIELD_FLOAT"
+				"frost_duration" "2.25"
+			}
+		}
+	}
+	
+	// Clockwerk
+	"rattletrap_battery_assault"
+	{
+		"AbilityCooldown" "6.4 5.6 4.8 4"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"rattletrap_power_cogs"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "5 6 7 8"
+	}
+	
+	"rattletrap_rocket_flare"
+	{
+		"AbilityCooldown" "4 3.6 3.2 2.8"
+		"AbilityManaCost" "5"
+	}
+	
+	"rattletrap_hookshot"
+	{
+		"AbilityCooldown" "14 11 8"
+		"AbilityManaCost" "15"
+		"AbilitySpecial"
+		{
+			"03"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.75 1.125 1.5"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "2.4"
+			}			
+		}
+	}
+	
+	// Omniknight
+	"omniknight_purification"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "10 12 14 16"
+	}
+	
+	"omniknight_repel"
+	{
+		"AbilityCooldown" "5.6"
+		"AbilityManaCost" "10"
+	}
+	
+	"omniknight_guardian_angel"
+	{
+		"AbilityCooldown" "30"
+		"AbilityManaCost" "12.5 17.5 25"
+	}
+	
+	//Huskar
+	"huskar_inner_vitality"
+	{
+		"AbilityCooldown" "5 4.4 3.8 3.2"
+		"AbilityManaCost" "17"
+	}
+	
+	"huskar_burning_spears"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_cost" "3"
+			}			
+		}
+	}
+	
+	"huskar_life_break"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityDuration" "3 3.75 4.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"health_cost_percent" "0.07"
+			}
+			
+			"06"
+			{
+				"var_type" "FIELD_INTEGER"
+				"tooltip_health_cost_percent" "7"
+			}
+			
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "0.8"
+			}			
+		}
+	}
+	
+	// Alchemist
+	"alchemist_acid_spray"
+	{
+		"AbilityCooldown" "4.4"
+		"AbilityManaCost" "13 14 15 16"
+	}
+	
+	"alchemist_unstable_concoction"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "12"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"brew_time" "1"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"brew_explosion" "1.1"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"min_stun" "0.1875"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"max_stun" "1.3125 1.875 2.4375 3"
+			}
+		}
+	}
+	
+	"alchemist_chemical_rage"
+	{
+		"AbilityCooldown" "18"
+		"AbilityManaCost" "50 100 150"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "10"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "0.9 0.75 0.6"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_health_regen" "75 100 125"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bonus_mana_regen" "15 24 33"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_movespeed" "30 40 80"
+			}
+		}
+	}
+	
+	// Brewmaster
+	"brewmaster_thunder_clap"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "9 10.5 13 15"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_creeps" "6"
+			}			
+		}
+	}
+	
+	"brewmaster_drunken_haze"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "6"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_creeps" "9"
+			}
+		}
+	}
+	
+	"brewmaster_drunken_brawler"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_multiplier" "250"
+			}
+			
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"last_proc" "3.2 2.8 2.4 2"
+			}
+		}
+	}
+	
+	"brewmaster_primal_split"
+	{
+		"AbilityCooldown" "28 24 20"
+		"AbilityManaCost" "12.5 15 17.5"
+	}
+	
+	"brewmaster_earth_hurl_boulder"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5"
+			}
+		}
+	}
+	
+	"brewmaster_storm_dispel_magic"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"brewmaster_storm_cyclone"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "15"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_hero" "4.5"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_unit" "15"
+			}
+		}
+	}
+	
+	"brewmaster_storm_wind_walk"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilityManaCost" "7.5"
+	}
+
+	"brewmaster_fire_permanent_immolation"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "30 60 90"
+			}
+		}
+	}
+	
+	// Treant Protector
+	"treant_natures_guise"
+	{
+		"AbilityCooldown" "2 1.6 1.2 0.8"
+		"AbilityManaCost" "6"
+	}
+	
+	"treant_leech_seed"
+	{
+		"AbilityCooldown" "3.2 2.8 2.4 2"
+		"AbilityManaCost" "14"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_interval" "0.5625"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3.375"
+			}
+		}
+	}
+	
+	"treant_living_armor"
+	{
+		"AbilityCooldown" "6.4 5.2 4 2.8"
+		"AbilityManaCost" "5"
+	}
+	
+	"treant_overgrowth"
+	{
+		"AbilityCooldown" "14"
+		"AbilityManaCost" "15 17.5 20"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25 2.8125 3.375"
+			}				
+		}
+	}
+	
+	// Io
+	"wisp_tether"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "4"
+		"AbilitySpecial"
+		{
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.5625 0.9375 1.3125 1.6875"
+			}
+		}
+	}
+	
+	"wisp_spirits"
+	{
+		"AbilityCooldown" "4 3.6 3.2 2.8"
+		"AbilityManaCost" "12 13 14 15"
+	}
+	
+	"wisp_overcharge"
+	{
+		"AbilityCooldown" "0.4"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"drain_pct" "0.009 0.009 0.009 0.009"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"drain_pct_tooltip" "0.9 0.9 0.9 0.9"
+			}			
+		}
+	}
+	
+	"wisp_relocate"
+	{
+		"AbilityCooldown" "18 15 12"
+		"AbilityManaCost" "10"
+	}
+	
+	// Centaur Warrunner
+	"centaur_hoof_stomp"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "13"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.5 1.6875 1.875 2.0625"
+			}
+		}
+	}
+	
+	"centaur_double_edge"
+	{
+		"AbilityCooldown" "1.6"
+	}
+	
+	"centaur_stampede"
+	{
+		"AbilityCooldown" "18 15 12"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "1.125"
+			}
+		}
+	}
+	
+	// Timbersaw
+	"shredder_whirling_death"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "7 8 9 10"
+	}
+	
+	"shredder_timber_chain"
+	{
+		"AbilityCooldown" "0.8"
+		"AbilityManaCost" "6 7 8 9"
+	}
+	
+	"shredder_chakram"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "10 15 20"
+		"AbilitySpecial"
+		{
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"mana_per_second" "2 2.5 3"
+			}			
+		}
+	}
+	
+	// Bristleback
+	"bristleback_viscous_nasal_goo"
+	{
+		"AbilityCooldown" "0.3"
+		"AbilityManaCost" "3"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"goo_duration" "3.75"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"goo_duration_creep" "7.5"
+			}
+		}
+	}
+	
+	"bristleback_quill_spray"
+	{
+		"AbilityCooldown" "0.6"
+		"AbilityManaCost" "3.5"
+	}
+	
+	// Tusk
+	"tusk_ice_shards"
+	{
+		"AbilityCooldown" "3.6 3.2 2.8 2.4"
+		"AbilityManaCost" "12"
+	}
+	
+	"tusk_snowball"
+	{
+		"AbilityCooldown" "4.2 4 3.8 3.6"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.375 0.5625 0.75 0.9375"
+			}
+		}
+	}
+	
+	"tusk_frozen_sigil"
+	{
+		"AbilityCooldown" "10"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"tusk_walrus_punch"
+	{
+		"AbilityCooldown" "4 3.2 2.4"
+		"AbilityManaCost" "5 7.5 10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_multiplier" "437.5"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "1.5 2.25 3"
+			}
+		}
+	}
+	
+	// Elder Titan
+	"elder_titan_echo_stomp"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"sleep_duration" "1.5 2.25 3 3.75"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"initial_stun_duration" "0.4875"
+			}
+		}
+	}
+	
+	"elder_titan_echo_stomp_spirit"
+	{
+		"AbilityCooldown" "3"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"sleep_duration" "1.5 2.25 3 3.75"
+			}
+		}
+	}
+	
+	"elder_titan_ancestral_spirit"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "11"
+	}
+	
+	"elder_titan_earth_splitter"
+	{
+		"AbilityCooldown" "20"
+		"AbilityManaCost" "17.5"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "2.25 3 3.75"
+			}
+		}
+	}
+	
+	// Legion Commander
+	"legion_commander_overwhelming_odds"
+	{
+		"AbilityCooldown" "3.6"
+		"AbilityManaCost" "10"
+	}
+	
+	"legion_commander_press_the_attack"
+	{
+		"AbilityCooldown" "3.2 3 2.8 2.6"
+		"AbilityManaCost" "11"
+	}
+	
+	"legion_commander_moment_of_courage"
+	{
+		"AbilityCooldown" "0.18"
+	}
+	
+	"legion_commander_duel"
+	{
+		"AbilityCooldown" "10"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3 3.5625 4.125"
+			}
+		}
+	}
+	
+	// Earth Spirit
+	"earth_spirit_boulder_smash"
+	{
+		"AbilityCooldown" "4.4 3.6 2.8 2"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.5625 0.9375 1.3125 1.6875"
+			}
+			
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "2.625 3 3.375 3.75"
+			}			
+		}
+	}
+	
+	"earth_spirit_rolling_boulder"
+	{
+		"AbilityCooldown" "3.2 2.4 1.6 0.8"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "1.5"
+			}
+		}
+	}
+	
+	"earth_spirit_geomagnetic_grip"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "1.875 2.25 2.625 3"
+			}			
+		}
+	}
+	
+	"earth_spirit_stone_caller"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"charge_restore_time" "6"
+			}			
+		}
+	}
+	
+	"earth_spirit_magnetize"
+	{
+		"AbilityCooldown" "16"
+		"AbilityManaCost" "10"
+	}
+	
+	// Phoenix
+	"phoenix_icarus_dive"
+	{
+		"AbilityCooldown" "7.2"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"hp_cost_perc" "3"
+			}			
+		}
+	}
+	
+	"phoenix_fire_spirits"
+	{
+		"AbilityCooldown" "9 8 7 6"
+		"AbilityManaCost" "8 9 10 11"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"hp_cost_perc" "4"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_interval" "0.75"
+			}
+		}
+	}
+	
+	"phoenix_sun_ray"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"hp_cost_perc_per_second" "1.2"
+			}			
+		}
+	}
+	
+	"phoenix_supernova"
+	{
+		"AbilityCooldown" "22"
+		"AbilityManaCost" "20"
+		"AbilityDuration" "3"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"damage_per_sec"	"120 160 200"
+			}
+			
+			"03"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"stun_duration"		"1.125 CCA2.0 1.875"
+			}
+
+			"05"
+			{
+				"var_type"			"FIELD_INTEGER"
+				"tooltip_duration"	"3"
+			}
+		}
+	}
+	
+	// Strength (Dire)
+	// Axe
+	"axe_berserkers_call"
+	{
+		"AbilityCooldown" "6.4 5.6 4.8 4"
+		"AbilityManaCost" "16 18 20 22"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5 1.8 2.1 2.4"
+			}	
+		}
+	}
+	
+	"axe_battle_hunger"
+	{
+		"AbilityCooldown" "4 3 2 1"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "7.5"
+			}
+		}
+	}
+	
+	"axe_counter_helix"
+	{
+		"AbilityCooldown" "0.09 0.08 0.07 0.06"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown" "0.09 0.08 0.07 0.06"
+			}			
+		}
+	}
+	
+	"axe_culling_blade"
+	{
+		"AbilityCooldown" "15 13 11"
+		"AbilityManaCost" "6 12 18"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "1.2"
+			}			
+		}
+	}
+	
+	// Pudge
+	"pudge_meat_hook"
+	{
+		"AbilityCooldown" "2.8 2.6 2.4 2.2"
+		"AbilityManaCost" "11 12 13 14"
+	}
+
+	"pudge_rot"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"rot_tick" "0.04"
+			}
+		}
+	}
+	
+	"pudge_dismember"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "10 13 17"
+		"AbilityChannelTime" "2.2125"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"dismember_damage" "113 188 263"
+			}
+		}
+	}
+	
+	// Sand King
+	"sandking_burrowstrike"
+	{
+		"AbilityCooldown" "2.2"
+		"AbilityManaCost" "11 12 13 14"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"burrow_duration" "CCA2.17"
+			}
+		}
+	}
+	
+	"sandking_sand_storm"
+	{
+		"AbilityCooldown" "8 6 4 2"
+		"AbilityManaCost" "6 5 4 3"
+		"AbilityDuration" "8 16 24 32"
+		"AbilityChannelTime" "8 16 24 32"
+		"AbilityDamage" "40 80 120 160"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"AbilityDuration" "8 16 24 32"
+			}
+		}
+	}
+	
+	"sandking_epicenter"
+	{
+		"AbilityCooldown" "28 24 20"
+		"AbilityManaCost" "17.5 25 32.5"
+		"AbilityDuration" "2.25"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_INTEGER"
+				"epicenter_slow_duration_tooltip" "2.25"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"epicenter_cooldown_scepter" "24 20 16"
+			}			
+		}
+	}
+	
+	// Slardar
+	"slardar_sprint"
+	{
+		"AbilityCooldown" "4.6"
+	}
+	
+	"slardar_slithereen_crush"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "8 9.5 10.5 11.5"
+		"AbilityDuration" "1.2 1.425 1.65 1.875"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"crush_extra_slow_duration" "1.5"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.2 1.425 1.65 1.875"
+			}
+		}
+	}
+
+	"slardar_bash"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.75"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_creep" "1.5"
+			}
+		}
+	}
+	
+	"slardar_amplify_damage"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "2.5"
+	}
+	
+	// Tidehunter
+	"tidehunter_gush"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "12"
+		"AbilityDuration" "3"
+	}
+	
+	"tidehunter_anchor_smash"
+	{
+		"AbilityCooldown" "1.4 1.2 1 0.8"
+		"AbilityManaCost" "3 4 5 6"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"reduction_duration" "4.5"
+			}
+		}
+	}
+	
+	"tidehunter_ravage"
+	{
+		"AbilityCooldown" "30"
+		"AbilityManaCost" "15 22.5 32.5"
+		"AbilitySpecial"
+		{
+			"03"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"duration" "CCA2.02 CCA2.32 CCA2.77"
+			}
+		}
+	}
+	
+	// Wraith King
+	"skeleton_king_hellfire_blast"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "14"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"blast_stun_duration"	"1.5"
+			}
+			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"tooltip_slow_duration"	"1.5"
+			}
+		}
+	}
+	
+	"skeleton_king_mortal_strike"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_mult" "187.5 250 312.5 375"
+			}			
+		}
+	}
+	
+	"skeleton_king_reincarnation"
+	{
+		"AbilityCooldown" "52 32 12"
+		"AbilityManaCost" "16"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "4.5"
+			}
+		}
+	}
+	
+	// Lifestealer
+	"life_stealer_rage"
+	{
+		"AbilityCooldown" "3.8"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"life_stealer_open_wounds"
+	{
+		"AbilityCooldown" "4.8 4 3.2 2.4"
+		"AbilityManaCost" "11"
+		"AbilityDuration" "6"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"slow_steps" "-70 -70 -60 -50 -30 -10"
+			}
+			
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration" "4.5"
+			}
+		}
+	}
+	
+	"life_stealer_infest"
+	{
+		"AbilityCooldown" "20"
+		"AbilityManaCost" "5"
+	}
+	
+	// Night Stalker
+	"night_stalker_void"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "8 9 10 11"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_day" "1.5"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_night" "3"
+			}
+		}
+	}
+	
+	"night_stalker_crippling_fear"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_day" "2.25"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_night" "3.75 4.5 5.25 6"
+			}
+		}
+	}
+	
+	"night_stalker_darkness"
+	{
+		"AbilityCooldown" "32 24 16"
+	}
+	
+	// Doom
+	"doom_bringer_devour"
+	{
+		"AbilityCooldown" "14 12 10 8"
+		"AbilityManaCost" "6"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_per_second" "100"
+			}
+		}
+	}
+	
+	"doom_bringer_scorched_earth"
+	{
+		"AbilityCooldown" "12 11 10 9"
+		"AbilityManaCost" "6 6.5 7 7.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_per_second" "40 54 67 80"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_movement_speed_pct" "32"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3 4 5 6"
+			}
+		}
+	}
+
+	"doom_bringer_lvl_death"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "11"
+	}
+	
+	"doom_bringer_doom"
+	{
+		"AbilityCooldown" "20"
+		"AbilityManaCost" "15 20 25"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "11.25"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "27 48 68"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_scepter" "12"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_scepter" "53 80 107"
+			}
+		}
+	}
+	
+	// Spirit Breaker
+	"spirit_breaker_charge_of_darkness"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"movement_speed" "700 750 800 850"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.9 1.2 1.5 1.8"
+			}
+		}
+	}
+	
+	"spirit_breaker_empowering_haste"
+	{
+		"AbilityCooldown" "3.2"
+	}
+	
+	"spirit_breaker_greater_bash"
+	{
+		"AbilityCooldown" "0.3"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.75 0.9 1.05 1.2"
+			}
+			
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"knockback_duration" "0.5"
+			}
+		}
+	}
+	
+	"spirit_breaker_nether_strike"
+	{
+		"AbilityCooldown" "16 14 12"
+		"AbilityManaCost" "12.5 15 17.5"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "4"
+			}			
+		}
+	}
+	
+	// Lycan
+	"lycan_summon_wolves"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "14.5"
+	}
+	
+	"lycan_howl"
+	{
+		"AbilityCooldown" "10 9 8 7"
+		"AbilityManaCost" "1.5 2 2.5 3"
+	}
+	
+	"lycan_shapeshift"
+	{
+		"AbilityCooldown" "24 18 12"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"speed" "750"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_damage" "212.5"
+			}			
+		}
+	}
+
+	"lycan_summon_wolves_critical_strike"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_damage" "212.5"
+			}			
+		}
+	}
+	
+	"lycan_summon_wolves_invisibility"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fade_delay" "0.34"
+			}			
+		}
+	}
+	
+	// Chaos Knight
+	"chaos_knight_chaos_bolt"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "14"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"stun_min" "0.75 0.75 0.75 1.5"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"stun_max" "1.5 2.25 3 3"
+			}
+		}
+	}
+	
+	"chaos_knight_reality_rift"
+	{
+		"AbilityCooldown" "4.8 3.6 2.4 1.2"
+		"AbilityManaCost" "5"
+	}
+	
+	"chaos_knight_critical_strike"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_damage" "187.5 250 312.5 375"
+			}			
+		}
+	}
+	
+	"chaos_knight_phantasm"
+	{
+		"AbilityCooldown" "28"
+		"AbilityManaCost" "12.5 20 27.5"
+	}
+	
+	// Undying
+	"undying_decay"
+	{
+		"AbilityCooldown" "2 1.6 1.2 0.8"
+		"AbilityManaCost" "7 9 11 13"
+	}
+	
+	"undying_soul_rip"
+	{
+		"AbilityCooldown" "4.8 3.6 2.4 1.2"
+		"AbilityManaCost" "5 7.5 10 12.5"
+	}
+	
+	"undying_tombstone"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "12 13 14 15"
+	}
+	
+	"undying_flesh_golem"
+	{
+		"AbilityCooldown" "15"
+		"AbilityManaCost" "10"
+	}
+
+	"undying_tombstone_zombie_deathstrike"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.875"
+			}
+		}
+	}
+	
+	// Magnus
+	"magnataur_shockwave"
+	{
+		"AbilityCooldown" "2 1.8 1.6 1.4"
+		"AbilityManaCost" "9"
+	}
+	
+	"magnataur_empower"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "3 4 5 6"
+	}
+	
+	"magnataur_skewer"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "8"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "1.875"
+			}
+		}
+	}
+	
+	"magnataur_reverse_polarity"
+	{
+		"AbilityCooldown" "24 22 20"
+		"AbilityManaCost" "20 25 30"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"hero_stun_duration" "1.6875 2.25 2.8125"
+			}
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"creep_stun_duration" "2.25 3 3.75"
+			}
+		}
+	}
+	
+	// Abaddon
+	"abaddon_death_coil"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "5 6 7 8"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"self_damage" "15 20 25 30"
+			}			
+		}
+	}
+	
+	"abaddon_aphotic_shield"
+	{
+		"AbilityCooldown" "2.4 2 1.6 1.2"
+		"AbilityManaCost" "10 10.5 11 11.5"
+	}
+
+	"abaddon_frostmourne"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"debuff_duration" "1.875"
+			}
+		}
+	}
+	
+	"abaddon_borrowed_time"
+	{
+		"AbilityCooldown" "24 20 16"
+	}
+	
+	// Agility (Radiant)
+	// Anti-Mage
+	"antimage_blink"
+	{
+		"AbilityCooldown" "2.4 1.8 1.4 1"
+		"AbilityManaCost" "6"
+	}
+	
+	"antimage_mana_void"
+	{
+		"AbilityCooldown" "14"
+		"AbilityManaCost" "12.5 20 27.5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"mana_void_ministun" "0.075 0.15 0.225"
+			}
+		}
+	}
+	
+	// Drow Ranger
+	"drow_ranger_frost_arrows"
+	{
+		"AbilityManaCost" "1.2"
+		"AbilityDuration" "1.125"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"frost_arrows_hero_duration_tooltip" "1.125"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"frost_arrows_creep_duration" "5.25"
+			}
+		}
+	}
+	
+	"drow_ranger_wave_of_silence"
+	{
+		"AbilityCooldown" "4.8"
+		"AbilityManaCost" "18"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "2.25 3 3.75 4.5"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"knockback_duration" "0.6 0.7 0.8 0.9"
+			}
+		}
+	}
+	
+	"drow_ranger_trueshot"
+	{
+		"AbilityCooldown" "24"
+	}
+	
+	// Juggernaut
+	"juggernaut_blade_fury"
+	{
+		"AbilityCooldown" "6 5.2 4.4 3.6"
+		"AbilityManaCost" "12 11 10 9"
+	}
+	
+	"juggernaut_healing_ward"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "12 12.5 13 13.5"
+	}
+	
+	"juggernaut_blade_dance"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"blade_dance_crit_mult" "250"
+			}			
+		}
+	}
+	
+	"juggernaut_omni_slash"
+	{
+		"AbilityCooldown" "26 24 22"
+		"AbilityManaCost" "20 27.5 35"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"omni_slash_cooldown_scepter" "14"
+			}			
+		}
+	}
+	
+	// Mirana
+	"mirana_starfall"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "10 12 14 16"
+	}
+	
+	"mirana_arrow"
+	{
+		"AbilityCooldown" "3.4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"arrow_min_stun" "0.01"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"arrow_max_stun" "CCA5.0"
+			}
+		}
+	}
+	
+	"mirana_leap"
+	{
+		"AbilityCooldown" "6 5.2 4.4 3.6"
+		"AbilityManaCost" "4 3.5 3 2"
+	}
+	
+	"mirana_invis"
+	{
+		"AbilityCooldown" "28 24 20"
+		"AbilityManaCost" "7.5"
+	}
+	
+	// Morphling
+	"morphling_waveform"
+	{
+		"AbilityCooldown" "2.2"
+		"AbilityManaCost" "14 15.5 16 16.5"
+	}
+	
+	"morphling_adaptive_strike"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_min" "0.1875"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_max" "0.9375 1.6875 2.4375 3.1875"
+			}
+		}
+	}
+	
+	"morphling_morph_agi"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_cost" "3"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"points_per_tick" "2 2 2 2"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"morph_cooldown" "0.2 0.1 0.066 0.04"
+			}
+		}
+	}
+	
+	"morphling_morph_str"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_cost" "3"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"points_per_tick" "2 2 2 2"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"morph_cooldown" "0.2 0.1 0.066 0.04"
+			}
+		}
+	}
+	
+	"morphling_replicate"
+	{
+		"AbilityCooldown" "16"
+		"AbilityManaCost" "2.5"
+	}
+	
+	"morphling_morph_replicate"
+	{
+		"AbilityManaCost" "15"
+	}
+	
+	// Phantom Lancer
+	"phantom_lancer_spirit_lance"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilityManaCost" "12.5 13 13.5 14"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.4375"
+			}
+			
+		}
+	}
+	
+	"phantom_lancer_doppelwalk"
+	{
+		"AbilityCooldown" "6 5 4 3"
+		"AbilityManaCost" "15 12 9 6"
+	}
+	
+	"phantom_lancer_doppelganger"
+	{
+		"AbilityCooldown" "5 4 3 2"
+		"AbilityManaCost" "5"
+	}
+	
+	"phantom_lancer_phantom_rush"
+	{
+		"AbilityCooldown" "3.2 2.4 1.6 0.8"
+	}
+	
+	// Vengeful Spirit
+	"vengefulspirit_magic_missile"
+	{
+		"AbilityCooldown" "2.6 2.4 2.2 2"
+		"AbilityManaCost" "11 12 13 14"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"magic_missile_stun" "1.0875 1.1625 1.2375 1.3125"
+			}
+		}
+	}
+	
+	"vengefulspirit_wave_of_terror"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "4"
+	}
+	
+	"vengefulspirit_nether_swap"
+	{
+		"AbilityCooldown" "9"
+		"AbilityManaCost" "10 15 20"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"nether_swap_cooldown_scepter" "2"
+			}			
+		}
+	}
+	
+	// Riki
+	"riki_smoke_screen"
+	{
+		"AbilityCooldown" "4.4"
+		"AbilityManaCost" "15 16 17 18"
+	}
+	
+	"riki_blink_strike"
+	{
+		"AbilityCooldown" "4 3 2 1"
+		"AbilityManaCost" "4"
+	}
+	
+	"riki_permanent_invisibility"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fade_delay" "0.6 0.4 0.2"
+			}			
+		}
+	}
+	
+	// Sniper
+	"sniper_shrapnel"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "5"
+	}
+	
+	"sniper_assassinate"
+	{
+		"AbilityCooldown" "4 3 2"
+		"AbilityManaCost" "17.5 27.5 37.5"
+	}
+	
+	// Templar Assassin
+	"templar_assassin_refraction"
+	{
+		"AbilityCooldown" "3.4"
+		"AbilityManaCost" "10"
+	}
+	
+	"templar_assassin_meld"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilityManaCost" "5"
+	}
+	
+	"templar_assassin_psionic_trap"
+	{
+		"AbilityCooldown" "2.2 1.6 1"
+		"AbilityManaCost" "1.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"max_traps" "8 11 14"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"trap_duration_tooltip" "3.75"
+			}
+		}
+	}
+
+	"templar_assassin_trap"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"trap_duration" "3.75"
+			}	
+		}
+	}
+	
+	// Luna
+	"luna_lucent_beam"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilityManaCost" "18 20 22 24"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.45"
+			}
+		}
+	}
+	
+	"luna_eclipse"
+	{
+		"AbilityCooldown" "32 30 28"
+		"AbilityManaCost" "30 40 50"
+	}
+	
+	// Bounty Hunter
+	"bounty_hunter_shuriken_toss"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "9 11.5 13.5 15.5"
+	}
+	
+	"bounty_hunter_jinada"
+	{
+		"AbilityCooldown" "0.4 2 1.6 1.2"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25"
+			}
+		}
+	}
+	
+	"bounty_hunter_wind_walk"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "5"
+	}
+	
+	"bounty_hunter_track"
+	{
+		"AbilityCooldown" "0.8"
+		"AbilityManaCost" "5"
+	}
+	
+	// Ursa
+	"ursa_earthshock"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilityManaCost" "7.5"
+		"AbilityDuration" "3"
+	}
+	
+	"ursa_overpower"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "4.5 5.5 6.5 7.5"
+	}
+	
+	"ursa_enrage"
+	{
+		"AbilityCooldown" "5"
+	}
+	
+	// Gyrocopter
+	"gyrocopter_rocket_barrage"
+	{
+		"AbilityCooldown" "1.4 1.3 1.2 1.1"
+		"AbilityManaCost" "9"
+	}
+	
+	"gyrocopter_homing_missile"
+	{
+		"AbilityCooldown" "4 3.4 2.8 2.2"
+		"AbilityManaCost" "12 13 14 15"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.65 1.8 1.95 2.1"
+			}		
+		}
+	}
+	
+	"gyrocopter_flak_cannon"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "5"
+	}
+	
+	"gyrocopter_call_down"
+	{
+		"AbilityCooldown" "11 10 9"
+		"AbilityManaCost" "12.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"slow_duration_first" "1.5"
+			}
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"slow_duration_second" "2.25"
+			}
+		}
+	}
+	
+	// Lone Druid
+	"lone_druid_spirit_bear"
+	{
+		"AbilityCooldown" "36 32 28 24"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"lone_druid_rabid"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "5"
+	}
+	
+	"lone_druid_true_form_battle_cry"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "5"
+	}
+	
+	"lone_druid_true_form"
+	{
+		"AbilityManaCost" "2.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "1.125"
+			}
+		}
+	}
+	
+	"lone_druid_true_form_druid"
+	{
+		"AbilityManaCost" "2.5"
+	}
+
+	"lone_druid_spirit_bear_entangle"
+	{
+		"AbilityCooldown" "3.75"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"hero_duration" "2.25"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"creep_duration" "6.75"
+			}
+		}
+	}
+	
+	// Naga Siren
+	"naga_siren_mirror_image"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "7 8 9 10"
+	}
+	
+	"naga_siren_ensnare"
+	{
+		"AbilityCooldown" "5.6"
+		"AbilityManaCost" "18 20 22 24"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5 2.25 3 3.75"
+			}
+		}
+	}
+	
+	"naga_siren_rip_tide"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "8 9 10 11"
+	}
+	
+	"naga_siren_song_of_the_siren"
+	{
+		"AbilityCooldown" "36 24 12"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "5.25"
+			}
+		}
+	}
+	
+	// Troll Warlord
+	"troll_warlord_berserkers_rage"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_move_speed" "20 30 40 50"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "1.1625"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_duration" "0.6 0.9 1.2 1.5"
+			}
+		}
+	}
+
+	"troll_warlord_whirling_axes_ranged"
+	{
+		"AbilityCooldown" "4 3.8 3.6 3.4"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"axe_slow_duration" "2.25 2.8125 3.375 3.9375"
+			}
+		}
+	}
+	
+	"troll_warlord_whirling_axes_melee"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"blind_duration" "3 3.75 4.5 5.25"
+			}
+		}
+	}
+	
+	"troll_warlord_battle_trance"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "7.5"
+	}
+	
+	// Ember Spirit
+	"ember_spirit_searing_chains"
+	{
+		"AbilityCooldown" "2.8 2.4 2 1.6"
+		"AbilityManaCost" "11"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.75 1.5 1.5 2.25"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_interval" "0.75"
+			}
+		}
+	}
+	
+	"ember_spirit_sleight_of_fist"
+	{
+		"AbilityCooldown" "6 4.4 2.8 1.2"
+		"AbilityManaCost" "5"
+	}
+	
+	"ember_spirit_flame_guard"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "8 9 10 11"
+	}
+	
+	"ember_spirit_fire_remnant"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"charge_restore_time" "7"
+			}			
+		}
+	}
+	
+	"ember_spirit_activate_fire_remnant"
+	{
+		"AbilityManaCost" "15"
+	}
+	
+	// Agility (Dire)
+	// Bloodseeker
+	"bloodseeker_bloodrage"
+	{
+		"AbilityCooldown" "2.4 2 1.6 1.2"
+		"AbilityManaCost" "8"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "4.5 5.25 6 6.75"
+			}
+			
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_interval" "0.75"
+			}
+		}
+	}
+	
+	"bloodseeker_blood_rite"
+	{
+		"AbilityCooldown" "5.8 5.2 4.6 4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "2.25 3 3.75 4.5"
+			}
+		}
+	}
+
+	"bloodseeker_thirst"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_movement_speed" "20 30 40 50"
+			}
+		}
+	}
+	
+	"bloodseeker_rupture"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "15 20 25"
+	}
+	
+	// Shadow Fiend
+	"nevermore_shadowraze1"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"nevermore_shadowraze2"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"nevermore_shadowraze3"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "7.5"
+	}
+
+	"nevermore_necromastery"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"necromastery_max_souls" "22 29 36 43"
+			}
+			
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"necromastery_soul_release" "0.33"
+			}
+		}
+	}
+	
+	"nevermore_requiem"
+	{
+		"AbilityCooldown" "24 22 20"
+		"AbilityManaCost" "15 17.5 20"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"requiem_slow_duration" "3.75"
+			}	
+		}
+	}
+	
+	// Razor
+	"razor_plasma_field"
+	{
+		"AbilityCooldown" "2.8"
+		"AbilityManaCost" "12.5"
+	}
+	
+	"razor_static_link"
+	{
+		"AbilityCooldown" "6.4 6 5.6 5.2"
+		"AbilityManaCost" "5"
+	}
+	
+	"razor_eye_of_the_storm"
+	{
+		"AbilityCooldown" "16 14 12"
+		"AbilityManaCost" "10 15 20"
+	}
+	
+	// Venomancer
+	"venomancer_venomous_gale"
+	{
+		"AbilityCooldown" "4.4"
+		"AbilityManaCost" "12.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "11.25"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_interval" "2.25"
+			}
+		}
+	}
+
+	"venomancer_poison_sting"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "CC6 CC9 CC12 CC15"
+			}
+			
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "9 17 22 20 29"
+			}			
+		}
+	}
+	
+	"venomancer_plague_ward"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "2"
+	}
+	
+	"venomancer_poison_nova"
+	{
+		"AbilityCooldown" "28 24 20"
+		"AbilityManaCost" "20 30 40"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "12"
+			}			
+		}
+	}
+	
+	// Faceless Void
+	"faceless_void_time_walk"
+	{
+		"AbilityCooldown" "3.8 3.4 3 2.6"
+		"AbilityManaCost" "9"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25"
+			}
+		}
+	}
+	
+	"faceless_void_chronosphere"
+	{
+		"AbilityCooldown" "26 23 20"
+		"AbilityManaCost" "15 22.5 30"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3 3.375 3.75"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_scepter" "3 3.75 4.5"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "12"
+			}			
+		}
+	}
+	
+	// Phantom Assassin
+	"phantom_assassin_stifling_dagger"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilityManaCost" "3 2.5 2 1.5"
+		"AbilityDuration" "0.75 1.5 2.25 3"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration" "0.75 1.5 2.25 3"
+			}
+		}
+	}
+	
+	"phantom_assassin_phantom_strike"
+	{
+		"AbilityCooldown" "2.8 2.2 1.6 1"
+		"AbilityManaCost" "5"
+	}
+	
+	"phantom_assassin_coup_de_grace"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_bonus" "287.5 425 562.5"
+			}			
+		}
+	}
+	
+	// Viper
+	"viper_poison_attack"
+	{
+		"AbilityManaCost" "2"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5"
+			}
+		}
+	}
+
+	"viper_corrosive_skin"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "13 20 27 33"
+			}
+		}
+	}
+	
+	"viper_viper_strike"
+	{
+		"AbilityCooldown" "16 10 6"
+		"AbilityManaCost" "12.5 17.5 25"
+		"AbilitySpecial"
+		{
+
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3.825"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage" "100 167 242"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "12"
+			}
+			
+			"06"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_cost_scepter" "12.5"
+			}			
+		}
+	}
+	
+	// Clinkz
+	"clinkz_strafe"
+	{
+		"AbilityCooldown" "9 8 7 6"
+		"AbilityManaCost" "9"
+	}
+	
+	"clinkz_searing_arrows"
+	{
+		"AbilityManaCost" "1"
+	}
+	
+	"clinkz_wind_walk"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"clinkz_death_pact"
+	{
+		"AbilityCooldown" "9 8 7"
+		"AbilityManaCost" "10"
+	}
+	
+	// Broodmother
+	"broodmother_spawn_spiderlings"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "12"
+	}
+	
+	"broodmother_spin_web"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "5"
+	}
+
+	"broodmother_incapacitating_bite"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5"
+			}
+		}
+	}
+	
+	"broodmother_insatiable_hunger"
+	{
+		"AbilityCooldown" "9"
+		"AbilityManaCost" "10"
+	}
+
+	"broodmother_poison_sting"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "4.5"
+			}
+
+			"02"
+			{		
+				"var_type" "FIELD_FLOAT"
+				"duration_hero" "1.5"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_per_second" "16"
+			}
+		}
+	}
+
+	// Weaver
+	"weaver_the_swarm"
+	{
+		"AbilityCooldown" "7.2 6.6 6 5.4"
+		"AbilityManaCost" "10"
+	}
+	
+	"weaver_shukuchi"
+	{
+		"AbilityCooldown" "2.4 2 1.6 1.2"
+		"AbilityManaCost" "6"
+	}
+	
+	"weaver_geminate_attack"
+	{
+		"AbilityCooldown" "1.2 1 0.8 0.6"
+	}
+	
+	"weaver_time_lapse"
+	{
+		"AbilityCooldown" "12 10 8"
+		"AbilityManaCost" "15 7.5 0"
+	}
+	
+	// Spectre
+	"spectre_spectral_dagger"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "13 14 15 16"
+	}
+	
+	"spectre_haunt"
+	{
+		"AbilityCooldown" "24"
+		"AbilityManaCost" "15"
+	}
+	
+	// Meepo
+	"meepo_earthbind"
+	{
+		"AbilityCooldown" "4 3.2 2.4 1.6"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5"
+			}
+		}
+	}
+	
+	"meepo_poof"
+	{
+		"AbilityCooldown" "2.4 2 1.6 1.2"
+		"AbilityManaCost" "8"
+	}
+	
+	// Nyx Assassin
+	"nyx_assassin_impale"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "9.5 11.5 13.5 15.5"
+		"AbilitySpecial"
+		{
+			"02"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"duration" "CCA1.27 CCA1.77 CCA2.27 CCA2.77"
+			}
+		}
+	}
+	
+	"nyx_assassin_mana_burn"
+	{
+		"AbilityCooldown" "5.6 4 2.4 0.8"
+		"AbilityManaCost" "10"
+	}
+	
+	"nyx_assassin_spiked_carapace"
+	{
+		"AbilityCooldown" "4.6 4 3.4 2.8"
+		"AbilityManaCost" "4"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.45 0.9 1.35 1.8"
+			}
+		}
+	}
+	
+	"nyx_assassin_vendetta"
+	{
+		"AbilityCooldown" "14 12 10"
+		"AbilityManaCost" "16 21 26"
+	}
+	
+	// Slark
+	"slark_dark_pact"
+	{
+		"AbilityCooldown" "1.8 1.6 1.4 1.2"
+		"AbilityManaCost" "5.5 5 4.5 4"
+	}
+	
+	"slark_pounce"
+	{
+		"AbilityCooldown" "8 6.4 4.8 3.2"
+		"AbilityManaCost" "15"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"leash_duration" "2.625"
+			}
+		}
+	}
+	
+	"slark_shadow_dance"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "12"
+	}
+	
+	// Medusa
+	"medusa_mystic_snake"
+	{
+		"AbilityCooldown" "2.2"
+		"AbilityManaCost" "14 15 16 17"
+	}
+
+	"medusa_mana_shield"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_per_mana" "1.9 2.2 2.5 2.8"
+			}
+		}
+	}
+	
+	"medusa_stone_gaze"
+	{
+		"AbilityCooldown" "18"
+		"AbilityManaCost" "20"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stone_duration" "2.25"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"face_duration" "1.5"
+			}
+		}
+	}
+	
+	// Terrorblade
+	"terrorblade_reflection"
+	{
+		"AbilityCooldown" "8.8 7.2 5.6 4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"illusion_duration" "1.875 2.625 3.375 4.125"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"illusion_outgoing_damage" "-46.67 -33.33 -20.0 -6.67"
+			}
+		}
+	}
+	
+	"terrorblade_conjure_image"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "8"
+	}
+	
+	"terrorblade_metamorphosis"
+	{
+		"AbilityCooldown" "28"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"base_attack_time" "1.2"
+			}
+		}
+	}
+	
+	"terrorblade_sunder"
+	{
+		"AbilityCooldown" "24 16 8"
+		"AbilityManaCost" "20 10 0"
+	}
+	
+	// Intelligence (Dire)
+	// Crystal Maiden
+	"crystal_maiden_crystal_nova"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "10 12 14 16"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.625 3 3.375 3.75"
+			}
+		}
+	}
+	
+	"crystal_maiden_frostbite"
+	{
+		"AbilityCooldown" "6 5.4 4.8 4.2"
+		"AbilityManaCost" "34.5 37.5 42 45"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.5 2 2.5 3"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"creep_duration" "10"
+			}
+		}
+	}
+	
+	"crystal_maiden_freezing_field"
+	{
+		"AbilityCooldown" "30 24 18"
+		"AbilityManaCost" "20 40 60"
+	}
+	
+	// Puck
+	"puck_illusory_orb"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "15"
+	}
+	
+	"puck_waning_rift"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "10 11 12 13"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "0.5625 1.125 1.6875 2.25"
+			}
+		}
+	}
+	
+	"puck_phase_shift"
+	{
+		"AbilityCooldown" "3.6"
+	}
+	
+	"puck_dream_coil"
+	{
+		"AbilityCooldown" "17"
+		"AbilityManaCost" "10 15 20"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.375"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"coil_stun_duration" "1.125 1.6875 2.25"
+			}
+		}
+	}
+	
+	// Storm Spirit
+	"storm_spirit_static_remnant"
+	{
+		"AbilityCooldown" "0.7"
+		"AbilityManaCost" "7 8 9 10"
+	}
+	
+	"storm_spirit_electric_vortex"
+	{
+		"AbilityCooldown" "4.2 4 3.8 3.6"
+		"AbilityManaCost" "10 11 12 13"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"electric_vortex_self_slow_duration" "2.25"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.75 1.125 1.5 1.875"
+			}
+		}
+	}
+
+	"storm_spirit_overload"
+	{
+		"AbilityDuration" "0.45"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tooltip_duration" "0.45"
+			}
+		}
+	}
+	
+	"storm_spirit_ball_lightning"
+	{
+		"AbilityManaCost" "12"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"ball_lightning_initial_mana_percentage" "6"
+			}
+			
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"ball_lightning_initial_mana_base" "12"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"ball_lightning_move_speed" "1350 1975 2600"		
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"ball_lightning_travel_cost_base" "10"
+			}
+			
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"ball_lightning_travel_cost_percent" "0.6"
+			}			
+		}
+	}
+	
+	// Windranger
+	"windrunner_shackleshot"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "9 10 11 12"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fail_stun_duration" "0.5625"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.125 1.6875 2.25 2.8125"
+			}
+		}
+	}
+	
+	"windrunner_windrun"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "10"
+	}
+	
+	"windrunner_powershot"
+	{
+		"AbilityCooldown" "1.8"
+		"AbilityManaCost" "9 10 11 12"
+	}
+	
+	"windrunner_focusfire"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "7.5 10 12.5"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "3"
+			}			
+		}
+	}
+	
+	// Zeus
+	"zuus_arc_lightning"
+	{
+		"AbilityCooldown" "0.35"
+		"AbilityManaCost" "6.5 7 7.5 8"
+	}
+	
+	"zuus_lightning_bolt"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilityManaCost" "7.5 9.5 11.5 13.5"
+	}
+	
+	"zuus_thundergods_wrath"
+	{
+		"AbilityCooldown" "18"
+		"AbilityManaCost" "22.5 32.5 45"
+	}
+	
+	// Lina
+	"lina_dragon_slave"
+	{
+		"AbilityCooldown" "1.7"
+		"AbilityManaCost" "10 11.5 13 14.5"
+	}
+	
+	"lina_light_strike_array"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilityManaCost" "10 11 12 13"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"light_strike_array_stun_duration" "1.2 1.275 1.35 1.425"
+			}
+		}
+	}
+	
+	"lina_laguna_blade"
+	{
+		"AbilityCooldown" "14 12 10"
+		"AbilityManaCost" "28 42 68"
+	}
+	
+	// Shadow Shaman
+	"shadow_shaman_ether_shock"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "9.5 10.5 13.5 16"
+	}
+	
+	"shadow_shaman_voodoo" //hex
+	{
+		"AbilityCooldown" "5.2"
+		"AbilityManaCost" "22 28 34 40"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.9375 1.5 2.0625 2.625"
+			}
+		}
+	}
+	
+	"shadow_shaman_shackles"
+	{
+		"AbilityCooldown" "6.4"
+		"AbilityManaCost" "28 30 32 34"
+		"AbilityChannelTime" "2.0625 2.625 3.1875 3.75"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_interval" "0.075"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"channel_time" "2.0625 2.625 3.1875 3.75"
+			}
+		}
+	}
+	
+	"shadow_shaman_mass_serpent_ward"
+	{
+		"AbilityCooldown" "48"
+		"AbilityManaCost" "40 70 120"
+	}
+	
+	// Tinker
+	"tinker_laser"
+	{
+		"AbilityCooldown" "2.8"
+		"AbilityManaCost" "9.5 12 14.5 17"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_hero" "2.25"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_creep" "4.5"
+			}
+		}
+	}
+	
+	"tinker_heat_seeking_missile"
+	{
+		"AbilityCooldown" "5"
+		"AbilityManaCost" "12 14 16 18"
+	}
+	
+	"tinker_march_of_the_machines"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "14.5 15 16.5 19"
+	}
+	
+	"tinker_rearm"
+	{
+		"AbilityManaCost" "45 75 105"
+		"AbilityChannelTime" "1.2 0.8 0.4"
+		"AbilityCastPoint" "0.212"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"channel_tooltip" "12 8 4"
+			}			
+		}
+	}
+	
+	// Nature's Prophet
+	"furion_sprout"
+	{
+		"AbilityCooldown" "2.2 2 1.8 1.6"
+		"AbilityManaCost" "10 12 14 16"
+	}
+	
+	"furion_teleportation"
+	{
+		"AbilityCooldown" "10 8 6 4"
+		"AbilityManaCost" "5"
+	}
+	
+	"furion_force_of_nature"
+	{
+		"AbilityCooldown" "7.4"
+		"AbilityManaCost" "16"
+	}
+	
+	"furion_wrath_of_nature"
+	{
+		"AbilityCooldown" "18 15 12"
+		"AbilityManaCost" "17.5 22.5 27.5"
+	}
+	
+	// Enchantress
+	"enchantress_untouchable"
+	{
+		"AbilityDuration" "3"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"slow_duration" "3"
+			}
+		}
+	}
+
+	"enchantress_enchant"
+	{
+		"AbilityCooldown" "6 5 4 3"
+		"AbilityManaCost" "6.5"
+		"AbilityDuration" "4.125"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tooltip_duration" "4.125"
+			}
+		}
+	}
+	
+	"enchantress_natures_attendants"
+	{
+		"AbilityCooldown" "9"
+		"AbilityManaCost" "12.5 14 15.5 17"
+	}
+	
+	"enchantress_impetus"
+	{
+		"AbilityManaCost" "5.5 6 6.5"
+	}
+	
+	// Jakiro
+	"jakiro_dual_breath"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "13.5 14 15.5 17"
+		"AbilityDuration" "3.75"
+		"AbilitySpecial"
+		{
+			"09"
+			{
+				"var_type" "FIELD_INTEGER"
+				"tooltip_duration" "3.75"
+			}
+		}
+	}
+	
+	"jakiro_ice_path"
+	{
+		"AbilityCooldown" "2.4 2.2 2 1.8"
+		"AbilityManaCost" "9"
+	}
+	
+	"jakiro_liquid_fire"
+	{
+		"AbilityCooldown" "4 3 2 0.8"
+	}
+	
+	"jakiro_macropyre"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "22 33 44"
+	}
+	
+	// Chen
+	"chen_penitence"
+	{
+		"AbilityCooldown" "2.8 2.6 2.4 2.2"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3.75 4.5 5.25 6"
+			}
+		}
+	}
+	
+	"chen_test_of_faith"
+	{
+		"AbilityCooldown" "4.8"
+		"AbilityManaCost" "17.5"
+	}
+	
+	"chen_test_of_faith_teleport"
+	{
+		"AbilityCooldown" "4.8"
+		"AbilityManaCost" "20"
+	}
+	
+	"chen_holy_persuasion"
+	{
+		"AbilityCooldown" "6 5.2 4.4 3.6"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"max_units" "2 3 4 5"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_bonus" "120 240 360 480"
+			}
+		}
+	}
+	
+	"chen_hand_of_god"
+	{
+		"AbilityCooldown" "32 28 24"
+		"AbilityManaCost" "20 30 40"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "6"
+			}			
+		}
+	}
+	
+	// Silencer
+	"silencer_curse_of_the_silent"
+	{
+		"AbilityCooldown" "4 3.2 2.4 1.6"
+		"AbilityManaCost" "7.5 9.5 11.5 13.5"
+		"AbilityDuration" "4.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_damage" "12 24 36 48"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_damage" "30 53 75 98"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"tooltip_duration" "4.5"
+			}
+		}
+	}
+	
+	"silencer_glaives_of_wisdom"
+	{
+		"AbilityManaCost" "1.5"
+	}
+	
+	"silencer_last_word"
+	{
+		"AbilityCooldown" "12 9.6 7.2 4.8"
+		"AbilityManaCost" "23"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration" "2.25 3 3.75 4.5"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"debuff_duration" "3.75"
+			}
+		}
+	}
+	
+	"silencer_global_silence"
+	{
+		"AbilityCooldown" "26"
+		"AbilityManaCost" "25 37.5 50"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tooltip_duration" "3 3.75 4.5"
+			}			
+		}
+	}
+	
+	// Ogre Magi
+	"ogre_magi_fireblast"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "7.5 8.5 9.5 10.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.125"
+			}
+		}
+	}
+	
+	"ogre_magi_ignite"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "9.5 10.5 11.5 12.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3.75 4.5 5.25 6"
+			}
+		}
+	}
+	
+	"ogre_magi_bloodlust"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"modelscale" "140"
+			}
+		}
+	}
+	
+	"ogre_magi_unrefined_fireblast"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.125"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"scepter_mana" "0.06"
+			}			
+		}
+	}
+	
+	"ogre_magi_multicast"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"fireblast_mana_cost" "2 4 6"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fireblast_cooldown" "0.4 0.8 1.2"
+			}
+			
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bloodlust_cooldown" "1 2 3"
+			}			
+		}
+	}
+	
+	// Rubick
+	"rubick_telekinesis"
+	{
+		"AbilityCooldown" "4.4"
+		"AbilityManaCost" "12"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"lift_duration" "1.125 1.3125 1.5 1.6875"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.75 0.9375 1.125 1.3125"
+			}
+		}
+	}
+	
+	"rubick_fade_bolt"
+	{
+		"AbilityCooldown" "3.2 2.8 2.4 2"
+		"AbilityManaCost" "12 13 14 15"
+	}
+	
+	"rubick_spell_steal"
+	{
+		"AbilityCooldown" "4 3.6 3.2"
+		"AbilityManaCost" "2.5"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"cooldown_scepter" "0.4"
+			}			
+		}
+	}
+	
+	// Disruptor
+	"disruptor_thunder_strike"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "13"
+	}
+	
+	"disruptor_glimpse"
+	{
+		"AbilityCooldown" "12 9.2 6.4 3.6"
+		"AbilityManaCost" "10"
+	}
+	
+	"disruptor_kinetic_field"
+	{
+		"AbilityCooldown" "2.6 2.4 2.2 2"
+		"AbilityManaCost" "7"
+	}
+	
+	"disruptor_static_storm"
+	{
+		"AbilityCooldown" "18 16 14"
+		"AbilityManaCost" "12.5 17.5 22.5"
+	}
+	
+	// Keeper of the Light
+	"keeper_of_the_light_illuminate"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "15 16 17 18"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_per_second" "200 150 133.33 125"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"max_channel_time" "1.0 2.0 3.0 4.0"
+			}
+			
+			"09"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"channel_vision_interval" "0.25 0.33 0.375 0.4"
+			}
+		}
+	}
+	
+	"keeper_of_the_light_mana_leak"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"keeper_of_the_light_chakra_magic"
+	{
+		"AbilityCooldown" "3.8 3.6 3.4 3.2"
+		"AbilityManaCost" "2.5 3.5 4.5 5.5"
+	}
+	
+	"keeper_of_the_light_spirit_form"
+	{
+		"AbilityCooldown" "16 14 12"
+		"AbilityManaCost" "10"
+	}
+	
+	"keeper_of_the_light_recall"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "10"
+	}
+	
+	"keeper_of_the_light_blinding_light"
+	{
+		"AbilityCooldown" "4 3.2 2.4"
+		"AbilityManaCost" "5"
+	}
+	
+	// Skywrath Mage
+	"skywrath_mage_arcane_bolt"
+	{
+		"AbilityCooldown" "1 0.8 0.6 0.4"
+		"AbilityManaCost" "7"
+	}
+	
+	"skywrath_mage_concussive_shot"
+	{
+		"AbilityCooldown" "4 3.6 3.2 2.8"
+		"AbilityManaCost" "11"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "3"
+			}
+		}
+	}
+	
+	"skywrath_mage_ancient_seal"
+	{
+		"AbilityCooldown" "2.8"
+		"AbilityManaCost" "8 9 10 11"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"seal_duration" "2.25 3 3.75 4.5"
+			}
+		}
+	}
+	
+	"skywrath_mage_mystic_flare"
+	{
+		"AbilityCooldown" "12 8 4"
+		"AbilityManaCost" "35 57.5 80"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"scepter_cooldown" "4 2 0"
+			}			
+		}
+	}
+	
+	// Oracle
+	"oracle_fortunes_end"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "13"
+		"AbilityChannelTime" "2.5"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"minimum_purge_duration" "0.375"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maximum_purge_duration" "1.875"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"max_channel_time_tooltip" "2.5"
+			}
+		}
+	}
+	
+	"oracle_fates_edict"
+	{
+		"AbilityCooldown" "2.4"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25 3 3.75 4.5"
+			}
+		}
+	}
+	
+	"oracle_purifying_flames"
+	{
+		"AbilityCooldown" "0.6"
+		"AbilityManaCost" "5.5 7 8.5 10"
+	}
+	
+	"oracle_false_promise"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "40"
+	}
+	
+	// Techies
+	"techies_land_mines"
+	{
+		"AbilityCooldown" "3.8 3.2 2.6 2"
+		"AbilityManaCost" "12.5 15 17.5 20.5"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"max_mines" "30"
+			}		
+		}
+	}
+	
+	"techies_stasis_trap"
+	{
+		"AbilityCooldown" "4 3.2 2.6 2"
+		"AbilityManaCost" "8 11 14 16"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "2.25 3 3.75 4.5"
+			}
+		}
+	}
+	
+	"techies_suicide"
+	{
+		"AbilityCooldown" "36 34 32 30"
+		"AbilityManaCost" "10 12.5 15 17.5"
+	}
+
+	"techies_minefield_sign"
+	{
+		"AbilityCooldown" "24"
+	}
+	
+	"techies_remote_mines"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "20 24 30"
+	}
+	
+	// Intelligence (Dire)
+	// Bane
+	"bane_enfeeble"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "9.5 10.5 11.5 12.5"
+	}
+	
+	"bane_brain_sap"
+	{
+		"AbilityCooldown" "2.8"
+		"AbilityManaCost" "12.5 15 17.5 20"
+	}
+	
+	"bane_nightmare"
+	{
+		"AbilityCooldown" "6.4 6 5.6 5.2"
+		"AbilityManaCost" "33"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"nightmare_dot_interval" "0.75"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"nightmare_invuln_time" "0.75"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "5.25"
+			}
+		}
+	}
+	
+	"bane_fiends_grip"
+	{
+		"AbilityCooldown" "20"
+		"AbilityManaCost" "20 30 40"
+		"AbilityChannelTime" "3.75"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fiend_grip_tick_interval" "0.75"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fiend_grip_duration" "3.75"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"fiend_grip_duration_scepter" "5.25"
+			}
+		}
+	}
+	
+	// Lich
+	"lich_frost_nova"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "12.5 15 17 19"
+		"AbilityDuration" "3"
+	}
+	
+	"lich_frost_armor"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "1.5"
+			}
+		}
+	}
+	
+	"lich_dark_ritual"
+	{
+		"AbilityCooldown" "26.4 21.6 16.8 12"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"lich_chain_frost"
+	{
+		"AbilityCooldown" "24 18 12"
+		"AbilityManaCost" "20 32.5 50"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "3"
+			}
+		}
+	}
+	
+	// Lion
+	"lion_impale"
+	{
+		"AbilityCooldown" "4.8"
+		"AbilityManaCost" "20 24 29 34"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "CCA1.02 CCA1.52 CCA2.02 CCA2.52"
+			}
+		}
+	}
+	
+	"lion_voodoo"
+	{
+		"AbilityCooldown" "12 9.6 7.2 4.8"
+		"AbilityManaCost" "25 30 35 40"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.875 2.25 2.625 3"
+			}
+		}
+	}
+	
+	"lion_mana_drain"
+	{
+		"AbilityCooldown" "4 3 2 1"
+		"AbilityManaCost" "1"
+	}
+	
+	"lion_finger_of_death"
+	{
+		"AbilityCooldown" "32 20 8"
+		"AbilityManaCost" "20 42 65"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_cost_scepter" "20 42 62.5"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "20 12 4"
+			}			
+		}
+	}
+	
+	// Witch Doctor
+	"witch_doctor_paralyzing_cask"
+	{
+		"AbilityCooldown" "4 3.6 3.2 2.8"
+		"AbilityManaCost" "11 12 13 14"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"hero_duration" "0.75"
+			}
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"creep_duration" "3.75"
+			}
+		}
+	}
+	
+	"witch_doctor_voodoo_restoration"
+	{
+		"AbilityManaCost" "2 3 4 5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_per_second" "0.8 1.2 1.6 2"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"heal_interval" "0.066"
+			}
+		}
+	}
+	
+	"witch_doctor_maledict"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "12"
+	}
+	
+	"witch_doctor_death_ward"
+	{
+		"AbilityCooldown" "16"
+		"AbilityManaCost" "20"
+	}
+	
+	// Enigma
+	"enigma_malefice"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "11 13 15 16"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.1875 0.375 0.5625 CCA1.0"
+			}
+		}
+	}
+	
+	"enigma_demonic_conversion"
+	{
+		"AbilityCooldown" "21"
+		"AbilityManaCost" "51"
+	}
+	
+	"enigma_midnight_pulse"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "9.5 11 12.5 14"
+	}
+	
+	"enigma_black_hole"
+	{
+		"AbilityCooldown" "40 38 36"
+		"AbilityManaCost" "27.5 35 42.5"
+		"AbilityChannelTime" "3"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"pull_speed" "53"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_rate" "0.075"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+		}
+	}
+	
+	// Necrophos
+	"necrolyte_death_pulse"
+	{
+		"AbilityCooldown" "1.6 1.4 1.2 1"
+		"AbilityManaCost" "12.5 14.5 16.5 18.5"
+	}
+	
+	"necrolyte_reapers_scythe"
+	{
+		"AbilityCooldown" "20 17 14"
+		"AbilityManaCost" "17.5 34 50"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.125"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_cost_scepter" "15 34 50"
+			}
+			
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "14"
+			}			
+		}
+	}
+	
+	// Warlock
+	"warlock_fatal_bonds"
+	{
+		"AbilityCooldown" "5"
+		"AbilityManaCost" "12"
+	}
+	
+	"warlock_shadow_word"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "9 11 13 15"
+	}
+	
+	"warlock_upheaval"
+	{
+		"AbilityCooldown" "10 9.2 8.4 7.6"
+		"AbilityManaCost" "10 11 12 13"
+	}
+	
+	"warlock_rain_of_chaos"
+	{
+		"AbilityCooldown" "33"
+		"AbilityManaCost" "20 30 40"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.75"
+			}
+		}
+	}
+	
+	// Queen of Pain
+	"queenofpain_shadow_strike"
+	{
+		"AbilityCooldown" "3.2 2.4 1.6 0.8"
+		"AbilityManaCost" "11"
+		"AbilityDuration" "11.25"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration_damage" "41 55 68 82"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration_tooltip" "11.25"
+			}			
+		}
+	}
+	
+	"queenofpain_blink"
+	{
+		"AbilityCooldown" "3 2.4 1.8 1.2"
+		"AbilityManaCost" "6"
+	}
+	
+	"queenofpain_scream_of_pain"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilityManaCost" "11 12 13 14"
+	}
+	
+	"queenofpain_sonic_wave"
+	{
+		"AbilityCooldown" "27"
+		"AbilityManaCost" "25 36 50"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "IFELD_FLOAT"
+				"cooldown_scepter" "8"
+			}			
+		}
+	}
+	
+	// Death Prophet
+	"death_prophet_carrion_swarm"
+	{
+		"AbilityCooldown" "3.2"
+		"AbilityManaCost" "21 24 28 33"
+	}
+	
+	"death_prophet_silence"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "8"
+		"AbilityDuration" "2.25 3 3.75 4.5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25 3 3.75 4.5"
+			}
+		}
+	}
+	
+	"death_prophet_witchcraft"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"carrion_swarm_mana_cost_adjust" "-1 -1.5 -2 -2.5"
+			}
+			
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"carrion_swarm_cooldown_adjust" "-0.2 -0.4 -0.6 -0.8"
+			}
+			
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"silence_mana_cost_adjust" "-1 -1.5 -2 -2.5"
+			}
+			
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_cooldown_adjust" "-0.2 -0.4 -0.6 -0.8"
+			}			
+		}
+	}
+	
+	"death_prophet_exorcism"
+	{
+		"AbilityCooldown" "29"
+		"AbilityManaCost" "20 30 40"
+	}
+	
+	// Pugna
+	"pugna_nether_blast"
+	{
+		"AbilityCooldown" "1.1"
+		"AbilityManaCost" "8.5 10.5 12.5 14.5"
+	}
+	
+	"pugna_decrepify"
+	{
+		"AbilityCooldown" "4.8 4 3.2 2.4"
+		"AbilityManaCost" "12"
+		"AbilityDuration" "1.5 1.875 2.25 2.625"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tooltip_duration" "1.5 1.875 2.25 2.625"
+			}
+		}
+	}
+	
+	"pugna_nether_ward"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "8"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"mana_multiplier" "2 2.5 3 3.5"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"mana_regen" "-3 -6 -9 -12"
+			}
+		}
+	}
+	
+	"pugna_life_drain"
+	{
+		"AbilityCooldown" "4.4"
+		"AbilityManaCost" "12.5 17.5 22.5"
+	}
+	
+	// Dazzle
+	"dazzle_poison_touch"
+	{
+		"AbilityCooldown" "3 2.6 2.2 1.4"
+		"AbilityManaCost" "10 11.5 13 14.5"
+	}
+	
+	"dazzle_shallow_grave"
+	{
+		"AbilityCooldown" "12 9 6 3"
+		"AbilityManaCost" "14 13 12 11"
+	}
+	
+	"dazzle_shadow_wave"
+	{
+		"AbilityCooldown" "2.4 2 1.6 1.2"
+		"AbilityManaCost" "8 9 10 11"
+	}
+	
+	"dazzle_weave"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "10"
+	}
+	
+	// Leshrac
+	"leshrac_split_earth"
+	{
+		"AbilityCooldown" "1.8"
+		"AbilityManaCost" "10 12.5 14 16"
+		"AbilityDuration" "1.5"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration" "1.5"
+			}
+		}
+	}
+	
+	"leshrac_diabolic_edict"
+	{
+		"AbilityCooldown" "4.4"
+		"AbilityManaCost" "9.5 12 13.5 15.5"
+	}
+	
+	"leshrac_lightning_storm"
+	{
+		"AbilityCooldown" "0.8"
+		"AbilityManaCost" "9 10 11 12"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "CCA0.50"
+			}
+		}
+	}
+	
+	"leshrac_pulse_nova"
+	{
+		"AbilityCooldown" "0.2"
+		"AbilityManaCost" "7 9 11"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_cost_per_second" "2 4 6"
+			}			
+		}
+	}
+	
+	// Dark Seer
+	"dark_seer_vacuum"
+	{
+		"AbilityCooldown" "5.6"
+		"AbilityManaCost" "10 13 16 19"
+	}
+	
+	"dark_seer_ion_shell"
+	{
+		"AbilityCooldown" "1.8"
+		"AbilityManaCost" "7 9 11 13"
+	}
+	
+	"dark_seer_surge"
+	{
+		"AbilityCooldown" "2.4 2.2 2 1.8"
+		"AbilityManaCost" "2 3 4 5"
+	}
+	
+	"dark_seer_wall_of_replica"
+	{
+		"AbilityCooldown" "20"
+		"AbilityManaCost" "20 30 40"
+	}
+	
+	// Batrider
+	"batrider_sticky_napalm"
+	{
+		"AbilityCooldown" "0.6"
+		"AbilityManaCost" "2"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "6"
+			}
+		}
+	}
+	
+	"batrider_flamebreak"
+	{
+		"AbilityCooldown" "2.8"
+		"AbilityManaCost" "14"
+	}
+	
+	"batrider_firefly"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "10"
+	}
+	
+	"batrider_flaming_lasso"
+	{
+		"AbilityCooldown" "18 15 12"
+		"AbilityManaCost" "22.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25 2.625 3"
+			}
+		}
+	}
+	
+	// Ancient Apparition
+	"ancient_apparition_cold_feet"
+	{
+		"AbilityCooldown" "3 2.6 2.2 1.8"
+		"AbilityManaCost" "15"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.9375 1.5 2.0625 2.625"
+			}
+		}
+	}
+	
+	"ancient_apparition_ice_vortex"
+	{
+		"AbilityCooldown" "0.8"
+		"AbilityManaCost" "8 9 10 11"
+	}
+	
+	"ancient_apparition_chilling_touch"
+	{
+		"AbilityCooldown" "10 8.4 6.8 5.2"
+		"AbilityManaCost" "11 12 13 14"
+	}
+	
+	"ancient_apparition_ice_blast"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "10 12.5 15"
+	}
+	
+	// Invoker
+	"invoker_invoke"
+	{
+		"AbilityCooldown" "4.4 3.4 2.4 1"
+		"AbilityManaCost" "2 4 6 8"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "3.2 1.6 0.8 0.4"
+			}			
+		}
+	}
+	
+	"invoker_cold_snap"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"freeze_duration" "0.3"
+			}
+		}
+	}
+	
+	"invoker_ghost_walk"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "20"
+	}
+	
+	"invoker_ice_wall"
+	{
+		"AbilityCooldown" "5"
+		"AbilityManaCost" "17.5"
+	}
+	
+	"invoker_emp"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "12.5"
+	}
+	
+	"invoker_tornado"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "15"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"lift_duration" "0.6 0.825 1.05 1.275 1.5 1.725 1.875"
+				"levelkey" "quaslevel"
+			}
+		}
+	}
+	
+	"invoker_alacrity"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "4.5"
+	}
+	
+	"invoker_sun_strike"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "17.5"
+	}
+	
+	"invoker_forge_spirit"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"invoker_chaos_meteor"
+	{
+		"AbilityCooldown" "11"
+		"AbilityManaCost" "20"
+	}
+	
+	"invoker_deafening_blast"
+	{
+		"AbilityCooldown" "8"
+		"AbilityManaCost" "20"
+		"AbilitySpecial"
+		{
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"knockback_duration" "0.1875 0.375 0.5625 0.75 0.9375 1.125 1.3125"
+				"levelkey" "quaslevel"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"disarm_duration" "0.75 1.125 1.5 1.875 2.25 2.625 3"
+				"levelkey" "wexlevel"
+			}
+		}
+	}
+	
+	"forged_spirit_melting_strike"
+	{
+		"AbilityManaCost" "4"
+	}
+	
+	// Outworld Devourer
+	"obsidian_destroyer_arcane_orb"
+	{
+		"AbilityManaCost" "10"
+	}
+	
+	"obsidian_destroyer_astral_imprisonment"
+	{
+		"AbilityCooldown" "3.6 3.2 2.8 2.4"
+		"AbilityManaCost" "12 14 16 18"
+		"AbilityDuration" "0.75 1.5 2.25 3"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"prison_duration" "0.75 1.5 2.25 3"
+			}
+		}
+	}
+	
+	"obsidian_destroyer_sanity_eclipse"
+	{
+		"AbilityCooldown" "32"
+		"AbilityManaCost" "17.5 25 32.5"
+	}
+	
+	// Shadow Demon
+	"shadow_demon_disruption"
+	{
+		"AbilityCooldown" "5 4.4 3.8 3.2"
+		"AbilityManaCost" "12"
+		"AbilityDuration" "1.875"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"disruption_duration" "1.875"
+			}
+		}
+	}
+	
+	"shadow_demon_soul_catcher"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilityManaCost" "5 6 7 8"
+	}
+	
+	"shadow_demon_shadow_poison"
+	{
+		"AbilityCooldown" "0.55"
+		"AbilityManaCost" "5"
+	}
+	
+	"shadow_demon_demonic_purge"
+	{
+		"AbilityCooldown" "10"
+		"AbilityManaCost" "20"
+		"AbilityDuration" "3.75"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tooltip_duration" "3.75"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"creep_root_duration" "2.25"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"charge_restore_time" "8"
+			}			
+		}
+	}
+	
+	// Visage
+	"visage_grave_chill"
+	{
+		"AbilityCooldown" "3.2 2.8 2.4 2"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"chill_duration" "2.25 3 3.75 4.5"
+			}
+		}
+	}
+	
+	"visage_soul_assumption"
+	{
+		"AbilityCooldown" "0.8"
+		"AbilityManaCost" "17 16 15 14"
+	}
+	
+	"visage_gravekeepers_cloak"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"recovery_time" "1.2"
+			}			
+		}
+	}
+	
+	"visage_summon_familiars"
+	{
+		"AbilityCooldown" "36 32 28"
+		"AbilityManaCost" "15"
+	}
+
+	"visage_summon_familiars_stone_form"
+	{
+		"AbilityCooldown" "6"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "0.75 0.9375 1.125"
+			}
+		}
+	}
+	
+	// Winter Wyvern
+	"winter_wyvern_arctic_burn"
+	{
+		"AbilityCooldown" "10 8 6 4"
+		"AbilityManaCost" "12 11 10 9"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"tick_rate" "0.75"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_duration" "3.75"
+			}
+		}
+	}
+	
+	"winter_wyvern_splinter_blast"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilityManaCost" "12 13 14 15"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+		}
+	}
+	
+	"winter_wyvern_cold_embrace"
+	{
+		"AbilityCooldown" "3.4 3.2 3 2.8"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"01"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+			
+			"04"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"tick_rate" "0.075"
+			}
+		}
+	}
+	
+	"winter_wyvern_winters_curse"
+	{
+		"AbilityCooldown" "18 16 14"
+		"AbilityManaCost" "25"
+		"AbilitySpecial"
+		{
+			"01"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.875 2.0625 2.25"
+			}
+		}
+	}
+	
+	// Items
+	"item_abyssal_blade"
+	{
+		"AbilityCooldown" "12"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_duration" "1.05"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_cooldown" "0.4"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stun_duration" "1.5"
+			}
+		}
+	}
+	
+	"item_ancient_janggo" // drums
+	{
+		"AbilityCooldown" "6"
+		"ItemInitialCharges" "12"
+	}
+	
+	"item_arcane_boots"
+	{
+		"AbilityCooldown" "11"
+		"AbilityManaCost" "3.5"
+	}
+	
+	"item_armlet"
+	{
+		"AbilitySpecial"
+		{
+			"08"
+			{
+				"var_type" "FIELD_INTEGER"
+				"unholy_health_drain" "8"
+			}	
+		}
+	}
+	
+	"item_basher"
+	{
+		"AbilityCooldown" "0.4"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_duration" "1.05"
+			}
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"bash_cooldown" "0.4"
+			}
+		}
+	}
+
+	"item_bfury"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "300"
+			}			
+		}
+	}
+
+	"item_black_king_bar"
+	{
+		"AbilityCooldown" "32 30 28 26 24 22"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"model_scale" "50"
+			}
+		}
+	}
+	
+	"item_blade_mail"
+	{
+		"AbilityCooldown" "6.8"
+		"AbilityManaCost" "5"
+	}
+	
+	"item_blink"
+	{
+		"AbilityCooldown" "4.8"
+	}
+	
+	"item_bloodstone"
+	{
+		"AbilityCooldown" "60"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "400"
+			}
+
+			"12"
+			{
+				"var_type" "FIELD_FLOAT"
+				"on_death_removal" "0.2"
+			}			
+		}
+	}
+
+	"item_bottle"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"restore_time" "1"
+			}
+		}
+	}
+	
+	"item_buckler"
+	{
+		"AbilityCooldown" "5"
+		"AbilityManaCost" "1"
+	}
+	
+	"item_butterfly"
+	{
+		"AbilityCooldown" "7"
+	}
+
+	"item_clarity"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"buff_duration" "8"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"total_mana" "240"
+			}
+		}
+	}
+	
+	"item_crimson_guard"
+	{
+		"AbilityCooldown" "70"
+	}
+	
+	"item_cyclone" // euls
+	{
+		"AbilityCooldown" "4.6"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "300"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cyclone_duration" "1.875"
+			}
+		}
+	}
+	
+	"item_dagon"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "18"
+	}
+	
+	"item_dagon_2"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "18"
+	}
+	
+	"item_dagon_3"
+	{
+		"AbilityCooldown" "5"
+		"AbilityManaCost" "18"
+	}
+	
+	"item_dagon_4"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "18"
+	}
+	
+	"item_dagon_5"
+	{
+		"AbilityCooldown" "3"
+		"AbilityManaCost" "18"
+	}
+	
+	"item_diffusal_blade"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"initial_charges" "16"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"purge_root_duration" "2.25"
+			}
+
+			"09"
+			{
+				"var_type" "FIELD_INTEGER"
+				"purge_slow_duration" "3"
+			}
+		}
+	}
+	
+	"item_diffusal_blade_2"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"initial_charges" "16"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"purge_root_duration" "2.25"
+			}
+
+			"09"
+			{
+				"var_type" "FIELD_INTEGER"
+				"purge_slow_duration" "3"
+			}		
+		}
+	}
+	
+	"item_dust"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "0.5"
+	}
+	
+	"item_ethereal_blade"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "15"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2.25"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration_ally" "3"
+			}
+		}
+	}
+
+	"item_flask"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"buff_duration" "6"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"total_health" "560"
+			}
+		}
+	}
+
+	"item_flying_courier"
+	{
+		"ItemStockTime" "54"
+	}
+	
+	"item_force_staff"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "2.5"
+	}
+
+	"item_gem"
+	{
+		"ItemStockTime" "240"
+	}
+
+	"item_ghost"
+	{
+		"AbilityCooldown" "6"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+		}
+	}
+	
+	"item_hand_of_midas"
+	{
+		"AbilityCooldown" "40"
+	}
+	
+	"item_heart"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_melee" "2"
+			}			
+		}
+	}
+	
+	"item_heavens_halberd"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maim_duration" "3"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"disarm_range" "3.375"
+			}
+
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"disarm_melee" "2.25"
+			}
+		}
+	}
+	
+	"item_helm_of_the_dominator"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_bonus" "800"
+			}
+		}
+	}
+	
+	"item_invis_sword"
+	{
+		"AbilityCooldown" "5.6"
+		"AbilityManaCost" "7.5"
+	}
+	
+	"item_magic_stick"
+	{
+		"AbilityCooldown" "2.6"
+	}
+	
+	"item_magic_wand"
+	{
+		"AbilityCooldown" "2.6"
+	}
+	
+	"item_manta"
+	{
+		"AbilityCooldown" "10"
+		"AbilitySpecial"
+		{
+			"16"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_melee" "7"
+			}			
+		}
+	}
+	
+	"item_mask_of_madness"
+	{
+		"AbilityCooldown" "5"
+		"AbilityManaCost" "2.5"
+	}
+	
+	"item_medallion_of_courage"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen_pct" "100"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "5.25"
+			}
+		}
+	}
+	
+	"item_mekansm"
+	{
+		"AbilityCooldown" "9"
+		"AbilityManaCost" "22.5"
+		"AbilitySpecial"
+		{
+			"08"
+			{
+				"var_type" "FIELD_FLOAT"
+				"heal_armor_duration" "5"
+			}			
+		}
+	}
+	
+	"item_mjollnir"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "5"
+	}
+	
+	"item_necronomicon"
+	{
+		"AbilityCooldown" "19"
+		"AbilityManaCost" "5"
+	}
+	
+	"item_necronomicon_2"
+	{
+		"AbilityCooldown" "19"
+		"AbilityManaCost" "5"
+	}
+	
+	"item_necronomicon_3"
+	{
+		"AbilityCooldown" "19"
+		"AbilityManaCost" "5"
+	}
+
+	"item_oblivion_staff"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "150"
+			}
+		}
+	}
+	
+	"item_orchid"
+	{
+		"AbilityCooldown" "3.6"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "300"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"silence_duration" "3.75"
+			}
+		}
+	}
+
+	"item_pers"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "250"
+			}
+		}
+	}
+	
+	"item_phase_boots"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"phase_duration" "2"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"phase_movement_speed" "32"
+			}
+		}
+	}
+	
+	"item_pipe"
+	{
+		"AbilityCooldown" "12"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"barrier_debuff_duration" "10"
+			}			
+		}
+	}
+	
+	"item_quelling_blade"
+	{
+		"AbilityCooldown" "1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_bonus" "40"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_bonus_ranged" "15"
+			}
+		}
+	}
+
+	"item_radiance"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"aura_damage" "100"
+			}
+		}
+	}
+	
+	"item_rapier"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_damage" "450"
+			}			
+		}
+	}
+	
+	"item_refresher"
+	{
+		"AbilityCooldown" "78"
+		"AbilityManaCost" "75"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "400"
+			}
+		}
+	}
+	
+	"item_rod_of_atos"
+	{
+		"AbilityCooldown" "2"
+		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3"
+			}
+		}
+	}
+
+	"item_sange"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maim_duration" "4.0"
+			}			
+		}
+	}
+
+	"item_sange_and_yasha"
+	{
+		"AbilitySpecial"
+		{
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maim_duration" "3.75"
+			}
+		}
+	}
+	
+	"item_satanic"
+	{
+		"AbilityCooldown" "7"
+	}
+	
+	"item_sheepstick"
+	{
+		"AbilityCooldown" "7"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"300"
+			}
+
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"sheep_duration"		"2.625"
+			}
+		}
+	}
+	
+	"item_shivas_guard"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"09"
+			{
+				"var_type" "FIELD_FLOAT"
+				"blast_debuff_duration" "3"
+			}
+		}
+	}
+
+	"item_skadi"
+	{
+		"AbilitySpecial"
+		{
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cold_duration_melee" "3.75"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cold_duration_ranged" "2.25"
+			}
+		}
+	}
+	
+	"item_smoke_of_deceit"
+	{
+		"AbilityCooldown" "18"
+		"ItemStockTime" "144"
+	}
+
+	"item_sobi_mask"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "100"
+			}
+		}
+	}
+
+	"item_soul_booster"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "200"
+			}
+		}
+	}
+	
+	"item_soul_ring"
+	{
+		"AbilityCooldown" "6"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_regen" "100"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_INTEGER"
+				"health_sacrifice" "30"
+			}		
+		}
+	}
+	
+	"item_sphere"
+	{
+		"AbilityCooldown" "3.4"
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_mana_regen"		"150"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"block_cooldown" "3.4"
+			}			
+		}
+	}
+
+	"item_tango"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"buff_duration" "9.6"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"total_heal" "161"
+			}
+		}
+	}
+
+	"item_tpscroll"
+	{
+		"AbilityCooldown" "39"
+		"AbilityManaCost" "22.5"
+	}
+
+	"item_tranquil_boots"
+	{
+		"AbilityCooldown" "2.6"
+		"AbilitySpecial"
+		{
+			"07"
+			{
+				"var_type" "FIELD_INTEGER"
+				"break_time" "2.6"
+			}			
+		}
+	}
+	
+	"item_travel_boots"
+	{
+		"AbilityCooldown" "30"
+		"AbilityManaCost" "22.5"
+	}
+
+	"item_urn_of_shadows"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_regen" "100"
+			}
+
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"soul_initial_charge" "3"
+			}
+			
+			"05"
+			{
+				"var_type" "FIELD_INTEGER"
+				"soul_additional_charges" "2"
+			}			
+		}
+	}
+	
+	"item_veil_of_discord"
+	{
+		"AbilityCooldown" "6"
+		"AbilityManaCost" "7.5"
+	}
+
+	"item_void_stone"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "200"
+			}
+		}
+	}
+
+	"item_ward_observer"
+	{
+		"ItemStockTime" "144"
+	}
+	
+	// Neutrals
+	// Alpha Wolf
+	"alpha_wolf_critical_strike"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_mult" "250"
+			}
+		}
+	}
+
+	// Ancient Thunderhide
+	"big_thunder_lizard_slam"
+	{
+		"AbilityCooldown" "1.2"
+		"AbilityManaCost" "9"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_FLOAT"
+				"non_hero_duration" "3"
+			}
+
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"hero_duration" "1.5"
+			}
+		}
+	}
+
+	"big_thunder_lizard_frenzy"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "5"
+	}
+
+	// Centaur Conqueror
+	"centaur_khan_war_stomp"
+	{
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "10"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"non_hero_stun_duration" "2.25"
+			}
+
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"hero_stun_duration" "1.5"
+			}
+		}
+	}
+
+	// Ghost
+	"ghost_frost_attack"
+	{
+		"AbilitySpecial"
+		{
+			"03"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "1.125"
+			}
+		}
+	}
+
+	// Giant Wolf
+	"giant_wolf_critical_strike"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"crit_mult" "250"
+			}
+		}
+	}
+
+	// Kobold Foreman
+	"kobold_taskmaster_speed_aura"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_movement_speed" "24"
+			}
+		}
+	}
+
+	// Harpy Stormcaster
+	"harpy_storm_chain_lightning"
+	{
+		"AbilityCooldown" "0.8"
+		"AbilityManaCost" "5"
+	}
+
+	// Hill Troll Priest
+	"forest_troll_high_priest_heal"
+	{
+		"AbilityCastPoint" "0.1"
+		"AbilityCooldown" "0.1"
+		"AbilityManaCost" "0.5"
+	}
+
+	"forest_troll_high_priest_mana_aura"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_regen" "4"
+			}
+		}
+	}
+
+	// Ogre Frostmage
+	"ogre_magi_frost_armor"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "4"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "3.75"
+			}
+		}
+	}
+
+	// Roshan
+	"roshan_spell_block"
+	{
+		"AbilityCooldown" "3"
+	}
+
+	"roshan_slam"
+	{
+		"AbilityCooldown" "2"
+	}
+
+	// Satyr Banisher
+	"satyr_trickster_purge"
+	{
+		"AbilityCooldown" "1"
+		"AbilityManaCost" "12"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "3.75"
+			}
+		}
+	}
+
+	// Satyr Mindstealer
+	"satyr_soulstealer_mana_burn"
+	{
+		"AbilityCooldown" "3.6"
+		"AbilityManaCost" "5"
+	}
+
+	// Satyr Tormenter
+	"satyr_hellcaller_shockwave"
+	{
+		"AbilityCooldown" "1.6"
+		"AbilityManaCost" "10"
+	}
+
+	// Vhoul Assassin
+	"gnoll_assassin_envenomed_weapon"
+	{
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"damage_per_second" "4"
+			}
+		}
+	}
 }

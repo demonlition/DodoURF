@@ -418,6 +418,14 @@ General
 	- Attribute Bonus levels between upgrades from 2 to 1
 
 Heroes
+	Lion
+	- Mana Drain duration from 5 to 2
+	- Mana Drain mana drain per second from 20/40/60/120 to 40/80/120/240
+
+	Morphling
+	- Adaptive Strike cooldown from A class to B class
+	- Adaptive Strike mana cost from A class to B class
+
 	Pudge
 	- Rot tick rate no longer scales as an A class cooldown
 	- Rot damage per second from 35/60/85/110 to 70/120/170/220
@@ -430,6 +438,9 @@ Heroes
 	- Rearm mana cost from B class to C class
 	- Rearm channel time from A class to B class
 	- Rearm cast point from A class to B class
+
+	Witch Doctor
+	- Voodoo Restoration mana per second to 1/1/2/2
 
 Items
 

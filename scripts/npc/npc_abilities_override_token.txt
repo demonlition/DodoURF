@@ -5082,7 +5082,7 @@
 			"05"
 			{
 				"var_type" "FIELD_INTEGER"
-				"model_scale" "50"
+				"model_scale" "60"
 			}
 		}
 	}

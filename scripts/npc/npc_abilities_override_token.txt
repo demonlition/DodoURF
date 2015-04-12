@@ -1897,8 +1897,8 @@
 	
 	"morphling_adaptive_strike"
 	{
-		"AbilityCooldown" "CDA10"
-		"AbilityManaCost" "MPA100"
+		"AbilityCooldown" "CDB10"
+		"AbilityManaCost" "MPB100"
 		"AbilitySpecial"
 		{
 			"04"

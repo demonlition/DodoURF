@@ -4143,6 +4143,20 @@
 	{
 		"AbilityCooldown" "CDA20 CDA15 CDA10 CDA5"
 		"AbilityManaCost" "MPA10"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_per_second" "40 80 120 240"
+			}
+		}
 	}
 	
 	"lion_finger_of_death"

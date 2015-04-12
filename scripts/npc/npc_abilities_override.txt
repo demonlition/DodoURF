@@ -1897,8 +1897,8 @@
 	
 	"morphling_adaptive_strike"
 	{
-		"AbilityCooldown" "2"
-		"AbilityManaCost" "10"
+		"AbilityCooldown" "4"
+		"AbilityManaCost" "20"
 		"AbilitySpecial"
 		{
 			"04"
@@ -4143,6 +4143,20 @@
 	{
 		"AbilityCooldown" "4 3 2 1"
 		"AbilityManaCost" "1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "2"
+			}
+
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"mana_per_second" "40 80 120 240"
+			}
+		}
 	}
 	
 	"lion_finger_of_death"
@@ -4193,7 +4207,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_per_second" "0.8 1.2 1.6 2"
+				"mana_per_second" "1 1 2 2"
 			}
 
 			"04"
@@ -5068,7 +5082,7 @@
 			"05"
 			{
 				"var_type" "FIELD_INTEGER"
-				"model_scale" "50"
+				"model_scale" "60"
 			}
 		}
 	}

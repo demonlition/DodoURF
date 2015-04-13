@@ -4407,7 +4407,7 @@
 	
 	"death_prophet_silence"
 	{
-		"AbilityCooldown" "3"
+		"AbilityCooldown" "6"
 		"AbilityManaCost" "8"
 		"AbilityDuration" "2.25 3 3.75 4.5"
 		"AbilitySpecial"
@@ -4424,25 +4424,25 @@
 	{
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_INTEGER"
 				"carrion_swarm_mana_cost_adjust" "-1 -1.5 -2 -2.5"
 			}
 			
-			"02"
+			"03"
 			{
 				"var_type" "FIELD_FLOAT"
 				"carrion_swarm_cooldown_adjust" "-0.2 -0.4 -0.6 -0.8"
 			}
 			
-			"03"
+			"04"
 			{
 				"var_type" "FIELD_INTEGER"
 				"silence_mana_cost_adjust" "-1 -1.5 -2 -2.5"
 			}
 			
-			"04"
+			"05"
 			{
 				"var_type" "FIELD_FLOAT"
 				"silence_cooldown_adjust" "-0.2 -0.4 -0.6 -0.8"

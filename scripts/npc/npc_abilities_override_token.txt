@@ -4424,25 +4424,25 @@
 	{
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_INTEGER"
 				"carrion_swarm_mana_cost_adjust" "-MPA10 -MPA15 -MPA20 -MPA25"
 			}
 			
-			"02"
+			"03"
 			{
 				"var_type" "FIELD_FLOAT"
 				"carrion_swarm_cooldown_adjust" "-CDA1 -CDA2 -CDA3 -CDA4"
 			}
 			
-			"03"
+			"04"
 			{
 				"var_type" "FIELD_INTEGER"
 				"silence_mana_cost_adjust" "-MPA10 -MPA15 -MPA20 -MPA25"
 			}
 			
-			"04"
+			"05"
 			{
 				"var_type" "FIELD_FLOAT"
 				"silence_cooldown_adjust" "-CDA1 -CDA2 -CDA3 -CDA4"

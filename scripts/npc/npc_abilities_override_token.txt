@@ -4407,8 +4407,8 @@
 	
 	"death_prophet_silence"
 	{
-		"AbilityCooldown" "CDA15"
-		"AbilityManaCost" "MPA80"
+		"AbilityCooldown" "CDB15"
+		"AbilityManaCost" "MPB80"
 		"AbilityDuration" "CCA3 CCA4 CCA5 CCA6"
 		"AbilitySpecial"
 		{

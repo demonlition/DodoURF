@@ -87,7 +87,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"tick_interval" "0.1875 0.25 0.25 0.25"
+				"tick_interval" "0.1875 0.1875 0.1875 0.1875"
 			}
 
 			"03"
@@ -99,7 +99,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "CCA1.0"
+				"stun_duration" "0.75"
 			}
 
 			"05"
@@ -1538,13 +1538,7 @@
 		"AbilityManaCost" "10"
 		"AbilitySpecial"
 		{
-			"02"
-			{
-				"var_type" "FIELD_INTEGER"
-				"speed" "750"
-			}
-
-			"05"
+			"04"
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_damage" "212.5"
@@ -1711,7 +1705,7 @@
 		"AbilityManaCost" "5 6 7 8"
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"self_damage" "15 20 25 30"
@@ -4408,7 +4402,7 @@
 	"death_prophet_silence"
 	{
 		"AbilityCooldown" "6"
-		"AbilityManaCost" "8"
+		"AbilityManaCost" "16"
 		"AbilityDuration" "2.25 3 3.75 4.5"
 		"AbilitySpecial"
 		{

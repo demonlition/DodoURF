@@ -99,7 +99,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "CCA1.0"
+				"stun_duration" "CCA1"
 			}
 
 			"05"

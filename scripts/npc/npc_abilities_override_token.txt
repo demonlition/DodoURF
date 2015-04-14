@@ -1538,13 +1538,7 @@
 		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
-			"02"
-			{
-				"var_type" "FIELD_INTEGER"
-				"speed" "750"
-			}
-
-			"05"
+			"04"
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_damage" "CR170"

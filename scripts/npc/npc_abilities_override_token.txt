@@ -4793,8 +4793,8 @@
 	
 	"obsidian_destroyer_astral_imprisonment"
 	{
-		"AbilityCooldown" "CDA18 CDA16 CDA14 CDA12"
-		"AbilityManaCost" "MPA120 MPA140 MPA160 MPA180"
+		"AbilityCooldown" "CDB18 CDB16 CDB14 CDB12"
+		"AbilityManaCost" "MPB120 MPB140 MPB160 MPB180"
 		"AbilityDuration" "CCA1 CCA2 CCA3 CCA4"
 		"AbilitySpecial"
 		{

@@ -60,7 +60,7 @@ function HAM:InitGameMode()
 	GameMode:SetTowerBackdoorProtectionEnabled(true)
 
 	-- Enable custom buyback cooldown
-	GameMode:SetCustomBuybackCooldownEnabled(true)
+	-- GameMode:SetCustomBuybackCooldownEnabled(true)
 
 	-- Set custom levels/experience
 	GameMode:SetCustomXPRequiredToReachNextLevel(XP_PER_LEVEL_TABLE)

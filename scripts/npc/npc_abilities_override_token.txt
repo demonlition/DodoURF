@@ -4386,7 +4386,7 @@
 		{
 			"06"
 			{
-				"var_type" "IFELD_FLOAT"
+				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "CDA40"
 			}			
 		}

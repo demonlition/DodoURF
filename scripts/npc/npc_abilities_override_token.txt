@@ -331,7 +331,7 @@
 		"AbilityManaCost" "MPA170"
 	}
 	
-	"huskar_burning_spears"
+	"huskar_burning_spear"
 	{
 		"AbilitySpecial"
 		{
@@ -339,7 +339,7 @@
 			{
 				"var_type" "FIELD_INTEGER"
 				"health_cost" "HPA15"
-			}			
+			}
 		}
 	}
 	

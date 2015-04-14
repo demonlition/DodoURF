@@ -140,7 +140,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "CCS1.53"
+				"stun_duration" "CCS1.55"
 			}
 		}
 	}
@@ -1019,7 +1019,7 @@
 			"03"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"stun_duration"		"CCA1.5 CCA2.0 CCA2.5"
+				"stun_duration"		"CCA1.5 CCA2 CCA2.5"
 			}
 
 			"05"
@@ -1124,7 +1124,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"burrow_duration" "CCA2.17"
+				"burrow_duration" "CCA2.15"
 			}
 		}
 	}
@@ -1249,7 +1249,7 @@
 			"03"
 			{	
 				"var_type" "FIELD_FLOAT"
-				"duration" "CCA2.02 CCA2.32 CCA2.77"
+				"duration" "CCA2 CCA2.3 CCA2.75"
 			}
 		}
 	}
@@ -2913,7 +2913,7 @@
 			"02"
 			{	
 				"var_type" "FIELD_FLOAT"
-				"duration" "CCA1.27 CCA1.77 CCA2.27 CCA2.77"
+				"duration" "CCA1.25 CCA1.75 CCA2.25 CCA2.75"
 			}
 		}
 	}
@@ -4234,7 +4234,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "CCA0.25 CCA0.5 CCA0.75 CCA1.0"
+				"stun_duration" "CCA0.25 CCA0.5 CCA0.75 CCA1"
 			}
 		}
 	}
@@ -4554,7 +4554,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"slow_duration" "CCA0.50"
+				"slow_duration" "CCA0.5"
 			}
 		}
 	}

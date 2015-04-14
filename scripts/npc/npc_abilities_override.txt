@@ -140,7 +140,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "CCS1.53"
+				"stun_duration" "1.55"
 			}
 		}
 	}
@@ -1019,7 +1019,7 @@
 			"03"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"stun_duration"		"1.125 CCA2.0 1.875"
+				"stun_duration"		"1.125 1.5 1.875"
 			}
 
 			"05"
@@ -1124,7 +1124,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"burrow_duration" "CCA2.17"
+				"burrow_duration" "1.6125"
 			}
 		}
 	}
@@ -1249,7 +1249,7 @@
 			"03"
 			{	
 				"var_type" "FIELD_FLOAT"
-				"duration" "CCA2.02 CCA2.32 CCA2.77"
+				"duration" "1.5 1.725 2.0625"
 			}
 		}
 	}
@@ -1865,7 +1865,7 @@
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"arrow_max_stun" "CCA5.0"
+				"arrow_max_stun" "3.75"
 			}
 		}
 	}
@@ -2913,7 +2913,7 @@
 			"02"
 			{	
 				"var_type" "FIELD_FLOAT"
-				"duration" "CCA1.27 CCA1.77 CCA2.27 CCA2.77"
+				"duration" "0.9375 1.3125 1.6875 2.0625"
 			}
 		}
 	}
@@ -4114,7 +4114,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration" "CCA1.02 CCA1.52 CCA2.02 CCA2.52"
+				"duration" "0.75 1.125 1.5 1.875"
 			}
 		}
 	}
@@ -4234,7 +4234,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"stun_duration" "0.1875 0.375 0.5625 CCA1.0"
+				"stun_duration" "0.1875 0.375 0.5625 0.75"
 			}
 		}
 	}
@@ -4386,7 +4386,7 @@
 		{
 			"06"
 			{
-				"var_type" "IFELD_FLOAT"
+				"var_type" "FIELD_FLOAT"
 				"cooldown_scepter" "8"
 			}			
 		}
@@ -4554,7 +4554,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"slow_duration" "CCA0.50"
+				"slow_duration" "0.375"
 			}
 		}
 	}

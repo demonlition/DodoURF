@@ -2672,13 +2672,13 @@
 	{
 		"AbilityCooldown" "CDA6"
 		"AbilityManaCost" "MPA30 MPA25 MPA20 MPA15"
-		"AbilityDuration" "CCA1 CCA2 CCA3 CCA4"
+		"AbilityDuration" "1 2 2 3"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"duration" "CCA1 CCA2 CCA3 CCA4"
+				"duration" "1 2 2 3"
 			}
 		}
 	}

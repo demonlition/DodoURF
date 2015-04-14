@@ -1865,7 +1865,7 @@
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"arrow_max_stun" "CCA5.0"
+				"arrow_max_stun" "CCA5"
 			}
 		}
 	}

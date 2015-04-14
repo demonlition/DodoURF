@@ -87,7 +87,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"tick_interval" "CCA0.25 CCS0.25 CCS0.25 CCS0.25"
+				"tick_interval" "CCA0.25 CCA0.25 CCA0.25 CCA0.25"
 			}
 
 			"03"

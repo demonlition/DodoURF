@@ -417,7 +417,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration" "CDB25"
+				"duration" "CDC25"
 			}
 
 			"03"

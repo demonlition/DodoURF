@@ -3675,7 +3675,7 @@
 			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"modelscale" "140"
+				"modelscale" "50"
 			}
 		}
 	}

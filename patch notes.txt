@@ -450,3 +450,8 @@ Items
 	Refresher Orb
 	- Reset Cooldowns cooldown from A class to B class
 	- Reset Cooldowns mana cost from A class to B class
+
+HAM 0.5
+
+General
+	- Experience required for each level reduced by 10%

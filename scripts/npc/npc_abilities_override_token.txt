@@ -752,7 +752,7 @@
 	// Tusk
 	"tusk_ice_shards"
 	{
-		"AbilityCooldown" "CDA18 CDA16 CDA14 CDA12"
+		"AbilityCooldown" "CDA19 CDA16 CDA13 CDA10"
 		"AbilityManaCost" "MPA90"
 	}
 	

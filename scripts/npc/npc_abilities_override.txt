@@ -752,7 +752,7 @@
 	// Tusk
 	"tusk_ice_shards"
 	{
-		"AbilityCooldown" "3.6 3.2 2.8 2.4"
+		"AbilityCooldown" "3.8 3.2 2.6 2"
 		"AbilityManaCost" "9"
 	}
 	

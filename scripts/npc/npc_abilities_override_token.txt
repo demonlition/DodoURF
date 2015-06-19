@@ -920,7 +920,7 @@
 	"earth_spirit_geomagnetic_grip"
 	{
 		"AbilityCooldown" "CDA13"
-		"AbilityManaCost" "MPA75"
+		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
 			"07"

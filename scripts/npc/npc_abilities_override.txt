@@ -920,7 +920,7 @@
 	"earth_spirit_geomagnetic_grip"
 	{
 		"AbilityCooldown" "2.6"
-		"AbilityManaCost" "7.5"
+		"AbilityManaCost" "10"
 		"AbilitySpecial"
 		{
 			"07"

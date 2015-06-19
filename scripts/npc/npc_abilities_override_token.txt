@@ -5971,7 +5971,7 @@
 	
 	"item_veil_of_discord"
 	{
-		"AbilityCooldown" "CDA30"
+		"AbilityCooldown" "CDA20"
 		"AbilityManaCost" "MPA50"
 	}
 

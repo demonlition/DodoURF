@@ -5121,7 +5121,7 @@
 	
 	"item_blade_mail"
 	{
-		"AbilityCooldown" "6.8"
+		"AbilityCooldown" "6"
 		"AbilityManaCost" "5"
 	}
 	

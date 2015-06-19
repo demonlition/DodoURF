@@ -5121,7 +5121,7 @@
 	
 	"item_blade_mail"
 	{
-		"AbilityCooldown" "CDB17"
+		"AbilityCooldown" "CDB15"
 		"AbilityManaCost" "MPB25"
 	}
 	

@@ -4926,7 +4926,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"recovery_time" "CDA6"
+				"recovery_time" "CDA4"
 			}			
 		}
 	}

@@ -5329,6 +5329,12 @@
 			}
 		}
 	}
+
+	"item_glimmer_cape"
+	{
+		"AbilityCooldown" "CDB16"
+		"AbilityManaCost" "MPB130"
+	}
 	
 	"item_hand_of_midas"
 	{

@@ -725,8 +725,8 @@
 	// Bristleback
 	"bristleback_viscous_nasal_goo"
 	{
-		"AbilityCooldown" "0.3"
-		"AbilityManaCost" "3"
+		"AbilityCooldown" "0.6"
+		"AbilityManaCost" "6"
 		"AbilitySpecial"
 		{
 			"02"
@@ -745,8 +745,8 @@
 	
 	"bristleback_quill_spray"
 	{
-		"AbilityCooldown" "0.6"
-		"AbilityManaCost" "3.5"
+		"AbilityCooldown" "1.2"
+		"AbilityManaCost" "7"
 	}
 	
 	// Tusk

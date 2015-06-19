@@ -725,8 +725,8 @@
 	// Bristleback
 	"bristleback_viscous_nasal_goo"
 	{
-		"AbilityCooldown" "CDA1.5"
-		"AbilityManaCost" "MPA30"
+		"AbilityCooldown" "CDB1.5"
+		"AbilityManaCost" "MPB30"
 		"AbilitySpecial"
 		{
 			"02"
@@ -745,8 +745,8 @@
 	
 	"bristleback_quill_spray"
 	{
-		"AbilityCooldown" "CDA3"
-		"AbilityManaCost" "MPA35"
+		"AbilityCooldown" "CDB3"
+		"AbilityManaCost" "MPB35"
 	}
 	
 	// Tusk

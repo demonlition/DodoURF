@@ -1483,7 +1483,7 @@
 	
 	"spirit_breaker_empowering_haste"
 	{
-		"AbilityCooldown" "3.2"
+		"AbilityCooldown" "2.4"
 	}
 	
 	"spirit_breaker_greater_bash"

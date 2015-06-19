@@ -1483,7 +1483,7 @@
 	
 	"spirit_breaker_empowering_haste"
 	{
-		"AbilityCooldown" "CDA16"
+		"AbilityCooldown" "CDA12"
 	}
 	
 	"spirit_breaker_greater_bash"

@@ -5262,6 +5262,18 @@
 		"AbilityCooldown" "12"
 		"AbilityManaCost" "0.5"
 	}
+
+	"item_enchanted_mango"
+	{
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"replenish_amount" "300"
+			}	
+		}
+	}
 	
 	"item_ethereal_blade"
 	{

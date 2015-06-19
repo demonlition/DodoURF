@@ -4011,7 +4011,7 @@
 	
 	"techies_suicide"
 	{
-		"AbilityCooldown" "36 34 32 30"
+		"AbilityCooldown" "32 28 24 20"
 		"AbilityManaCost" "10 12.5 15 17.5"
 	}
 

@@ -4011,7 +4011,7 @@
 	
 	"techies_suicide"
 	{
-		"AbilityCooldown" "CDA180 CDA170 CDA160 CDA150"
+		"AbilityCooldown" "CDA160 CDA140 CDA120 CDA100"
 		"AbilityManaCost" "MPA100 MPA125 MPA150 MPA175"
 	}
 

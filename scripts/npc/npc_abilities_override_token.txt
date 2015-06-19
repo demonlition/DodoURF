@@ -4490,7 +4490,7 @@
 	
 	"pugna_decrepify"
 	{
-		"AbilityCooldown" "CDB12 CDB10 CDB8 CDB6"
+		"AbilityCooldown" "CDB15 CDB12 CDB9 CDB6"
 		"AbilityManaCost" "MPB60"
 		"AbilityDuration" "CCA2 CCA2.5 CCA3 CCA3.5"
 		"AbilitySpecial"
@@ -4498,7 +4498,7 @@
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"tooltip_duration" "CCA2 CCA2.5 CCA3 CCA3.5"
+				"tooltip_duration" "CCA3.5"
 			}
 		}
 	}

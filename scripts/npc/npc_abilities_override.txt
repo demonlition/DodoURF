@@ -4490,7 +4490,7 @@
 	
 	"pugna_decrepify"
 	{
-		"AbilityCooldown" "4.8 4 3.2 2.4"
+		"AbilityCooldown" "6 4.8 3.6 2.4"
 		"AbilityManaCost" "12"
 		"AbilityDuration" "1.5 1.875 2.25 2.625"
 		"AbilitySpecial"
@@ -4498,7 +4498,7 @@
 			"05"
 			{
 				"var_type" "FIELD_FLOAT"
-				"tooltip_duration" "1.5 1.875 2.25 2.625"
+				"tooltip_duration" "2.625"
 			}
 		}
 	}

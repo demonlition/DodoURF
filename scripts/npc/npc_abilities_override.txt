@@ -2950,6 +2950,24 @@
 			}
 		}
 	}
+
+	"nyx_assassin_burrow"
+	{
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"burrow_delay" "0.2"
+			}
+
+			"08"
+			{
+				"var_type" "FIELD_INTEGER"
+				"impale_burrow_cooldown_tooltip" "1.8"
+			}
+		}
+	}
 	
 	"nyx_assassin_vendetta"
 	{

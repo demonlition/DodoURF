@@ -327,7 +327,7 @@
 	//Huskar
 	"huskar_inner_vitality"
 	{
-		"AbilityCooldown" "CDA25 CDA22 CDA19 CDA16"
+		"AbilityCooldown" "CDA22 CDA18 CDA14 CDA10"
 		"AbilityManaCost" "MPA170"
 	}
 	

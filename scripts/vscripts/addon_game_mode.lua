@@ -45,6 +45,7 @@ XP_PER_LEVEL_TABLE = {
 function Activate()
     GameRules.AddonTemplate = HAM()
     GameRules.AddonTemplate:InitGameMode()
+    require('timers')
 end
 
 function HAM:InitGameMode()
@@ -53,8 +54,9 @@ function HAM:InitGameMode()
 	-- Set thinker
 	GameMode:SetThink("OnThink", self, "GlobalThink", 1)
 
-	-- Set listener
+	-- Set listeners
 	-- ListenToGameEvent("entity_killed", Dynamic_Wrap(HAM, "OnEntityKilled"), self)
+	ListenToGameEvent("npc_spawned", Dynamic_Wrap(HAM, "OnNPCSpawned"), self)
 
 	-- Enable backdoor protection
 	GameMode:SetTowerBackdoorProtectionEnabled(true)
@@ -75,6 +77,13 @@ function HAM:InitGameMode()
 	
 	-- Set hero selection time
 	GameRules:SetHeroSelectionTime(90)
+end
+
+function HAM:OnNPCSpawned(keys)
+    local spawnedNPC = EntIndexToHScript(keys.entindex)
+    if spawnedNPC:IsRealHero() then
+        Timers:CreateTimer(0.6, spawnedNPC:AddNewModifier(spawnedNPC, nil, "modifier_lycan_shapeshift_speed", {duration = -1}))
+    end
 end
 
 function HAM:OnThink()

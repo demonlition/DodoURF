@@ -3869,8 +3869,8 @@
 	
 	"skywrath_mage_ancient_seal"
 	{
-		"AbilityCooldown" "2.8"
-		"AbilityManaCost" "8 9 10 11"
+		"AbilityCooldown" "5.6"
+		"AbilityManaCost" "16 18 20 22"
 		"AbilitySpecial"
 		{
 			"02"

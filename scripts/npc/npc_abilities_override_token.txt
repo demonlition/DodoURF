@@ -3869,8 +3869,8 @@
 	
 	"skywrath_mage_ancient_seal"
 	{
-		"AbilityCooldown" "CDA14"
-		"AbilityManaCost" "MPA80 MPA90 MPA100 MPA110"
+		"AbilityCooldown" "CDB14"
+		"AbilityManaCost" "MPB80 MPB90 MPB100 MPB110"
 		"AbilitySpecial"
 		{
 			"02"

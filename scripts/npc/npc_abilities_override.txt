@@ -2793,7 +2793,7 @@
 	
 	"clinkz_wind_walk"
 	{
-		"AbilityCooldown" "4"
+		"AbilityCooldown" "4 3.8 3.6 3.4"
 		"AbilityManaCost" "7.5"
 	}
 	

@@ -2793,7 +2793,7 @@
 	
 	"clinkz_wind_walk"
 	{
-		"AbilityCooldown" "CDA20"
+		"AbilityCooldown" "CDA20 CDA19 CDA18 CDA17"
 		"AbilityManaCost" "MPA75"
 	}
 	

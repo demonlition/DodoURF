@@ -5042,7 +5042,7 @@
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"bash_cooldown" "0.4"
+				"bash_cooldown" "0.46"
 			}
 
 			"07"

@@ -4261,7 +4261,7 @@
 	"enigma_black_hole"
 	{
 		"AbilityCooldown" "40 38 36"
-		"AbilityManaCost" "27.5 35 42.5"
+		"AbilityManaCost" "27.5 32.5 37.5"
 		"AbilityChannelTime" "3"
 		"AbilitySpecial"
 		{

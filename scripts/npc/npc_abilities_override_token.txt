@@ -4261,7 +4261,7 @@
 	"enigma_black_hole"
 	{
 		"AbilityCooldown" "CDA200 CDA190 CDA180"
-		"AbilityManaCost" "MPA275 MPA350 MPA425"
+		"AbilityManaCost" "MPA275 MPA325 MPA375"
 		"AbilityChannelTime" "CCA4"
 		"AbilitySpecial"
 		{

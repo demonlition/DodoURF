@@ -2064,8 +2064,15 @@
 	// Sniper
 	"sniper_shrapnel"
 	{
-		"AbilityCooldown" "CDA15"
 		"AbilityManaCost" "MPA50"
+		"AbilitySpecial"
+		{
+			"08"
+			{
+				"var_type" "FIELD_INTEGER"
+				"charge_restore_time" "CDA55"
+			}
+		}
 	}
 	
 	"sniper_assassinate"

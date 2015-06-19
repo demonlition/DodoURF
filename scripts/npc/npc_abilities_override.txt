@@ -2064,8 +2064,15 @@
 	// Sniper
 	"sniper_shrapnel"
 	{
-		"AbilityCooldown" "3"
 		"AbilityManaCost" "5"
+		"AbilitySpecial"
+		{
+			"08"
+			{
+				"var_type" "FIELD_INTEGER"
+				"charge_restore_time" "11"
+			}
+		}
 	}
 	
 	"sniper_assassinate"

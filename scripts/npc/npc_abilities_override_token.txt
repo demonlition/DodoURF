@@ -753,7 +753,7 @@
 	"tusk_ice_shards"
 	{
 		"AbilityCooldown" "CDA18 CDA16 CDA14 CDA12"
-		"AbilityManaCost" "MPA120"
+		"AbilityManaCost" "MPA90"
 	}
 	
 	"tusk_snowball"

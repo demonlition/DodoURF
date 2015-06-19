@@ -153,7 +153,7 @@
 	"kunkka_x_marks_the_spot"
 	{
 		"AbilityCooldown" "3.8 3.2 2.6 2"
-		"AbilityManaCost" "8"
+		"AbilityManaCost" "5"
 	}
 	
 	"kunkka_ghostship"

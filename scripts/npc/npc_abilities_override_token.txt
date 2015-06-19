@@ -153,7 +153,7 @@
 	"kunkka_x_marks_the_spot"
 	{
 		"AbilityCooldown" "CDA19 CDA16 CDA13 CDA10"
-		"AbilityManaCost" "MPA80"
+		"AbilityManaCost" "MPA50"
 	}
 	
 	"kunkka_ghostship"

@@ -5900,6 +5900,12 @@
 		"AbilityManaCost" "MPC75"
 	}
 
+	"item_travel_boots_2"
+	{
+		"AbilityCooldown" "CDC45"
+		"AbilityManaCost" "MPC75"
+	}
+
 	"item_urn_of_shadows"
 	{
 		"AbilityCooldown" "CDA7"

@@ -5900,6 +5900,12 @@
 		"AbilityManaCost" "22.5"
 	}
 
+	"item_travel_boots_2"
+	{
+		"AbilityCooldown" "27"
+		"AbilityManaCost" "22.5"
+	}
+
 	"item_urn_of_shadows"
 	{
 		"AbilityCooldown" "1.4"

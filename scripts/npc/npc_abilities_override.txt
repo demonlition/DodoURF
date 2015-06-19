@@ -5405,6 +5405,20 @@
 		"AbilityCooldown" "5.6"
 		"AbilityManaCost" "7.5"
 	}
+
+	"item_lotus_orb"
+	{
+		"AbilityCooldown" "6.8"
+		"AbilityManaCost" "20"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "250"
+			}
+		}
+	}
 	
 	"item_magic_stick"
 	{

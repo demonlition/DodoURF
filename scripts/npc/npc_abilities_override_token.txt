@@ -5405,6 +5405,20 @@
 		"AbilityCooldown" "CDA28"
 		"AbilityManaCost" "MPA75"
 	}
+
+	"item_lotus_orb"
+	{
+		"AbilityCooldown" "CDB17"
+		"AbilityManaCost" "MPB100"
+		"AbilitySpecial"
+		{
+			"04"
+			{
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "MR125"
+			}
+		}
+	}
 	
 	"item_magic_stick"
 	{

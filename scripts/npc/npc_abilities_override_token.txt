@@ -2096,7 +2096,7 @@
 	
 	"templar_assassin_meld"
 	{
-		"AbilityCooldown" "CDA7"
+		"AbilityCooldown" "CDA6"
 		"AbilityManaCost" "MPA50"
 	}
 	

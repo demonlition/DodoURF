@@ -2096,7 +2096,7 @@
 	
 	"templar_assassin_meld"
 	{
-		"AbilityCooldown" "1.4"
+		"AbilityCooldown" "1.2"
 		"AbilityManaCost" "5"
 	}
 	

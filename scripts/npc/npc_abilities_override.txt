@@ -3088,7 +3088,7 @@
 	
 	"crystal_maiden_frostbite"
 	{
-		"AbilityCooldown" "6 5.4 4.8 4.2"
+		"AbilityCooldown" "5.4 4.8 4.2 3.6"
 		"AbilityManaCost" "34.5 37.5 42 45"
 		"AbilitySpecial"
 		{

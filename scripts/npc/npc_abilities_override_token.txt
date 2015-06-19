@@ -3088,7 +3088,7 @@
 	
 	"crystal_maiden_frostbite"
 	{
-		"AbilityCooldown" "CDC10 CDC9 CDC8 CDC7"
+		"AbilityCooldown" "CDC9 CDC8 CDC7 CDC6"
 		"AbilityManaCost" "MPC115 MPC125 MPC140 MPC150"
 		"AbilitySpecial"
 		{

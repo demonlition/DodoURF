@@ -3952,8 +3952,8 @@
 	
 	"oracle_purifying_flames"
 	{
-		"AbilityCooldown" "CDA3"
-		"AbilityManaCost" "MPA55 MPA70 MPA85 MPA100"
+		"AbilityCooldown" "CDA2.5"
+		"AbilityManaCost" "MPA50 MPA60 MPA70 MPA80"
 	}
 	
 	"oracle_false_promise"

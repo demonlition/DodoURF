@@ -5036,7 +5036,6 @@
 	"item_arcane_boots"
 	{
 		"AbilityCooldown" "CDA55"
-		"AbilityManaCost" "MPA35"
 	}
 	
 	"item_armlet"

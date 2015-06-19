@@ -5036,7 +5036,6 @@
 	"item_arcane_boots"
 	{
 		"AbilityCooldown" "11"
-		"AbilityManaCost" "3.5"
 	}
 	
 	"item_armlet"

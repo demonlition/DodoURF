@@ -5934,7 +5934,7 @@
 	
 	"item_travel_boots"
 	{
-		"AbilityCooldown" "30"
+		"AbilityCooldown" "27"
 		"AbilityManaCost" "22.5"
 	}
 

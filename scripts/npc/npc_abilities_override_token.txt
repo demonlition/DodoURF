@@ -5934,7 +5934,7 @@
 	
 	"item_travel_boots"
 	{
-		"AbilityCooldown" "CDC50"
+		"AbilityCooldown" "CDC45"
 		"AbilityManaCost" "MPC75"
 	}
 

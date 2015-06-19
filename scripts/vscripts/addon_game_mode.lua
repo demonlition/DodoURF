@@ -55,7 +55,7 @@ function HAM:InitGameMode()
 	GameMode:SetThink("OnThink", self, "GlobalThink", 1)
 
 	-- Set listeners
-	-- ListenToGameEvent("entity_killed", Dynamic_Wrap(HAM, "OnEntityKilled"), self)
+	ListenToGameEvent("entity_killed", Dynamic_Wrap(HAM, "OnEntityKilled"), self)
 	ListenToGameEvent("npc_spawned", Dynamic_Wrap(HAM, "OnNPCSpawned"), self)
 
 	-- Enable backdoor protection
@@ -83,6 +83,13 @@ function HAM:OnNPCSpawned(keys)
     local spawnedNPC = EntIndexToHScript(keys.entindex)
     if spawnedNPC:IsRealHero() then
         Timers:CreateTimer(0.6, spawnedNPC:AddNewModifier(spawnedNPC, nil, "modifier_lycan_shapeshift_speed", {duration = -1}))
+    end
+end
+
+function HAM:OnEntityKilled(keys)
+    local killedEntity = EntIndexToHScript(keys.entindex_killed)
+    if killedEntity:IsRealHero() then
+		killedEntity:SetTimeUntilRespawn(killedEntity:GetRespawnTime() / 2)
     end
 end
 

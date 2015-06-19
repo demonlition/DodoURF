@@ -2880,6 +2880,14 @@
 	{
 		"AbilityCooldown" "12 10 8"
 		"AbilityManaCost" "15 7.5 0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"cooldown_scepter" "4"
+			}				
+		}
 	}
 	
 	// Spectre

@@ -2880,6 +2880,14 @@
 	{
 		"AbilityCooldown" "CDA60 CDA50 CDA40"
 		"AbilityManaCost" "MPA150 MPA75 MPA0"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_INTEGER"
+				"cooldown_scepter" "CDA20"
+			}				
+		}
 	}
 	
 	// Spectre

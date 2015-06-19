@@ -5786,6 +5786,19 @@
 		}
 	}
 
+	"item_solar_crest"
+	{
+		"AbilityCooldown" "CDA7"
+		"AbilitySpecial"
+		{
+			"09"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration" "CCA7"
+			}			
+		}
+	}
+
 	"item_soul_booster"
 	{
 		"AbilitySpecial"

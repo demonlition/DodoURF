@@ -5786,6 +5786,19 @@
 		}
 	}
 
+	"item_solar_crest"
+	{
+		"AbilityCooldown" "1.4"
+		"AbilitySpecial"
+		{
+			"09"
+			{
+				"var_type" "FIELD_INTEGER"
+				"duration" "5.25"
+			}			
+		}
+	}
+
 	"item_soul_booster"
 	{
 		"AbilitySpecial"

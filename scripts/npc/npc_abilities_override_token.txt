@@ -4013,7 +4013,7 @@
 	"bane_brain_sap"
 	{
 		"AbilityCooldown" "CDA14"
-		"AbilityManaCost" "MPA125 MPA150 MPA175 MPA200"
+		"AbilityManaCost" "MPA100 MPA125 MPA150 MPA175"
 	}
 	
 	"bane_nightmare"

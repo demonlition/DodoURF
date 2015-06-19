@@ -4013,7 +4013,7 @@
 	"bane_brain_sap"
 	{
 		"AbilityCooldown" "2.8"
-		"AbilityManaCost" "12.5 15 17.5 20"
+		"AbilityManaCost" "10 12.5 15 17.5"
 	}
 	
 	"bane_nightmare"

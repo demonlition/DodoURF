@@ -4602,7 +4602,7 @@
 	"dark_seer_wall_of_replica"
 	{
 		"AbilityCooldown" "20"
-		"AbilityManaCost" "20 30 40"
+		"AbilityManaCost" "12.5 25 37.5"
 	}
 	
 	// Batrider

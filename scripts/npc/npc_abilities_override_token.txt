@@ -4602,7 +4602,7 @@
 	"dark_seer_wall_of_replica"
 	{
 		"AbilityCooldown" "CDA100"
-		"AbilityManaCost" "MPA200 MPA300 MPA400"
+		"AbilityManaCost" "MPA125 MPA250 MPA375"
 	}
 	
 	// Batrider

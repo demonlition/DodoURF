@@ -1956,6 +1956,12 @@
 			}
 		}
 	}
+
+	"morphling_hybrid"
+	{
+		"AbilityCooldown" "CDA140"
+		"AbilityManaCost" "MPA200"
+	}
 	
 	"morphling_replicate"
 	{

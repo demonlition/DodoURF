@@ -1956,6 +1956,12 @@
 			}
 		}
 	}
+
+	"morphling_hybrid"
+	{
+		"AbilityCooldown" "28"
+		"AbilityManaCost" "20"
+	}
 	
 	"morphling_replicate"
 	{

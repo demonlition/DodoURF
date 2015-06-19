@@ -5915,7 +5915,7 @@
 
 	"item_tpscroll"
 	{
-		"AbilityCooldown" "CDC65"
+		"AbilityCooldown" "CDC70"
 		"AbilityManaCost" "MPC75"
 	}
 

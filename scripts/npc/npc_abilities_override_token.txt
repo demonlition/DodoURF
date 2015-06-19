@@ -5166,7 +5166,7 @@
 	"item_cyclone" // euls
 	{
 		"AbilityCooldown" "CDA23"
-		"AbilityManaCost" "MPA75"
+		"AbilityManaCost" "MPA175"
 		"AbilitySpecial"
 		{
 			"02"

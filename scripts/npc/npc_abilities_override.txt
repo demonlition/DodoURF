@@ -5166,7 +5166,7 @@
 	"item_cyclone" // euls
 	{
 		"AbilityCooldown" "4.6"
-		"AbilityManaCost" "7.5"
+		"AbilityManaCost" "17.5"
 		"AbilitySpecial"
 		{
 			"02"

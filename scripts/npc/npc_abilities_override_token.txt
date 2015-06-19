@@ -3831,7 +3831,7 @@
 	
 	"keeper_of_the_light_mana_leak"
 	{
-		"AbilityCooldown" "CDA16"
+		"AbilityCooldown" "CDA16 CDA14 CDA12 CDA10"
 		"AbilityManaCost" "MPA75"
 	}
 	

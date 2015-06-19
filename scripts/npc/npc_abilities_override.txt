@@ -3831,7 +3831,7 @@
 	
 	"keeper_of_the_light_mana_leak"
 	{
-		"AbilityCooldown" "3.2"
+		"AbilityCooldown" "3.2 2.8 2.4 2"
 		"AbilityManaCost" "7.5"
 	}
 	

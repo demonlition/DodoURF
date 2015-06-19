@@ -2315,7 +2315,7 @@
 	
 	"naga_siren_ensnare"
 	{
-		"AbilityCooldown" "CDB14"
+		"AbilityCooldown" "CDB12"
 		"AbilityManaCost" "MPB90 MPB100 MPB110 MPB120"
 		"AbilitySpecial"
 		{

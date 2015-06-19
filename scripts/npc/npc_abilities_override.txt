@@ -2151,7 +2151,7 @@
 	"bounty_hunter_shuriken_toss"
 	{
 		"AbilityCooldown" "2"
-		"AbilityManaCost" "9 11.5 13.5 15.5"
+		"AbilityManaCost" "12 13 14 15"
 	}
 	
 	"bounty_hunter_jinada"

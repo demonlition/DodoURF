@@ -2151,7 +2151,7 @@
 	"bounty_hunter_shuriken_toss"
 	{
 		"AbilityCooldown" "CDA10"
-		"AbilityManaCost" "MPA90 MPA115 MPA135 MPA155"
+		"AbilityManaCost" "MPA120 MPA130 MPA140 MPA150"
 	}
 	
 	"bounty_hunter_jinada"

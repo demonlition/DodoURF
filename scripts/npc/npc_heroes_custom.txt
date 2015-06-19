@@ -660,7 +660,7 @@
 	{
 		"override_hero" "npc_dota_hero_storm_spirit"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "335"
 		"MovementTurnRate" "1.2"
 	}
 

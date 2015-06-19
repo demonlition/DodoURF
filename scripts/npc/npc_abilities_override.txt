@@ -2799,7 +2799,7 @@
 	
 	"clinkz_death_pact"
 	{
-		"AbilityCooldown" "9 8 7"
+		"AbilityCooldown" "9 7 5"
 		"AbilityManaCost" "10"
 	}
 	

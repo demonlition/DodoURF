@@ -2799,7 +2799,7 @@
 	
 	"clinkz_death_pact"
 	{
-		"AbilityCooldown" "CDA45 CDA40 CDA35"
+		"AbilityCooldown" "CDA45 CDA35 CDA25"
 		"AbilityManaCost" "MPA100"
 	}
 	

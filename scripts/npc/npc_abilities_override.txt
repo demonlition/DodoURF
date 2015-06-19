@@ -3411,7 +3411,7 @@
 	
 	"tinker_rearm"
 	{
-		"AbilityManaCost" "45 75 105"
+		"AbilityManaCost" "37.5 67.5 97.5"
 		"AbilityChannelTime" "1.2 0.8 0.4"
 		"AbilityCastPoint" "0.212"
 		"AbilitySpecial"

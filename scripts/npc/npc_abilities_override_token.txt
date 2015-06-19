@@ -3411,7 +3411,7 @@
 	
 	"tinker_rearm"
 	{
-		"AbilityManaCost" "MPC150 MPC250 MPC350"
+		"AbilityManaCost" "MPC125 MPC225 MPC325"
 		"AbilityChannelTime" "CDB3 CDB2 CDB1"
 		"AbilityCastPoint" "CDB0.53"
 		"AbilitySpecial"

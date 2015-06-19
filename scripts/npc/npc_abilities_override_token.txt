@@ -5335,6 +5335,19 @@
 		"AbilityCooldown" "CDB16"
 		"AbilityManaCost" "MPB130"
 	}
+
+	"item_guardian_greaves"
+	{
+		"AbilityCooldown" "CDA45"
+		"AbilitySpecial"
+		{				
+			"14"
+			{
+				"var_type" "FIELD_FLOAT"
+				"stack_duration_limit" "CDA45"
+			}
+		}
+	}
 	
 	"item_hand_of_midas"
 	{

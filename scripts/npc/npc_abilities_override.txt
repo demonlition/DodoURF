@@ -4850,7 +4850,7 @@
 	"shadow_demon_shadow_poison"
 	{
 		"AbilityCooldown" "0.55"
-		"AbilityManaCost" "5"
+		"AbilityManaCost" "4"
 	}
 	
 	"shadow_demon_demonic_purge"

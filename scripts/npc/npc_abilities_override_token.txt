@@ -4850,7 +4850,7 @@
 	"shadow_demon_shadow_poison"
 	{
 		"AbilityCooldown" "CDA2.75"
-		"AbilityManaCost" "MPA50"
+		"AbilityManaCost" "MPA40"
 	}
 	
 	"shadow_demon_demonic_purge"

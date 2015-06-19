@@ -4581,7 +4581,7 @@
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"slow_duration" "CCA0.5"
+				"slow_duration" "CCA0.7 CCA0.8 CCA0.9 CCA1"
 			}
 		}
 	}

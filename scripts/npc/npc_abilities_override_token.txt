@@ -5946,7 +5946,7 @@
 	"item_veil_of_discord"
 	{
 		"AbilityCooldown" "CDA30"
-		"AbilityManaCost" "MPA75"
+		"AbilityManaCost" "MPA50"
 	}
 
 	"item_void_stone"

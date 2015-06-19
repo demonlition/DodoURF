@@ -5946,7 +5946,7 @@
 	"item_veil_of_discord"
 	{
 		"AbilityCooldown" "6"
-		"AbilityManaCost" "7.5"
+		"AbilityManaCost" "5"
 	}
 
 	"item_void_stone"

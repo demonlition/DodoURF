@@ -127,7 +127,7 @@
 	// Kunkka
 	"kunkka_torrent"
 	{
-		"AbilityCooldown" "2.4"
+		"AbilityCooldown" "2"
 		"AbilityManaCost" "12"
 		"AbilitySpecial"
 		{

@@ -127,7 +127,7 @@
 	// Kunkka
 	"kunkka_torrent"
 	{
-		"AbilityCooldown" "CDA12"
+		"AbilityCooldown" "CDA10"
 		"AbilityManaCost" "MPA120"
 		"AbilitySpecial"
 		{

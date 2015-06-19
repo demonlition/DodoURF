@@ -6120,6 +6120,20 @@
 		}
 	}
 
+	// Mud Golem
+	"mud_golem_hurl_boulder"
+	{
+		"AbilityCooldown" "6"
+		"AbilitySpecial"
+		{
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"duration" "0.45"
+			}
+		}
+	}
+
 	// Ogre Frostmage
 	"ogre_magi_frost_armor"
 	{

@@ -799,7 +799,7 @@
 	// Elder Titan
 	"elder_titan_echo_stomp"
 	{
-		"AbilityCooldown" "CDA15"
+		"AbilityCooldown" "CDA14 CDA13 CDA12 CDA11"
 		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{

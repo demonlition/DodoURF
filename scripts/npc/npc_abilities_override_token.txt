@@ -4017,7 +4017,7 @@
 
 	"techies_minefield_sign"
 	{
-		"AbilityCooldown" "CDA120"
+		"AbilityCooldown" "CDA360"
 	}
 	
 	"techies_remote_mines"

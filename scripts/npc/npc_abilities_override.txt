@@ -4017,7 +4017,7 @@
 
 	"techies_minefield_sign"
 	{
-		"AbilityCooldown" "24"
+		"AbilityCooldown" "72"
 	}
 	
 	"techies_remote_mines"

@@ -141,7 +141,7 @@
 	{
 		"override_hero" "npc_dota_hero_bristleback"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "340"
 		"MovementTurnRate" "1.5"
 	}
 

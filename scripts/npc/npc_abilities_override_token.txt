@@ -1807,7 +1807,7 @@
 	// Juggernaut
 	"juggernaut_blade_fury"
 	{
-		"AbilityCooldown" "CDA30 CDA26 CDA22 CDA18"
+		"AbilityCooldown" "CDA42 CDA34 CDA26 CDA18"
 		"AbilityManaCost" "MPA120 MPA110 MPA100 MPA90"
 	}
 	

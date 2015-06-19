@@ -1807,7 +1807,7 @@
 	// Juggernaut
 	"juggernaut_blade_fury"
 	{
-		"AbilityCooldown" "6 5.2 4.4 3.6"
+		"AbilityCooldown" "8.4 6.8 5.2 3.6"
 		"AbilityManaCost" "12 11 10 9"
 	}
 	

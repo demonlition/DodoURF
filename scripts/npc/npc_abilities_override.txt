@@ -2233,7 +2233,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"slow_duration_second" "2.25"
+				"slow_duration_second" "3"
 			}
 		}
 	}

@@ -5089,7 +5089,7 @@
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"bash_cooldown" "CDA2"
+				"bash_cooldown" "CDA2.3"
 			}
 		}
 	}

@@ -5786,19 +5786,19 @@
 	
 	"item_sphere"
 	{
-		"AbilityCooldown" "CDA17"
+		"AbilityCooldown" "CDB17"
 		"AbilitySpecial"
 		{
 			"03"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_mana_regen"		"150"
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "150"
 			}
 
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"block_cooldown" "CDA17"
+				"block_cooldown" "CDB17"
 			}			
 		}
 	}

@@ -5786,19 +5786,19 @@
 	
 	"item_sphere"
 	{
-		"AbilityCooldown" "3.4"
+		"AbilityCooldown" "6.8"
 		"AbilitySpecial"
 		{
 			"03"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_mana_regen"		"150"
+				"var_type" "FIELD_INTEGER"
+				"bonus_mana_regen" "150"
 			}
 
 			"04"
 			{
 				"var_type" "FIELD_FLOAT"
-				"block_cooldown" "3.4"
+				"block_cooldown" "6.8"
 			}			
 		}
 	}

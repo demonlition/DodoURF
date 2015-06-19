@@ -382,18 +382,6 @@
 		"AbilityManaCost" "12"
 		"AbilitySpecial"
 		{
-			"01"
-			{
-				"var_type" "FIELD_FLOAT"
-				"brew_time" "1"
-			}
-
-			"02"
-			{
-				"var_type" "FIELD_FLOAT"
-				"brew_explosion" "1.1"
-			}
-
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"

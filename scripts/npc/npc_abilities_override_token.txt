@@ -382,18 +382,6 @@
 		"AbilityManaCost" "MPA120"
 		"AbilitySpecial"
 		{
-			"01"
-			{
-				"var_type" "FIELD_FLOAT"
-				"brew_time" "CDA5"
-			}
-
-			"02"
-			{
-				"var_type" "FIELD_FLOAT"
-				"brew_explosion" "CDA5.5"
-			}
-
 			"03"
 			{
 				"var_type" "FIELD_FLOAT"

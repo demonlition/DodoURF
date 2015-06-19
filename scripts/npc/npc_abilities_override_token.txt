@@ -2748,7 +2748,7 @@
 	
 	"viper_viper_strike"
 	{
-		"AbilityCooldown" "CDA80 CDA50 CDA30"
+		"AbilityCooldown" "CDA70 CDA50 CDA30"
 		"AbilityManaCost" "MPA125 MPA175 MPA250"
 		"AbilitySpecial"
 		{

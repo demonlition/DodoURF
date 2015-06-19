@@ -2748,7 +2748,7 @@
 	
 	"viper_viper_strike"
 	{
-		"AbilityCooldown" "16 10 6"
+		"AbilityCooldown" "14 10 6"
 		"AbilityManaCost" "12.5 17.5 25"
 		"AbilitySpecial"
 		{

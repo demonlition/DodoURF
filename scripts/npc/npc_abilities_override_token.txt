@@ -865,7 +865,7 @@
 	
 	"legion_commander_moment_of_courage"
 	{
-		"AbilityCooldown" "CDA0.9"
+		"AbilityCooldown" "CDA2.7 CDA2.1 CDA1.5 CDA0.9"
 	}
 	
 	"legion_commander_duel"

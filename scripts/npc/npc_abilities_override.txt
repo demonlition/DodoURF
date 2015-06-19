@@ -5724,6 +5724,32 @@
 		}
 	}
 
+	"item_silver_edge"
+	{
+		"AbilityCooldown" "4.8"
+		"AbilityManaCost" "7.5"
+		"AbilitySpecial"
+		{
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maim_duration" "3"
+			}
+
+			"14"
+			{
+				"var_type" "FIELD_FLOAT"
+				"backstab_duration" "3.75"
+			}
+
+			"15"
+			{
+				"var_type" "FIELD_FLOAT"
+				"backstab_duration_range" "3.75"
+			}
+		}
+	}
+
 	"item_skadi"
 	{
 		"AbilitySpecial"

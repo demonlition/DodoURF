@@ -5724,6 +5724,32 @@
 		}
 	}
 
+	"item_silver_edge"
+	{
+		"AbilityCooldown" "CDA24"
+		"AbilityManaCost" "MPA75"
+		"AbilitySpecial"
+		{
+			"07"
+			{
+				"var_type" "FIELD_FLOAT"
+				"maim_duration" "CCA4"
+			}
+
+			"14"
+			{
+				"var_type" "FIELD_FLOAT"
+				"backstab_duration" "CCA5"
+			}
+
+			"15"
+			{
+				"var_type" "FIELD_FLOAT"
+				"backstab_duration_range" "CCA5"
+			}
+		}
+	}
+
 	"item_skadi"
 	{
 		"AbilitySpecial"

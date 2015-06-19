@@ -3976,7 +3976,7 @@
 	
 	"oracle_false_promise"
 	{
-		"AbilityCooldown" "CDB20"
+		"AbilityCooldown" "CDB80 CDB60 CDB40"
 		"AbilityManaCost" "MPB200"
 	}
 	

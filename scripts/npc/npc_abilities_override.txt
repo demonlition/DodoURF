@@ -3976,7 +3976,7 @@
 	
 	"oracle_false_promise"
 	{
-		"AbilityCooldown" "8"
+		"AbilityCooldown" "32 24 16"
 		"AbilityManaCost" "40"
 	}
 	

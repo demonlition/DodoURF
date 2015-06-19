@@ -3075,7 +3075,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration" "CCA3.5 CCA4 CCA4.5 CCA5"
+				"duration" "CCA4.5"
 			}
 		}
 	}

@@ -787,7 +787,7 @@
 	// Elder Titan
 	"elder_titan_echo_stomp"
 	{
-		"AbilityCooldown" "2.8 2.6 2.4 2.2""
+		"AbilityCooldown" "2.8 2.6 2.4 2.2"
 		"AbilityManaCost" "10"
 		"AbilitySpecial"
 		{

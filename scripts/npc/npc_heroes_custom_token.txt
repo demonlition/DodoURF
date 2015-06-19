@@ -749,7 +749,7 @@
 	{
 		"override_hero" "npc_dota_hero_silencer"
 		"AttackRate" "AS1.7"
-		"MovementSpeed" "MS300"
+		"MovementSpeed" "MS295"
 		"MovementTurnRate" "TR0.6"
 	}
 

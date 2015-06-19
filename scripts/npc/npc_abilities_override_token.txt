@@ -5870,7 +5870,7 @@
 	
 	"item_sphere"
 	{
-		"AbilityCooldown" "CDB17"
+		"AbilityCooldown" "CDB16"
 		"AbilitySpecial"
 		{
 			"03"

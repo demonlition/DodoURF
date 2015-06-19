@@ -5870,7 +5870,7 @@
 	
 	"item_sphere"
 	{
-		"AbilityCooldown" "6.8"
+		"AbilityCooldown" "6.4"
 		"AbilitySpecial"
 		{
 			"03"

@@ -417,7 +417,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration" "10"
+				"duration" "15"
 			}
 
 			"03"
@@ -435,7 +435,7 @@
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"bonus_mana_regen" "15 24 33"
+				"bonus_mana_regen" "7.5 12 16.5"
 			}
 
 			"07"
@@ -2672,13 +2672,13 @@
 	{
 		"AbilityCooldown" "1.2"
 		"AbilityManaCost" "3 2.5 2 1.5"
-		"AbilityDuration" "0.75 1.5 2.25 3"
+		"AbilityDuration" "1 2 2 3"
 		"AbilitySpecial"
 		{
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"duration" "0.75 1.5 2.25 3"
+				"duration" "1 2 2 3"
 			}
 		}
 	}
@@ -4793,8 +4793,8 @@
 	
 	"obsidian_destroyer_astral_imprisonment"
 	{
-		"AbilityCooldown" "3.6 3.2 2.8 2.4"
-		"AbilityManaCost" "12 14 16 18"
+		"AbilityCooldown" "7.2 6.4 5.6 4.8"
+		"AbilityManaCost" "24 28 32 36"
 		"AbilityDuration" "0.75 1.5 2.25 3"
 		"AbilitySpecial"
 		{
@@ -5063,7 +5063,7 @@
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "300"
+				"bonus_mana_regen" "150"
 			}			
 		}
 	}
@@ -5100,7 +5100,7 @@
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "400"
+				"bonus_mana_regen" "200"
 			}
 
 			"12"
@@ -5160,7 +5160,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "300"
+				"bonus_mana_regen" "150"
 			}
 
 			"04"
@@ -5403,7 +5403,7 @@
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "250"
+				"bonus_mana_regen" "125"
 			}
 		}
 	}
@@ -5445,7 +5445,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen_pct" "100"
+				"bonus_mana_regen_pct" "50"
 			}
 
 			"04"
@@ -5501,7 +5501,7 @@
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "150"
+				"bonus_mana_regen" "75"
 			}
 		}
 	}
@@ -5515,7 +5515,7 @@
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "300"
+				"bonus_mana_regen" "150"
 			}
 
 			"05"
@@ -5533,7 +5533,7 @@
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "250"
+				"bonus_mana_regen" "125"
 			}
 		}
 	}
@@ -5623,7 +5623,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "400"
+				"bonus_mana_regen" "200"
 			}
 		}
 	}
@@ -5680,7 +5680,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_mana_regen"		"300"
+				"bonus_mana_regen"		"150"
 			}
 
 			"05"
@@ -5736,7 +5736,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "100"
+				"bonus_mana_regen" "50"
 			}
 		}
 	}
@@ -5748,7 +5748,7 @@
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "200"
+				"bonus_mana_regen" "100"
 			}
 		}
 	}
@@ -5761,7 +5761,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_regen" "100"
+				"mana_regen" "50"
 			}
 
 			"03"
@@ -5850,7 +5850,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_regen" "100"
+				"mana_regen" "50"
 			}
 
 			"04"
@@ -5880,7 +5880,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"bonus_mana_regen" "200"
+				"bonus_mana_regen" "100"
 			}
 		}
 	}
@@ -6013,7 +6013,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"mana_regen" "4"
+				"mana_regen" "2"
 			}
 		}
 	}

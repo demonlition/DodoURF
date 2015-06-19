@@ -3400,7 +3400,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration_hero" "CCA3"
+				"duration_hero" "CCA3 CCA3.5 CCA4 CCA4.5"
 			}
 
 			"02"

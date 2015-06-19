@@ -3400,7 +3400,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration_hero" "2.25"
+				"duration_hero" "2.25 2.625 3 3.375"
 			}
 
 			"02"

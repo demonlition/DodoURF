@@ -5270,7 +5270,7 @@
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"replenish_amount" "300"
+				"replenish_amount" "150"
 			}	
 		}
 	}

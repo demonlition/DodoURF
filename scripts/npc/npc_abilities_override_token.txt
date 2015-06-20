@@ -5543,7 +5543,7 @@
 	{
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_INTEGER"
 				"buff_duration" "CDB45"
@@ -6335,7 +6335,7 @@
 	{
 		"AbilitySpecial"
 		{
-			"01"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"buff_duration" "CDB16"

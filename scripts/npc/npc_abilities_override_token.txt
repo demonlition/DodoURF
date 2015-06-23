@@ -643,6 +643,12 @@
 		"AbilityCooldown" "CDA32 CDA26 CDA20 CDA14"
 		"AbilityManaCost" "MPA50"
 	}
+
+	"treant_eyes_in_the_forest"
+	{
+		"AbilityCooldown" "CDA25"
+		"AbilityManaCost" "CDA100"
+	}
 	
 	"treant_overgrowth"
 	{
@@ -740,6 +746,12 @@
 			{
 				"var_type" "FIELD_FLOAT"
 				"slow_duration" "CCA1.5"
+			}
+
+			"07"
+			{
+				"var_type" "FIELD_INTEGER"
+				"cooldown_scepter" "CDA90 CDA75 CDA60"
 			}
 		}
 	}
@@ -853,6 +865,26 @@
 	{
 		"AbilityCooldown" "CDA50"
 		"AbilityManaCost" "MPA75"
+	}
+
+	"tusk_walrus_kick"
+	{
+		"AbilityCooldown" "CDA12"
+		"AbilityManaCost" "MPA100"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type" "FIELD_FLOAT"
+				"slow_duration" "CCA4"
+			}
+
+			"06"
+			{
+				"var_type" "FIELD_FLOAT"
+				"cooldown_scepter" "CDA12"
+			}
+		}
 	}
 	
 	"tusk_walrus_punch"
@@ -1452,18 +1484,18 @@
 		"AbilityDuration" "CCA8"
 		"AbilitySpecial"
 		{
-			"01"
-			{
-				"var_type" "FIELD_INTEGER"
-				"slow_steps" "-70 -70 -60 -50 -30 -10"
-			}
-			
 			"04"
 			{
 				"var_type" "FIELD_INTEGER"
 				"duration" "CCA6"
 			}
 		}
+	}
+
+	"life_stealer_assimilate"
+	{
+		"AbilityCooldown" "CDA50"
+		"AbilityManaCost" "CDA50"
 	}
 	
 	"life_stealer_infest"
@@ -1619,7 +1651,7 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"movement_speed" "700 750 800 850"
+				"movement_speed" "MSF658 MSF708 MSF758 MSF808"
 			}
 
 			"02"
@@ -1637,7 +1669,7 @@
 		{
 			"01"
 			{
-				"var_type"				"FIELD_INTEGER"
+				"var_type" "FIELD_INTEGER"
 				"bonus_movespeed_pct"	"MSP6 MSP10 MSP14 MSP18"
 			}
 
@@ -1713,7 +1745,13 @@
 		"AbilityManaCost" "MPA100"
 		"AbilitySpecial"
 		{
-			"04"
+			"02"
+			{
+				"var_type" "FIELD_INTEGER"
+				"speed" "MSF711"
+			}
+
+			"05"
 			{
 				"var_type" "FIELD_INTEGER"
 				"crit_damage" "CR170"
@@ -2016,11 +2054,11 @@
 		"AbilityManaCost" "MPA200 MPA275 MPA350"
 		"AbilitySpecial"
 		{
-			"05"
+			"06"
 			{
 				"var_type" "FIELD_FLOAT"
 				"omni_slash_cooldown_scepter" "CDA70"
-			}			
+			}
 		}
 	}
 	
@@ -2831,7 +2869,7 @@
 			"01"
 			{
 				"var_type" "FIELD_FLOAT"
-				"duration" "CC6 CC9 CC12 CC15"
+				"duration" "CCA6 CCA9 CCA12 CCA15"
 			}
 			
 			"02"
@@ -3378,7 +3416,7 @@
 		"AbilityManaCost" "MPA100 MPA120 MPA140 MPA160"
 		"AbilitySpecial"
 		{
-			"01"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"duration" "CCA4.5"
@@ -3392,13 +3430,13 @@
 		"AbilityManaCost" "MPC115 MPC125 MPC140 MPC150"
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"duration" "CCS1.5 CCS2 CCS2.5 CCS3"
 			}
 
-			"02"
+			"04"
 			{
 				"var_type" "FIELD_FLOAT"
 				"creep_duration" "CCS10"
@@ -3469,6 +3507,7 @@
 	{
 		"AbilityCooldown" "CDA21 CDA20 CDA19 CDA18"
 		"AbilityManaCost" "MPA100 MPA110 MPA120 MPA130"
+		"AbilityDuration" "CCA1 CCA1.5 CCA2 CCA2.5"
 		"AbilitySpecial"
 		{
 			"04"
@@ -3506,32 +3545,32 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_initial_mana_percentage" "6"
+				"ball_lightning_initial_mana_percentage" "5"
 			}
 			
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_initial_mana_base" "12"
+				"ball_lightning_initial_mana_base" "10"
 			}
 
 			"03"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_move_speed" "1350 1975 2600"		
+				"ball_lightning_move_speed" "MSF1307 MSF1932 MSF2557"		
 			}
 			
 			"05"
 			{
 				"var_type" "FIELD_INTEGER"
-				"ball_lightning_travel_cost_base" "10"
+				"ball_lightning_travel_cost_base" "8"
 			}
 			
 			"06"
 			{
 				"var_type" "FIELD_FLOAT"
-				"ball_lightning_travel_cost_percent" "0.6"
-			}			
+				"ball_lightning_travel_cost_percent" "0.5"
+			}
 		}
 	}
 	
@@ -3703,13 +3742,13 @@
 		"AbilityManaCost" "MPA95 MPA120 MPA145 MPA170"
 		"AbilitySpecial"
 		{
-			"01"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
 				"duration_hero" "CCA3 CCA3.5 CCA4 CCA4.5"
 			}
 
-			"02"
+			"03"
 			{
 				"var_type" "FIELD_FLOAT"
 				"duration_creep" "CCA6"
@@ -4133,6 +4172,7 @@
 	{
 		"AbilityCooldown" "CDA10"
 		"AbilityManaCost" "MPA150 MPA160 MPA170 MPA180"
+		"AbilityChannelTime" "1 2 3 4"
 		"AbilitySpecial"
 		{
 			"01"
@@ -4141,10 +4181,36 @@
 				"damage_per_second" "200 150 133.33 125"
 			}
 			
-			"05"
+			"02"
 			{
 				"var_type" "FIELD_FLOAT"
-				"max_channel_time" "1.0 2.0 3.0 4.0"
+				"max_channel_time" "1 2 3 4"
+			}
+			
+			"09"
+			{	
+				"var_type" "FIELD_FLOAT"
+				"channel_vision_interval" "0.25 0.33 0.375 0.4"
+			}
+		}
+	}
+
+	"keeper_of_the_light_spirit_form_illuminate"
+	{
+		"AbilityCooldown" "CDA10"
+		"AbilityManaCost" "MPA150 MPA160 MPA170 MPA180"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type" "FIELD_FLOAT"
+				"damage_per_second" "200 150 133.33 125"
+			}
+			
+			"02"
+			{
+				"var_type" "FIELD_FLOAT"
+				"max_channel_time" "1 2 3 4"
 			}
 			
 			"09"
@@ -4435,7 +4501,7 @@
 		"AbilityManaCost" "MPA200 MPA325 MPA500"
 		"AbilitySpecial"
 		{
-			"02"
+			"06"
 			{
 				"var_type" "FIELD_FLOAT"
 				"slow_duration" "CCA4"
@@ -5834,8 +5900,8 @@
 
 	"item_lotus_orb"
 	{
-		"AbilityCooldown" "CDB17"
-		"AbilityManaCost" "MPB100"
+		"AbilityCooldown" "CDC17"
+		"AbilityManaCost" "MPC100"
 		"AbilitySpecial"
 		{
 			"04"
@@ -5932,7 +5998,7 @@
 		"AbilityManaCost" "MPA225"
 		"AbilitySpecial"
 		{
-			"08"
+			"07"
 			{
 				"var_type" "FIELD_FLOAT"
 				"heal_armor_duration" "CDA25"
@@ -5978,8 +6044,8 @@
 	
 	"item_orchid"
 	{
-		"AbilityCooldown" "CDA18"
-		"AbilityManaCost" "MPA100"
+		"AbilityCooldown" "CDB18"
+		"AbilityManaCost" "MPB100"
 		"AbilitySpecial"
 		{
 			"04"
@@ -5988,7 +6054,7 @@
 				"bonus_mana_regen" "MR150"
 			}
 
-			"05"
+			"06"
 			{
 				"var_type" "FIELD_FLOAT"
 				"silence_duration" "CCA5"
@@ -6066,13 +6132,13 @@
 			"01"
 			{
 				"var_type" "FIELD_INTEGER"
-				"damage_bonus" "40"
+				"damage_bonus" "48"
 			}
 
 			"02"
 			{
 				"var_type" "FIELD_INTEGER"
-				"damage_bonus_ranged" "15"
+				"damage_bonus_ranged" "18"
 			}
 		}
 	}
@@ -6536,6 +6602,12 @@
 				"hero_stun_duration" "CCA2"
 			}
 		}
+	}
+
+	// Courier
+	"courier_burst"
+	{
+		"AbilityCooldown" "CDA90"
 	}
 
 	// Ghost

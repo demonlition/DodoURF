@@ -6,7 +6,7 @@
 	{
 		"override_hero" "npc_dota_hero_earthshaker"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "1.35"
 	}
 
@@ -15,7 +15,7 @@
 	{
 		"override_hero" "npc_dota_hero_sven"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 	
@@ -24,7 +24,7 @@
 	{
 		"override_hero" "npc_dota_hero_tiny"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.75"
 	}
 	
@@ -33,7 +33,7 @@
 	{
 		"override_hero" "npc_dota_hero_kunkka"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.9"
 	}
 	
@@ -42,7 +42,7 @@
 	{
 		"override_hero" "npc_dota_hero_beastmaster"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "0.6"
 	}
 	
@@ -51,7 +51,7 @@
 	{
 		"override_hero" "npc_dota_hero_dragon_knight"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 	
@@ -60,7 +60,7 @@
 	{
 		"override_hero" "npc_dota_hero_rattletrap"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -69,7 +69,7 @@
 	{
 		"override_hero" "npc_dota_hero_omniknight"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -78,7 +78,7 @@
 	{
 		"override_hero" "npc_dota_hero_huskar"
 		"AttackRate" "1.2"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -87,7 +87,7 @@
 	{
 		"override_hero" "npc_dota_hero_alchemist"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -96,7 +96,7 @@
 	{
 		"override_hero" "npc_dota_hero_brewmaster"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -105,7 +105,7 @@
 	{
 		"override_hero" "npc_dota_hero_treant_protector"
 		"AttackRate" "1.425"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -114,7 +114,7 @@
 	{
 		"override_hero" "npc_dota_hero_wisp"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "1.05"
 	}
 
@@ -123,7 +123,7 @@
 	{
 		"override_hero" "npc_dota_hero_centaur"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -132,7 +132,7 @@
 	{
 		"override_hero" "npc_dota_hero_shredder"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -141,7 +141,7 @@
 	{
 		"override_hero" "npc_dota_hero_bristleback"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "1.5"
 	}
 
@@ -150,7 +150,7 @@
 	{
 		"override_hero" "npc_dota_hero_tusk"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -159,7 +159,7 @@
 	{
 		"override_hero" "npc_dota_hero_elder_titan"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -168,7 +168,7 @@
 	{
 		"override_hero" "npc_dota_hero_legion_commander"
 		"AttackRate" "1.275"
-		"MovementSpeed" "370"
+		"MovementSpeed" "384"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -177,7 +177,7 @@
 	{
 		"override_hero" "npc_dota_hero_earth_spirit"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -186,7 +186,7 @@
 	{
 		"override_hero" "npc_dota_hero_phoenix"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "1.5"
 	}
 
@@ -197,7 +197,7 @@
 	{
 		"override_hero" "npc_dota_hero_axe"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -206,7 +206,7 @@
 	{
 		"override_hero" "npc_dota_hero_pudge"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "1.05"
 	}
 
@@ -215,7 +215,7 @@
 	{
 		"override_hero" "npc_dota_hero_sandking"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -224,7 +224,7 @@
 	{
 		"override_hero" "npc_dota_hero_slardar"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -233,7 +233,7 @@
 	{
 		"override_hero" "npc_dota_hero_tidehunter"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -242,7 +242,7 @@
 	{
 		"override_hero" "npc_dota_hero_skeleton_king"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -251,7 +251,7 @@
 	{
 		"override_hero" "npc_dota_hero_life_stealer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "1.5"
 	}
 
@@ -260,7 +260,7 @@
 	{
 		"override_hero" "npc_dota_hero_night_stalker"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -269,7 +269,7 @@
 	{
 		"override_hero" "npc_dota_hero_doom_bringer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -278,7 +278,7 @@
 	{
 		"override_hero" "npc_dota_hero_spirit_breaker"
 		"AttackRate" "1.425"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -287,7 +287,7 @@
 	{
 		"override_hero" "npc_dota_hero_lycan"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -296,7 +296,7 @@
 	{
 		"override_hero" "npc_dota_hero_chaos_knight"
 		"AttackRate" "1.275"
-		"MovementSpeed" "375"
+		"MovementSpeed" "390"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -305,7 +305,7 @@
 	{
 		"override_hero" "npc_dota_hero_undying"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -314,7 +314,7 @@
 	{
 		"override_hero" "npc_dota_hero_magnataur"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "1.2"
 	}
 
@@ -323,7 +323,7 @@
 	{
 		"override_hero" "npc_dota_hero_abaddon"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -334,7 +334,7 @@
 	{
 		"override_hero" "npc_dota_hero_antimage"
 		"AttackRate" "1.0875"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -343,7 +343,7 @@
 	{
 		"override_hero" "npc_dota_hero_drow_ranger"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -352,7 +352,7 @@
 	{
 		"override_hero" "npc_dota_hero_juggernaut"
 		"AttackRate" "1.05"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -361,7 +361,7 @@
 	{
 		"override_hero" "npc_dota_hero_mirana"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -370,7 +370,7 @@
 	{
 		"override_hero" "npc_dota_hero_morphling"
 		"AttackRate" "1.2"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -379,7 +379,7 @@
 	{
 		"override_hero" "npc_dota_hero_phantom_lancer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -388,7 +388,7 @@
 	{
 		"override_hero" "npc_dota_hero_vengeful_spirit"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -397,7 +397,7 @@
 	{
 		"override_hero" "npc_dota_hero_riki"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -406,7 +406,7 @@
 	{
 		"override_hero" "npc_dota_hero_sniper"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -415,7 +415,7 @@
 	{
 		"override_hero" "npc_dota_hero_templar_assassin"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "1.05"
 	}
 
@@ -424,7 +424,7 @@
 	{
 		"override_hero" "npc_dota_hero_luna"
 		"AttackRate" "1.275"
-		"MovementSpeed" "380"
+		"MovementSpeed" "396"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -433,7 +433,7 @@
 	{
 		"override_hero" "npc_dota_hero_bounty_hunter"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -442,7 +442,7 @@
 	{
 		"override_hero" "npc_dota_hero_ursa"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "0.75"
 	}
 	// Gyrocopter
@@ -450,7 +450,7 @@
 	{
 		"override_hero" "npc_dota_hero_gyrocopter"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -459,7 +459,7 @@
 	{
 		"override_hero" "npc_dota_hero_lone_druid"
 		"AttackRate" "1.275"
-		"MovementSpeed" "375"
+		"MovementSpeed" "390"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -468,7 +468,7 @@
 	{
 		"override_hero" "npc_dota_hero_naga_siren"
 		"AttackRate" "1.275"
-		"MovementSpeed" "370"
+		"MovementSpeed" "384"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -477,7 +477,7 @@
 	{
 		"override_hero" "npc_dota_hero_troll_warlord"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -486,7 +486,7 @@
 	{
 		"override_hero" "npc_dota_hero_ember_spirit"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -497,7 +497,7 @@
 	{
 		"override_hero" "npc_dota_hero_bloodseeker"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -506,7 +506,7 @@
 	{
 		"override_hero" "npc_dota_hero_nevermore"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "1.5"
 	}
 
@@ -515,7 +515,7 @@
 	{
 		"override_hero" "npc_dota_hero_razor"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.6"
 	}
 	// Venomancer
@@ -523,7 +523,7 @@
 	{
 		"override_hero" "npc_dota_hero_venomancer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -532,7 +532,7 @@
 	{
 		"override_hero" "npc_dota_hero_faceless_void"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "1.5"
 	}
 
@@ -541,7 +541,7 @@
 	{
 		"override_hero" "npc_dota_hero_phantom_assassin"
 		"AttackRate" "1.275"
-		"MovementSpeed" "360"
+		"MovementSpeed" "372"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -550,7 +550,7 @@
 	{
 		"override_hero" "npc_dota_hero_viper"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -559,7 +559,7 @@
 	{
 		"override_hero" "npc_dota_hero_clinkz"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -568,7 +568,7 @@
 	{
 		"override_hero" "npc_dota_hero_broodmother"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -577,7 +577,7 @@
 	{
 		"override_hero" "npc_dota_hero_weaver"
 		"AttackRate" "1.35"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -586,7 +586,7 @@
 	{
 		"override_hero" "npc_dota_hero_spectre"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -595,7 +595,7 @@
 	{
 		"override_hero" "npc_dota_hero_meepo"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.975"
 	}
 
@@ -604,7 +604,7 @@
 	{
 		"override_hero" "npc_dota_hero_nyx_assassin"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -613,7 +613,7 @@
 	{
 		"override_hero" "npc_dota_hero_slark"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -622,7 +622,7 @@
 	{
 		"override_hero" "npc_dota_hero_medusa"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -631,7 +631,7 @@
 	{
 		"override_hero" "npc_dota_hero_terrorblade"
 		"AttackRate" "1.125"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -642,7 +642,7 @@
 	{
 		"override_hero" "npc_dota_hero_crystal_maiden"
 		"AttackRate" "1.275"
-		"MovementSpeed" "330"
+		"MovementSpeed" "336"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -651,7 +651,7 @@
 	{
 		"override_hero" "npc_dota_hero_puck"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -660,7 +660,7 @@
 	{
 		"override_hero" "npc_dota_hero_storm_spirit"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "1.2"
 	}
 
@@ -669,7 +669,7 @@
 	{
 		"override_hero" "npc_dota_hero_windrunner"
 		"AttackRate" "1.125"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -678,7 +678,7 @@
 	{
 		"override_hero" "npc_dota_hero_zuus"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -687,7 +687,7 @@
 	{
 		"override_hero" "npc_dota_hero_lina"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -696,7 +696,7 @@
 	{
 		"override_hero" "npc_dota_hero_shadow_shaman"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -705,7 +705,7 @@
 	{
 		"override_hero" "npc_dota_hero_tinker"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -714,7 +714,7 @@
 	{
 		"override_hero" "npc_dota_hero_natures_prophet"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -723,7 +723,7 @@
 	{
 		"override_hero" "npc_dota_hero_enchantress"
 		"AttackRate" "1.275"
-		"MovementSpeed" "385"
+		"MovementSpeed" "402"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -732,7 +732,7 @@
 	{
 		"override_hero" "npc_dota_hero_jakiro"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -741,7 +741,7 @@
 	{
 		"override_hero" "npc_dota_hero_chen"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.9"
 	}
 	// Silencer
@@ -749,7 +749,7 @@
 	{
 		"override_hero" "npc_dota_hero_silencer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -758,7 +758,7 @@
 	{
 		"override_hero" "npc_dota_hero_ogre_magi"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -767,7 +767,7 @@
 	{
 		"override_hero" "npc_dota_hero_rubick"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -776,7 +776,7 @@
 	{
 		"override_hero" "npc_dota_hero_disruptor"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -785,7 +785,7 @@
 	{
 		"override_hero" "npc_dota_hero_keeper_of_the_light"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -794,7 +794,7 @@
 	{
 		"override_hero" "npc_dota_hero_skywrath_mage"
 		"AttackRate" "1.275"
-		"MovementSpeed" "375"
+		"MovementSpeed" "390"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -803,7 +803,7 @@
 	{
 		"override_hero" "npc_dota_hero_oracle"
 		"AttackRate" "1.05"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -812,7 +812,7 @@
 	{
 		"override_hero" "npc_dota_hero_techies"
 		"AttackRate" "1.275"
-		"MovementSpeed" "320"
+		"MovementSpeed" "324"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -822,7 +822,7 @@
 	{
 		"override_hero" "npc_dota_hero_bane"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -831,7 +831,7 @@
 	{
 		"override_hero" "npc_dota_hero_lich"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -840,7 +840,7 @@
 	{
 		"override_hero" "npc_dota_hero_lion"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -849,7 +849,7 @@
 	{
 		"override_hero" "npc_dota_hero_witch_doctor"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -858,7 +858,7 @@
 	{
 		"override_hero" "npc_dota_hero_enigma"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -867,7 +867,7 @@
 	{
 		"override_hero" "npc_dota_hero_necrolyte"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -876,7 +876,7 @@
 	{
 		"override_hero" "npc_dota_hero_warlock"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.6"
 	}
 
@@ -885,7 +885,7 @@
 	{
 		"override_hero" "npc_dota_hero_queenofpain"
 		"AttackRate" "1.2"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -894,7 +894,7 @@
 	{
 		"override_hero" "npc_dota_hero_death_prophet"
 		"AttackRate" "1.275"
-		"MovementSpeed" "330"
+		"MovementSpeed" "336"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -903,7 +903,7 @@
 	{
 		"override_hero" "npc_dota_hero_pugna"
 		"AttackRate" "1.275"
-		"MovementSpeed" "370"
+		"MovementSpeed" "384"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -912,7 +912,7 @@
 	{
 		"override_hero" "npc_dota_hero_dazzle"
 		"AttackRate" "1.275"
-		"MovementSpeed" "355"
+		"MovementSpeed" "366"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -921,7 +921,7 @@
 	{
 		"override_hero" "npc_dota_hero_leshrac"
 		"AttackRate" "1.275"
-		"MovementSpeed" "370"
+		"MovementSpeed" "384"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -930,7 +930,7 @@
 	{
 		"override_hero" "npc_dota_hero_dark_seer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "350"
+		"MovementSpeed" "360"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -939,7 +939,7 @@
 	{
 		"override_hero" "npc_dota_hero_batrider"
 		"AttackRate" "1.275"
-		"MovementSpeed" "340"
+		"MovementSpeed" "348"
 		"MovementTurnRate" "1.5"
 	}
 
@@ -948,7 +948,7 @@
 	{
 		"override_hero" "npc_dota_hero_ancient_apparition"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -957,7 +957,7 @@
 	{
 		"override_hero" "npc_dota_hero_invoker"
 		"AttackRate" "1.275"
-		"MovementSpeed" "330"
+		"MovementSpeed" "336"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -966,7 +966,7 @@
 	{
 		"override_hero" "npc_dota_hero_obsidian_destroyer"
 		"AttackRate" "1.275"
-		"MovementSpeed" "365"
+		"MovementSpeed" "378"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -975,7 +975,7 @@
 	{
 		"override_hero" "npc_dota_hero_shadow_demon"
 		"AttackRate" "1.275"
-		"MovementSpeed" "345"
+		"MovementSpeed" "354"
 		"MovementTurnRate" "0.9"
 	}
 
@@ -984,7 +984,7 @@
 	{
 		"override_hero" "npc_dota_hero_visage"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.75"
 	}
 
@@ -993,7 +993,7 @@
 	{
 		"override_hero" "npc_dota_hero_winter_wyvern"
 		"AttackRate" "1.275"
-		"MovementSpeed" "335"
+		"MovementSpeed" "342"
 		"MovementTurnRate" "0.6"
 	}
 }

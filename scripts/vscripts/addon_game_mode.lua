@@ -72,8 +72,16 @@ function HAM:InitGameMode()
 	-- Set gold income
 	GameRules:SetGoldTickTime(0.12)
 
+	-- Set fountain regen
+	GameMode:SetFountainPercentageHealthRegen(8)
+	GameMode:SetFountainPercentageManaRegen(8)
+	GameMode:SetFountainConstantManaRegen(28)
+
 	-- Enable same hero selection
 	GameRules:SetSameHeroSelectionEnabled(true)
+
+	-- Set tree respawn time
+	GameRules:SetTreeRegrowTime(150)
 	
 	-- Set hero selection time
 	GameRules:SetHeroSelectionTime(90)
@@ -89,7 +97,9 @@ end
 function HAM:OnEntityKilled(keys)
     local killedEntity = EntIndexToHScript(keys.entindex_killed)
     if killedEntity:IsRealHero() then
-		killedEntity:SetTimeUntilRespawn(killedEntity:GetRespawnTime() / 2)
+		if not killedEntity:IsReincarnating() then
+			killedEntity:SetTimeUntilRespawn(killedEntity:GetRespawnTime() / 2)
+		end
     end
 end
 
